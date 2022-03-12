@@ -61,9 +61,9 @@ windows系统文档阅读器，支持：PDF, ePub, MOBI, CHM, XPS, DjVu, CBZ, CB
 ```
 网络安全神器：抓包、协议分析，无所不能。
 ```
-- putty连接登录神器 https://www.chiark.greenend.org.uk/~sgtatham/putty/
+- PuTTY连接登录神器 https://www.chiark.greenend.org.uk/~sgtatham/putty/
 ```
 支持raw,telnet,rlogin,ssh,serial等协议和方式连接。
 短小精悍，稳定实用，兼容各种linux发行版本，交换机，路由器等设备调试。
-工程师的最佳神器，强烈推荐！！！
+工程师的必备神器，强烈推荐！！！
 ```

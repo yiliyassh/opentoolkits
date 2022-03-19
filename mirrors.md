@@ -12,6 +12,7 @@
 - 南京大学：https://mirrors.nju.edu.cn/
 ## centos官方镜像站点
 - The following mirrors in your region should have the ISO images available:
+```
 http://mirrors.bfsu.edu.cn/centos/7.9.2009/isos/x86_64/
 http://mirrors.tuna.tsinghua.edu.cn/centos/7.9.2009/isos/x86_64/
 http://mirrors.cqu.edu.cn/CentOS/7.9.2009/isos/x86_64/
@@ -23,9 +24,9 @@ http://mirrors.ustc.edu.cn/centos/7.9.2009/isos/x86_64/
 http://mirrors.bupt.edu.cn/centos/7.9.2009/isos/x86_64/
 http://mirrors.163.com/centos/7.9.2009/isos/x86_64/
 http://mirrors.njupt.edu.cn/centos/7.9.2009/isos/x86_64/
--   
+```
 - Other mirrors further away:
-- 
+```
 http://ftp.ksu.edu.tw/pub/CentOS/7.9.2009/isos/x86_64/
 http://ftp.twaren.net/Linux/CentOS/7.9.2009/isos/x86_64/
 http://mirror.worria.com/centos/7.9.2009/isos/x86_64/
@@ -45,6 +46,7 @@ http://mirror.aktkn.sg/centos/7.9.2009/isos/x86_64/
 http://download.nus.edu.sg/mirror/centos/7.9.2009/isos/x86_64/
 http://ftp-srv2.kddilabs.jp/Linux/packages/CentOS/7.9.2009/isos/x86_64/
 http://ftp.tsukuba.wide.ad.jp/Linux/centos/7.9.2009/isos/x86_64/
+```
 - +others, see the full list of mirrors: 
   https://www.centos.org/download/mirrors/
 - Mirrors verified Sat Mar 19 09:31:38 2022 UTC

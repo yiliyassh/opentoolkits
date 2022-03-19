@@ -7,27 +7,27 @@ The index can be used to check whether your programming skills are still up to d
 ```
 ***
 ```
-Mar 2022 	Mar 2021 	Programming Language 	Ratings 	
-1	3	Python	14.26%	+3.95%
-2	1	C	13.06%	-2.27%
-3	2	Java	11.19%	+0.74%
-4	4	C++	8.66%	+2.14%
-5	5	C#	5.92%	+0.95%
-6	6	Visual Basic5.77%	+0.91%
+Mar 2022 Mar 2021 Programming Language 	Ratings 	
+1	3	Python		14.26%	+3.95%
+2	1	C		13.06%	-2.27%
+3	2	Java		11.19%	+0.74%
+4	4	C++		8.66%	+2.14%
+5	5	C#		5.92%	+0.95%
+6	6	Visual Basic	5.77%	+0.91%
 7	7	JavaScript	2.09%	-0.03%
-8	8	PHP	1.92%	-0.15%
-9	9	Assembly language	1.90%	-0.07%
-10	10	SQL	1.85%	-0.02%
-11	13	R	1.37%	+0.12%
-12	14	Delphi/Object Pascal	1.12%	-0.07%
-13	11	Go	0.98%	-0.33%
-14	19	Swift	0.90%	-0.05%
-15	18	MATLAB	0.80%	-0.23%
-16	16	Ruby	0.66%	-0.52%
-17	12	Classic Visual Basic	0.60%	-0.66%
+8	8	PHP		1.92%	-0.15%
+9	9  Assembly language	1.90%	-0.07%
+10	10	SQL		1.85%	-0.02%
+11	13	R		1.37%	+0.12%
+12	14Delphi/Object Pascal	1.12%	-0.07%
+13	11	Go		0.98%	-0.33%
+14	19	Swift		0.90%	-0.05%
+15	18	MATLAB		0.80%	-0.23%
+16	16	Ruby		0.66%	-0.52%
+17	12Classic Visual Basic	0.60%	-0.66%
 18	20	Objective-C	0.59%	-0.31%
-19	17	Perl	0.57%	-0.58%
-20	38	Lua	0.56%	+0.23%
+19	17	Perl		0.57%	-0.58%
+20	38	Lua		0.56%	+0.23%
 ```
 
 ## 编程语言名人堂 Programming Language Hall of Fame
@@ -71,8 +71,8 @@ Programming Language	2022	2017	2012	2007	2002	1997	1992	1987
 		C++	4	3	3	3	3	2	2	4
 		C#	5	4	4	8	14	-	-	-
 	Visual Basic	6	15	-	-	-	-	-	-
-		JavaScript	7	7	10	9	9	21	-	-
-	Assembly language	8	10	-	-	-	-	-	-
+	JavaScript	7	7	10	9	9	21	-	-
+Assembly language	8	10	-	-	-	-	-	-
 		PHP	9	6	5	5	8	-	-	-
 		SQL	10	-	-	-	34	-	-	-
 		Fortran	20	27	26	21	24	16	3	7

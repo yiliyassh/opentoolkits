@@ -1,0 +1,17 @@
+## 数据库排名——DB-Engines Ranking
+- Complete ranking  [完整排名 388 systems in ranking, March 2022](https://db-engines.com/en/ranking)
+- Relational DBMS [关系数据库](https://db-engines.com/en/ranking/relational+dbms)
+-  Key-value stores [键值数据库](https://db-engines.com/en/ranking/key-value+store)
+-  Document stores  [文档数据库](https://db-engines.com/en/ranking/document+store)
+-  Time Series DBMS  [时间序列数据库](https://db-engines.com/en/ranking/time+series+dbms)
+-  Graph DBMS  [图数据库](https://db-engines.com/en/ranking/graph+dbms)
+-  Search engines  [搜索引擎](https://db-engines.com/en/ranking/search+engine)
+-  Object oriented DBMS  [面向对象库](https://db-engines.com/en/ranking/object+oriented+dbms)
+-  RDF stores  [RDF存储](https://db-engines.com/en/ranking/rdf+store)
+-  Wide column stores  [宽列存储](https://db-engines.com/en/ranking/wide+column+store)
+-  Multivalue DBMS  [多值数据库](https://db-engines.com/en/ranking/multivalue+dbms)
+-  Native XML DBMS  [原生XML](https://db-engines.com/en/ranking/native+xml+dbms)
+-  Spatial DBMS  [空间数据库](https://db-engines.com/en/ranking/spatial+dbms)
+-  Event Stores  [事件存储](https://db-engines.com/en/ranking/event+store)
+-  Content stores  [内容存储库](https://db-engines.com/en/ranking/content+store)
+-  Navigational DBMS  [导航数据库](https://db-engines.com/en/ranking/navigational+dbms)~~~~

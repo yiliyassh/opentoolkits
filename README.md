@@ -86,19 +86,18 @@ RSYNC 	rsync://rsync.kernel.org/pub/
 ```
 ======
 
-|版本|版本号|发布日期|
-|:----|:----|:----|
-|mainline:| 	5.17 |	    2022-03-20 		
-|stable: |	5.17.1 	|    2022-03-28 
-|stable: |	5.16.18 |	2022-03-28 
-|longterm: 	|5.15.32 |	2022-03-28 
-|longterm: |	5.10.109| 	2022-03-28 	
-|longterm:| 	5.4.188 |	2022-03-28 
-|longterm:| 	4.19.237|	2022-03-28 
-|longterm:| 	4.14.274 |	2022-03-28
-|longterm:| 	4.9.309 |	2022-03-28 
-|linux-next:| next-20220328 |	2022-03-28 
-
+|版本|版本号|发布日期|下载链接
+|:----|:----|:----|:----|
+|mainline:|5.17|2022-03-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.tar.xz)
+|stable:|5.17.1|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.1.tar.xz)
+|stable:|5.16.18|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.18.tar.xz)
+|longterm:|5.15.32|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.32.tar.xz)
+|longterm:|5.10.109|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.109.tar.xz)
+|longterm:|5.4.188|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.188.tar.xz)
+|longterm:|4.19.237|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.237.tar.xz)
+|longterm:|4.14.274|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.274.tar.xz)
+|longterm:|4.9.309|2022-03-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.309.tar.xz)
+|linux-next:|next-20220329|2022-03-29|[browse](https://git.kernel.org/next/linux-next/h/next-20220329)
 - 快速下载最新版Linux内核
 ```
 wget -c --no-check-certificate https://www.kernel.org/
@@ -169,7 +168,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 -  Event Stores  [事件存储](https://db-engines.com/en/ranking/event+store)
 -  Content stores  [内容存储库](https://db-engines.com/en/ranking/content+store)
 -  Navigational DBMS  [导航数据库](https://db-engines.com/en/ranking/navigational+dbms)
-    [详情](db.md)
+####
+[详情](db.md)
 ***
 ## NoSQL数据库
 - [LIST OF NOSQL DATABASE MANAGEMENT SYSTEMS](https://hostingdata.co.uk/nosql-database/) [currently >225]

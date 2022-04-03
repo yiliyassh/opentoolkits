@@ -75,6 +75,9 @@ windows系统文档阅读器，支持：PDF, ePub, MOBI, CHM, XPS, DjVu, CBZ, CB
 ## Linux发行版大全
 https://distrowatch.com/
 - 几百种linux发行版的详细介绍和官网链接，镜像下载等。珍爱生命，拥抱开源~_~
+
+[详情](distro.md)
+***
 ## Linux 内核——The Linux Kernel Archives
 https://www.kernel.org/
 - 最新的内核信息 Latest Release [5.17.1](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.1.tar.xz)
@@ -234,6 +237,7 @@ Year	Winner
 - [Programming Language 语言排序列表](https://projects.apache.org/projects.html?language)
 - [Number of Committers 提交次数排序列表](https://projects.apache.org/projects.html?number)  
 ### [releases 项目发布信息](https://projects.apache.org/projects.html?category)  
+- [json格式](https://projects.apache.org/json/foundation/releases.json)
 - [详情](apache.md)
 ***
 ## 开源镜像网站

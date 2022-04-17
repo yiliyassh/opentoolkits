@@ -2,7 +2,7 @@
 https://distrowatch.com/
 - 几百种linux发行版的详细介绍和官网链接，镜像下载等。珍爱生命，拥抱开源~_~
 
-androidx86
+[androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
 Releases...
 - 2021-06-23: Distribution Release: Android-x86 8.1-r6
@@ -22,8 +22,7 @@ Headlines...
 - 2021-09-23 >Android applications running on GNU/Linux
 - 2016-05-26 >Oracle vs Google case concludes
 -
-
-centos
+[centos](https://distrowatch.com/table.php?distribution=centos)
 ======
 Releases...
 - 2021-12-03: Distribution Release: CentOS 9
@@ -51,8 +50,7 @@ Headlines...
 - 2019-05-10 >CentOS publishes roadmap to 8.0
 - 2019-02-27 >CentOS turns 15
 -
-
-debian
+[debian](https://distrowatch.com/table.php?distribution=debian)
 ======
 Releases...
 - 2021-08-14: Distribution Release: Debian 11
@@ -69,6 +67,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -
 Headlines...
+- 2022-04-03 >Debian launches vote for Project Leader
 - 2022-03-26 >Debian publishes updated media - 10.12 and 11.3
 - 2022-03-14 >Debian plans freeze for version 12
 - 2022-02-22 >Installing Debian on M1-powered Apple computers
@@ -78,10 +77,8 @@ Headlines...
 - 2021-10-09 >Debian refreshes media for versions 10 and 11
 - 2021-08-14 >Debian publishes Hurd 2021 media
 - 2021-08-11 >Debian updates its user forums
-- 2021-07-26 >Debian running on a Mac powered by the M1
 -
-
-deepin
+[deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases...
 - 2022-04-01: Distribution Release: deepin 20.5
@@ -100,8 +97,7 @@ Releases...
 Headlines...
 - 2017-03-28 >Running deepin apps on Ubuntu
 -  
-
-fedora
+[fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases...
 - 2022-03-29: Development Release: Fedora 36 Beta
@@ -118,6 +114,8 @@ Releases...
 -  2019-04-30: Distribution Release: Fedora 30
 -
 Headlines...
+- 2022-04-13 >Microdnf may replace DNF in Fedora
+- 2022-04-05 >Fedora considers dropping Legacy BIOS support
 - 2022-03-21 >Gaming on Fedora compared with Windows
 - 2022-02-16 >Installing software on Fedora Silverblue
 - 2022-02-09 >The purpose of Fedora's Flatpak packages
@@ -126,14 +124,13 @@ Headlines...
 - 2021-12-07 >Fedora to use Wayland even with NVIDIA drivers
 - 2021-11-29 >Fedora 33 reaches its end of life
 - 2021-11-24 >Is Flatpak a good package format for the future?
-- 2021-06-29 >Fedora to enable Flathub repository
-- 2021-06-09 >Matthew Miller answers community questions
 -
-
-freebsd
+[freebsd](https://distrowatch.com/table.php?distribution=freebsd)
 ======
 Releases...
-- 2022-04-01: Development Release: FreeBSD 13.1-RC1
+- 2022-04-15: Development Release: FreeBSD 13.1-RC3
+-  2022-04-08: Development Release: FreeBSD 13.1-RC2
+-  2022-04-01: Development Release: FreeBSD 13.1-RC1
 -  2022-03-18: Development Release: FreeBSD 13.1-BETA2
 -  2021-12-08: BSD Release: FreeBSD 12.3
 -  2021-04-13: BSD Release: FreeBSD 13.0
@@ -143,8 +140,6 @@ Releases...
 -  2021-03-06: Development Release: FreeBSD 13.0-RC1
 -  2021-02-27: Development Release: FreeBSD 13.0-BETA4
 -  2021-02-21: Development Release: FreeBSD 13.0-BETA3
--  2021-02-13: Development Release: FreeBSD 13.0-BETA2
--  2020-10-27: BSD Release: FreeBSD 12.2
 -
 Headlines...
 - 2022-03-30 >Sandboxing software running on FreeBSD
@@ -158,8 +153,7 @@ Headlines...
 - 2021-07-24 >FreeBSD publishes status report
 - 2021-06-07 >A comparison of NetBSD and FreeBSD
 -
-
-gentoo
+[gentoo](https://distrowatch.com/table.php?distribution=gentoo)
 ======
 Releases...
 - 2016-05-28: Distribution Release: Gentoo Linux 20160514
@@ -176,6 +170,7 @@ Releases...
 -  2008-04-01: Development Release: Gentoo Linux 2008.0 Beta 1
 -
 Headlines...
+- 2022-04-04 >Gentoo is making a beautiful live GUI image
 - 2022-01-04 >Gentoo takes a look back at 2021
 - 2021-07-20 >Gentoo expanding download options
 - 2021-01-05 >Gentoo debates keeping LibreSSL support
@@ -185,10 +180,8 @@ Headlines...
 - 2019-03-27 >Gentoo enables GNOME to run without systemd
 - 2018-07-04 >Gentoo mirror compromised
 - 2017-08-19 >Gentoo phasing out hardened kernel
-- 2016-08-28 >Gentoo mourns Portnoy
 -
-
-ghostbsd
+[ghostbsd](https://distrowatch.com/table.php?distribution=ghostbsd)
 ======
 Releases...
 - 2022-01-17: BSD Release: GhostBSD 22.01.12
@@ -212,8 +205,7 @@ Headlines...
 - 2018-05-02 >GhostBSD may switch to TrueOS base
 - 2017-02-07 >GhostBSD's NetworkMgr becomes a port
 -
-
-openbsd
+[openbsd](https://distrowatch.com/table.php?distribution=openbsd)
 ======
 Releases...
 - 2021-10-14: BSD Release: OpenBSD 7.0
@@ -242,7 +234,7 @@ Headlines...
 - 2018-06-20 >OpenBSD disables hyper-threading
 -
 
-opensuse
+[opensuse](https://distrowatch.com/table.php?distribution=opensuse)
 ======
 Releases...
 - 2022-03-02: Development Release: openSUSE 15.4 Beta
@@ -271,7 +263,7 @@ Headlines...
 - 2020-10-21 >Information on openSUSE MicroOS
 -
 
-oracle
+[oracle](https://distrowatch.com/table.php?distribution=oracle)
 ======
 Releases...
 - 2021-05-27: Distribution Release: Oracle Linux 8.4
@@ -291,7 +283,7 @@ Headlines...
 - 2021-04-06 >Oracle loses API lawsuit against Google
 -  
 
-redhat
+[redhat](https://distrowatch.com/table.php?distribution=redhat)
 ======
 Releases...
 - 2021-11-11: Distribution Release: Red Hat Enterprise Linux 8.5
@@ -307,6 +299,7 @@ Releases...
 -  2019-08-06: Distribution Release: Red Hat Enterprise Linux 7.7
 -  2019-07-24: Development Release: Red Hat Enterprise Linux 8.1 Beta
 -
+
 Headlines...
 - 2022-01-19 >Red Hat provides live kernel patching through Web Console
 - 2021-09-10 >Interview with Linux pioneer Pete Zaitcev
@@ -320,7 +313,7 @@ Headlines...
 - 2019-07-09 >IBM completes Red Hat purchase
 -
 
-sle
+[sle](https://distrowatch.com/table.php?distribution=sle)
 ======
 Releases...
 - 2021-06-23: Distribution Release: SUSE Linux Enterprise 15 SP3
@@ -336,6 +329,7 @@ Releases...
 -  2015-12-22: Distribution Release: SUSE Linux Enterprise 12 SP1
 -  2015-07-17: Distribution Release: SUSE Linux Enterprise 11 SP4
 -
+
 Headlines...
 - 2022-01-19 >SUSE Liberty to support multiple distributions
 - 2021-03-08 >Sharing code between openSUSE and SLE
@@ -347,8 +341,7 @@ Headlines...
 - 2016-10-24 >SLE and ARM support
 - 2016-04-15 >SUSE Linux Enterprise JeOS
 -
-
-truenas
+[truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases...
 - 2020-01-29: BSD Release: FreeNAS 11.3
@@ -372,7 +365,7 @@ Headlines...
 - 2016-04-15 >FreeNAS updates Samba
 -
 
-ubuntu
+[ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases...
 - 2022-02-25: Distribution Release: Ubuntu 20.04.4

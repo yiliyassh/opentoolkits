@@ -68,7 +68,7 @@ https://distrowatch.com/
 ***
 ## Linux 内核——The Linux Kernel Archives
 https://www.kernel.org/
-- 最新的内核信息 Latest Release [5.17.3]( https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.3.tar.xz)
+- 最新的内核信息 Latest Release [5.17.4]( https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.4.tar.xz)  
 ```
 Protocol 	Location
 HTTP 	https://www.kernel.org/pub/
@@ -79,16 +79,17 @@ RSYNC 	rsync://rsync.kernel.org/pub/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.18-rc2|2022-04-11|[tarball](https://git.kernel.org/torvalds/t/linux-5.18-rc2.tar.gz)
-|stable:|5.17.3|2022-04-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.3.tar.xz)
+|mainline:|5.18-rc3|2022-04-17|[tarball](https://git.kernel.org/torvalds/t/linux-5.18-rc3.tar.gz)
+|stable:|5.17.4|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.4.tar.xz)
 |stable:|5.16.20 |2022-04-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.20.tar.xz)
-|longterm:|5.15.34|2022-04-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.34.tar.xz)
-|longterm:|5.10.111|2022-04-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.111.tar.xz)
-|longterm:|5.4.189|2022-04-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.189.tar.xz)
-|longterm:|4.19.238|2022-04-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.238.tar.xz)
-|longterm:|4.14.275|2022-04-02|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.275.tar.xz)
-|longterm:|4.9.310|2022-04-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.310.tar.xz)
-|linux-next:|next-20220414|2022-04-14|[browse](https://git.kernel.org/next/linux-next/h/next-20220414)
+|longterm:|5.15.35|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.35.tar.xz)
+|longterm:|5.10.112|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.112.tar.xz)
+|longterm:|5.4.190|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.190.tar.xz)
+|longterm:|4.19.239|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.239.tar.xz)
+|longterm:|4.14.276|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.276.tar.xz)
+|longterm:|4.9.311|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.311.tar.xz)
+|linux-next:|next-20220422|2022-04-22|[browse](https://git.kernel.org/next/linux-next/h/next-20220422)  
+
 - 快速下载最新版Linux内核
 ```
 wget -c --no-check-certificate https://www.kernel.org/
@@ -101,7 +102,7 @@ https://distrowatch.com/dwres.php?resource=package-management
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 [详细链接](./packages.md)
-- [Last Update: Saturday 16 April 2022 14:46 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update: Sunday 24 April 2022 01:28 GMT  ](https://distrowatch.com/packages.php)  
 - 快速下载
 ```
 wget -c --no-check-certificate https://distrowatch.com/packages.php
@@ -112,14 +113,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |应用软件（详情）|版本（下载）|说明|
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
-|[bind](http://www.isc.org/downloads/bind/)|[9.18.1](https://ftp.isc.org/isc/bind9/9.18.1/bind-9.18.1.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
+|[bind](http://www.isc.org/downloads/bind/)|[9.18.2](https://ftp.isc.org/isc/bind9/9.18.2/bind-9.18.2.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.23.1](https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.82.0](https://github.com/curl/curl/releases/download/curl-7_80_0/curl-7.82.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.14](https://github.com/moby/moby/archive/refs/tags/v20.10.14.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](http://eclipse.org/)|[4.23](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
-|[gcc](http://gcc.gnu.org/)|[11.2.0](http://ftp.gnu.org/gnu/gcc/gcc-11.2.0/gcc-11.2.0.tar.xz)|GNU GCC: the GNU compiler collection
-|[git](https://git-scm.com/)|[2.35.3](https://github.com/git/git/archive/v2.35.3.tar.gz)|Git: an open source version control system
+|[gcc](http://gcc.gnu.org/)|[11.3.0](http://ftp.gnu.org/gnu/gcc/gcc-11.3.0/gcc-11.3.0.tar.xz)|GNU GCC: the GNU compiler collection
+|[git](https://git-scm.com/)|[2.36.0](https://github.com/git/git/archive/v2.36.0.tar.gz)|Git: an open source version control system
 |[glibc](http://www.gnu.org/software/libc/libc.html)|[2.35](http://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.7](http://ftp.gnu.org/gnu/grep/grep-3.7.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
@@ -141,7 +142,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[postgresql](https://www.postgresql.org/)|[14.2](https://ftp.postgresql.org/pub/source/v14.2/postgresql-14.2.tar.bz2)|PostgreSQL: a relational database management system
 |[Python](https://www.python.org/)|[3.10.4](https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qt](https://www.qt.io/)|[6.3.0](https://download.qt-project.org/official_releases/qt/6.3/6.3.0/single/qt-everywhere-src-6.3.0.tar.xz)|Qt: a C++ application framework for writing graphical applications
-|[rsync](http://rsync.samba.org/)|[3.2.3](http://rsync.samba.org/ftp/rsync/rsync-3.2.3.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
+|[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
 |[snort](https://www.snort.org/)|[3.1.25.0](https://snort.org/downloads/snortplus/snort3-3.1.25.0.tar.gz)|Snort: a light-weight network intrusion detection program
@@ -150,7 +151,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](http://www.tcpdump.org/)|[4.99.1](http://www.tcpdump.org/release/tcpdump-4.99.1.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
 |[vim](https://www.vim.org/)|[8.2](http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
-|[VirtualBox](https://www.virtualbox.org/)|[6.1.32](http://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
+|[VirtualBox](https://www.virtualbox.org/)|[6.1.34](http://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.0](https://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz)|wget: retrieves files from web and FTP sites
 |[wireshark](https://www.wireshark.org/)|[3.6.3](https://www.wireshark.org/download/src/wireshark-3.6.3.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[5.9.3](https://wordpress.org/wordpress-5.9.3.tar.gz)|WordPress: publishing software for the world wide web

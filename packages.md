@@ -1,5 +1,5 @@
 ## Packages Tracked by DistroWatch （229个包）
-- [Last Update: Saturday 16 April 2022 14:46 GMT ](https://distrowatch.com/packages.php)
+- [ Last Update: Sunday 24 April 2022 01:28 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 ```
 wget -c --no-check-certificate https://distrowatch.com/packages.php
@@ -22,16 +22,16 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[avidemux](http://fixounet.free.fr/avidemux/)|[2.8.0](http://downloads.sourceforge.net/avidemux/avidemux_2.8.0.tar.gz)|Avidemux: a free video editor designed for simple cutting, filtering and encoding tasks
 |[awesome](http://awesome.naquadah.org/)|[4.3](https://github.com/awesomeWM/awesome/releases/download/v4.3/awesome-4.3.tar.xz)|awesome: a configurable window manager for X
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
-|[bind](http://www.isc.org/downloads/bind/)|[9.18.1](https://ftp.isc.org/isc/bind9/9.18.1/bind-9.18.1.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
+|[bind](http://www.isc.org/downloads/bind/)|[9.18.2](https://ftp.isc.org/isc/bind9/9.18.2/bind-9.18.2.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[binutils](http://www.gnu.org/software/binutils/binutils.html)|[2.38](https://ftp.gnu.org/gnu/binutils/binutils-2.38.tar.gz)|GNU Binutils: an essential collection of binary utilities
 |[bison](http://www.gnu.org/software/bison/bison.html)|[3.8.2](https://ftp.gnu.org/gnu/bison/bison-3.8.2.tar.xz)|Bison: a replacement for the parser generator Yacc
-|[bitcoin](https://bitcoin.org/)|[22.0](https://github.com/bitcoin/bitcoin/archive/v22.0.tar.gz)|Bitcoin: an innovative payment network and a new kind of money
+|[bitcoin](https://bitcoin.org/)|[23.0](https://github.com/bitcoin/bitcoin/archive/v23.0.tar.gz)|Bitcoin: an innovative payment network and a new kind of money
 |[blender](https://www.blender.org/)|[3.1.2](https://download.blender.org/source/blender-3.1.2.tar.xz)|Blender: a very fast and versatile 3D modeller and renderer
 |[budgie-desktop](https://github.com/BuddiesOfBudgie/budgie-desktop)|[10.6.1](https://github.com/BuddiesOfBudgie/budgie-desktop/releases/download/v10.6.1/budgie-desktop-v10.6.1.tar.xz)|Budgie Desktop: a simple desktop environment featuring heavy integration with the GNOME stack
 |[busybox](http://www.busybox.net/)|[1.35.0](http://www.busybox.net/downloads/busybox-1.35.0.tar.bz2)|BusyBox: a program that combines many common UNIX utilities into a single small executable
 |[bzip2](https://sourceware.org/bzip2/)|[1.0.8](https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz)|bzip2: a free, patent-free, high-quality data compressor
 |[cacti](https://www.cacti.net/)|[1.2.20](https://www.cacti.net/downloads/cacti-1.2.20.tar.gz)|Cacti: a complete network graphing solution
-|[calibre](http://calibre-ebook.com/)|[5.40.0](https://download.calibre-ebook.com/5.40.0/calibre-5.40.0.tar.xz)|Calibre: an e-book library management application
+|[calibre](http://calibre-ebook.com/)|[5.41.0](https://download.calibre-ebook.com/5.41.0/calibre-5.41.0.tar.xz)|Calibre: an e-book library management application
 |[calligra](http://www.calligra-suite.org/)|[3.2.1](http://download.kde.org/stable/calligra/3.2.1/calligra-3.2.1.tar.xz)|Calligra: an integrated office suite based on the KDE libraries
 |[cdrkit](https://tracker.debian.org/pkg/cdrkit)|[1.1.11](https://deb.debian.org/debian/pool/main/c/cdrkit/cdrkit_1.1.11.orig.tar.gz)|cdrkit: a collection of applications related to creation of optical disk media
 |[chromium](http://www.chromium.org/Home)|[100.0.4896.127](http://src.chromium.org/viewvc/chrome/)|Google Chromium: an open-source edition of Google Chrome, a graphical web browser
@@ -61,7 +61,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[efibootmgr](https://github.com/rhinstaller/efibootmgr)|[17](https://github.com/rhinstaller/efibootmgr/releases/download/17/efibootmgr-17.tar.bz2)|efibootmgr: a Linux user-space application to modify the Intel EFI boot manager
 |[emacs](http://www.gnu.org/software/emacs/)|[28.1](https://ftp.gnu.org/gnu/emacs/emacs-28.1.tar.xz)|GNU Emacs: the extensible, self-documenting real-time display editor
 |[enlightenment](http://enlightenment.org/)|[0.25.3](https://download.enlightenment.org/rel/apps/enlightenment/enlightenment-0.25.3.tar.xz)|Enlightenment: a window manager for X
-|[evolution](https://wiki.gnome.org/Apps/Evolution)|[3.44.0](https://download.gnome.org/sources/evolution/3.42/evolution-3.44.0.tar.xz)|Evolution: information management software providing mail, address book and calendaring functionality
+|[evolution](https://wiki.gnome.org/Apps/Evolution)|[3.44.1](https://download.gnome.org/sources/evolution/3.42/evolution-3.44.1.tar.xz)|Evolution: information management software providing mail, address book and calendaring functionality
 |[exim](https://www.exim.org/)|[4.95](https://ftp.exim.org/pub/exim/exim4/exim-4.95.tar.xz)|exim: a mail server
 |[ffmpeg](http://ffmpeg.org/)|[5.0.1](http://ffmpeg.org/releases/ffmpeg-5.0.1.tar.xz)|FFmpeg: a complete, cross-platform solution to record, convert and stream audio and video
 |[file](http://www.darwinsys.com/file/)|[5.41](http://ftp.astron.com/pub/file/file-5.41.tar.gz)|file: a program that attempts to classify files by their content
@@ -75,45 +75,45 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[freecad](https://www.freecadweb.org/)|[0.19.4](https://github.com/FreeCAD/FreeCAD/archive/0.19.4.tar.gz)|FreeCAD: a general purpose parametric 3D modeller for CAD
 |[freetype](https://www.freetype.org/)|[2.12.0](http://downloads.sourceforge.net/freetype/freetype-2.12.0.tar.xz)|FreeType: a free, quality, portable font engine
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
-|[gcc](http://gcc.gnu.org/)|[11.2.0](http://ftp.gnu.org/gnu/gcc/gcc-11.2.0/gcc-11.2.0.tar.xz)|GNU GCC: the GNU compiler collection
+|[gcc](http://gcc.gnu.org/)|[11.3.0](http://ftp.gnu.org/gnu/gcc/gcc-11.3.0/gcc-11.3.0.tar.xz)|GNU GCC: the GNU compiler collection
 |[gettext](http://www.gnu.org/software/gettext/)|[0.21](https://ftp.gnu.org/gnu/gettext/gettext-0.21.tar.xz)|GNU gettext: the GNU internationalisation (i18n) library
 |[ghostscript](http://www.ghostscript.com/)|[9.56.1](https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/ghostscript-9.56.1.tar.gz)|Ghostscript: an interpreter for the PostScript language and PDF
 |[gimp](https://www.gimp.org/)|[2.10.30](https://download.gimp.org/mirror/pub/gimp/v2.10/gimp-2.10.30.tar.bz2)|GIMP: the GNU Image Manipulation Program
-|[git](https://git-scm.com/)|[2.35.3](https://github.com/git/git/archive/v2.35.3.tar.gz)|Git: an open source version control system
+|[git](https://git-scm.com/)|[2.36.0](https://github.com/git/git/archive/v2.36.0.tar.gz)|Git: an open source version control system
 |[glade](https://glade.gnome.org/)|[3.38.2](https://download.gnome.org/sources/glade/3.38/glade-3.38.2.tar.xz)|Glade: a GUI builder for GTK+ and GNOME
 |[glibc](http://www.gnu.org/software/libc/libc.html)|[2.35](http://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[gnome-shell](https://wiki.gnome.org/Projects/GnomeShell)|[42.0](https://download.gnome.org/sources/gnome-shell/41/gnome-shell-42.0.tar.xz)|GNOME Shell: a core user interface of the GNOME 3 desktop
 |[gnucash](http://www.gnucash.org/)|[4.10](http://downloads.sourceforge.net/gnucash/gnucash-4.10.tar.bz2)|GNUCash: an open source personal finance suite
-|[gnumeric](http://www.gnumeric.org/)|[1.12.51](https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.51.tar.xz)|Gnumeric: a spreadsheet and a part of the GNOME Desktop
-|[gnupg](https://www.gnupg.org/)|[2.3.4](https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.3.4.tar.bz2)|GnuPG: a tool for secure communication and data storage
+|[gnumeric](http://www.gnumeric.org/)|[1.12.52](https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.52.tar.xz)|Gnumeric: a spreadsheet and a part of the GNOME Desktop
+|[gnupg](https://www.gnupg.org/)|[2.3.5](https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.3.5.tar.bz2)|GnuPG: a tool for secure communication and data storage
 |[gparted](http://gparted.sourceforge.net/)|[1.4.0](http://downloads.sourceforge.net/gparted/gparted-1.4.0.tar.gz)|GParted: a disk partition editor application for GNOME
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.7](http://ftp.gnu.org/gnu/grep/grep-3.7.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[groff](http://www.gnu.org/software/groff/groff.html)|[1.22.4](https://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz)|GNU Groff: a device-independent document processor/formatter
 |[grub](http://www.gnu.org/software/grub/)|[2.06](https://ftp.gnu.org/gnu/grub/grub-2.06.tar.xz)|GRUB: the GRand Unified Bootloader
 |[gstreamer](https://gstreamer.freedesktop.org/)|[1.20.1](https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.20.1.tar.xz)|GStreamer: a multimedia framework with a plugin-based architecture for a variety of platforms
-|[gtk](https://www.gtk.org/)|[4.6.2](https://download.gnome.org/sources/gtk/4.6/gtk-4.6.2.tar.xz)|GTK: a multi-platform toolkit for creating GUIs
+|[gtk](https://www.gtk.org/)|[4.6.3](https://download.gnome.org/sources/gtk/4.6/gtk-4.6.3.tar.xz)|GTK: a multi-platform toolkit for creating GUIs
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
 |[hexchat](https://hexchat.github.io/)|[2.16.1](https://dl.hexchat.net/hexchat/hexchat-2.16.1.tar.xz)|HexChat: an IRC client
 |[hplip](https://developers.hp.com/hp-linux-imaging-and-printing)|[3.22.2](http://downloads.sourceforge.net/hplip/hplip-3.22.2.tar.gz)|hplip: Hewlett-Packard's Linux imaging and printing software
 |[httpd](http://httpd.apache.org/)|[2.4.53](https://archive.apache.org/dist/httpd/httpd-2.4.53.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
 |[ibus](https://github.com/ibus/ibus/wiki)|[1.5.26](https://github.com/ibus/ibus/archive/1.5.26.tar.gz)|IBus: an intelligent input bus for Linux and UNIX
 |[icewm](https://ice-wm.org/)|[2.9.6](https://github.com/ice-wm/icewm/releases/download/2.9.6/icewm-2.9.6.tar.lz)|IceWM: an X Window manager that emulates the looks of Motif, OS/2 and Windows
-|[ImageMagick](http://www.imagemagick.org/)|[7.1.0-29](https://github.com/ImageMagick/ImageMagick/archive/7.1.0-29.tar.gz)|ImageMagick: a software suite to create, edit and compose bitmap images
+|[ImageMagick](http://www.imagemagick.org/)|[7.1.0-31](https://github.com/ImageMagick/ImageMagick/archive/7.1.0-31.tar.gz)|ImageMagick: a software suite to create, edit and compose bitmap images
 |[inkscape](https://www.inkscape.org/)|[1.1.2](https://inkscape.org/gallery/item/29255/inkscape-1.1.1_2021-09-20_3bf5ae0d25.tar.xz)|Inkscape: a drawing tool that uses the W3C standard scalable vector graphics format (SVG)
 |[iptables](http://www.netfilter.org/projects/iptables/)|[1.8.7](http://www.netfilter.org/projects/iptables/files/iptables-1.8.7.tar.bz2)|iptables: enables the creation of packet alteration and firewall rules
-|[k3b](http://www.k3b.org/)|[21.12.3](https://github.com/KDE/k3b/archive/v21.12.3.tar.gz)|K3b: a KDE-GUI for cdrecord and cdrdao, similar to Nero
-|[kdevelop](https://www.kdevelop.org/)|[21.12.3](https://github.com/KDE/kdevelop/archive/refs/tags/v21.12.3.tar.gz)|KDevelop: a C/C++ development environment
+|[k3b](http://www.k3b.org/)|[22.04.0](https://github.com/KDE/k3b/archive/v22.04.0.tar.gz)|K3b: a KDE-GUI for cdrecord and cdrdao, similar to Nero
+|[kdevelop](https://www.kdevelop.org/)|[22.04.0](https://github.com/KDE/kdevelop/archive/refs/tags/v22.04.0.tar.gz)|KDevelop: a C/C++ development environment
 |[kmod](https://www.kernel.org/pub/linux/utils/kernel/kmod/)|[29](https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-29.tar.xz)|kmod: a set of programs for loading, inserting and removing kernel modules
 |[kmymoney](https://kmymoney.org/)|[5.1.2](https://download.kde.org/stable/kmymoney/5.1.2/src/kmymoney-5.1.2.tar.xz)|KMyMoney: a personal finance manager for KDE
 |[kodi](https://kodi.tv/)|[19.4](https://github.com/xbmc/xbmc/archive/19.4-Matrix.tar.gz)|Kodi: a media player and entertainment hub for digital media
 |[krita](https://krita.org/)|[5.0.5](https://download.kde.org/stable/krita/5.0.5/krita-5.0.5.tar.xz)|Krita: a cross-platform application that offers an end-to-end solution for creating digital art files from scratch
 |[krusader](http://krusader.sourceforge.net/)|[2.7.2](http://download.kde.org/stable/krusader/2.7.2/krusader-2.7.2.tar.xz)|Krusader: an advanced twin panel (commander style) file manager for KDE
-|[ktorrent](https://www.kde.org/applications/internet/ktorrent/)|[21.12.3](https://github.com/KDE/ktorrent/archive/v21.12.3.tar.gz)|KTorrent: a BitTorrent program for KDE
+|[ktorrent](https://www.kde.org/applications/internet/ktorrent/)|[22.04.0](https://github.com/KDE/ktorrent/archive/v22.04.0.tar.gz)|KTorrent: a BitTorrent program for KDE
 |[less](http://www.greenwoodsoftware.com/less/)|[590](http://www.greenwoodsoftware.com/less/less-590.tar.gz)|Less: a paginator that allows backward and forward movement
 |[lftp](http://lftp.yar.ru/)|[4.9.2](http://lftp.yar.ru/ftp/lftp-4.9.2.tar.xz)|LFTP: a sophisticated FTP/HTTP client, file transfer program
 |[libdvdcss](https://www.videolan.org/developers/libdvdcss.html)|[1.4.3](https://download.videolan.org/pub/libdvdcss/1.4.3/libdvdcss-1.4.3.tar.bz2)|libdvdcss: a library designed for accessing DVDs like a block device
 |[libreoffice](http://www.libreoffice.org/)|[7.3.2](https://download.documentfoundation.org/libreoffice/stable/7.3.2/)|LibreOffice: a free personal productivity suite
-|[libressl](http://www.libressl.org/)|[3.4.3](http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.4.3.tar.gz)|LibreSSL: an implementation of SSL and TLS protocols, forked from OpenSSL
+|[libressl](http://www.libressl.org/)|[3.5.2](http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.5.2.tar.gz)|LibreSSL: an implementation of SSL and TLS protocols, forked from OpenSSL
 |[libselinux](http://userspace.selinuxproject.org/)|[3.3](https://github.com/SELinuxProject/selinux/archive/libselinux-3.3.tar.gz)|libselinux: a library providing an interface for security-aware applications in SELinux
 |[libtool](http://www.gnu.org/software/libtool/)|[2.4.7](https://ftp.gnu.org/gnu/libtool/libtool-2.4.7.tar.gz)|GNU Libtool: a generic library support script
 |[libvirt](http://libvirt.org/)|[8.2.0](https://libvirt.org/sources/libvirt-8.2.0.tar.xz)|libvirt: a toolkit to interact with the virtualization capabilities of the Linux kernel
@@ -121,8 +121,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[lighttpd](http://www.lighttpd.net/)|[1.4.64](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.64.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lilo](http://www.joonet.de/lilo/)|[24.2](http://www.joonet.de/lilo/ftp/sources/lilo-24.2.tar.gz)|LILO: a boot loader for x86 computers
 |[links](http://links.twibright.com/)|[2.26](http://links.twibright.com/download/links-2.26.tar.bz2)|Links: a text and graphics mode web browser similar to Lynx
-|[linux](https://www.kernel.org/)|[5.17.3](https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.17.3.tar.xz)|Linux kernel: a UNIX clone written from scratch by Linus Torvalds
-|[llvm](http://llvm.org/)|[14.0.0](https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.0/llvm-14.0.0.src.tar.xz)|LLVM: a collection of modular and reusable compiler and toolchain technologies
+|[linux](https://www.kernel.org/)|[5.17.4](https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.17.4.tar.xz)|Linux kernel: a UNIX clone written from scratch by Linus Torvalds
+|[llvm](http://llvm.org/)|[14.0.1](https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.1/llvm-14.0.1.src.tar.xz)|LLVM: a collection of modular and reusable compiler and toolchain technologies
 |[lua](https://www.lua.org/)|[5.4.4](https://www.lua.org/ftp/lua-5.4.4.tar.gz)|Lua: a powerful, efficient, lightweight, embeddable scripting language
 |[lumina](https://lumina-desktop.org/)|[1.6.2](https://github.com/lumina-desktop/lumina/archive/v1.6.2.tar.gz)|Lumina: a lightweight desktop environment for use on any UNIX-like operating system
 |[lvm](https://sourceware.org/lvm2/)|[2.03.15](https://sourceware.org/pub/lvm2/LVM2.2.03.15.tgz)|LVM: the logical volume manager
@@ -138,7 +138,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[mariadb](https://mariadb.org/)|[10.7.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.7.3/source/mariadb-10.7.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
 |[mate-desktop](http://mate-desktop.org/)|[1.26.0](http://pub.mate-desktop.org/releases/1.26/mate-desktop-1.26.0.tar.xz)|MATE: a traditional desktop environment forked from GNOME 2
 |[mc](http://www.midnight-commander.org/)|[4.8.28](http://www.midnight-commander.org/downloads/mc-4.8.28.tar.bz2)|GNU Midnight Commander: a file manager
-|[mesa](http://www.mesa3d.org/)|[22.0.1](https://mesa.freedesktop.org/archive/mesa-22.0.1.tar.xz)|Mesa: a 3D graphics library
+|[mesa](http://www.mesa3d.org/)|[22.0.2](https://mesa.freedesktop.org/archive/mesa-22.0.2.tar.xz)|Mesa: a 3D graphics library
 |[midori](https://astian.org/en/midori-browser/)|[9.0](https://github.com/midori-browser/core/releases/download/v9.0/midori-v9.0.tar.gz)|Midori: a lightweight web browser
 |[mod_perl](http://perl.apache.org/)|[2.0.12](http://archive.apache.org/dist/perl/mod_perl-2.0.12.tar.gz)|mod_perl: provides a Perl module for httpd
 |[MPlayer](http://www.mplayerhq.hu/)|[1.5](https://mplayerhq.hu/MPlayer/releases/MPlayer-1.5.tar.xz)|MPlayer: a movie and animation player
@@ -147,7 +147,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.28](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.28.tar.gz)|MySQL: an SQL database server
 |[mythtv](https://www.mythtv.org/)|[32.0](https://github.com/MythTV/mythtv/archive/v32.0.tar.gz)|MythTV: an open-source software digital video recorder (DVR) project
 |[nano](https://www.nano-editor.org/)|[6.2](https://www.nano-editor.org/dist/latest/nano-6.2.tar.gz)|GNU nano: a curse-based text editor for UNIX
-|[nautilus](https://wiki.gnome.org/Apps/Files)|[42.0](https://download.gnome.org/sources/nautilus/42/nautilus-42.0.tar.xz)|Nautilus: a file manager for the GNOME desktop
+|[nautilus](https://wiki.gnome.org/Apps/Files)|[42.1.1](https://download.gnome.org/sources/nautilus/42/nautilus-42.1.1.tar.xz)|Nautilus: a file manager for the GNOME desktop
 |[ncurses](https://invisible-island.net/ncurses/)|[6.3](https://invisible-mirror.net/archives/ncurses/ncurses-6.3.tar.gz)|GNU ncurses: a programming library allowing a programmer to write text user interfaces in a terminal-independent manner
 |[netbeans](https://netbeans.apache.org/)|[13](https://www-eu.apache.org/dist/netbeans/netbeans/13/netbeans-13-source.zip)|NetBeans: a full-featured cross-platform IDE written in Java
 |[NetworkManager](https://wiki.gnome.org/Projects/NetworkManager)|[1.36.4](https://download.gnome.org/sources/NetworkManager/1.36/NetworkManager-1.36.4.tar.xz)|NetworkManager: a utility aimed at simplifying the use of computer networks on Linux
@@ -158,14 +158,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[NVIDIA](http://www.nvidia.com/object/unix.html)|[510.60.02](http://download.nvidia.com/XFree86/Linux-x86_64/510.60.02/NVIDIA-Linux-x86_64-510.60.02.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[octave](http://www.gnu.org/software/octave/)|[7.1.0](http://ftp.gnu.org/gnu/octave/octave-7.1.0.tar.xz)|GNU Octave: a high-level interpreted language intended for numerical computations
 |[openbox](http://openbox.org/)|[3.6.1](http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz)|Openbox: a standards-compliant, lightweight, extensible window manager
-|[openjdk](https://openjdk.java.net/)|[18](https://download.java.net/java/GA/jdk18/43f95e8614114aeaa8e8a5fcf20a682d/36/GPL/openjdk-18_linux-x64_bin.tar.gz)|OpenJDK: a complete and free implementation of Java SE, the core Java platform
+|[openjdk](https://openjdk.java.net/)|[18.0.1](https://download.java.net/java/GA/jdk18.0.1/3f48cabb83014f9fab465e280ccf630b/10/GPL/openjdk-18.0.1_linux-x64_bin.tar.gz)|OpenJDK: a complete and free implementation of Java SE, the core Java platform
 |[openldap](https://www.openldap.org/)|[2.6.1](https://openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.1.tgz)|OpenLDAP: a full-featured open source LDAP software suite
 |[openshot](https://www.openshot.org/)|[2.6.1](https://github.com/OpenShot/openshot-qt/archive/v2.6.1.tar.gz)|OpenShot: a video editor
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[openssl](https://www.openssl.org/)|[3.0.2](https://ftp.openssl.org/source/openssl-3.0.2.tar.gz)|OpenSSL: a library for providing encrypted transport layers
-|[opera](http://www.opera.com/)|[85.0.4341.60](http://ftp.opera.com/pub/opera/desktop/85.0.4341.60/linux/)|Opera: a light-weight graphical web browser
+|[opera](http://www.opera.com/)|[86.0.4363.23](http://ftp.opera.com/pub/opera/desktop/86.0.4363.23/linux/)|Opera: a light-weight graphical web browser
 |[pacman](https://archlinux.org/pacman/)|[6.0.1](https://gitlab.archlinux.org/pacman/pacman/-/archive/v6.0.1/pacman-v6.0.1.tar.bz2)|pacman: a utility which manages software packages in Linux
-|[parted](http://www.gnu.org/software/parted/parted.html)|[3.4](https://ftp.gnu.org/gnu/parted/parted-3.4.tar.xz)|GNU Parted: a program to create, destroy, resize and copy PC disk partitions
+|[parted](http://www.gnu.org/software/parted/parted.html)|[3.5](https://ftp.gnu.org/gnu/parted/parted-3.5.tar.xz)|GNU Parted: a program to create, destroy, resize and copy PC disk partitions
 |[pcmanfm](http://pcmanfm.sourceforge.net/)|[1.3.2](http://downloads.sourceforge.net/pcmanfm/pcmanfm-1.3.2.tar.xz)|PCManFM: an extremely fast and lightweight file manager
 |[perl](https://www.perl.org)|[5.34.1](http://www.cpan.org/src/5.0/perl-5.34.1.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
 |[php](http://www.php.net/)|[8.1.5](http://us3.php.net/distributions/php-8.1.5.tar.xz)|PHP: a server-side HTML embedded scripting language
@@ -174,20 +174,20 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[pipewire](https://pipewire.org/)|[0.3.50](https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/0.3.50/pipewire-0.3.50.tar.bz2)|PipeWire: a server for handling audio and video streams and hardware on Linux
 |[pitivi](http://www.pitivi.org/)|[2021.05](https://download.gnome.org/sources/pitivi/2021.05/pitivi-2021.05.tar.xz)|PiTiVi: a free and open-source video editor for Linux
 |[plasma-desktop](https://kde.org/plasma-desktop/)|[5.24.4](https://download.kde.org/stable/plasma/5.24.4/plasma-desktop-5.24.4.tar.xz)|Plasma Desktop: a desktop environment
-|[postfix](http://www.postfix.org/)|[3.7.0](https://de.postfix.org/ftpmirror/official//postfix-3.7.0.tar.gz)|Postfix: a mail transport agent
+|[postfix](http://www.postfix.org/)|[3.7.1](https://de.postfix.org/ftpmirror/official//postfix-3.7.1.tar.gz)|Postfix: a mail transport agent
 |[postgresql](https://www.postgresql.org/)|[14.2](https://ftp.postgresql.org/pub/source/v14.2/postgresql-14.2.tar.bz2)|PostgreSQL: a relational database management system
 |[ppp](http://www.samba.org/ppp/)|[2.4.9](https://github.com/paulusmack/ppp/archive/ppp-2.4.9.tar.gz)|PPP: provides a server/client for point to point protocol
 |[privoxy](http://www.privoxy.org/)|[3.0.33](http://downloads.sourceforge.net/ijbswa/privoxy-3.0.33-stable-src.tar.gz)|Privoxy: a non-caching web proxy with advanced filtering capabilities for enhancing privacy
 |[pulseaudio](http://www.pulseaudio.org/)|[15.0](http://freedesktop.org/software/pulseaudio/releases/pulseaudio-15.0.tar.xz)|PulseAudio: a sound server for POSIX and Win32 systems
 |[Python](https://www.python.org/)|[3.10.4](https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qbittorrent](https://www.qbittorrent.org/)|[4.4.2](http://downloads.sourceforge.net/qbittorrent/qbittorrent-4.4.2.tar.xz)|qBittorrent: a P2P BitTorrent client
-|[qemu](http://wiki.qemu.org/)|[6.2.0](http://wiki.qemu.org/download/qemu-6.2.0.tar.xz)|QEMU: an open source machine emulator and virtualiser
+|[qemu](http://wiki.qemu.org/)|[7.0.0](http://wiki.qemu.org/download/qemu-7.0.0.tar.xz)|QEMU: an open source machine emulator and virtualiser
 |[qt](https://www.qt.io/)|[6.3.0](https://download.qt-project.org/official_releases/qt/6.3/6.3.0/single/qt-everywhere-src-6.3.0.tar.xz)|Qt: a C++ application framework for writing graphical applications
 |[qt-creator](https://wiki.qt.io/Qt_Creator)|[7.0.0](https://download.qt.io/official_releases/qtcreator/7.0/7.0.0/qt-creator-opensource-src-7.0.0.tar.gz)|Qt Creator: a cross-platform IDE tailored to the needs of Qt developers
 |[reiserfsprogs](https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs/)|[3.6.27](https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs/v3.6.27/reiserfsprogs-3.6.27.tar.xz)|reiserfsprogs: contains tools for using Reiser file system
 |[rpm](https://rpm.org/)|[4.17.0](https://github.com/rpm-software-management/rpm/archive/refs/tags/rpm-4.17.0.tar.gz)|RPM: a package management system originally developed by Red Hat
 |[rp-pppoe](https://dianne.skoll.ca/projects/rp-pppoe/)|[3.15](https://dianne.skoll.ca/projects/rp-pppoe/download/rp-pppoe-3.15.tar.gz)|RP-PPPoE: a PPP over Ethernet client/server suite
-|[rsync](http://rsync.samba.org/)|[3.2.3](http://rsync.samba.org/ftp/rsync/rsync-3.2.3.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
+|[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[rust](https://www.rust-lang.org/)|[1.60.0](https://github.com/rust-lang/rust/archive/1.60.0.tar.gz)|Rust: a systems programming language that runs blazingly fast, prevents segfaults and guarantees thread safety
 |[samba](https://www.samba.org/)|[4.16.0](https://us1.samba.org/samba/ftp/stable/samba-4.16.0.tar.gz)|Samba: a free software re-implementation of SMB/CIFS networking protocol
@@ -214,18 +214,18 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[tcpdump](http://www.tcpdump.org/)|[4.99.1](http://www.tcpdump.org/release/tcpdump-4.99.1.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
 |[texinfo](http://www.gnu.org/software/texinfo/)|[6.8](https://ftp.gnu.org/gnu/texinfo/texinfo-6.8.tar.xz)|GNU Texinfo: a collection of utilities that generate online help and printed manuals
 |[texlive](https://www.tug.org/texlive/)|[2022](https://tug.org/texlive/Images/texlive2022.iso)|TeX Live: a collection of programs for typesetting, previewing and printing of TeX documents
-|[thunderbird](http://www.mozilla.org/products/thunderbird/)|[91.8.0](https://ftp.mozilla.org/pub/thunderbird/releases/91.8.0/source/thunderbird-91.8.0.source.tar.xz)|Mozilla Thunderbird: a full-featured e-mail and newsgroup client
+|[thunderbird](http://www.mozilla.org/products/thunderbird/)|[91.8.1](https://ftp.mozilla.org/pub/thunderbird/releases/91.8.1/source/thunderbird-91.8.1.source.tar.xz)|Mozilla Thunderbird: a full-featured e-mail and newsgroup client
 |[tigervnc](http://www.tigervnc.org/)|[1.12.0](https://github.com/TigerVNC/tigervnc/archive/v1.12.0.tar.gz)|TigerVNC: a high-performance, platform-neutral implementation of VNC (Virtual Network Computing)
 |[tmux](http://tmux.github.io/)|[3.2a](https://github.com/tmux/tmux/releases/download/3.2a/tmux-3.2a.tar.gz)|tmux: a terminal multiplexer
 |[tor](http://www.torproject.org/)|[0.4.6.10](http://www.torproject.org/dist/tor-0.4.6.10.tar.gz)|Tor: a network of virtual tunnels that allows people to improve privacy and security on the Internet
 |[transmission](http://www.transmissionbt.com/)|[3.00](https://github.com/transmission/transmission-releases/raw/master/transmission-3.00.tar.xz)|Transmission: a BitTorrent client
 |[util-linux](https://github.com/karelzak/util-linux)|[2.38](http://www.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.tar.xz)|util-linux: a collection of essential utilities for Linux systems
 |[vim](https://www.vim.org/)|[8.2](http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
-|[VirtualBox](https://www.virtualbox.org/)|[6.1.32](http://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
+|[VirtualBox](https://www.virtualbox.org/)|[6.1.34](http://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[vivaldi](https://vivaldi.com/)|[5.2.2623](https://source.vivaldi.com/vivaldi-source_5.2.2623.tar.xz)|Vivaldi: a free, cross-platform, proprietary web browser developed by Vivaldi Technologies
 |[vlc](http://www.videolan.org/streaming/)|[3.0.17.4](http://download.videolan.org/pub/videolan/vlc/3.0.17.4/vlc-3.0.17.4.tar.xz)|VLC: a cross-platform media player and streaming server
 |[wayland](https://wayland.freedesktop.org/)|[1.20.0](https://wayland.freedesktop.org/releases/wayland-1.20.0.tar.xz)|Wayland: a display server protocol
-|[webmin](http://www.webmin.com/)|[1.990](http://downloads.sourceforge.net/webadmin/webmin-1.990.tar.gz)|Webmin: a web-based interface for Unix system administration
+|[webmin](http://www.webmin.com/)|[1.991](http://downloads.sourceforge.net/webadmin/webmin-1.991.tar.gz)|Webmin: a web-based interface for Unix system administration
 |[wget](https://www.gnu.org/software/wget/)|[2.0.0](https://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz)|wget: retrieves files from web and FTP sites
 |[WindowMaker](http://www.windowmaker.org/)|[0.95.9](http://windowmaker.org/pub/source/release/WindowMaker-0.95.9.tar.gz)|Window Maker: an X11 window manager, similar to NeXTSTEP
 |[wine](http://www.winehq.org/)|[7.0](http://dl.winehq.org/wine/source/7.0/wine-7.0.tar.xz)|Wine: an open source implementation of the Windows API on top of X, OpenGL and Unix
@@ -238,6 +238,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[xz](https://tukaani.org/xz/)|[5.2.5](https://tukaani.org/xz/xz-5.2.5.tar.xz)|XZ Utils: data compression software with high compression ratio
 |[zfs](https://openzfs.org/)|[2.1.4](https://github.com/openzfs/zfs/releases/download/zfs-2.1.4/zfs-2.1.4.tar.gz)|ZFS: an advanced file system and volume manager maintained by the Illumos community
 |[zlib](http://www.zlib.net/)|[1.2.12](http://www.zlib.net/zlib-1.2.12.tar.xz)|zlib: a legally unencumbered lossless data compression library
+
 *** 
 - 快捷下载
 ```

@@ -63,12 +63,12 @@ https://distrowatch.com/
 - 2021-06-23: Distribution Release: SUSE Linux Enterprise 15 SP3
 -  2020-07-21: Distribution Release: SUSE Linux Enterprise 15 SP2
 -  2019-12-20: Distribution Release: SUSE Linux Enterprise 12 SP5  
-[详情](distro.md) 
-  
+
+[本地镜像](distro.md) 
+
 ***
-## Linux 内核——The Linux Kernel Archives
-https://www.kernel.org/
-- 最新的内核信息 Latest Release [5.17.4]( https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.4.tar.xz)  
+## Linux 内核——The Linux Kernel Archives  
+- 最新的 [内核](https://www.kernel.org/) 信息 Latest Release [5.17.5](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.5.tar.xz) 
 ```
 Protocol 	Location
 HTTP 	https://www.kernel.org/pub/
@@ -79,16 +79,16 @@ RSYNC 	rsync://rsync.kernel.org/pub/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.18-rc3|2022-04-17|[tarball](https://git.kernel.org/torvalds/t/linux-5.18-rc3.tar.gz)
-|stable:|5.17.4|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.4.tar.xz)
+|mainline:|5.18-rc5|2022-05-01|[tarball](https://git.kernel.org/torvalds/t/linux-5.18-rc5.tar.gz)
+|stable:|5.17.5|2022-04-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.5.tar.xz)
 |stable:|5.16.20 |2022-04-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.20.tar.xz)
-|longterm:|5.15.35|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.35.tar.xz)
-|longterm:|5.10.112|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.112.tar.xz)
-|longterm:|5.4.190|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.190.tar.xz)
-|longterm:|4.19.239|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.239.tar.xz)
-|longterm:|4.14.276|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.276.tar.xz)
-|longterm:|4.9.311|2022-04-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.311.tar.xz)
-|linux-next:|next-20220422|2022-04-22|[browse](https://git.kernel.org/next/linux-next/h/next-20220422)  
+|longterm:|5.15.37|2022-05-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.37.tar.xz)
+|longterm:|5.10.113|2022-04-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.113.tar.xz)
+|longterm:|5.4.191|2022-04-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.191.tar.xz)
+|longterm:|4.19.241|2022-05-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.241.tar.xz)
+|longterm:|4.14.277|2022-04-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.277.tar.xz)
+|longterm:|4.9.312|2022-04-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.312.tar.xz)
+|linux-next:|next-20220429|2022-04-29|[browse](https://git.kernel.org/next/linux-next/h/next-20220429)
 
 - 快速下载最新版Linux内核
 ```
@@ -96,13 +96,11 @@ wget -c --no-check-certificate https://www.kernel.org/
 cat index.html |grep ChangeLog|awk -F '"' '{print $2}'|uniq|xargs wget -c 
 cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c 
 ```
-## 包管理备忘录Package Management Cheatsheet
-https://distrowatch.com/dwres.php?resource=package-management
-- A package management reference card for Linux distributions and FreeBSD
+## 包管理备忘录[Package Management Cheatsheet](https://distrowatch.com/dwres.php?resource=package-management)
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
-[详细链接](./packages.md)
-- [ Last Update: Sunday 24 April 2022 01:28 GMT  ](https://distrowatch.com/packages.php)  
+- [本地镜像](./packages.md)
+- [ Last Update: Monday 2 May 2022 05:05 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 ```
 wget -c --no-check-certificate https://distrowatch.com/packages.php
@@ -115,7 +113,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
 |[bind](http://www.isc.org/downloads/bind/)|[9.18.2](https://ftp.isc.org/isc/bind9/9.18.2/bind-9.18.2.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.23.1](https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1.tar.gz)|cmake: a cross-platform, open-source build system
-|[curl](https://curl.se/)|[7.82.0](https://github.com/curl/curl/releases/download/curl-7_80_0/curl-7.82.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
+|[curl](https://curl.se/)|[7.83.0](https://github.com/curl/curl/releases/download/curl-7_83_0/curl-7.83.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.14](https://github.com/moby/moby/archive/refs/tags/v20.10.14.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](http://eclipse.org/)|[4.23](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
@@ -131,10 +129,10 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[lynx](http://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
 |[make](http://www.gnu.org/software/make/)|[4.3](https://ftp.gnu.org/gnu/make/make-4.3.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
 |[mariadb](https://mariadb.org/)|[10.7.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.7.3/source/mariadb-10.7.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
-|[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.28](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.28.tar.gz)|MySQL: an SQL database server
+|[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.29](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.29.tar.gz)|MySQL: an SQL database server
 |[nginx](http://nginx.org/)|[1.20.2](http://nginx.org/download/nginx-1.20.2.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](http://www.insecure.org/nmap/)|[7.92](http://download.insecure.org/nmap/dist/nmap-7.92.tgz)|Nmap: a utility for network exploration or security auditing
-|[NVIDIA](http://www.nvidia.com/object/unix.html)|[510.60.02](http://download.nvidia.com/XFree86/Linux-x86_64/510.60.02/NVIDIA-Linux-x86_64-510.60.02.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+|[NVIDIA](http://www.nvidia.com/object/unix.html)|[510.68.02](http://download.nvidia.com/XFree86/Linux-x86_64/510.68.02/NVIDIA-Linux-x86_64-510.68.02.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.34.1](http://www.cpan.org/src/5.0/perl-5.34.1.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
 |[php](http://www.php.net/)|[8.1.5](http://us3.php.net/distributions/php-8.1.5.tar.xz)|PHP: a server-side HTML embedded scripting language
@@ -145,8 +143,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.25.0](https://snort.org/downloads/snortplus/snort3-3.1.25.0.tar.gz)|Snort: a light-weight network intrusion detection program
-|[sqlite](http://www.sqlite.org/)|[3.38.2](https://www.sqlite.org/2022/sqlite-amalgamation-3380200.zip)|SQLite: an embeddable SQL engine in a C library
+|[snort](https://www.snort.org/)|[3.1.28.0](https://snort.org/downloads/snortplus/snort3-3.1.28.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[sqlite](http://www.sqlite.org/)|[3.38.3](https://www.sqlite.org/2022/sqlite-amalgamation-3380300.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.5](http://www.squid-cache.org/Versions/v5/squid-5.5.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](http://www.tcpdump.org/)|[4.99.1](http://www.tcpdump.org/release/tcpdump-4.99.1.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
@@ -205,32 +203,32 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
   [详情](nosql.md)
 ***
 ## TIOBE 语言排行榜
-- [TIOBE Index for March 2022](https://www.tiobe.com/tiobe-index/)  
+- [TIOBE Index for April 2022](https://www.tiobe.com/tiobe-index/)  
 [详情](tiobe.md)
-```
-编程语言名人堂 
-Year	Winner
-2021	Python
-2020	Python
-2019	C
-2018	Python
-2017	C
-2016	Go
-2015	Java
-2014	JavaScript
-2013	Transact-SQL
-2012	Objective-C
-2011	Objective-C
-2010	Python
-2009	Go
-2008	C
-2007	Python
-2006	Ruby
-2005	Java
-2004	PHP
-2003	C++
-```
-***  
+
+
+|Year|	Winner|
+|:----|:----|
+|2021|	Python
+|2020|	Python
+|2019|	C
+|2018|	Python
+|2017|	C
+|2016|	Go
+|2015|	Java
+|2014|	JavaScript
+|2013|	Transact-SQL
+|2012|	Objective-C
+|2011|	Objective-C
+|2010|	Python
+|2009|	Go
+|2008|	C
+|2007|	Python
+|2006|	Ruby
+|2005|	Java
+|2004|	PHP
+|2003|	C++
+***
 ## Apache开源项目
 ### [开源项目列表](https://projects.apache.org/)
 - [name 名称排序列表](https://projects.apache.org/projects.html?name)
@@ -240,7 +238,7 @@ Year	Winner
 - [Number of Committers 提交次数排序列表](https://projects.apache.org/projects.html?number)  
 ### [releases 项目发布信息](https://projects.apache.org/projects.html?category)  
 - [json格式](https://projects.apache.org/json/foundation/releases.json)  
- [详情](apache.md)
+ [本地镜像](apache.md)
 ***
 ## 开源镜像网站
 [详情](mirrors.md)
@@ -257,10 +255,10 @@ Year	Winner
 - 浙江大学：http://mirrors.zju.edu.cn/
 - 南京大学：https://mirrors.nju.edu.cn/
 ***
-## 网络服务器调查 Web Server Survey
-[详情(1997~2022年)](web-server-survey.md)
-- https://news.netcraft.com/archives/category/web-server-survey/
+## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  
+- [本地镜像   (1997~2022年)  ](web-server-survey.md)
 ### 2022
+- [April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)
 - [March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)
 - [February 2022 Web Server Survey](https://news.netcraft.com/archives/2022/02/28/february-2022-web-server-survey.html)
 - [January 2022 Web Server Survey]( https://news.netcraft.com/archives/2022/01/17/january-2022-web-server-survey.html)

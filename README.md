@@ -88,7 +88,7 @@ RSYNC 	rsync://rsync.kernel.org/pub/
 |longterm:|4.19.241|2022-05-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.241.tar.xz)
 |longterm:|4.14.277|2022-04-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.277.tar.xz)
 |longterm:|4.9.312|2022-04-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.312.tar.xz)
-|linux-next:|next-20220429|2022-04-29|[browse](https://git.kernel.org/next/linux-next/h/next-20220429)
+|linux-next:|next-20220506|2022-05-06|[browse](https://git.kernel.org/next/linux-next/h/next-20220506)
 
 - 快速下载最新版Linux内核
 ```
@@ -100,7 +100,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Monday 2 May 2022 05:05 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update:  Saturday 7 May 2022 09:05 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 ```
 wget -c --no-check-certificate https://distrowatch.com/packages.php
@@ -114,11 +114,11 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[bind](http://www.isc.org/downloads/bind/)|[9.18.2](https://ftp.isc.org/isc/bind9/9.18.2/bind-9.18.2.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.23.1](https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.83.0](https://github.com/curl/curl/releases/download/curl-7_83_0/curl-7.83.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
-|[docker](https://www.docker.com/community-edition)|[20.10.14](https://github.com/moby/moby/archive/refs/tags/v20.10.14.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
+|[docker](https://www.docker.com/community-edition)|[20.10.15](https://github.com/moby/moby/archive/refs/tags/v20.10.15.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](http://eclipse.org/)|[4.23](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
-|[gcc](http://gcc.gnu.org/)|[11.3.0](http://ftp.gnu.org/gnu/gcc/gcc-11.3.0/gcc-11.3.0.tar.xz)|GNU GCC: the GNU compiler collection
-|[git](https://git-scm.com/)|[2.36.0](https://github.com/git/git/archive/v2.36.0.tar.gz)|Git: an open source version control system
+|[gcc](http://gcc.gnu.org/)|[12.1.0](http://ftp.gnu.org/gnu/gcc/gcc-12.1.0/gcc-12.1.0.tar.xz)|GNU GCC: the GNU compiler collection
+|[git](https://git-scm.com/)|[2.36.1](https://github.com/git/git/archive/v2.36.1.tar.gz)|Git: an open source version control system
 |[glibc](http://www.gnu.org/software/libc/libc.html)|[2.35](http://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.7](http://ftp.gnu.org/gnu/grep/grep-3.7.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
@@ -143,18 +143,18 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.28.0](https://snort.org/downloads/snortplus/snort3-3.1.28.0.tar.gz)|Snort: a light-weight network intrusion detection program
-|[sqlite](http://www.sqlite.org/)|[3.38.3](https://www.sqlite.org/2022/sqlite-amalgamation-3380300.zip)|SQLite: an embeddable SQL engine in a C library
+|[snort](https://www.snort.org/)|[3.1.29.0](https://snort.org/downloads/snortplus/snort3-3.1.29.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[sqlite](http://www.sqlite.org/)|[3.38.5](https://www.sqlite.org/2022/sqlite-amalgamation-3380500.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.5](http://www.squid-cache.org/Versions/v5/squid-5.5.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](http://www.tcpdump.org/)|[4.99.1](http://www.tcpdump.org/release/tcpdump-4.99.1.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
 |[vim](https://www.vim.org/)|[8.2](http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
 |[VirtualBox](https://www.virtualbox.org/)|[6.1.34](http://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.0](https://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz)|wget: retrieves files from web and FTP sites
-|[wireshark](https://www.wireshark.org/)|[3.6.3](https://www.wireshark.org/download/src/wireshark-3.6.3.tar.xz)|Wireshark: a network protocol analyzer
+|[wireshark](https://www.wireshark.org/)|[3.6.5](https://www.wireshark.org/download/src/wireshark-3.6.5.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[5.9.3](https://wordpress.org/wordpress-5.9.3.tar.gz)|WordPress: publishing software for the world wide web
 ***
-## 数据库排名——DB-Engines Ranking
+## 数据库排名——DB-Engines Ranking  | [本地镜像](db.md)
 - Complete ranking  [完整排名 388 systems in ranking, March 2022](https://db-engines.com/en/ranking)
 - Relational DBMS [关系数据库](https://db-engines.com/en/ranking/relational+dbms)
 -  Key-value stores [键值数据库](https://db-engines.com/en/ranking/key-value+store)
@@ -170,11 +170,24 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 -  Spatial DBMS  [空间数据库](https://db-engines.com/en/ranking/spatial+dbms)
 -  Event Stores  [事件存储](https://db-engines.com/en/ranking/event+store)
 -  Content stores  [内容存储库](https://db-engines.com/en/ranking/content+store)
--  Navigational DBMS  [导航数据库](https://db-engines.com/en/ranking/navigational+dbms)
-####
-[详情](db.md)
+-  Navigational DBMS  [导航数据库](https://db-engines.com/en/ranking/navigational+dbms)  
+
+======数据库排名======
+
+|排名|数据库
+|:----|:----
+1.|[Oracle ](https://db-engines.com/en/system/Oracle)
+|2.|[MySQL ](https://db-engines.com/en/system/MySQL)
+|3.|[Microsoft SQL Server ](https://db-engines.com/en/system/Microsoft+SQL+Server)
+|4.|[PostgreSQL ](https://db-engines.com/en/system/PostgreSQL)
+|5.|[MongoDB ](https://db-engines.com/en/system/MongoDB)
+|6.|[Redis ](https://db-engines.com/en/system/Redis)
+|7.|[IBM Db2](https://db-engines.com/en/system/IBM+Db2)
+|8.|[Elasticsearch ](https://db-engines.com/en/system/Elasticsearch)
+|9.|[Microsoft Access](https://db-engines.com/en/system/Microsoft+Access)
+|10.|[SQLite](https://db-engines.com/en/system/SQLite)
 ***
-## NoSQL数据库
+## NoSQL数据库  |    [本地镜像](nosql.md)
 - [LIST OF NOSQL DATABASE MANAGEMENT SYSTEMS](https://hostingdata.co.uk/nosql-database/) [currently >225]
 - Wide Column Store / Column Families
 ```markdown
@@ -200,36 +213,43 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 - Other NoSQL related database management systems
 - Scientific and Specialized Database Management Systems
 - unresolved and uncategorized  
-  [详情](nosql.md)
+
 ***
 ## TIOBE 语言排行榜
-- [TIOBE Index for April 2022](https://www.tiobe.com/tiobe-index/)  
-[详情](tiobe.md)
+- [TIOBE Index for April 2022](https://www.tiobe.com/tiobe-index/)  |  [本地镜像](tiobe.md)
 
-
-|Year|	Winner|
-|:----|:----|
-|2021|	Python
-|2020|	Python
-|2019|	C
-|2018|	Python
-|2017|	C
-|2016|	Go
-|2015|	Java
-|2014|	JavaScript
-|2013|	Transact-SQL
+|Year|Winner|Year|Winner|
+|:----|:----|:----|:----|
+|2021|	Python|2011|	Objective-C
+|2020|	Python|2010|	Python
+|2019|	C|2009|	Go
+|2018|	Python|2008|	C
+|2017|	C|2007|	Python
+|2016|	Go|2006|	Ruby
+|2015|	Java|2005|	Java
+|2014|	JavaScript|2004|	PHP
+|2013|	Transact-SQL|2003|	C++
 |2012|	Objective-C
-|2011|	Objective-C
-|2010|	Python
-|2009|	Go
-|2008|	C
-|2007|	Python
-|2006|	Ruby
-|2005|	Java
-|2004|	PHP
-|2003|	C++
 ***
-## Apache开源项目
+## PYPL 排行榜
+**Worldwide, May 2022 compared to a year ago:**   |  [本地镜像](pypl.md)
+
+
+|Rank|[**Language**](https://pypl.github.io/PYPL.html)|占比%|[**Database**](https://pypl.github.io/DB.html)|占比%|[**IDE**](https://pypl.github.io/IDE.html)|占比%|[**ODE**](https://pypl.github.io/ODE.html)|占比%|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|1|Python|27.85 %|Oracle|32.09 %|Visual Studio|30.47 %|JSFiddle|23.73 %
+|2|Java|17.86 %|MySQL|16.64 %|Eclipse|14.21 %|Koding|15.01 %
+|3|JavaScript|9.17 %|SQL Server|13.72 %|Visual Studio Code|12.42 %|Codio|13.56 %
+|4|C#|7.62 %|Microsoft Access|7.59 %|Android Studio|8.3 %|Repl.it|11.48 %
+|5|C/C++|7.0 %|PostgreSQL|4.94 %|pyCharm|8.28 %|Ideone|8.73 %
+|6|PHP|5.36 %|MongoDB|4.48 %|IntelliJ|6.45 %|DartPad|8.55 %
+|7|R|4.34 %|Firebase|3.09 %|NetBeans|5.12 %|PythonAnywhere|7.3 %
+|8|TypeScript|2.39 %|Splunk|2.69 %|Sublime Text|3.41 %|Cloud9 AWS|5.25 %
+|9|Objective-C|2.25 %|Redis|2.28 %|Xcode|3.19 %|Goorm|2.01 %
+|10|Swift|2.05 %|Elasticsearch|2.1 %|Atom|2.78 %|Codeanywhere|1.28 %
+
+***
+## Apache开源项目   |  [本地镜像](apache.md)
 ### [开源项目列表](https://projects.apache.org/)
 - [name 名称排序列表](https://projects.apache.org/projects.html?name)
 - [Committee 提交排序列表](https://projects.apache.org/projects.html?committee)  
@@ -238,10 +258,38 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 - [Number of Committers 提交次数排序列表](https://projects.apache.org/projects.html?number)  
 ### [releases 项目发布信息](https://projects.apache.org/projects.html?category)  
 - [json格式](https://projects.apache.org/json/foundation/releases.json)  
- [本地镜像](apache.md)
+
 ***
-## 开源镜像网站
-[详情](mirrors.md)
+## ACM TechNews [技术新闻](https://technews.acm.org/)
+- 每周**一、三、五**发布
+- [2022年5月](https://technews.acm.org/archives.cfm?d=2022-05-may
+  )|   [本地镜像](acmnews.md)
+
+|=|=|=|
+|:----|:----|:----|
+|[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)
+
+- [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
+
+|= |= |= |= |= |= |
+|:----|:----|:----|:----|:----|:----|
+|[May 2022](https://technews.acm.org/archives.cfm?d=2022-05-may)|[Apr 2022](https://technews.acm.org/archives.cfm?d=2022-04-apr)|[Mar 2022](https://technews.acm.org/archives.cfm?d=2022-03-mar)|[Feb 2022](https://technews.acm.org/archives.cfm?d=2022-02-feb)|[Jan 2022](https://technews.acm.org/archives.cfm?d=2022-01-jan)
+|[Dec 2021](https://technews.acm.org/archives.cfm?d=2021-12-dec)|[Nov 2021](https://technews.acm.org/archives.cfm?d=2021-11-nov)|[Oct 2021](https://technews.acm.org/archives.cfm?d=2021-10-oct)|[Sep 2021](https://technews.acm.org/archives.cfm?d=2021-09-sep)|[Aug 2021](https://technews.acm.org/archives.cfm?d=2021-08-aug)|[Jul 2021](https://technews.acm.org/archives.cfm?d=2021-07-jul)|[Jun 2021](https://technews.acm.org/archives.cfm?d=2021-06-jun)
+|[Jun 2021 ](https://technews.acm.org/archives.cfm?d=2021-06-jun)|[May 2021](https://technews.acm.org/archives.cfm?d=2021-05-may)|[Apr 2021](https://technews.acm.org/archives.cfm?d=2021-04-apr)|[Mar 2021](https://technews.acm.org/archives.cfm?d=2021-03-mar)|[Feb 2021](https://technews.acm.org/archives.cfm?d=2021-02-feb)|[Jan 2021](https://technews.acm.org/archives.cfm?d=2021-01-jan)
+|.|.|.|.|.|.|
+|[Dec 2000](https://technews.acm.org/archives.cfm?d=2000-12-dec)|[Nov 2000](https://technews.acm.org/archives.cfm?d=2000-11-nov)|[Oct 2000](https://technews.acm.org/archives.cfm?d=2000-10-oct)|[Sep 2000](https://technews.acm.org/archives.cfm?d=2000-09-sep)|[Aug 2000](https://technews.acm.org/archives.cfm?d=2000-08-aug)|[Jul 2000](https://technews.acm.org/archives.cfm?d=2000-07-jul)
+|[Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
+***
+## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  
+- [本地镜像   (1997~2022年)  ](web-server-survey.md)
+### 2022
+- [April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)
+- [March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)
+- [February 2022 Web Server Survey](https://news.netcraft.com/archives/2022/02/28/february-2022-web-server-survey.html)
+- [January 2022 Web Server Survey]( https://news.netcraft.com/archives/2022/01/17/january-2022-web-server-survey.html)
+
+***
+## 开源镜像网站  [详情](mirrors.md)
 ### 国内企业开源镜像站点
 - 阿里云：http://mirrors.aliyun.com/
 - 华为云：https://mirrors.huaweicloud.com/home
@@ -254,12 +302,4 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 - 西安交通大学：http://mirrors.xjtu.edu.cn/
 - 浙江大学：http://mirrors.zju.edu.cn/
 - 南京大学：https://mirrors.nju.edu.cn/
-***
-## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  
-- [本地镜像   (1997~2022年)  ](web-server-survey.md)
-### 2022
-- [April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)
-- [March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)
-- [February 2022 Web Server Survey](https://news.netcraft.com/archives/2022/02/28/february-2022-web-server-survey.html)
-- [January 2022 Web Server Survey]( https://news.netcraft.com/archives/2022/01/17/january-2022-web-server-survey.html)
 

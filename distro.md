@@ -1,6 +1,5 @@
-## Linux发行版大全
-https://distrowatch.com/
-- 几百种linux发行版的详细介绍和官网链接，镜像下载等。珍爱生命，拥抱开源~_~
+## [Linux](https://distrowatch.com)发行版大全    |  [返回](README.md)
+>几百种linux发行版的详细介绍和官网链接，镜像下载等。珍爱生命，拥抱开源~_~  
 
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======

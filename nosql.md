@@ -1,15 +1,11 @@
-## LIST OF NOSQL DATABASE MANAGEMENT SYSTEMS [currently >225]
-- Wide Column Store / Column Families
-```markdown
-  Hadoop / HBase
-  Cassandra
-  Apache Flink
-```  
-- Document Store
-```markdown
-  MongoDB
-  CouchDB
-```
+## LIST OF [NOSQL DATABASE](https://hostingdata.co.uk/nosql-database/) MANAGEMENT SYSTEMS [currently >225]
+- Wide Column Store / Column Families  
+>  Hadoop / HBase  
+  Cassandra  
+  Apache Flink  
+- Document Store  
+>  MongoDB  
+  CouchDB  
 - Key Value / Tuple Store
 - Graph Database Management Systems
 - Multimodel Database Management Systems
@@ -24,11 +20,8 @@
 - Scientific and Specialized Database Management Systems
 - unresolved and uncategorized
 
-```markdown
-
 - Wide Column Store / Column Families
 Hadoop / HBase
-
 API: Java / any writer, Protocol: any write call, Query Method: MapReduce Java / any exec, Replication: HDFS Replication, Written in: Java, Concurrency: ?, Misc: Links: 3 Books [1, 2, 3], Guru99 Article >>
 MapR, Hortonworks, Cloudera
 
@@ -88,7 +81,7 @@ No SQL Encryption (Oracle)
 Oracle NoSQL Database can be configured securely with the proper technical guides.  Network communications between NoSQL clients, utilities, and NoSQL server components can and should be encrypted. This original document is curated and maintained by Ludovic Rembert. He has additional guides on his website about the best VPNs.
 Elastic
 
- API: REST and many languages, Protocol: REST, Query Method: via JSON, Replication + Sharding: automatic and configurable, written in: Java, Misc: schema mapping, multi tenancy with arbitrary indexes, » Company and Support, » Article
+API: REST and many languages, Protocol: REST, Query Method: via JSON, Replication + Sharding: automatic and configurable, written in: Java, Misc: schema mapping, multi tenancy with arbitrary indexes, » Company and Support, » Article
 ArangoDB, FaunaDB, OrientDB, gunDB
 
 (Doc Store & GraphDB & Key-Value. More details in Category Multimodel DBMS)
@@ -97,7 +90,7 @@ MongoDB
 API: BSON, Protocol: C, Query Method: dynamic object-based language & MapReduce, Replication: Master Slave & Auto-Sharding, Written in: C++,Concurrency: Update in Place. Misc: Indexing, GridFS, Freeware + Commercial License Links: » Talk, » Notes, » Company
 Cloud Datastore
 
- A fully managed Document store with multi-master replication across data centers. Originally part of Google App Engine, it also has REST and gRPC APIs. Now Firestore?!
+A fully managed Document store with multi-master replication across data centers. Originally part of Google App Engine, it also has REST and gRPC APIs. Now Firestore?!
 Azure DocumentDB
 
 is a fully managed, globally distributed NoSQL DBMS perfect for the massive scale and low latency needs of modern applications. Guarantees: 99.99% availability, 99% of reads at <10ms and 99% of writes at <15ms. Scale to handle 10s-100s of millions of requests/sec and replicate globally with the click of a button. APIs: .NET, .NET Core, Java, Node.js, Python, REST. Query: SQL. Links: » Service, » Pricing, » Playground, » Documentation
@@ -110,7 +103,7 @@ API: Memcached API+protocol (binary and ASCII) , most languages, Protocol: Memca
 CouchDB
 
 API: JSON, Protocol: REST, Query Method: MapReduceR of JavaScript Funcs, Replication: Master Master, Written in: Erlang, Concurrency: MVCC, Misc:
-Links: » 3 CouchDB books 
+Links: » 3 CouchDB books
 
 , » Couch Lounge (partitioning / clustering), » Dr. Dobbs
 ToroDB
@@ -121,7 +114,7 @@ SequoiaDB
 API: BSON, Protocol: C, Query Method: dynamic object-based language, Replication: Master Slave & Auto-Sharding, Written in: C++, Misc: Indexing, Large Object Store, Transaction, Free + Commercial License, Benchmark, Code
 NosDB
 
- a 100% native .NET Open Source NoSQL Document DBMS (Apache 2.0 License). It also supports SQL querying over JSON Documents. Data can also be accessed through LINQ & ADO.NET. NosDB also provides strong server-side and client-side caching features by integrating NCache.
+a 100% native .NET Open Source NoSQL Document DBMS (Apache 2.0 License). It also supports SQL querying over JSON Documents. Data can also be accessed through LINQ & ADO.NET. NosDB also provides strong server-side and client-side caching features by integrating NCache.
 RavenDB
 
 RavenDB is an Open Source NoSQL DBMS. Multi-Model: Document, Key-Value, Graph, Distributed Counters, Attachments. Fully Transactional (ACID) across database and throughout the cluster. Multiplatform: C#, Node.js, Java, Python, Ruby, Go. Multisystem: Windows, Linux, Mac OS, Docker, Raspberry Pi. Native GUI, MapReduce, full text search, memory management.
@@ -163,13 +156,13 @@ densodb
 DensoDB is a new NoSQL document DBMS. Written for .Net environment in c# language. It’s simple, fast and reliable. Source
 SisoDB
 
- A Document Store on top of SQL-Server.
+A Document Store on top of SQL-Server.
 SDB
 
- For small online databases, PHP / JSON interface, implemented in PHP.
+For small online databases, PHP / JSON interface, implemented in PHP.
 NoSQL embedded db
 
- Node.js asynchronous NoSQL embedded DBMS for small websites or projects. DBMS supports: insert, update, remove, drop and supports views (create, drop, read). Written in JavaScript, no dependencies, implements small concurrency model.
+Node.js asynchronous NoSQL embedded DBMS for small websites or projects. DBMS supports: insert, update, remove, drop and supports views (create, drop, read). Written in JavaScript, no dependencies, implements small concurrency model.
 [CloudKit, Perservere,Jackrabbit]
 ThruDB
 
@@ -252,28 +245,28 @@ MemcacheDB
 API: Memcache protocol (get, set, add, replace, etc.), Written in: C, Data Model: Blob, Misc: Is Memcached writing to BerkleyDB.
 Faircom C-Tree
 
- API: C, C++, C#, Java, PHP, Perl, Written in: C,C++. Misc: Transaction logging. Client/server. Embedded. SQL wrapper (not core). Been around since 1979.
+API: C, C++, C#, Java, PHP, Perl, Written in: C,C++. Misc: Transaction logging. Client/server. Embedded. SQL wrapper (not core). Been around since 1979.
 LSM
 
 Key-Value DBMS that was written as part of SQLite4, They claim it is faster then LevelDB. Instead of supporting custom comparators, they have a recommended data encoding for keys that allows various data types to be sorted.
 KitaroDB
 
- : A fast, efficient on-disk data store for Windows Phone 8, Windows RT, Win32 (x86 & x64) and .NET. Provides for key-value and multiple segmented key access. APIs for C#, VB, C++, C and HTML5/JavaScript. Written in pure C for high performance and low footprint. Supports async and synchronous operations with 2GB max record size.
+: A fast, efficient on-disk data store for Windows Phone 8, Windows RT, Win32 (x86 & x64) and .NET. Provides for key-value and multiple segmented key access. APIs for C#, VB, C++, C and HTML5/JavaScript. Written in pure C for high performance and low footprint. Supports async and synchronous operations with 2GB max record size.
 upscaledb
 
- : (embedded solution) API: C, C++, .NET, Java, Erlang. Written in C,C++. Fast key/value store with a parameterized B+-tree. Keys are "typed" (i.e. 32bit integers, floats, variable length or fixed length binary data). Has built-in analytical functions like SUM, AVERAGE etc.
+: (embedded solution) API: C, C++, .NET, Java, Erlang. Written in C,C++. Fast key/value store with a parameterized B+-tree. Keys are "typed" (i.e. 32bit integers, floats, variable length or fixed length binary data). Has built-in analytical functions like SUM, AVERAGE etc.
 STSdb
 
 API: C#, Written in C#, embedded solution, generic XTable<TKey,TRecord> implementation, ACID transactions, snapshots, table versions, shared records, vertical data compression, custom compression, composite & custom primary keys, available backend file system layer, works over multiple volumes, petabyte scalability, LINQ.
 Tarantool/Box
 
- API: C, Perl, PHP, Python, Java and Ruby. Written in: Objective C ,Protocol: asynchronous binary, memcached, text (Lua console). Data model: collections of dimensionless tuples, indexed using primary + secondary keys. Concurrency: lock-free in memory, consistent with disk (write ahead log). Replication: master/slave, configurable. Other: call Lua stored procedures.
+API: C, Perl, PHP, Python, Java and Ruby. Written in: Objective C ,Protocol: asynchronous binary, memcached, text (Lua console). Data model: collections of dimensionless tuples, indexed using primary + secondary keys. Concurrency: lock-free in memory, consistent with disk (write ahead log). Replication: master/slave, configurable. Other: call Lua stored procedures.
 Chronicle Map
 
- In-memory (opt. persistence via mmap), highly concurrent, low-latency key-value store. API: Java. Written in: Java. Protocol: in-process Java, remote via Chronicle Engine + Wire: binary, text, Java, C# bindnings. Concurrency: in-memory lock striping, read-write locks. Replication: multi-master, eventually consistent.
+In-memory (opt. persistence via mmap), highly concurrent, low-latency key-value store. API: Java. Written in: Java. Protocol: in-process Java, remote via Chronicle Engine + Wire: binary, text, Java, C# bindnings. Concurrency: in-memory lock striping, read-write locks. Replication: multi-master, eventually consistent.
 Maxtable
 
- API: C, Query Method: MQL, native API, Replication: DFS Replication, Consistency: strict consistency Written in: C.
+API: C, Query Method: MQL, native API, Replication: DFS Replication, Consistency: strict consistency Written in: C.
 Pincaster
 
 For geolocalized apps. Concurrency: in-memory with asynchronous disk writes. API: HTTP/JSON. Written in: C. License: BSD.
@@ -288,142 +281,142 @@ allegro-C
 Key-Value concept. Variable number of keys per record. Multiple key values, Hierarchic records. Relationships. Diff. record types in same DB. Indexing: B*-Tree. All aspects configurable. Full scripting language. Multi-user ACID. Web interfaces (PHP, Perl, ActionScript) plus Windows client.
 nessDB
 
- A fast key-value DBMS (using LSM-Tree storage engine), API: Redis protocol (SET,MSET,GET,MGET,DEL etc.), Written in: ANSI C
+A fast key-value DBMS (using LSM-Tree storage engine), API: Redis protocol (SET,MSET,GET,MGET,DEL etc.), Written in: ANSI C
 HyperDex
 
 Distributed searchable key-value store. Fast (latency & throughput), scalable, consistent, fault tolerance, using hyperspace hashing. APIs for C, C++ and Python.
 SharedHashFile
 
- Fast, open source, shared memory (using memory mapped files e.g. in /dev/shm or on SSD), multi process, hash table, e.g. on an 8 core i7-3720QM CPU @ 2.60GHz using /dev/shm, 8 processes combined have a 12.2 million / 2.5 to 5.9 million TPS read/write using small binary keys to a hash file containing 50 million keys. Uses sharding internally to mitigate lock contention. Written in C.
+Fast, open source, shared memory (using memory mapped files e.g. in /dev/shm or on SSD), multi process, hash table, e.g. on an 8 core i7-3720QM CPU @ 2.60GHz using /dev/shm, 8 processes combined have a 12.2 million / 2.5 to 5.9 million TPS read/write using small binary keys to a hash file containing 50 million keys. Uses sharding internally to mitigate lock contention. Written in C.
 Symas LMDB
 
- Ultra-fast, ultra-compact key-value embedded data store developed by Symas for the OpenLDAP Project. It uses memory-mapped files, so it has the read performance of a pure in-memory DBMS while still offering the persistence of standard disk-based DBMS, and is only limited to the size of the virtual address space, (it is not limited to the size of physical RAM)
+Ultra-fast, ultra-compact key-value embedded data store developed by Symas for the OpenLDAP Project. It uses memory-mapped files, so it has the read performance of a pure in-memory DBMS while still offering the persistence of standard disk-based DBMS, and is only limited to the size of the virtual address space, (it is not limited to the size of physical RAM)
 Sophia
 
- Sophia is a modern embeddable key-value DBMS designed for a high load environment. It has unique architecture that was created as a result of research and rethinking of primary algorithmic constraints, associated with a getting popular Log-file based data structures, such as LSM-tree. Implemented as a small C-written, BSD-licensed library.
+Sophia is a modern embeddable key-value DBMS designed for a high load environment. It has unique architecture that was created as a result of research and rethinking of primary algorithmic constraints, associated with a getting popular Log-file based data structures, such as LSM-tree. Implemented as a small C-written, BSD-licensed library.
 NCache
 
- .NET Open Source Distributed Cache. Written in C#. API .NET & Java. Query Parallel SQL Query, LINQ & Tags. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Messaging, Runtime Data Sharing, Cache & Item Level Events, Continuous Query & Custom Events, DB Dependencies & Expirations
+.NET Open Source Distributed Cache. Written in C#. API .NET & Java. Query Parallel SQL Query, LINQ & Tags. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Messaging, Runtime Data Sharing, Cache & Item Level Events, Continuous Query & Custom Events, DB Dependencies & Expirations
 TayzGrid
 
- Open Source In-Memory JCache compliant Data Grid. Written in Java. API Java, JCache JSR 107 & .NET. Query SQL & DB Synchronization. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Distributed Messaging, MapReduce, Entry Processor and Aggregator
+Open Source In-Memory JCache compliant Data Grid. Written in Java. API Java, JCache JSR 107 & .NET. Query SQL & DB Synchronization. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Distributed Messaging, MapReduce, Entry Processor and Aggregator
 PickleDB
 
- Redis inspired K/V store for Python object serialization.
+Redis inspired K/V store for Python object serialization.
 Mnesia
 
- (ErlangDB »)
+(ErlangDB »)
 LightCloud
 
- (based on Tokyo Tyrant)
+(based on Tokyo Tyrant)
 Hibari
 
- Hibari is a highly available, strongly consistent, durable, distributed key-value data store
+Hibari is a highly available, strongly consistent, durable, distributed key-value data store
 OpenLDAP
 
- Key-value store, B+tree. Lightning fast reads+fast bulk loads. Memory-mapped files for persistent storage with all the speed of an in-memory DBMS. No tuning conf required. Full ACID support. MVCC, readers run lockless. Tiny code, written in C, compiles to under 32KB of x86-64 object code. Modeled after the BerkeleyDB API for easy migration from Berkeley-based code. Benchmarks against LevelDB, Kyoto Cabinet, SQLite3, and BerkeleyDB are available, plus full paper and presentation slides.
+Key-value store, B+tree. Lightning fast reads+fast bulk loads. Memory-mapped files for persistent storage with all the speed of an in-memory DBMS. No tuning conf required. Full ACID support. MVCC, readers run lockless. Tiny code, written in C, compiles to under 32KB of x86-64 object code. Modeled after the BerkeleyDB API for easy migration from Berkeley-based code. Benchmarks against LevelDB, Kyoto Cabinet, SQLite3, and BerkeleyDB are available, plus full paper and presentation slides.
 Genomu
 
- High availability, concurrency-oriented event-based K/V DBMS with transactions and causal consistency. Protocol: MsgPack, API: Erlang, Elixir, Node.js. Written in: Elixir, Github-Repo.
+High availability, concurrency-oriented event-based K/V DBMS with transactions and causal consistency. Protocol: MsgPack, API: Erlang, Elixir, Node.js. Written in: Elixir, Github-Repo.
 BinaryRage
 
- BinaryRage is designed to be a lightweight ultra fast key/value store for .NET with no dependencies. Tested with more than 200,000 complex objects written to disk per second on a crappy laptop 🙂 No configuration, no strange driver/connector, no server, no setup - simply reference the dll and start using it in less than a minute.
+BinaryRage is designed to be a lightweight ultra fast key/value store for .NET with no dependencies. Tested with more than 200,000 complex objects written to disk per second on a crappy laptop 🙂 No configuration, no strange driver/connector, no server, no setup - simply reference the dll and start using it in less than a minute.
 Elliptics
 
- Github Page »
+Github Page »
 DBreeze
 
- Professional, open-source, NoSql (embedded Key/Value storage), transactional, ACID-compliant, multi-threaded, object DBMS management system for .NET 3.0> MONO. Written in C#.
+Professional, open-source, NoSql (embedded Key/Value storage), transactional, ACID-compliant, multi-threaded, object DBMS management system for .NET 3.0> MONO. Written in C#.
 TreodeDB
 
- API: Scala. Written in Scala. Replication: Replicas vote on writes and reads. Sharding: Hashes keys onto array of replica cohorts. Concurrency: Optimistic + Multiversion Concurrency Control. Provides multirow atomic writes. Exposes optimistic concurrency through API to support HTTP Etags. Embedded solution.
+API: Scala. Written in Scala. Replication: Replicas vote on writes and reads. Sharding: Hashes keys onto array of replica cohorts. Concurrency: Optimistic + Multiversion Concurrency Control. Provides multirow atomic writes. Exposes optimistic concurrency through API to support HTTP Etags. Embedded solution.
 BoltDB
 
- Key/Value DB written in Go.
+Key/Value DB written in Go.
 Serenity
 
- Serenity DBMS implements basic Redis commands and extends them with support of Consistent Cursors, ACID transactions, Stored procedures, etc. The DBMS is designed to store data bigger then available RAM.
+Serenity DBMS implements basic Redis commands and extends them with support of Consistent Cursors, ACID transactions, Stored procedures, etc. The DBMS is designed to store data bigger then available RAM.
 Cachelot
 
- API: Memcached. Written in C++. In-memory LRU cache with very small memory footprint. Works within fixed amount of memory. Cachelot has a C++ cache library and stand-alone server on top of it.
+API: Memcached. Written in C++. In-memory LRU cache with very small memory footprint. Works within fixed amount of memory. Cachelot has a C++ cache library and stand-alone server on top of it.
 filejson
 
- Use a JSON encoded file to automatically save a JavaScript value to disk whenever that value changes. A value can be a Javascript: string, number, boolean, null, object, or an array. The value can be structured in an array or an object to allow for more complex data stores. These structures can also be nested. As a result, you can use this module as a simple document store for storing semistructured data.
+Use a JSON encoded file to automatically save a JavaScript value to disk whenever that value changes. A value can be a Javascript: string, number, boolean, null, object, or an array. The value can be structured in an array or an object to allow for more complex data stores. These structures can also be nested. As a result, you can use this module as a simple document store for storing semistructured data.
 InfinityDB
 
- InfinityDB is an all-Java embedded DBMS with access like java.util.concurrent.ConcurrentNavigableMap over a tuple space, enhanced for nested Maps, LOBs, huge sparse arrays, wide tables with no size constraints. Transactions, compression, multi-core concurrency, easy schema evolution. Avoid the text/binary trap: strongly-typed, fine-grained access to big structures. 1M ops/sec. Commercial, closed source, patented.
+InfinityDB is an all-Java embedded DBMS with access like java.util.concurrent.ConcurrentNavigableMap over a tuple space, enhanced for nested Maps, LOBs, huge sparse arrays, wide tables with no size constraints. Transactions, compression, multi-core concurrency, easy schema evolution. Avoid the text/binary trap: strongly-typed, fine-grained access to big structures. 1M ops/sec. Commercial, closed source, patented.
 KeyVast
 
- Key Value Store with scripting language. Data types include list, dictionary and set. Hierarchical keys. API: TCP/IP, Protocol: Query language, Written in: Delphi, License: MIT, Links: Github
+Key Value Store with scripting language. Data types include list, dictionary and set. Hierarchical keys. API: TCP/IP, Protocol: Query language, Written in: Delphi, License: MIT, Links: Github
 SCR Siemens Common Repository
 
- In-Memory, scale-by-cell division (under load), multi-tiered scalability (transactions, entries, indicies), read=write, geo-redundancy, redundancy per datatype, LDAP, API, bulkload facility for VNF state resiliency, VNF-M integratable, self-[re-]balancing, Backend for Mobile Network Functions
+In-Memory, scale-by-cell division (under load), multi-tiered scalability (transactions, entries, indicies), read=write, geo-redundancy, redundancy per datatype, LDAP, API, bulkload facility for VNF state resiliency, VNF-M integratable, self-[re-]balancing, Backend for Mobile Network Functions
 IOWOW
 
- The C/C++ persistent key/value storage engine based on skip list data structure. API: C/C++. Protocol: Native. Written in: C11, Concurrency: RW locking. License: MIT
+The C/C++ persistent key/value storage engine based on skip list data structure. API: C/C++. Protocol: Native. Written in: C11, Concurrency: RW locking. License: MIT
 BBoxDB
 
- A distributed data store for multi-dimensional data. BBoxDB enhances the key-value data model by a bounding box, which describes the location of a value in an n-dimensional space. Data can be efficiently retrieved using hyper-rectangle queries. Spatial joins and dynamic data redistribution are also supported. API: Java, Protocol: asynchronous binary, Data model: Key-bounding-box-value, Scaling: Auto-Sharding, Replication, Written in: Java, Concurrency: eventually consistent / RW locking
+A distributed data store for multi-dimensional data. BBoxDB enhances the key-value data model by a bounding box, which describes the location of a value in an n-dimensional space. Data can be efficiently retrieved using hyper-rectangle queries. Spatial joins and dynamic data redistribution are also supported. API: Java, Protocol: asynchronous binary, Data model: Key-bounding-box-value, Scaling: Auto-Sharding, Replication, Written in: Java, Concurrency: eventually consistent / RW locking
 NuSTER
 
- A HTTP based, user facing, RESTful NoSQL cache server based on HAProxy. It can be used as an internal NoSQL cache sits between your application and DBMS like Memcached or Redis as well as a user facing NoSQL cache that sits between end user and your application. It supports headers, cookies, so you can store per-user data to same endpoint. Protocol: HTTP. Written in: C.
+A HTTP based, user facing, RESTful NoSQL cache server based on HAProxy. It can be used as an internal NoSQL cache sits between your application and DBMS like Memcached or Redis as well as a user facing NoSQL cache that sits between end user and your application. It supports headers, cookies, so you can store per-user data to same endpoint. Protocol: HTTP. Written in: C.
 JDX
 
- A lightweight in-memory document-oriented DBMS written with JavaScript. Includes Single Page Application API, node serialization, tree browsing and CRUD operations on document tuples through web GUI. Integrate with server-side noSQL DBMS instance into a transaction-synchronous cluster, create SPA content or browse and serialize document tuples with HTML interface.
+A lightweight in-memory document-oriented DBMS written with JavaScript. Includes Single Page Application API, node serialization, tree browsing and CRUD operations on document tuples through web GUI. Integrate with server-side noSQL DBMS instance into a transaction-synchronous cluster, create SPA content or browse and serialize document tuples with HTML interface.
 Antidote
 
- Geo-replicated; multi-master; both reads & writes have local latency; sharded. Available under Partition (AP) with a high consistency (CP); MVCC; transactions; causal consistency (no ordering anomalies). API: CRDTs (= concurrent update, convergence). Protocol buffers, Erlang, JavaScript, Java, Go, REST. Ongoing work: same guarantees at edge; SQL-like language; static analysis; strong consistency on demand. Open source; written in Erlang. Publication: Cure
+Geo-replicated; multi-master; both reads & writes have local latency; sharded. Available under Partition (AP) with a high consistency (CP); MVCC; transactions; causal consistency (no ordering anomalies). API: CRDTs (= concurrent update, convergence). Protocol buffers, Erlang, JavaScript, Java, Go, REST. Ongoing work: same guarantees at edge; SQL-like language; static analysis; strong consistency on demand. Open source; written in Erlang. Publication: Cure
 [Scality », KaTree » TomP2P », Kumofs » , TreapDB », Wallet » , NoSQLz », NMDB, luxio, actord, keyspace, flare, schema-free, RAMCloud]
 [SubRecord, Mo8onDb, Dovetaildb]
 Graph Database Management Systems
 Neo4J
 
- API: lots of langs, Protocol: Java embedded / REST, Query Method: Cypher, nativeJavaAPI, JRuby, Replication: typical MySQL style master/slave, Written in: Java, Concurrency: non-block reads, writes locks involved nodes/relationships until commit, Misc: ACID possible, Links: Video », Blog »
+API: lots of langs, Protocol: Java embedded / REST, Query Method: Cypher, nativeJavaAPI, JRuby, Replication: typical MySQL style master/slave, Written in: Java, Concurrency: non-block reads, writes locks involved nodes/relationships until commit, Misc: ACID possible, Links: Video », Blog »
 ArangoDB, FaunaDB, OrientDB, gunDB
 
- (Doc Store & GraphDB & Key-Value. More details in Category Multimodel Database Management Systems)
+(Doc Store & GraphDB & Key-Value. More details in Category Multimodel Database Management Systems)
 Infinite Graph
 
- (by Objectivity) API: Java, Protocol: Direct Language Binding, Query Method: Graph Navigation API, Predicate Language Qualification, Written in: Java (Core C++), Data Model: Labeled Directed Multi Graph, Concurrency: Update locking on subgraphs, concurrent non-blocking ingest, Misc: Free for Qualified Startups.
+(by Objectivity) API: Java, Protocol: Direct Language Binding, Query Method: Graph Navigation API, Predicate Language Qualification, Written in: Java (Core C++), Data Model: Labeled Directed Multi Graph, Concurrency: Update locking on subgraphs, concurrent non-blocking ingest, Misc: Free for Qualified Startups.
 Sparksee
 
 (former DEX): API: Java, .NET, C++, Python, Objective-C, Blueprints Interface Protocol: Embedded, Query Method: as above + Gremlin (via Blueprints), Written in: C++, Data Model: Labeled Directed Attributed Multigraph, Concurrency: yes, Misc: ACID possible, Free community edition up to 1 Mio objects, Links: Intro », Technical Overview »
 TITAN
 
- : API: Java, Blueprints, Gremlin, Python, Clojure Protocol: Thrift, RexPro(Binary), Rexster (HTTP/REST) Query Method: Gremlin, SPARQL Written In: Java Data Model: labeled Property Graph, directed, multi-graph adjacency list Concurrency: ACID Tunable C Replication: Multi-Master License: Apache 2 Pluggable backends: Cassandra, HBase, MapR M7 Tables, BDB, Persistit, Hazelcast Links: Titan User Group
+: API: Java, Blueprints, Gremlin, Python, Clojure Protocol: Thrift, RexPro(Binary), Rexster (HTTP/REST) Query Method: Gremlin, SPARQL Written In: Java Data Model: labeled Property Graph, directed, multi-graph adjacency list Concurrency: ACID Tunable C Replication: Multi-Master License: Apache 2 Pluggable backends: Cassandra, HBase, MapR M7 Tables, BDB, Persistit, Hazelcast Links: Titan User Group
 InfoGrid
 
 API: Java, http/REST, Protocol: as API + XPRISO, OpenID, RSS, Atom, JSON, Java embedded, Query Method: Web user interface with html, RSS, Atom, JSON output, Java native, Replication: peer-to-peer, Written in: Java, Concurrency: concurrent reads, write lock within one MeshBase, Misc: Presentation »
 HyperGraphDB
 
- API: Java (and Java Langs), Written in:Java, Query Method: Java or P2P, Replication: P2P, Concurrency: STM, Misc: Open-Source, Especially for AI and Semantic Web.
+API: Java (and Java Langs), Written in:Java, Query Method: Java or P2P, Replication: P2P, Concurrency: STM, Misc: Open-Source, Especially for AI and Semantic Web.
 GraphBase
 
 Sub-graph-based API, query language, tools & transactions. Embedded Java, remote-proxy Java or REST. Distributed storage & processing. Read/write all Nodes. Permissions & Constraints frameworks. Object storage, vertex-embedded agents. Supports multiple graph models. Written in Java
 Trinity
 
- API: C#, Protocol: C# Language Binding, Query Method: Graph Navigation API, Replication: P2P with Master Node, Written in: C#, Concurrency: Yes (Transactional update in online query mode, Non-blocking read in Batch Mode) Misc: distributed in-memory storage, parallel graph computation platform (Microsoft Research Project)
+API: C#, Protocol: C# Language Binding, Query Method: Graph Navigation API, Replication: P2P with Master Node, Written in: C#, Concurrency: Yes (Transactional update in online query mode, Non-blocking read in Batch Mode) Misc: distributed in-memory storage, parallel graph computation platform (Microsoft Research Project)
 AllegroGraph
 
 API: Java, Python, Ruby, C#, Perl, Clojure, Lisp Protocol: REST, Query Method: SPARQL and Prolog, Libraries: Social Networking Analytics & GeoSpatial, Written in: Common Lisp, Links: Learning Center », Videos »
 BrightstarDB
 
- A native, .NET, semantic web DBMS with code first Entity Framework, LINQ and OData support. API: C#, Protocol: SPARQL HTTP, C#, Query Method: LINQ, SPARQL, Written in: C#
+A native, .NET, semantic web DBMS with code first Entity Framework, LINQ and OData support. API: C#, Protocol: SPARQL HTTP, C#, Query Method: LINQ, SPARQL, Written in: C#
 Bigdata
 
- API: Java, Jini service discovery, Concurrency: very high (MVCC), Written in: Java, Misc: GPL + commercial, Data: RDF data with inference, dynamic key-range sharding of indices, Misc: Blog » (parallel DBMS, high-availability architecture, immortal DBMS with historical views)
+API: Java, Jini service discovery, Concurrency: very high (MVCC), Written in: Java, Misc: GPL + commercial, Data: RDF data with inference, dynamic key-range sharding of indices, Misc: Blog » (parallel DBMS, high-availability architecture, immortal DBMS with historical views)
 Meronymy
 
- RDF enterprise database management system. It is cross-platform and can be used with most programming languages. Main features: high performance, guarantee database transactions with ACID, secure with ACL's, SPARQL & SPARUL, ODBC & JDBC drivers, RDF & RDFS. »
+RDF enterprise database management system. It is cross-platform and can be used with most programming languages. Main features: high performance, guarantee database transactions with ACID, secure with ACL's, SPARQL & SPARUL, ODBC & JDBC drivers, RDF & RDFS. »
 WhiteDB
 
 WhiteDB is a fast lightweight graph/N-tuples shared memory DBMS library written in C with focus on speed, portability and ease of use. Both for Linux and Windows, dual licensed with GPLv3 and a free nonrestrictive royalty-free commercial licence.
 Onyx DBMS
 
- Graph/ORM high throughput DBMS built in Java supports embedded, in-memory, and remote. Horizontal scalability through sharding, partitioning, replication, and disaster recovery API: Java, REST via (Objective C, Android, etc...), Protocol: Java embedded/Binary Socket/REST, Query Method: Persistence Manager/ORM, Replication: Multicast, Written in: Java, Concurrency: Re-entrant read/write, Misc: Free and Open Source. Commercial licensing available Tutorials
+Graph/ORM high throughput DBMS built in Java supports embedded, in-memory, and remote. Horizontal scalability through sharding, partitioning, replication, and disaster recovery API: Java, REST via (Objective C, Android, etc...), Protocol: Java embedded/Binary Socket/REST, Query Method: Persistence Manager/ORM, Replication: Multicast, Written in: Java, Concurrency: Re-entrant read/write, Misc: Free and Open Source. Commercial licensing available Tutorials
 OpenLink Virtuoso
 
- a/k/a Virtuoso Universal Server Multi-model (hybrid) DBMS supporting SQL/Tabular Relational (SQL), RDF/Graph Relational (SPARQL), XML (XPath, XQuery), Text/Document/Object, and more, available in Community (Open Source) and Enterprise (Commercial) Editions.
+a/k/a Virtuoso Universal Server Multi-model (hybrid) DBMS supporting SQL/Tabular Relational (SQL), RDF/Graph Relational (SPARQL), XML (XPath, XQuery), Text/Document/Object, and more, available in Community (Open Source) and Enterprise (Commercial) Editions.
 API: ODBC, JDBC, OLE DB, ADO.NET, JSON, RDF4J/Sesame, Redland, SPARQL, others;
 Protocol: ODBC, JDBC, OLE DB, ADO.NET, HTTP, SPARQL, NNTP, IMAP, POP, LDP, others;
 Query Method: SQL, SPARQL, SPARQL-in-SQL (SPASQL), SQL-in-SPARQL (via SQL/PSM), XPath, XQuery, others;
@@ -435,7 +428,7 @@ Links: Virtuoso manual, Evolving Documentation. Open Source Project
 VertexDB
 FlockDB
 
- by twitter » »
+by twitter » »
 weaver
 
 scalable, fast, consistent
@@ -752,7 +745,7 @@ unresolved and uncategorized
 Web Hosting Canada Reviews
 
 - Live up time tracking and testing on over 20 of the most popular hosting solutions. Hosting speeds compared across 3 different CMS configurations.
-Btrieve
+  Btrieve
 
 (by Pervasive Software) key/index/tuple DB. Using Pages. » (faq »)
 KirbyBase
@@ -774,7 +767,3 @@ Realtime application server with an in-memory realtime DBMS with object level ev
 CodernityDB
 
 illuminate Correlation Database », FluidDB (Column Oriented DB) », Fleet DB », Btrieve, Twisted Storage », Java-Chronicle », Ringo, Sherpa, tin, Dryad, SkyNet, Disco Possibly the oldest NoSQL DB (together with MUMPS and IBMs IMS & IDMS [1968,1964]): » Adabas VSAM by IBM is also a good candidate.
-
-
-
-```

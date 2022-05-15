@@ -1,769 +1,310 @@
 ## LIST OF [NOSQL DATABASE](https://hostingdata.co.uk/nosql-database/) MANAGEMENT SYSTEMS [currently >225]
-- Wide Column Store / Column Families  
->  Hadoop / HBase  
-  Cassandra  
-  Apache Flink  
-- Document Store  
->  MongoDB  
-  CouchDB  
-- Key Value / Tuple Store
-- Graph Database Management Systems
-- Multimodel Database Management Systems
-- Object Database Management Systems »
-- Grid & Cloud Database Management Solutions
-- XML Database Management Systems
-- Multidimensional Database Management Systems
-- Multivalue Database Management Systems
-- Event Sourcing
-- Time Series / Streaming Database Management Systems
-- Other NoSQL related database management systems
-- Scientific and Specialized Database Management Systems
-- unresolved and uncategorized
-
-- Wide Column Store / Column Families
-Hadoop / HBase
-API: Java / any writer, Protocol: any write call, Query Method: MapReduce Java / any exec, Replication: HDFS Replication, Written in: Java, Concurrency: ?, Misc: Links: 3 Books [1, 2, 3], Guru99 Article >>
-MapR, Hortonworks, Cloudera
-
-Hadoop Distributions and professional services.
-Cassandra
-
-massively scalable, partitioned row store, masterless architecture, linear scale performance, no single points of failure, read/write support across multiple data centers & cloud availability zones. API / Query Method: CQL and Thrift, replication: peer-to-peer, written in: Java, Concurrency: tunable consistency, Misc: built-in data compression, MapReduce support, primary/secondary indexes, security features. Links: Documentation, PlanetC*, Company.
-Scylla
-
-Cassandra-compatible column store, with consistent low latency and more transactions per second. Designed with a thread-per-core model to maximize performance on modern multicore hardware. Predictable scaling. No garbage collection pauses, and faster compaction.
-Hypertable
-
-API: Thrift (Java, PHP, Perl, Python, Ruby, etc.), Protocol: Thrift, Query Method: HQL, native Thrift API, Replication: HDFS Replication, Concurrency: MVCC, Consistency Model: Fully consistent Misc: High performance C++ implementation of Google's Bigtable. » Commercial support
-Accumulo
-
-Accumulo is based on BigTable and is built on top of Hadoop, Zookeeper, and Thrift. It features improvements on the BigTable design in the form of cell-based access control, improved compression, and a server-side programming mechanism that can modify key/value pairs at various points in the data management process.
-Amazon SimpleDB
-
-Misc: not open source / part of AWS, Book (will be outperformed by DynamoDB!)
-Cloudata
-
-Google's Big table clone like HBase. » Article
-MonetDB
-
-Column Store pioneer since 2002.
-HPCC
-
-from LexisNexis, info, article
-Apache Flink
-
-(formerly known as Stratosphere) massively parallel & flexible data analytics platform, API: Java, Scala, Query Method: expressive data flows (extended M/R, rich UDFs, iteration support), Data Store: independent (e.g., HDFS, S3, MongoDB), Written in: Java, License: Apache License V2.0, Misc: good integration with Hadoop stack (HDFS, YARN), source code on Github
-IBM Informix
-
-horizontally and vertically scalable, relational, partitioned row store, document store API / Query Method: SQL (native, DRDA, JDBC, ODBC), MongoDB wire listener, mixed mode, replication: master / slave, peer-to-peer, sharding, grid operations, written in: C, Concurrency: row, page, table, db locking, Misc: ACID, built-in data compression, scheduler, automatic cyclic storage management, extensible, in memory acceleration, native ports from ARM v6 up Links: Documentation, IIUG, Company.
-Splice Machine
-
-Splice Machine is an RDBMS built on Hadoop, HBase and Derby. Scale real-time applications using commodity hardware without application rewrites, Features: ACID transactions, ANSI SQL support, ODBC/JDBC, distributed computing
-eXtremeDB Financial Edition
-
-massively scalable in-memory and persistent storage DBMS for analytics on market data (and other time series data). APIs: C/C++, Java Native Interface (JNI), C#/.NET), Python, SQL (native, ODBC, JDBC), Data layout: row, columnar, hybrid, Written in: C, Replication: master/slave, cluster, sharding, Concurrency: Optimistic (MVCC) and pessimistic (locking)
-ConcourseDB
-
-a distributed self-tuning DBMS with automatic indexing, version control and ACID transactions. Written In: Java. API/Protocol: Thrift (many languages). Concurrency: serializable transactions with just-in-time locking. Misc: uses a buffered storage system to commit all data to disk immediately while perform rich indexing in the background.
-Druid
-
-open-source analytics data store for business intelligence (OLAP) queries on event data. Low latency (real-time) data ingestion, flexible data exploration, fast data aggregation. Scaled to trillions of events & petabytes. Most commonly used to power user-facing analytic applications. API: JSON over HTTP, APIs: Python, R, Javascript, Node, Clojure, Ruby, Typescript + support SQL queries Written in: Java License: Apache 2.0 Replication: Master/Slave
-KUDU
-
-Apache Kudu (incubating) completes Hadoop's storage layer to enable fast analytics on fast data.
-Elassandra
-
-Elassandra is a fork of Elasticsearch modified to run on top of Apache Cassandra in a scalable and resilient peer-to-peer architecture. Elasticsearch code is embedded in Cassandra nodes providing advanced search features on Cassandra tables and Cassandra serve as an Elasticsearch data and configuration store.
-[OpenNeptune, Qbase, KDI]
-Document Store
-No SQL Encryption (Oracle)
-
-Oracle NoSQL Database can be configured securely with the proper technical guides.  Network communications between NoSQL clients, utilities, and NoSQL server components can and should be encrypted. This original document is curated and maintained by Ludovic Rembert. He has additional guides on his website about the best VPNs.
-Elastic
-
-API: REST and many languages, Protocol: REST, Query Method: via JSON, Replication + Sharding: automatic and configurable, written in: Java, Misc: schema mapping, multi tenancy with arbitrary indexes, » Company and Support, » Article
-ArangoDB, FaunaDB, OrientDB, gunDB
-
-(Doc Store & GraphDB & Key-Value. More details in Category Multimodel DBMS)
-MongoDB
-
-API: BSON, Protocol: C, Query Method: dynamic object-based language & MapReduce, Replication: Master Slave & Auto-Sharding, Written in: C++,Concurrency: Update in Place. Misc: Indexing, GridFS, Freeware + Commercial License Links: » Talk, » Notes, » Company
-Cloud Datastore
-
-A fully managed Document store with multi-master replication across data centers. Originally part of Google App Engine, it also has REST and gRPC APIs. Now Firestore?!
-Azure DocumentDB
-
-is a fully managed, globally distributed NoSQL DBMS perfect for the massive scale and low latency needs of modern applications. Guarantees: 99.99% availability, 99% of reads at <10ms and 99% of writes at <15ms. Scale to handle 10s-100s of millions of requests/sec and replicate globally with the click of a button. APIs: .NET, .NET Core, Java, Node.js, Python, REST. Query: SQL. Links: » Service, » Pricing, » Playground, » Documentation
-RethinkDB
-
-API: protobuf-based, Query Method: unified chainable query language (incl. JOINs, sub-queries, MapReduce, GroupedMapReduce); Replication: Sync and Async Master Slave with per-table acknowledgements, Sharding: guided range-based, Written in: C++, Concurrency: MVCC. Misc: log-structured storage engine with concurrent incremental garbage compactor
-Couchbase Server
-
-API: Memcached API+protocol (binary and ASCII) , most languages, Protocol: Memcached REST interface for cluster conf + management, Written in: C/C++ + Erlang (clustering), Replication: Peer to Peer, fully consistent, Misc: Transparent topology changes during operation, provides memcached-compatible caching buckets, commercially supported version available, Links: » Wiki, » Article
-CouchDB
-
-API: JSON, Protocol: REST, Query Method: MapReduceR of JavaScript Funcs, Replication: Master Master, Written in: Erlang, Concurrency: MVCC, Misc:
-Links: » 3 CouchDB books
-
-, » Couch Lounge (partitioning / clustering), » Dr. Dobbs
-ToroDB
-
-API: MongoDB API and SQL, Protocol: MongoDB Wire Protocol / MongoDB compatible, Query Method: dynamic object-based language & SQL, Replication: RDBMS Backends' Replication System & Support for replication from MongoDB's Replica Set, Written in: Java, Concurrency: MVCC. Misc: Open Source NoSQL and SQL DBMS. The agileness of a doc DB with the reliability and the native SQL capabilities of PostgreSQL. Links: » Company
-SequoiaDB
-
-API: BSON, Protocol: C, Query Method: dynamic object-based language, Replication: Master Slave & Auto-Sharding, Written in: C++, Misc: Indexing, Large Object Store, Transaction, Free + Commercial License, Benchmark, Code
-NosDB
-
-a 100% native .NET Open Source NoSQL Document DBMS (Apache 2.0 License). It also supports SQL querying over JSON Documents. Data can also be accessed through LINQ & ADO.NET. NosDB also provides strong server-side and client-side caching features by integrating NCache.
-RavenDB
-
-RavenDB is an Open Source NoSQL DBMS. Multi-Model: Document, Key-Value, Graph, Distributed Counters, Attachments. Fully Transactional (ACID) across database and throughout the cluster. Multiplatform: C#, Node.js, Java, Python, Ruby, Go. Multisystem: Windows, Linux, Mac OS, Docker, Raspberry Pi. Native GUI, MapReduce, full text search, memory management.
-UnQlite
-
-UnQLite is an embedded NoSQL (Key/Value store and Document-store) DBMS. Similar to MongoDB, Redis, CouchDB etc. as well a standard Key/Value store similar to BerkeleyDB, LevelDB, etc. It's a in-process software library which implements a self-contained, serverless, zero-configuration, transactional NoSQL DBMS. Open source, distributed under the 2-Clause BSD license.
-MarkLogic Server
-
-(developer+commercial) API: JSON, XML, Java Protocols: HTTP, REST Query Method: Full Text Search and Structured Query, XPath, XQuery, Range, Geospatial, Bitemporal Written in: C++ Concurrency: Shared-nothing cluster, MVCC Misc: Petabyte-scalable and elastic (on premise in the cloud), ACID + XA transactions, auto-sharding, failover, master slave replication (clusters), replication (within cluster), high availability, disaster recovery, full and incremental backups, government grade security at the doc level, developer community »
-Clusterpoint Server
-
-(freeware+commercial) API: XML, PHP, Java, .NET Protocols: HTTP, REST, native TCP/IP Query Method: full text search, XML, range and Xpath queries; Written in C++ Concurrency: ACID-compliant, transactional, multi-master cluster Misc: Petabyte-scalable document store and full text search engine. Information ranking. Replication. Cloudable.
-JSON ODM
-
-Object Document Mapper for JSON-Documents written in pure JavaScript. It queries the collections with a gremlin-like DSL that uses MongoDB's API methods, but also provides joining. The collections extend the native array objects, which gives the overall ODM a good performance. Queries 500.000 elements in less then a second.
-NeDB
-
-NoSQL DBMS for Node.js in pure javascript. It implements the most commonly used subset of MongoDB's API and is quite fast (about 25,000 reads/s on a 10,000 documents collection with indexing).
-Terrastore
-
-API: Java & http, Protocol: http, Language: Java, Querying: Range queries, Predicates, Replication: Partitioned with consistent hashing, Consistency: Per-record strict consistency, Misc: Based on Terracotta
-AmisaDB:
-
-Architected to unify the best of search engine, NoSQL and NewSQL DB technologies. API: REST and many languages. Query method: SQL. Written in C++. Concurrency: MVCC. Misc: ACID transactions, data distribution via consistent hashing, static and dynamic schema support, in-memory processing. Freeware + Commercial License
-JasDB
-
-Lightweight open source document DBMS written in Java for high performance, runs in-memory, supports Android. API: JSON, Java Query Method: REST OData Style Query language, Java fluent Query API Concurrency: Atomic document writes Indexes: eventually consistent indexes
-RaptorDB
-
-JSON based, Document store DBMS with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query filters
-djondb
-
-jonDB API: BSON, Protocol: C++, Query Method: dynamic queries and map/reduce, Drivers: Java, C++, PHP Misc: ACID compliant, Full shell console over google v8 engine, djondb requirements are submitted by users, not market. License: GPL and commercial
-EJDB
-
-Embeddable JSON DBMS engine. API: C/C++, Protocol: Native, HTTP, Websockets Written in: C11, Query language: XPath like query language (JQL), Concurrency: RW locking, Misc: Single file database, Indexing, License: MIT
-densodb
-
-DensoDB is a new NoSQL document DBMS. Written for .Net environment in c# language. It’s simple, fast and reliable. Source
-SisoDB
-
-A Document Store on top of SQL-Server.
-SDB
-
-For small online databases, PHP / JSON interface, implemented in PHP.
-NoSQL embedded db
-
-Node.js asynchronous NoSQL embedded DBMS for small websites or projects. DBMS supports: insert, update, remove, drop and supports views (create, drop, read). Written in JavaScript, no dependencies, implements small concurrency model.
-[CloudKit, Perservere,Jackrabbit]
-ThruDB
-
-(please help provide more facts!) Uses Apache Thrift to integrate multiple backend DBMS as BerkeleyDB, Disk, MySQL, S3.
-iBoxDB
-
-Transactional embedded DBMS, it can embed into mobile, desktop and web applications, supports on-disk and in-memory storages. API: Java,C# (Android, Mono, Xamarin, Unity3D). Query Method: SQL-like and KeyValue. Written In: Java, C#. Replication: MasterSlave, MasterMaster.
-BergDB
-
-API: Java/.NET. Written in: Java. Replication: Master/Slave. License: AGLP. Historical queries. ACID. Schemaless. Concurrency: STM and persistent data structure. Append-only storage. Encrypted storage. Flexible durability control. Secondary & composite indexes. Transparently serializes Java/.NET objects.
-ReasonDB
-
-100% JavaScript automatically synchronizing multi-model DBMS with a SQL like syntax (JOQULAR) and swappable persistence stores. It supports joins, nested matches, projections or live object result sets, asynchronous cursors, streaming analytics, 18 built-in predicates, in-line predicates, predicate extensibility, indexable computed values, fully indexed Dates and Arrays, built in statistical sampling. Persistence engines include files, Redis, LocalStorage, block storage, and more.
-IBM Cloudant
-
-Cloud based, open-source, zero-config. Based on CouchDB and BigCouch.
-BagriDB
-
-API: XQJ/XDM, REST, OpenAPI, Protocols: Java, HTTP, Query Method: distributed XQuery + server-side XQuery/Java extensions, Written in: Java, Concurrency: MVCC, Document format: XML, JSON, POJO, Avro, Protobuf, etc. Misc: in-memory Data and Computation Grid, transparent replication and fail-over, true horizontal scalability, ACID transactions, rich indexeng and trigger capabilities, pluggable persistent store, pluggable data formats. GitHub
-Key Value / Tuple Store
-DynamoDB
-
-Automatic ultra scalable NoSQL DB based on fast SSDs. Multiple Availability Zones. Elastic MapReduce Integration. Backup to S3 and much more...
-Azure Table Storage
-
-Collections of free form entities (row key, partition key, timestamp). Blob and Queue Storage available, 3 times redundant. Accessible via REST or ATOM.
-Riak
-
-API: tons of languages, JSON, Protocol: REST, Query Method: MapReduce term matching , Scaling: Multiple Masters; Written in: Erlang, Concurrency: eventually consistent (stronger then MVCC via Vector Clocks)
-Redis
-
-API: Tons of languages, Written in: C, Concurrency: in memory and saves asynchronous disk after a defined time. Append only mode available. Different kinds of fsync policies. Replication: Master / Slave, Misc: also lists, sets, sorted sets, hashes, queues. Cheat-Sheet: », great slides » Admin UI » From the Ground up »
-Aerospike
-
-Fast and web-scale DBMS. RAM or SSD. Predictable performance; achieves 2.5 M TPS (reads and writes), 99% under 1 ms. Tunable consistency. Replicated, zero configuration, zero downtime, auto-clustering, rolling upgrades, Cross Datacenter Replication (XDR). Written in: C. APIs: C, C#, Erlang, Go, Java, Libevent, Node, Perl, PHP, Python, Ruby. Links: Community, Development, Slides, 2.5M TPS on 1 node at Intel, 1M TPS on AmazonWS, 1M TPS w/ SSDs on 1 Server, Combating Memory Fragmentation
-LevelDB
-
-Fast & Batch updates. DB from Google. Written in C++. Blog », hot Benchmark », Article » (in German). Java access. C# (for Universal Windows Platform) access.
-RocksDB
-
-API: C++. Written in C++. Facebook`s improvements to Google`s LevelDB to speed throughput for datasets larger than RAM. Embedded solution.
-Berkeley DB
-
-API: Many languages, Written in: C, Replication: Master / Slave, Concurrency: MVCC, License: Sleepycat, Berkeley DB Java Edition: API: Java, Written in: Java, Replication: Master / Slave, Concurrency: serializable transaction isolation, License: Sleepycat
-Helium
-
-API: C, C++, Java, Python, NodeJS. Written in C. Key-value store aimed at high throughput and low latency (usecs) applications. Designed to run on many-core systems with fast storage such as SSDs and NVMs. Low and predictable memory footprint, low write amplification. License: proprietary Mode: embedded, single serverLinks Multi million ops/sec on GCP, Real-time low latency KV with Helium and Samsung Z-SSD
-KeyDB
-
-API: Multiple languages (Redis Compatible) Replication: Master / Master - A multithreaded fork of Redis with a ton of extra features such as Active Replication, AWS S3 integration, and significantly lower latency.
-GenieDB
-
-Immediate consistency sharded KV store with an eventually consistent AP store bringing eventual consistency issues down to the theoretical minimum. It features efficient record coalescing. GenieDB speaks SQL and co-exists / do intertable joins with SQL RDBMs.
-BangDB
-
-API: Get,Put,Delete, Protocol: Native, HTTP, Flavor: Embedded, Network, Elastic Cache, Replication: P2P based Network Overlay, Written in: C++, Concurrency: ?, Misc: robust, crash proof, Elastic, throw machines to scale linearly, Btree/Ehash
-Chordless
-
-API: Java & simple RPC to vals, Protocol: internal, Query Method: M/R inside value objects, Scaling: every node is master for its slice of namespace, Written in: Java, Concurrency: serializable transaction isolation,
-Scalaris
-
-(please help provide more facts!) Written in: Erlang, Replication: Strong consistency over replicas, Concurrency: non blocking Paxos.
-Tokyo Cabinet / Tyrant
-
-Links: nice talk », slides », Misc: Kyoto Cabinet »
-Scalien
-
-API / Protocol: http (text, html, JSON), C, C++, Python, Java, Ruby, PHP,Perl. Concurrency: Paxos.
-Voldemort
-
-Open-Source implementation of Amazons Dynamo Key-Value Store.
-Dynomite
-
-Open-Source implementation of Amazons Dynamo Key-Value Store. written in Erlang. With "data partitioning, versioning, and read repair, and user-provided storage engines provide persistence and query processing".
-KAI
-
-Open Source Amazon Dynamo implementation, Misc: slides
-MemcacheDB
-
-API: Memcache protocol (get, set, add, replace, etc.), Written in: C, Data Model: Blob, Misc: Is Memcached writing to BerkleyDB.
-Faircom C-Tree
-
-API: C, C++, C#, Java, PHP, Perl, Written in: C,C++. Misc: Transaction logging. Client/server. Embedded. SQL wrapper (not core). Been around since 1979.
-LSM
-
-Key-Value DBMS that was written as part of SQLite4, They claim it is faster then LevelDB. Instead of supporting custom comparators, they have a recommended data encoding for keys that allows various data types to be sorted.
-KitaroDB
-
-: A fast, efficient on-disk data store for Windows Phone 8, Windows RT, Win32 (x86 & x64) and .NET. Provides for key-value and multiple segmented key access. APIs for C#, VB, C++, C and HTML5/JavaScript. Written in pure C for high performance and low footprint. Supports async and synchronous operations with 2GB max record size.
-upscaledb
-
-: (embedded solution) API: C, C++, .NET, Java, Erlang. Written in C,C++. Fast key/value store with a parameterized B+-tree. Keys are "typed" (i.e. 32bit integers, floats, variable length or fixed length binary data). Has built-in analytical functions like SUM, AVERAGE etc.
-STSdb
-
-API: C#, Written in C#, embedded solution, generic XTable<TKey,TRecord> implementation, ACID transactions, snapshots, table versions, shared records, vertical data compression, custom compression, composite & custom primary keys, available backend file system layer, works over multiple volumes, petabyte scalability, LINQ.
-Tarantool/Box
-
-API: C, Perl, PHP, Python, Java and Ruby. Written in: Objective C ,Protocol: asynchronous binary, memcached, text (Lua console). Data model: collections of dimensionless tuples, indexed using primary + secondary keys. Concurrency: lock-free in memory, consistent with disk (write ahead log). Replication: master/slave, configurable. Other: call Lua stored procedures.
-Chronicle Map
-
-In-memory (opt. persistence via mmap), highly concurrent, low-latency key-value store. API: Java. Written in: Java. Protocol: in-process Java, remote via Chronicle Engine + Wire: binary, text, Java, C# bindnings. Concurrency: in-memory lock striping, read-write locks. Replication: multi-master, eventually consistent.
-Maxtable
-
-API: C, Query Method: MQL, native API, Replication: DFS Replication, Consistency: strict consistency Written in: C.
-Pincaster
-
-For geolocalized apps. Concurrency: in-memory with asynchronous disk writes. API: HTTP/JSON. Written in: C. License: BSD.
-RaptorDB
-
-A pure key value store with optimized b+tree and murmur hashing. (In the near future it will be a JSON document DBMS much like mongodb and couchdb.)
-TIBCO Active Spaces
-
-peer-to-peer distributed in-memory (with persistence) datagrid that implements and expands on the concept of the Tuple Space. Has SQL Queries and ACID (=> NewSQL).
-allegro-C
-
-Key-Value concept. Variable number of keys per record. Multiple key values, Hierarchic records. Relationships. Diff. record types in same DB. Indexing: B*-Tree. All aspects configurable. Full scripting language. Multi-user ACID. Web interfaces (PHP, Perl, ActionScript) plus Windows client.
-nessDB
-
-A fast key-value DBMS (using LSM-Tree storage engine), API: Redis protocol (SET,MSET,GET,MGET,DEL etc.), Written in: ANSI C
-HyperDex
-
-Distributed searchable key-value store. Fast (latency & throughput), scalable, consistent, fault tolerance, using hyperspace hashing. APIs for C, C++ and Python.
-SharedHashFile
-
-Fast, open source, shared memory (using memory mapped files e.g. in /dev/shm or on SSD), multi process, hash table, e.g. on an 8 core i7-3720QM CPU @ 2.60GHz using /dev/shm, 8 processes combined have a 12.2 million / 2.5 to 5.9 million TPS read/write using small binary keys to a hash file containing 50 million keys. Uses sharding internally to mitigate lock contention. Written in C.
-Symas LMDB
-
-Ultra-fast, ultra-compact key-value embedded data store developed by Symas for the OpenLDAP Project. It uses memory-mapped files, so it has the read performance of a pure in-memory DBMS while still offering the persistence of standard disk-based DBMS, and is only limited to the size of the virtual address space, (it is not limited to the size of physical RAM)
-Sophia
-
-Sophia is a modern embeddable key-value DBMS designed for a high load environment. It has unique architecture that was created as a result of research and rethinking of primary algorithmic constraints, associated with a getting popular Log-file based data structures, such as LSM-tree. Implemented as a small C-written, BSD-licensed library.
-NCache
-
-.NET Open Source Distributed Cache. Written in C#. API .NET & Java. Query Parallel SQL Query, LINQ & Tags. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Messaging, Runtime Data Sharing, Cache & Item Level Events, Continuous Query & Custom Events, DB Dependencies & Expirations
-TayzGrid
-
-Open Source In-Memory JCache compliant Data Grid. Written in Java. API Java, JCache JSR 107 & .NET. Query SQL & DB Synchronization. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Distributed Messaging, MapReduce, Entry Processor and Aggregator
-PickleDB
-
-Redis inspired K/V store for Python object serialization.
-Mnesia
-
-(ErlangDB »)
-LightCloud
-
-(based on Tokyo Tyrant)
-Hibari
-
-Hibari is a highly available, strongly consistent, durable, distributed key-value data store
-OpenLDAP
-
-Key-value store, B+tree. Lightning fast reads+fast bulk loads. Memory-mapped files for persistent storage with all the speed of an in-memory DBMS. No tuning conf required. Full ACID support. MVCC, readers run lockless. Tiny code, written in C, compiles to under 32KB of x86-64 object code. Modeled after the BerkeleyDB API for easy migration from Berkeley-based code. Benchmarks against LevelDB, Kyoto Cabinet, SQLite3, and BerkeleyDB are available, plus full paper and presentation slides.
-Genomu
-
-High availability, concurrency-oriented event-based K/V DBMS with transactions and causal consistency. Protocol: MsgPack, API: Erlang, Elixir, Node.js. Written in: Elixir, Github-Repo.
-BinaryRage
-
-BinaryRage is designed to be a lightweight ultra fast key/value store for .NET with no dependencies. Tested with more than 200,000 complex objects written to disk per second on a crappy laptop 🙂 No configuration, no strange driver/connector, no server, no setup - simply reference the dll and start using it in less than a minute.
-Elliptics
-
-Github Page »
-DBreeze
-
-Professional, open-source, NoSql (embedded Key/Value storage), transactional, ACID-compliant, multi-threaded, object DBMS management system for .NET 3.0> MONO. Written in C#.
-TreodeDB
-
-API: Scala. Written in Scala. Replication: Replicas vote on writes and reads. Sharding: Hashes keys onto array of replica cohorts. Concurrency: Optimistic + Multiversion Concurrency Control. Provides multirow atomic writes. Exposes optimistic concurrency through API to support HTTP Etags. Embedded solution.
-BoltDB
-
-Key/Value DB written in Go.
-Serenity
-
-Serenity DBMS implements basic Redis commands and extends them with support of Consistent Cursors, ACID transactions, Stored procedures, etc. The DBMS is designed to store data bigger then available RAM.
-Cachelot
-
-API: Memcached. Written in C++. In-memory LRU cache with very small memory footprint. Works within fixed amount of memory. Cachelot has a C++ cache library and stand-alone server on top of it.
-filejson
-
-Use a JSON encoded file to automatically save a JavaScript value to disk whenever that value changes. A value can be a Javascript: string, number, boolean, null, object, or an array. The value can be structured in an array or an object to allow for more complex data stores. These structures can also be nested. As a result, you can use this module as a simple document store for storing semistructured data.
-InfinityDB
-
-InfinityDB is an all-Java embedded DBMS with access like java.util.concurrent.ConcurrentNavigableMap over a tuple space, enhanced for nested Maps, LOBs, huge sparse arrays, wide tables with no size constraints. Transactions, compression, multi-core concurrency, easy schema evolution. Avoid the text/binary trap: strongly-typed, fine-grained access to big structures. 1M ops/sec. Commercial, closed source, patented.
-KeyVast
-
-Key Value Store with scripting language. Data types include list, dictionary and set. Hierarchical keys. API: TCP/IP, Protocol: Query language, Written in: Delphi, License: MIT, Links: Github
-SCR Siemens Common Repository
-
-In-Memory, scale-by-cell division (under load), multi-tiered scalability (transactions, entries, indicies), read=write, geo-redundancy, redundancy per datatype, LDAP, API, bulkload facility for VNF state resiliency, VNF-M integratable, self-[re-]balancing, Backend for Mobile Network Functions
-IOWOW
-
-The C/C++ persistent key/value storage engine based on skip list data structure. API: C/C++. Protocol: Native. Written in: C11, Concurrency: RW locking. License: MIT
-BBoxDB
-
-A distributed data store for multi-dimensional data. BBoxDB enhances the key-value data model by a bounding box, which describes the location of a value in an n-dimensional space. Data can be efficiently retrieved using hyper-rectangle queries. Spatial joins and dynamic data redistribution are also supported. API: Java, Protocol: asynchronous binary, Data model: Key-bounding-box-value, Scaling: Auto-Sharding, Replication, Written in: Java, Concurrency: eventually consistent / RW locking
-NuSTER
-
-A HTTP based, user facing, RESTful NoSQL cache server based on HAProxy. It can be used as an internal NoSQL cache sits between your application and DBMS like Memcached or Redis as well as a user facing NoSQL cache that sits between end user and your application. It supports headers, cookies, so you can store per-user data to same endpoint. Protocol: HTTP. Written in: C.
-JDX
-
-A lightweight in-memory document-oriented DBMS written with JavaScript. Includes Single Page Application API, node serialization, tree browsing and CRUD operations on document tuples through web GUI. Integrate with server-side noSQL DBMS instance into a transaction-synchronous cluster, create SPA content or browse and serialize document tuples with HTML interface.
-Antidote
-
-Geo-replicated; multi-master; both reads & writes have local latency; sharded. Available under Partition (AP) with a high consistency (CP); MVCC; transactions; causal consistency (no ordering anomalies). API: CRDTs (= concurrent update, convergence). Protocol buffers, Erlang, JavaScript, Java, Go, REST. Ongoing work: same guarantees at edge; SQL-like language; static analysis; strong consistency on demand. Open source; written in Erlang. Publication: Cure
-[Scality », KaTree » TomP2P », Kumofs » , TreapDB », Wallet » , NoSQLz », NMDB, luxio, actord, keyspace, flare, schema-free, RAMCloud]
-[SubRecord, Mo8onDb, Dovetaildb]
-Graph Database Management Systems
-Neo4J
-
-API: lots of langs, Protocol: Java embedded / REST, Query Method: Cypher, nativeJavaAPI, JRuby, Replication: typical MySQL style master/slave, Written in: Java, Concurrency: non-block reads, writes locks involved nodes/relationships until commit, Misc: ACID possible, Links: Video », Blog »
-ArangoDB, FaunaDB, OrientDB, gunDB
-
-(Doc Store & GraphDB & Key-Value. More details in Category Multimodel Database Management Systems)
-Infinite Graph
-
-(by Objectivity) API: Java, Protocol: Direct Language Binding, Query Method: Graph Navigation API, Predicate Language Qualification, Written in: Java (Core C++), Data Model: Labeled Directed Multi Graph, Concurrency: Update locking on subgraphs, concurrent non-blocking ingest, Misc: Free for Qualified Startups.
-Sparksee
-
-(former DEX): API: Java, .NET, C++, Python, Objective-C, Blueprints Interface Protocol: Embedded, Query Method: as above + Gremlin (via Blueprints), Written in: C++, Data Model: Labeled Directed Attributed Multigraph, Concurrency: yes, Misc: ACID possible, Free community edition up to 1 Mio objects, Links: Intro », Technical Overview »
-TITAN
-
-: API: Java, Blueprints, Gremlin, Python, Clojure Protocol: Thrift, RexPro(Binary), Rexster (HTTP/REST) Query Method: Gremlin, SPARQL Written In: Java Data Model: labeled Property Graph, directed, multi-graph adjacency list Concurrency: ACID Tunable C Replication: Multi-Master License: Apache 2 Pluggable backends: Cassandra, HBase, MapR M7 Tables, BDB, Persistit, Hazelcast Links: Titan User Group
-InfoGrid
-
-API: Java, http/REST, Protocol: as API + XPRISO, OpenID, RSS, Atom, JSON, Java embedded, Query Method: Web user interface with html, RSS, Atom, JSON output, Java native, Replication: peer-to-peer, Written in: Java, Concurrency: concurrent reads, write lock within one MeshBase, Misc: Presentation »
-HyperGraphDB
-
-API: Java (and Java Langs), Written in:Java, Query Method: Java or P2P, Replication: P2P, Concurrency: STM, Misc: Open-Source, Especially for AI and Semantic Web.
-GraphBase
-
-Sub-graph-based API, query language, tools & transactions. Embedded Java, remote-proxy Java or REST. Distributed storage & processing. Read/write all Nodes. Permissions & Constraints frameworks. Object storage, vertex-embedded agents. Supports multiple graph models. Written in Java
-Trinity
-
-API: C#, Protocol: C# Language Binding, Query Method: Graph Navigation API, Replication: P2P with Master Node, Written in: C#, Concurrency: Yes (Transactional update in online query mode, Non-blocking read in Batch Mode) Misc: distributed in-memory storage, parallel graph computation platform (Microsoft Research Project)
-AllegroGraph
-
-API: Java, Python, Ruby, C#, Perl, Clojure, Lisp Protocol: REST, Query Method: SPARQL and Prolog, Libraries: Social Networking Analytics & GeoSpatial, Written in: Common Lisp, Links: Learning Center », Videos »
-BrightstarDB
-
-A native, .NET, semantic web DBMS with code first Entity Framework, LINQ and OData support. API: C#, Protocol: SPARQL HTTP, C#, Query Method: LINQ, SPARQL, Written in: C#
-Bigdata
-
-API: Java, Jini service discovery, Concurrency: very high (MVCC), Written in: Java, Misc: GPL + commercial, Data: RDF data with inference, dynamic key-range sharding of indices, Misc: Blog » (parallel DBMS, high-availability architecture, immortal DBMS with historical views)
-Meronymy
-
-RDF enterprise database management system. It is cross-platform and can be used with most programming languages. Main features: high performance, guarantee database transactions with ACID, secure with ACL's, SPARQL & SPARUL, ODBC & JDBC drivers, RDF & RDFS. »
-WhiteDB
-
-WhiteDB is a fast lightweight graph/N-tuples shared memory DBMS library written in C with focus on speed, portability and ease of use. Both for Linux and Windows, dual licensed with GPLv3 and a free nonrestrictive royalty-free commercial licence.
-Onyx DBMS
-
-Graph/ORM high throughput DBMS built in Java supports embedded, in-memory, and remote. Horizontal scalability through sharding, partitioning, replication, and disaster recovery API: Java, REST via (Objective C, Android, etc...), Protocol: Java embedded/Binary Socket/REST, Query Method: Persistence Manager/ORM, Replication: Multicast, Written in: Java, Concurrency: Re-entrant read/write, Misc: Free and Open Source. Commercial licensing available Tutorials
-OpenLink Virtuoso
-
-a/k/a Virtuoso Universal Server Multi-model (hybrid) DBMS supporting SQL/Tabular Relational (SQL), RDF/Graph Relational (SPARQL), XML (XPath, XQuery), Text/Document/Object, and more, available in Community (Open Source) and Enterprise (Commercial) Editions.
-API: ODBC, JDBC, OLE DB, ADO.NET, JSON, RDF4J/Sesame, Redland, SPARQL, others;
-Protocol: ODBC, JDBC, OLE DB, ADO.NET, HTTP, SPARQL, NNTP, IMAP, POP, LDP, others;
-Query Method: SQL, SPARQL, SPARQL-in-SQL (SPASQL), SQL-in-SPARQL (via SQL/PSM), XPath, XQuery, others;
-Replication (Enterprise Edition only): Star, Chain, and/or Bi-Directional Replication Clusters, as well as Shared-Nothing Elastic Clusters;
-Written in: C/C++; extensible via C/C++, Java, Perl, Python, PHP, others;
-Concurrency: ACID;
-Misc: Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC)
-Links: Virtuoso manual, Evolving Documentation. Open Source Project
-VertexDB
-FlockDB
-
-by twitter » »
-weaver
-
-scalable, fast, consistent
-BrightstarDB
-Execom IOG
-Fallen 8
-
-Github »
-[Java Universal Network / Graph Framework, OpenRDF / Sesame, Filament, OWLim, NetworkX, iGraph, Jena]
-List of SPARQL implementations can be found here
-Multimodel Database Management Systems
-ArangoDB
-
-API: REST, Graph Blueprints, C#, D, Ruby, Python, Java, PHP, Go, Python, etc. Data Model: Documents, Graphs and Key/Values. Protocol: HTTP using JSON. Query Method: declarative query language (AQL), query by example. Replication: master-slave (m-m to follow), Sharding: automatic and configurable Written in: C/C++/Javascript (V8 integrated), Concurrency: MVCC, tunable Misc: ACID transactions, microservices framework "Foxx" (Javascript), many indices as secondary, fulltext, geo, hash, Skip-list, capped collections
-OpenLink Virtuoso
-
-a/k/a Virtuoso Universal Server Multi-model (hybrid) DBMS supporting SQL/Tabular Relational (SQL), RDF/Graph Relational (SPARQL), XML (XPath, XQuery), Text/Document/Object, and more, available in Community (Open Source) and Enterprise (Commercial) Editions.
-API: ODBC, JDBC, OLE DB, ADO.NET, JSON, RDF4J/Sesame, Redland, SPARQL, others;
-Protocol: ODBC, JDBC, OLE DB, ADO.NET, HTTP, SPARQL, NNTP, IMAP, POP, LDP, others;
-Query  Method: SQL, SPARQL, SPARQL-in-SQL (SPASQL), SQL-in-SPARQL (via SQL/PSM), XPath, XQuery, others;
-Replication (Enterprise Edition only): Star, Chain, and/or Bi-Directional Replication Clusters, as well as Shared-Nothing Elastic Clusters;
-Written in: C/C++; extensible via C/C++, Java, Perl, Python, PHP, others;
-Concurrency: ACID; Misc: Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC)
-Links: Virtuoso manual, Evolving Documentation. Open Source Project
-OrientDB
-
-API: REST, Binary Protocol, Java, Node.js, Tinkerpop Blueprints, Python, PHP, Go, Elixir, etc., Schema: Has features of an Object DBMS, Document DBMS, Graph DBMS, and Key-Value DBMS, Written in: Java, Query Method: SQL, Gremlin, SparQL, Concurrency: MVCC, tunable, Indexing: Primary, Secondary, Composite indexes with support for Full-Text and Spatial, Replication: Master-Master + sharding, Misc: Really fast, Lightweight, ACID with recovery.
-FaunaDB
-
-Packaging: Fully managed serverless cloud, or on-premise enterprise packages. API: HTTP, JavaScript, C#, Java, Ruby, Python, Swift, Android, Go, Python, Scala. Data Model: Documents, Graphs and Key/Values. Query Method: Fauna Query Language is optimized for expressing business transactions including precondition checks and control flow. Replication: active/active with global ACID transactions, Sharding: automatic Written in: Scala Concurrency: MVCC with configurable snapshot retention, all transactions are consistent. Misc: Multi-region ACID transactions, indexes, joins, and object level security.
-FoundationDB
-
-Bought by Apple Inc. Closed and reopened for public access.
-Datomic
-
-API: Many jvm languages, Protocol: Native + REST, Query Method: Datalog + custom extensions, Scaling: elastic via underlying DB (in-mem, DynamoDB, Riak, CouchBase, Infinispan, more to come), Written in: Clojure, Concurrency: ACID MISC: smart caching, unlimited read scalability, full-text search, cardinality, bi-directional refs 4 graph traversal, loves Clojure + Storm.
-gunDB
-
-API: JavaScript Schema: Has features of an Object DBMS, Document DBMS, Graph DBMS, and Key-Value DBMS Written in: JavaScript Query Method: JavaScript Concurrency: Eventual consistency with hybrid vector/timestamp/lexical conflict resolution Indexing: O(1) key/value, supports multiple indices per record Replication: Multi-Master/Master; browser peer-to-peer (P2P) enabled Misc: Open source, realtime sync, offline-first, distributed/decentralized, graph-oriented, and fault-tolerant
-CortexDB
-
-CortexDB is a dynamic schema-less multi-model data base providing nearly all advantages of up to now known NoSQL data base types (key-value store, document store, graph DB, multi-value DB, column DB) with dynamic re-organization during continuous operations, managing analytical and transaction data for agile software configuration,change requests on the fly, self service and low footprint.
-Oracle NOSQL Database
-
-Oracle NoSQL Database is a distributed key-value DBMS with support for JSON docs. It is designed to provide highly reliable, scalable and available data storage across a configurable set of systems that function as storage nodes. NoSQL and the Enterprise Data is stored as key-value pairs, which are written to particular storage node(s), based on the hashed value of the primary key. Storage nodes are replicated to ensure high availability, rapid failover in the event of a node failure and optimal load balancing of queries. API: Java/C, Python, NodeJs, C#.
-AlchemyDB
-
-GraphDB + RDBMS + KV Store + Document Store. Alchemy Database is a low-latency high-TPS NewSQL RDBMS embedded in the NOSQL datastore redis. Extensive datastore-side-scripting is provided via deeply embedded Lua. Bought and integrated with Aerospike.
-WonderDB
-
-API:JDBC,SQL; WonderDB is fully transactional, distributed NewSQL DBMS implemented in java based on relational architectures. So you can get best of both worlds, sql, joins and ease of use from SQL and distribution, replication and sharding from NoSQL movement. Tested performance is over 60K per node with Amazon m3.xlarge VM.
-RockallDB
-
-A new concept to ‘NoSQL’ DBMS where a memory allocator and a transactional DBMS are melted together into an almost seamless whole. The programming model uses variants of well-known memory allocation calls like ‘new’ and ‘delete’ to manage the database. The result is very fast, natural to use, reliable and scalable. It is especially good in Big Data, data collection, embedded, high performance, Internet of Things (IoT) or mobile type applications.
-ZZZ Base
-
-GraphDB + KV Store + Document Store + Object + TimeSeries. ZZZ base is a knowledge base embedded in a single executable ZZZ server. Currently, a base can store up to 8,000,000 terabytes of information. A ZZZ server can access an unlimited number of knowledge bases on the computer on which it is installed or on the Internet by linking to an unlimited number of other ZZZ servers.
-
-The following section contains Soft NoSQL Systems
-
-[Mostly NOT originated out of a Web 2.0 need but worth a look for great non relational solutions]
-Object Database Management Systems »
-Versant
-
-API: Languages/Protocol: Java, C#, C++, Python. Schema: language class model (easy changeable). Modes: always consistent and eventually consistent Replication: synchronous fault tolerant and peer to peer asynchronous. Concurrency: optimistic and object based locks. Scaling: can add physical nodes on fly for scale out/in and migrate objects between nodes without impact to application code. Misc: MapReduce via parallel SQL like query across logical database groupings.
-db4o
-
-API: Java, C#, .Net Langs, Protocol: language, Query Method: QBE (by Example), Soda, Native Queries, LINQ (.NET), Replication: db4o2db4o & dRS to relational, Written in: Java, Concurrency: ACID serialized, Misc: embedded lib, Links: DZone Refcard #53 », Book »,
-Objectivity
-
-API: Languages: Java, C#, C++, Python, Smalltalk, SQL access through ODBC. Schema: native language class model, direct support for references, interoperable across all language bindings. 64 bit unique object ID (OID) supports multi exa-byte. Platforms: 32 and 64 bit Windows, Linux, Mac OSX, *Unix. Modes: always consistent (ACID). Concurrency: locks at cluster of objects (container) level. Scaling: unique distributed architecture, dynamic addition/removal of clients & servers, cloud environment ready. Replication: synchronous with quorum fault tolerant across peer to peer partitions.
-GemStone/S
-
-API: Java, C, C++, Smalltalk Schema: language class model Platforms: Linux, AIX, Solaris, Mac OSX, Windows clients Modes: always consistent (ACID) Replication: shared page cache per node, hot standby failover Concurrency: optimistic and object based locks Scaling: arbitrarily large number of nodes Misc: SQL via GemConnect
-Starcounter
-
-API: C# (.NET languages), Schema: Native language class model, Query method: SQL, Concurrency: Fully ACID compliant, Storage: In-memory with transactions secured on disk, Reliability: Full checkpoint recovery, Misc: VMDBMS - Integrating the DBMS with the virtual machine for maximal performance and ease of use.
-Perst
-
-API: Java,Java ME,C#,Mono. Query method: OO via Perst collections, QBE, Native Queries, LINQ, native full-text search, JSQL Replication: Async+sync (master-slave) Written in: Java, C#. Caching: Object cache (LRU, weak, strong), page pool, in-memory DBMS Concurrency: Pessimistic+optimistic (MVCC) + async or sync (ACID) Index types: Many tree models + Time Series. Misc: Embedded lib., encryption, automatic recovery, native full text search, on-line or off-line backup.
-VelocityDB
-
-Written in100% pure C#, Concurrency: ACID/transactional, pessimistic/optimistic locking, Misc: compact data, B-tree indexes, LINQ queries, 64bit object identifiers (Oid) supporting multi millions of databases and high performance. Deploy with a single DLL of around 400KB.
-HSS Database
-
-Written in: 100% C#, The HSS DB v3.0 (HighSpeed-Solutions Database), is a client based, zero-configuration, auto schema evolution, acid/transactional, LINQ Query, DBMS for Microsoft .NET 4/4.5, Windows 8 (Windows Runtime), Windows Phone 7.5/8, Silverlight 5, MonoTouch for iPhone and Mono for Android
-ZODB
-
-API: Python, Protocol: Internal, ZEO, Query Method: Direct object access, zope.catalog, gocept.objectquery, Replication: ZEO, ZEORAID, RelStorage Written in: Python, C Concurrency: MVCC, License: Zope Public License (OSI approved) Misc: Used in production since 1998
-Newt DB
-
-Newt DB leverages the pluggable storage layer of ZODB to use RelStorage to store data in Postgres. Newt adds conversion of data from the native serialization used by ZODB to JSON, stored in a Postgres JSONB column. The JSON data supplements the native data to support indexing, search, and access from non-Python applications. It adds a search API for searching the Postgres JSON data and returning persistent objects. Query Method: Postgres SQL, ZODB API, Replication: Postgres, ZEO, ZEORAID, RelStorage, Written in: Python, Concurrency: MVCC, License: MIT
-NEO
-
-API: Python - ZODB "Storage" interface, Protocol: native, Query Method: transactional key-value, Replication: native, Written in: Python, Concurrency: MVCC (internally), License: GPL "v2 or later", Misc: Load balancing, fault tolerant, hot-extensible.
-Magma
-
-Smalltalk DB, optimistic locking, Transactions, etc.
-siaqodb
-
-An object DBMS engine that currently runs on .NET, Mono, Silverlight,Windows Phone 7, MonoTouch, MonoAndroid, CompactFramework; It has implemented a Sync Framework Provider and can be synchronized with MS SQLServer; Query method:LINQ;
-JADE
-
-Programming Language with an Object DBMS build in. Around since 1996.
-Sterling
-
-is a lightweight object-oriented DBMS for .NET with support for Silverlight and Windows Phone 7. It features in-memory keys and indexes, triggers, and support for compressing and encrypting the underlying data.
-MarcelloDB
-
-An embedded object DBMS designed for mobile apps targeting .net and Mono runtimes. Supports .net/mono, Xamarin (iOS and Android), Windows 8.1/10, Windows Phone 8.1. Simple API, built on top of json.net and has a simple but effective indexing mechanism. Development is focussed on being lightweight and developer friendly. Has transaction support. Open-source and free to use.
-Morantex
-
-Stores .NET classes in a datapool. Build for speed. SQL Server integration. LINQ support.
-EyeDB
-
-EyeDB is an LGPL OODBMS, provides an advanced object model (inheritance, collections, arrays, methods, triggers, constraints, reflexivity), an object definition language based on ODMG ODL, an object query and manipulation language based on ODMG OQL. Programming interfaces for C++ and Java.
-FramerD
-
-Object-Oriented DBMS designed to support the maintenance and sharing of knowledge bases. Optimized for pointer-intensive data structures used by semantic networks, frame systems, and many intelligent agent applications. Written in: ANSI C.
-Ninja Database Pro
-
-Ninja Database Pro is a .NET ACID compliant relational object DBMS that supports transactions, indexes, encryption, and compression. It currently runs on .NET Desktop Applications, Silverlight Applications, and Windows Phone 7 Applications.
-NDatabase
-
-API: C#, .Net, Mono, Windows Phone 7, Silverlight, Protocol: language, Query Method: Soda, LINQ (.NET), Written in: C#, Misc: embedded lib, indexes, triggers, handle circular ref, LinqPad support, Northwind sample, refactoring, in-memory DBMS, Transactions Support (ACID) and more, Documentation: »
-PicoLisp
-
-Language and Object DBMS, can be viewed as a DBMS Development Framework. Schema: native language class model with relations + various indexes. Queries: language build in + a small Prolog like DSL Pilog. Concurrency: synchronization + locks. Replication, distribution and fault tolerance is not implemented per default but can be implemented with native functionality. Written in C (32bit) or assembly (64bit).
-acid-state
-
-API: Haskell, Query Method: Functional programming, Written in: Haskell, Concurrency: ACID, GHC concurrent runtime, Misc: In-memory with disk-based log, supports remote access Links: Wiki », Docs »
-ObjectDB
-
-API: Java (JPA / JDO) Query method: JPA JPQL, JDO JDOQL Replication: Master-slave Written in: 100% Pure Java Caching: Object cache, Data cache, Page cache, Query Result cache, Query program cache Concurrency: Object level locking (pessimistic + optimistic) Index types: BTree, single, path, collection Misc: Used in production since 2004, Embedded mode, Client Server mode, automatic recovery, on-line backup.
-CoreObject
-
-CoreObject: Version-controlled OODB, that supports powerful undo, semantic merging, and real-time collaborative editing. MIT-licensed, API: ObjC, Schema: EMOF-like, Concurrency: ACID, Replication: differential sync, Misc: DVCS based on object graph diffs, selective undo, refs across versioned docs, tagging, temporal indexing, integrity checking.
-[ StupidDB », KiokuDB » (Perl solution), Durus »]
-Grid & Cloud Database Management Solutions
-GridGain
-
-In-Memory Computing Platform built on Apache® Ignite™ to provide high-speed transactions with ACID guarantees, real-time streaming, and fast analytics in a single, comprehensive data access and processing layer. The distributed in-memory key value store is ANSI SQL-99 compliant with support for SQL and DML via JDBC or ODBC. API: Java, .NET, and C++. Minimal or no modifications to the application or database layers for architectures built on all popular RDBMS, NoSQL or Apache™ Hadoop® DBMS.
-Crate Data
-
-A shared nothing, document-oriented cluster data store. Accessed via SQL and has builtin BLOB support. Uses the cluster state implementation and node discovery of Elasticsearch. License: Apache 2.0, Query Method: SQL, Clients: HTTP (REST), Python, Java (JDBC or native), Ruby, JS, Erlang, Replication + Sharding: automatic and configurable, written in: Java, » Crate Data GitHub Project, » Documentation.
-Oracle Coherence
-
-Oracle Coherence offers distributed, replicated, multi-datacenter, tiered (off-heap/SSD) and near (client) caching. It provides distributed processing, querying, eventing, and map/reduce, session management, and propagation of database updates to caches. Operational support provided by a Grid Archive deployment model.
-GigaSpaces
-
-Popular SpaceBased Grid Solution.
-GemFire
-
-GemFire offers in-memory globally distributed data management with dynamic scalability, very high performance and granular control supporting the most demanding applications. Well integrated with the Spring Framework, developers can quickly and easily provide sophisticated data management for applications. With simple horizontal scale-out, data latency caused by network roundtrips and disk I/O can be avoided even as applications grow.
-Infinispan
-
-scalable, highly available data grid platform, open source, written in Java.
-Queplix
-
-NOSQL Data Integration Environment, can integrate relational, object, BigData – NOSQL easily and without any SQL.
-Hazelcast
-
-Hazelcast is a in-memory data grid that offers distributed data in Java with dynamic scalability under the Apache 2 open source license. It provides distributed data structures in Java in a single Jar file including hashmaps, queues, locks, topics and an execution service that allows you to simply program these data structures as pure java objects, while benefitting from symmetric multiprocessing and cross-cluster shared elastic memory of very high ingest data streams and very high transactional loads.
-ScaleOut Software, Galaxy, Joafip, Coherence, eXtremeScale]
-XML Database Management Systems
-EMC Documentum xDB
-
-(commercial system) API: Java, XQuery, Protocol: WebDAV, web services, Query method: XQuery, XPath, XPointer, Replication: lazy primary copy replication (master/replicas), Written in: Java, Concurrency: concurrent reads, writes with lock; transaction isolation, Misc: Fully transactional persistent DOM; versioning; multiple index types; metadata and non-XML data support; unlimited horizontal scaling. Developer Network »
-eXist
-
-API: XQuery, XML:DB API, DOM, SAX, Protocols: HTTP/REST, WebDAV, SOAP, XML-RPC, Atom, Query Method: XQuery, Written in: Java (open source), Concurrency: Concurrent reads, lock on write; Misc: Entire web applications can be written in XQuery, using XSLT, XHTML, CSS, and Javascript (for AJAX functionality). (1.4) adds a new full text search index based on Apache Lucene, a lightweight URL rewriting and MVC framework, and support for XProc.
-Sedna
-
-Misc: ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
-BaseX
-
-BaseX is a fast, powerful, lightweight XML DBMS and XPath/XQuery processor with highly conformant support for the latest W3C Update and Full Text Recommendations. Client/Server architecture, ACID transaction support, user management, logging, Open Source, BSD-license, written in Java, runs out of the box.
-Qizx
-
-commercial and open source version, API: Java, Protocols: HTTP, REST, Query Method: XQuery, XQuery Full-Text, XQuery Update, Written in: Java, full source can be purchased, Concurrency: Concurrent reads & writes, isolation, Misc: Terabyte scalable, emphasizes query speed.
-Berkeley DB XML
-
-API: Many languages, Written in: C++, Query Method: XQuery, Replication: Master / Slave, Concurrency: MVCC, License: Sleepycat
-JEntigrator
-
-API: Java. The application and database management system in one. Collects data as multiple XML files on the disk. Implements facet-oriented data model. Each data object is considered as an universal facet container. The end-user can design and evolve data objects individually through the GUI without any coding by adding/removing facets to/from it.
-[ Xindice, Tamino, ]
-Multidimensional Database Management Systems
-Globals:
-
-by Intersystems, multidimensional array.Node.js API, array based APIs (Java / .NET), and a Java based document API.
-Intersystems Cache
-
-Post-relational System. Multidimensional array APIs, Object APIs, Relational Support (Fully SQL capable JDBC, ODBC, etc.) and Document APIs are new in the upcoming 2012.2.x versions. Available for Windows, Linux and OpenVMS.
-GT.M
-
-API: M, C, Python, Perl, Protocol: native, inprocess C, Misc: Wrappers: M/DB for SimpleDB compatible HTTP », MDB:X for XML », PIP for mapping to tables for SQL », Features: Small footprint (17MB), Terabyte Scalability, Unicode support, Database encryption, Secure, ACID transactions (single node), eventual consistency (replication), License: AGPL v3 on x86 GNU/Linux, Links: Slides »
-
-Huge thanks to my buddy Ludovic Rembert from Privacy Canada for reminding me to include GT.M to this list. His website touches on many privacy issues, mainly focusing on the best VPNs for Canadians and preserving digital anonymity.
-SciDB
-
-Array Data Model for Scientists, » paper, » poster, » HiScaBlog
-MiniM DB
-
-: Multidimensional arrays, API: M, C, Pascal, Perl, .NET, ActiveX, Java, WEB. Available for Windows and Linux.
-rasdaman
-
-: Short description: Rasdaman is a scientific DBMS that allows to store and retrieve multi-dimensional raster data (arrays) of unlimited size through an SQL-style query language. API: C++/Java, Written in C++, Query method: SQL-like query language rasql, as well as via OGC standards WCPS, WCS, WPS link2
-DaggerDB
-
-: is a new Realtime analytics DBMS written in .NET C#. ACID compliant. fluent .NET query API, Client / server or in-process. In-memory and persistent mode.
-[ YottaDB: Fast fork of GT.M, EGTM: GT.M for Erlang, "IODB: EGTM-powered ObjectDB for Erlang ]
-Multivalue Database Management Systems
-U2
-
-(UniVerse, UniData): MultiValue Databases, Data Structure: MultiValued, Supports nested entities, Virtual Metadata, API: BASIC, InterCall, Socket, .NET and Java API's, IDE: Native, Record Oriented, Scalability: automatic table space allocation, Protocol: Client Server, SOA, Terminal Line, X-OFF/X-ON, Written in: C, Query Method: Native mvQuery, (Retrieve/UniQuery) and SQL, Replication: yes, Hot standby, Concurrency: Record and File Locking (Fine and Coarse Granularity)
-OpenInsight
-
-API: Basic+, .Net, COM, Socket, ODBC, Protocol: TCP/IP, Named Pipes, Telnet, VT100. HTTP/S Query Method: RList, SQL & XPath Written in: Native 4GL, C, C++, Basic+, .Net, Java Replication: Hot Standby Concurrency: table &/or row locking, optionally transaction based & commit & rollback Data structure: Relational &/or MultiValue, supports nested entities Scalability: rows and tables size dynamically
-TigerLogic PICK
-
-(D3, mvBase, mvEnterprise) Data Structure: Dynamic multidimensional PICK data model, multi-valued, dictionary-driven, API: NET, Java, PHP, C++, Protocol: C/S, Written In: C, Query Method: AQL, SQL, ODBC, Pick/BASIC, Replication: Hot Backup, FFR, Transaction Logging + real-time replication, Concurrency: Row Level Locking, Connectivity: OSFI, ODBC, Web-Services, Web-enabled, Security: File level AES-128 encryption
-Reality
-
-(Reality NPS): The original MultiValue dataset DBMS, virtual machine, enquiry and rapid development environment. Delivers ultra efficiency, scalability and resilience while extended for the web and with built-in auto sizing, failsafe and more. Interoperability includes Web Services - Java Classes, RESTful, XML, ActiveX, Sockets, .NetLanguages, C and, for those interoperate with the world of SQL, ODBC/JDBC with two-way transparent SQL data access.
-OpenQM
-
-Supports nested data. Fully automated table space allocation. Concurrency control via task locks, file locks & shareable/exclusive record locks. Case insensitivity option. Secondary key indices. Integrated data replication. QMBasic programming language for rapid development. OO programming integrated into QMBasic. QMClient connectivity from Visual Basic, PowerBasic, Delphi, PureBasic, ASP, PHP, C and more. Extended multivalue query language.
-Model 204 Database
-
-A high performance dbms that runs on IBM mainframes (IBM z/OS, z/VM, zVSE), +SQL interface with nested entity support API: native 4GL (SOUL + o-o support), SQL, Host Language (COBOL, Assembler, PL1) API, ODBC, JDBC, .net, Websphere MQ, Sockets Scalability: automatic table space allocation, 64-bit support Written in: IBM assembler, C Query method: SOUL, SQL, RCL ( invocation of native language from client ) Concurrency: record and file level locking Connectivity: TN3270, Telnet, Http
-Tieto TRIP
-
-Hybrid DBMS / search engine system with characteristics of multi-value, document, relational, XML, and graph DBMS. Used in production since 1985 for high-performance search and retrieve solutions. Full-text search, text classification, similarity search, results ranking, real time facets, Unicode, Chinese word segmentation, and more. Platforms: Windows, Linux, AIX and Solaris. API: .NET, Java and C/C++. Query methods: native (CCL), SQL subset, XPath. Commercial.
-ESENT
-
-(by Microsoft) ISAM storage technology. Access using index or cursor navigation. Denormalized schemas, wide tables with sparse columns, multi-valued columns, and sparse and rich indexes. C# and Delphi drivers available. Backend for a number of MS Products as Exchange.
-jBASE
-
-jBASE is an application platform and DBMS that allows normal MultiValue (MV) applications to become native Windows, Unix or Linux programs. Traditional MV features are supported, including BASIC, Proc, Paragraph, Query and Dictionaries. jBASE jEDI Architecture, allows you to store data in any DBMS, such as Microsoft SQL, Oracle and DB2. jBASE jAgent supports BASIC, C, C++, .NET, Java and REST APIs. Additional features include dynamic objects, encryption, case insensitivity, audit logging and transaction journaling for online backup and disaster recovery.
-Event Sourcing
-Event Store
-Eventsourcing for Java (es4j)
-
-Key features: Clean, succinct Command/Event model, Compact data storage layout, Disruptor for fast message processing, CQengine for fast indexing and querying, In-memory and on-disk storage, Causality-preserving Hybrid Logical Clocks, Locking synchronization primitive, OSGi support
-Time Series / Streaming Database Management Systems
-Axibase
-
-Distributed DB designed to store and analyze high-frequency time-series data at scale. Includes a large set of built-in features: Rule Engine, Visualization, Data Forecasting, Data Mining. API: RESTful API, Network API, Data API, Meta API, SQL API Clients: R, Java, Ruby, Python, PHP, Node.js Replication: Master Slave Major protocol & format support: CSV, nmon, pickle, StatsD, collectd, tcollector, scollector, JMX, JDBC, SNMP, JSON, ICMP, OVPM, SOAP.
-kdb+
-
-time-series DBMS optimized for Big Data analytics.
-quasardb
-
-very high-performance time series DBMS. Highly scalable. API: C, C++, Java, Python and (limited) RESTful Protocol: binary Query method: API/SQL-like, Replication: Distributed, Written in: C++ 11/Assembly, Concurrency: ACID, Misc: built-in data compression, native support for FreeBSD, Linux and Windows. License: Commercial.
-Riak TS
-
-Enterprise-grade NoSQL time series DBMS optimized specifically for IoT and Time Series data. It ingests, transforms, stores, and analyzes massive amounts of time series data. Riak TS is engineered to be faster than Cassandra.
-Informix Time Series Solution , influxdata , pipelinedb
-http://btrdb.io/
-
-The Berkeley Tree DataBase BTrDB provides very fast storage of scalar-valued timeseries data. Stores data with nanosecond-precision timestamps. Boasts 16.7 million writes per second and 19.8 million reads per second on a single Intel Xeon E5-2680v2 based cloud server with 60GB of RAM (EC2 c3.8xlarge).
-eXtremeDB
-
-(listed also under other NoSQL related DBMS)
-Akumuli
-
-Akumuli is a column-oriented time-series DBMS. It uses novel data-structures and compression algorithms designed with time-series data in mind. It can take full advantage of modern SSD and NVMe drives. Akumuli integrates with Grafana, Prometheus, Collectd, and other monitoring systems.
-Other NoSQL related database management systems
-IBM Lotus/Domino
-
-Type: Document Store, API: Java, HTTP, IIOP, C API, REST Web Services, DXL, Languages: Java, JavaScript, LotusScript, C, @Formulas, Protocol: HTTP, NRPC, Replication: Master/Master, Written in: C, Concurrency: Eventually Consistent, Scaling: Replication Clusters
-eXtremeDB
-
-Type: Hybrid In-Memory and/or Persistent DBMS DBMS Written in: C; API: C/C++, SQL, JNI, C#(.NET), JDBC; Replication: Async+sync (master-slave), Cluster; Scalability: 64-bit and MVCC
-RDM Embedded
-
-APIs: C++, Navigational C. Embedded Solution that is ACID Compliant with Multi-Core, On-Disk & In-Memory Support. Distributed Capabilities, Hot Online Backup, supports all Main Platforms. Supported B Tree & Hash Indexing. Replication: Master/Slave, Concurrency: MVCC. Client/Server: In-process/Built-in.
-ISIS Family
-
-(semistructured databases) »
-Moonshadow
-
-NoSql, in-memory, flat-file, cloud-based. API interfaces. Small data footprint and very fast data retrieval. Stores 200 million records with 200 attributes in just 10GB. Retrieves 150 million records per second per CPU core. Often used to visualize big data on maps. Written in C.
-VaultDB
-
-Next-gen NoSQL encrypted document store. Multi-recipient / group encryption. Features: concurrency, indices, ACID transactions, replication and PKI management. Supports PHP and many others. Written in C++. Commercial but has a free version. API: JSON
-Vyhodb
-
-Service oriented, schema-less, network data model DBMS. Client application invokes methods of vyhodb services, which are written in Java and deployed inside vyhodb. Vyhodb services reads and modifies storage data. API: Java, Protocol: RSI - Remote service invocation, Written in: Java, ACID: fully supported, Replication: async master slave, Misc: online backup, License: proprietary
-Applied Calculus
-
-Applied Calculus implements persistent AVL Trees / AVL DBMS. 14 different types of DBMS - represented as classes in both C# and Java. These DBMS perform transaction logging on the node file to ensure that failed transactions are backed out. Very fast on solid state storage (ca. 1780 transactions/second. AVL Trees considerably outperform B+ Trees on solid state. Very natural language interface. Each DBMS is represented as a collection class that strongly resembles the corresponding class in Pure Calculus.
-Prevayler
-
-Java RAM Data structure journalling.
-Yserial
-
-Python wrapper over sqlite3
-SpreadsheetDB
-
-A DBMS as a service that can be queried with a spreadsheet through an HTTP API.
-chaozzDB
-
-A full-featured, easy-to-use flatfile (noSQL) DBMS. Download from Github >>
-Scientific and Specialized Database Management Systems
-BayesDB
-
-BayesDB, a Bayesian database table, lets users query the probable implications of their tabular data as easily as an SQL DBMS lets them query the data itself. Using the built-in Bayesian Query Language (BQL), users with no statistics training can solve basic data science problems, such as detecting predictive relationships between variables, inferring missing values, simulating probable observations, and identifying statistically similar database entries.
-GPUdb
-
-A distributed DBMS for many core devices. GPUdb leverages many core devices such as NVIDIA GPUs to provide an un-parallelled parallel DBMS experience. GPUdb is a scalable, distributed DBMS with SQL-style query capability, capable of storing Big Data. Developers using the GPUdb API add data, and query the data with operations like select, group by, and join. GPUdb includes many operations not available in other "cloud DBMS" offerings.
-unresolved and uncategorized
-Web Hosting Canada Reviews
-
-- Live up time tracking and testing on over 20 of the most popular hosting solutions. Hosting speeds compared across 3 different CMS configurations.
-  Btrieve
-
-(by Pervasive Software) key/index/tuple DB. Using Pages. » (faq »)
-KirbyBase
-
-Written in: Ruby. github: »
-Tokutek:
-Recutils:
-
-GNU Tool for text files containing records and fields. Manual »
-FileDB:
-
-Mainly targeted to Silverlight/Windows Phone developers but its also great for any .NET application where a simple local DBMS is required, extremely Lightweight - less than 50K, stores one table per file, including index, compiled versions for Windows Phone 7, Silverlight and .NET, fast, free to use in your applications
-MentDB:
-
-A digital brain, based on the language of thought (Mentalese), to manage relations and strategies (with thoughts/words/symbols) into a cognitive cerebral structure. Programing language: MQL (Mentalese Query Language) for mental processes, ACID transaction, API: REST and web socket, Thoughts Performance: READ: 18035/s; WRITE: 416/s; Asynchronous Full JAVA
-D2000:
-
-Realtime application server with an in-memory realtime DBMS with object level events and optional persistence of data of selected objects. Subscribe/publish mechanism of objects changes distribution. API / Query Method: SQL(ODBC), C, Java, multiple industrial communication protocols. Support for timeseries. Multiplatform (Windows/Linux/ARM/HP-UX/OpenVMS). Replication: async (master-slaves). Proprietary code. Written in: ADA
-CodernityDB
-
-illuminate Correlation Database », FluidDB (Column Oriented DB) », Fleet DB », Btrieve, Twisted Storage », Java-Chronicle », Ringo, Sherpa, tin, Dryad, SkyNet, Disco Possibly the oldest NoSQL DB (together with MUMPS and IBMs IMS & IDMS [1968,1964]): » Adabas VSAM by IBM is also a good candidate.
+-   [返回](README.md)    
+=== Wide Column Store / Column Families ===
+
+|name|contents|
+|:----|:----|
+|[Hadoop / HBase](http://hadoop.apache.org/)|API: **Java / any writer**, Protocol: **any write call**, Query Method: **MapReduce Java / any exec,** Replication: **HDFS Replication,** Written in: **Java**, Concurrency: ?, Misc: **Links**: 3 Books [<a href="http://www.amazon.com/Hadoop-Action-Chuck-Lam/dp/1935182196/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">1</a>, <a href="http://www.amazon.com/Pro-Hadoop-Jason-Venner/dp/1430219424/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">2</a>, <a href="http://www.amazon.com/Hadoop-Definitive-Guide-Tom-White/dp/0596521979/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">3</a>], Guru99 Article <a href="https://www.guru99.com/hbase-architecture-data-flow-usecases.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&gt;&gt;</a>  
+|[MapR</a>,&nbsp;<a href="http://www.hortonworks.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Hortonworks</a>,&nbsp;<a href="http://www.cloudera.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Cloudera](http://www.mapr.com/)|Hadoop Distributions and professional services.
+|[Cassandra](https://cassandra.apache.org/)|massively scalable, partitioned row store, masterless architecture, linear scale performance, no single points of failure, read/write support across multiple data centers &amp; cloud availability zones. API / Query Method:**CQL and Thrift**, replication:**peer-to-peer**, written in:**Java**, Concurrency:**tunable consistency**, Misc: built-in data compression, MapReduce support, primary/secondary indexes, security features. Links:<a href="http://www.datastax.com/docs" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Documentation</a>,<a href="http://planetcassandra.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">PlanetC*</a>,<a href="http://www.datastax.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Company</a>   
+|[Scylla](http://www.scylladb.com/)|Cassandra-compatible column store, with consistent low latency and more transactions per second. Designed with a thread-per-core model to maximize performance on modern multicore hardware. Predictable scaling. No garbage collection pauses, and faster compaction.
+|[Hypertable](http://hypertable.org/)|API:**Thrift**(Java, PHP, Perl, Python, Ruby, etc.), Protocol:**Thrift**, Query Method:**HQL, native Thrift API**, Replication:**HDFS Replication**, Concurrency:**MVCC**, Consistency Model:**Fully consistent**Misc: High performance C++ implementation of Google's Bigtable.<a href="http://www.hypertable.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Commercial support</a>  
+|[Accumulo](http://accumulo.apache.org/)|Accumulo is based on**BigTable**and is built on top of<a href="http://hadoop.apache.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">**Hadoop**</a>,<a href="http://zookeeper.apache.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">**Zookeeper**</a>, and<a href="http://thrift.apache.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">**Thrift**</a>. It features improvements on the BigTable design in the form of**cell-based access control**, improved**compression**, and a server-side programming mechanism that can modify key/value pairs at various points in the data management process.  
+|[Amazon SimpleDB](http://aws.amazon.com/simpledb/)|**Misc**: not open source / part of AWS,<a href="http://www.apress.com/book/view/1430225335" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Book</a>(will be outperformed by DynamoDB!)  
+|[Cloudata](http://www.cloudata.org/)|Google's Big table clone like HBase.<a href="http://www.readwriteweb.com/hack/2011/02/open-source-bigtable-cloudata.php" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Article</a>  
+|[MonetDB](https://www.monetdb.org/)|Column Store pioneer since 2002.  
+|[HPCC](http://www.hpccsystems.com/)|from<a href="http://www.lexisnexis.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">LexisNexis</a>,<a href="http://www.lexisnexis.com/government/solutions/literature/hpcc-das.pdf" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">info</a>,<a href="http://wikibon.rg/blog/lexisnexis-hpcc-takes-on-hadoop-as-battle-for-big-data-supremacy-heats-up/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">article</a>  
+|[Apache Flink](http://flink.apache.org/)|(formerly known as<a href="http://stratosphere.eu/" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">Stratosphere</a>) massively parallel &amp; flexible data analytics platform, API:**Java, Scala**, Query Method:**expressive data flows (extended M/R, rich UDFs, iteration support)**, Data Store:**independent**(e.g., HDFS, S3, MongoDB), Written in: Java, License: Apache License V2.0, Misc:**good integration with Hadoop stack**(HDFS, YARN), source code on<a href="https://github.com/apache/flink" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Github</a>  
+|[IBM Informix](http://www-01.ibm.com/software/data/informix/)|horizontally and vertically scalable, relational, partitioned row store, document store API / Query Method:**SQL (native, DRDA, JDBC, ODBC), MongoDB wire listener, mixed mode**, replication:**master / slave, peer-to-peer, sharding, grid operations**, written in:**C**, Concurrency:**row, page, table, db locking**, Misc: ACID, built-in data compression, scheduler, automatic cyclic storage management, extensible, in memory acceleration, native ports from ARM v6 up Links:<a href="http://www-01.ibm.com/support/knowledgecenter/SSGU8G_12.1.0/com.ibm.welcome.doc/welcome.htm" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Documentation</a>,<a href="http://www.iiug.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">IIUG</a>,<a href="http://www.ibm.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Company</a>.  
+|[Splice Machine](http://www.splicemachine.com/)|Splice Machine is an RDBMS built on<a href="http://hadoop.apache.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Hadoop</a>,<a href="http://hbase.apache.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">HBase</a>and<a href="http://db.apache.org/derby/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Derby</a>. Scale real-time applications using commodity hardware without application rewrites, Features:**ACID transactions, ANSI SQL support, ODBC/JDBC, distributed computing**  
+|[eXtremeDB Financial Edition](http://financial.mcobject.com/)|massively scalable in-memory and persistent storage DBMS for analytics on market data (and other time series data). APIs:**C/C++, Java Native Interface (JNI), C#/.NET), Python, SQL (native, ODBC, JDBC)**, Data layout:**row, columnar, hybrid,**Written in:**C, Replication: master/slave, cluster, sharding,**Concurrency:**Optimistic (MVCC) and pessimistic (locking)**
+|[ConcourseDB](http://concoursedb.com/)|a distributed self-tuning DBMS with<a href="http://concoursedb.com/blog/index-all-the-things/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">automatic indexing</a>, version control and ACID transactions. Written In:**Java**. API/Protocol:**Thrift (many languages)**. Concurrency:**serializable transactions with<a href="http://concoursedb.com/blog/just-in-time-locking/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">just-in-time locking</a>.**Misc: uses a<a href="http://concoursedb.com/guide/storage-model/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">buffered storage system</a>to commit all data to disk immediately while perform rich indexing in the background.  
+|[Druid](http://druid.io/)|open-source analytics data store for business intelligence (OLAP) queries on event data. Low latency (real-time) data ingestion, flexible data exploration, fast data aggregation. Scaled to trillions of events &amp; petabytes. Most commonly used to power user-facing analytic applications. API:**JSON over HTTP**, APIs:**Python, R, Javascript, Node, Clojure, Ruby, Typescript + support SQL queries**Written in:**Java**License:**Apache 2.0**Replication:**Master/Slave**  
+|[KUDU](http://getkudu.io/)|Apache Kudu (incubating) completes Hadoop's storage layer to enable fast analytics on fast data.  
+|[Elassandra](https://github.com/vroyer/elassandra)|Elassandra is a fork of Elasticsearch modified to run on top of Apache Cassandra in a scalable and resilient peer-to-peer architecture. Elasticsearch code is embedded in Cassandra nodes providing advanced search features on Cassandra tables and Cassandra serve as an Elasticsearch data and configuration store.  
+
+===  Document Store  ===
+
+|name|contents|
+|:----|:----|
+|[No SQL Encryption (Oracle)](https://docs.oracle.com/database/nosql-12.1.3.5/SecurityGuide/introduction_security.html)|Oracle NoSQL Database can be configured securely with the proper technical guides. Network communications between NoSQL clients, utilities, and NoSQL server components can and should be encrypted. This original document is curated and maintained by Ludovic Rembert. He has additional guides on his website about the <a href="https://privacycanada.net/best-vpn/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">best VPNs</a>.
+|[Elastic](http://www.elasticsearch.org/)|API:**REST and many languages**, Protocol:**REST**, Query Method:**via JSON**, Replication + Sharding:**automatic and configurable**, written in:**Java**, Misc: schema mapping, multi tenancy with arbitrary indexes,<a href="http://www.elasticsearch.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Company and Support</a>,<a href="https://www.found.no/foundation/elasticsearch-as-nosql/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Article</a>
+|[ArangoDB</a>,&nbsp;<a href="https://fauna.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">FaunaDB</a>,&nbsp;<a href="http://orientdb.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">OrientDB</a>,&nbsp;<a href="http://gundb.io/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">gunDB](http://www.arangodb.com/)|(**Doc Store**&amp; GraphDB &amp; Key-Value. More details in CategoryMultimodel DBMS)
+|[MongoDB](http://www.mongodb.org/)|API:**BSON**, Protocol: C, Query Method:**dynamic object-based language &amp; MapReduce**, Replication:**Master Slave &amp; Auto-Sharding**, Written in:**C++**,Concurrency:**Update in Place**. Misc:**Indexing, GridFS, Freeware + Commercial License**Links:<a href="http://www.leadit.us/hands-on-tech/MongoDB-High-Performance-SQL-Free-Database" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Talk</a>,<a href="http://www.paperplanes.de/2010/2/25/notes_on_mongodb.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Notes</a>,<a href="http://www.10gen.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Company</a>
+|[Cloud Datastore](http://cloud.google.com/datastore)|A fully managed Document store with multi-master replication across data centers. Originally part of Google App Engine, it also has REST and gRPC APIs. Now<a href="https://firebase.googleblog.com/2017/10/introducing-cloud-firestore.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Firestore</a>?!
+|[Azure DocumentDB](https://azure.microsoft.com/services/documentdb/)|is a fully managed, globally distributed NoSQL DBMS perfect for the massive scale and low latency needs of modern applications. Guarantees: 99.99% availability, 99% of reads at &lt;10ms and 99% of writes at &lt;15ms. Scale to handle 10s-100s of millions of requests/sec and replicate globally with the click of a button. APIs: .NET, .NET Core, Java, Node.js, Python, REST. Query: SQL. Links:<a href="https://azure.microsoft.com/services/documentdb/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Service</a>,<a href="https://azure.microsoft.com/pricing/details/documentdb/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Pricing</a>,<a href="https://www.documentdb.com/sql/demo" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Playground</a>,<a href="https://docs.microsoft.com/azure/documentdb/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Documentation</a>
+|[RethinkDB](http://www.rethinkdb.com/)|API:**protobuf-based**, Query Method:**unified chainable query language (incl. JOINs, sub-queries, MapReduce, GroupedMapReduce)**; Replication:**Sync and Async Master Slave with per-table acknowledgements**, Sharding:**guided range-based**, Written in:**C++**, Concurrency:**MVCC**. Misc: log-structured storage engine with concurrent incremental garbage compactor
+|[Couchbase Server](http://www.couchbase.com/)|**API: Memcached API+protocol**(binary and ASCII) ,**most languages**, Protocol:**Memcached REST interface for cluster conf + management**, Written in:**C/C++**+**Erlang**(clustering), Replication:**Peer to Peer, fully consistent**, Misc:**Transparent topology changes during operation, provides memcached-compatible caching buckets, commercially supported version available**, Links:<a href="http://wiki.membase.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Wiki</a>,<a href="http://www.infoq.com/news/2010/10/membase" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Article</a>
+|[CouchDB](http://couchdb.apache.org/)|API:**JSON**, Protocol:**REST**, Query Method:**MapReduceR of JavaScript Funcs**, Replication:**Master Master**, Written in:**Erlang**, Concurrency:**MVCC**,**Misc**:<br />**Links**:<a href="http://couchdb.apache.org/docs/books.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; 3 CouchDB books</a>
+|[ToroDB](http://www.torodb.com/)|API:**MongoDB API**and**SQL**, Protocol: MongoDB Wire Protocol / MongoDB compatible, Query Method:**dynamic object-based language &amp; SQL**, Replication:**RDBMS Backends' Replication System &amp; Support for replication from MongoDB's Replica Set**, Written in:**Java**, Concurrency:**MVCC**. Misc:**Open Source NoSQL and SQL DBMS**. The agileness of a doc DB with the reliability and the native SQL capabilities of PostgreSQL. Links:<a href="https://www.8kdata.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Company</a>
+|[SequoiaDB](http://www.sequoiadb.com/en/index.php?p=index&amp;j=2)|API:**BSON**, Protocol:**C**, Query Method:**dynamic object-based language**, Replication:**Master Slave &amp; Auto-Sharding**, Written in:**C++**, Misc: Indexing, Large Object Store, Transaction, Free + Commercial License,<a href="http://www.bankmark.de/wp-content/uploads/2014/12/bankmark-20141201-WP-NoSQLBenchmark.pdf" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Benchmark</a>,<a href="https://github.com/SequoiaDB/SequoiaDB" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Code</a>
+|[NosDB](http://www.alachisoft.com/nosdb/)|a 100% native**.NET**Open Source**NoSQL Document DBMS**(Apache 2.0 License). It also supports**SQL**querying over JSON Documents. Data can also be accessed through**LINQ &amp; ADO.NET**. NosDB also provides strong**server-side and client-side caching**features by integrating NCache.
+|[RavenDB](https://www.ravendb.net/)|RavenDB is an Open Source NoSQL DBMS.**Multi-Model:**Document, Key-Value, Graph, Distributed Counters, Attachments. Fully Transactional (ACID) across database and throughout the cluster.**Multiplatform:**C#, Node.js, Java, Python, Ruby, Go.**Multisystem:**Windows, Linux, Mac OS, Docker, Raspberry Pi. Native GUI, MapReduce, full text search, memory management.
+|[UnQlite](https://unqlite.org/)|UnQLite is an embedded NoSQL (**Key/Value**store and**Document-store**) DBMS. Similar to MongoDB, Redis, CouchDB etc. as well a standard Key/Value store similar to BerkeleyDB, LevelDB, etc. It's a in-process software library which implements a self-contained, serverless, zero-configuration, transactional NoSQL DBMS. Open source, distributed under the**2-Clause BSD license**.
+|[MarkLogic Server](http://www.marklogic.com/)|(developer+commercial) API:**JSON, XML, Java**Protocols:**HTTP, REST**Query Method:**Full Text Search and Structured Query, XPath, XQuery, Range, Geospatial, Bitemporal**Written in:**C++**Concurrency:**Shared-nothing cluster, MVCC**Misc: Petabyte-scalable and elastic (on premise in the cloud), ACID + XA transactions, auto-sharding, failover, master slave replication (clusters), replication (within cluster), high availability, disaster recovery, full and incremental backups, government grade security at the doc level, developer community<a href="http://developer.marklogic.com/" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>
+|[Clusterpoint Server](http://www.clusterpoint.com/)|(freeware+commercial) API:**XML, PHP, Java, .NET**Protocols:**HTTP, REST, native TCP/IP**Query Method:**full text search, XML, range and Xpath queries**; Written in**C++**Concurrency:**ACID-compliant, transactional, multi-master cluster**Misc: Petabyte-scalable document store and full text search engine. Information ranking. Replication. Cloudable.
+|[JSON ODM](https://github.com/konsultaner/jsonOdm)|Object Document Mapper for JSON-Documents written in pure**JavaScript**. It queries the collections with a**gremlin**-like DSL that uses**MongoDB's API**methods, but also provides joining. The collections extend the native array objects, which gives the overall ODM a good performance. Queries 500.000 elements in less then a second.
+|[NeDB](https://github.com/louischatriot/nedb)|NoSQL DBMS for Node.js in pure**javascript**. It implements the most commonly used subset of**MongoDB's API**and is quite**fast**(about 25,000 reads/s on a 10,000 documents collection with indexing).
+|[Terrastore](http://code.google.com/p/terrastore/)|API:**Java &amp; http**, Protocol:**http**, Language:**Java**, Querying:**Range queries, Predicates**, Replication:**Partitioned with consistent hashing**, Consistency:**Per-record strict consistency**, Misc: Based on Terracotta
+|[AmisaDB:](http://www.amisalabs.com/)|Architected to unify the best of search engine, NoSQL and NewSQL DB technologies. API: REST and many languages. Query method:**SQL**. Written in**C++**. Concurrency:**MVCC**. Misc:**ACID**transactions, data distribution via**consistent hashing**,**static and dynamic schema**support,**in-memory**processing. Freeware + Commercial License
+|[JasDB](http://www.oberasoftware.com/)|Lightweight open source document DBMS written in Java for high performance, runs in-memory, supports Android. API:**JSON, Java**Query Method:**REST OData Style Query language, Java fluent Query API**Concurrency:**Atomic document writes**Indexes:**eventually consistent indexes**
+|[RaptorDB](http://www.codeproject.com/Articles/375413/RaptorDB-the-Document-Store)|JSON based, Document store DBMS with compiled**.net map functions**and automatic hybrid bitmap indexing and**LINQ query filters**
+|[djondb](http://djondb.com/)|jonDB API:**BSON**, Protocol:**C++**, Query Method:**dynamic queries and map/reduce**, Drivers:**Java, C++, PHP**Misc: ACID compliant, Full shell console over google v8 engine, djondb requirements are submitted by users, not market. License: GPL and commercial
+|[EJDB](http://ejdb.org/)|Embeddable JSON DBMS engine. API:**C/C++**, Protocol:**Native**,**HTTP**,**Websockets**Written in:**C11**, Query language:**XPath like query language (JQL)**, Concurrency:**RW locking**, Misc:**Single file database, Indexing**, License:**MIT**
+|[densodb](http://www.densodb.net/)|DensoDB is a new NoSQL document DBMS. Written for .Net environment in c# language. It&rsquo;s simple, fast and reliable.<a href="https://github.com/teamdev/densodb" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">Source</a>
+|[SisoDB](http://www.sisodb.com/)|A Document Store on top of SQL-Server.
+|[SDB](http://pagenotes.com/wordpress/2011/12/08/sdb/)|For small online databases, PHP / JSON interface, implemented in PHP.
+|[NoSQL embedded db](https://github.com/petersirka/nosql)|Node.js asynchronous NoSQL embedded DBMS for small websites or projects. DBMS supports: insert, update, remove, drop and supports views (create, drop, read). Written in JavaScript, no dependencies, implements small concurrency model.
+|[ThruDB](http://code.google.com/p/thrudb/)|(please help provide more facts!) Uses Apache<a href="http://incubator.apache.org/thrift/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Thrift</a>to integrate multiple backend DBMS as BerkeleyDB, Disk, MySQL, S3.
+|[iBoxDB](http://www.iboxdb.com/)|Transactional embedded DBMS, it can embed into mobile, desktop and web applications, supports on-disk and in-memory storages. API:**Java,C# (Android, Mono, Xamarin, Unity3D)**. Query Method:**SQL-like**and**KeyValue**. Written In:**Java, C#**. Replication:**MasterSlave, MasterMaster**.
+|[BergDB](http://www.bergdb.com/)|API:**Java/.NET**. Written in:**Java**. Replication:**Master/Slave**. License:**AGLP**. Historical queries. ACID. Schemaless. Concurrency:**STM and persistent data structure**. Append-only storage. Encrypted storage. Flexible durability control. Secondary &amp; composite indexes. Transparently serializes Java/.NET objects.
+|[ReasonDB](https://github.com/anywhichway/reasondb)|100% JavaScript automatically synchronizing multi-model DBMS with a SQL like syntax (JOQULAR) and swappable persistence stores. It supports joins, nested matches, projections or live object result sets, asynchronous cursors, streaming analytics, 18 built-in predicates, in-line predicates, predicate extensibility, indexable computed values, fully indexed Dates and Arrays, built in statistical sampling. Persistence engines include files, Redis, LocalStorage, block storage, and more.
+|[IBM Cloudant](https://cloudant.com/)|Cloud based, open-source, zero-config. Based on CouchDB and BigCouch.
+|[BagriDB](http://bagridb.com/)|API:**XQJ/XDM, REST, OpenAPI,**Protocols:**Java, HTTP**, Query Method:**distributed XQuery + server-side XQuery/Java extensions**, Written in:**Java**, Concurrency:**MVCC**, Document format:**XML, JSON, POJO, Avro, Protobuf**, etc. Misc: in-memory Data and Computation Grid, transparent replication and fail-over, true horizontal scalability, ACID transactions, rich indexeng and trigger capabilities, pluggable persistent store, pluggable data formats.<a href="https://github.com/dsukhoroslov/bagri" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">GitHub</a>   
+
+===  Key Value / Tuple Store  ===
+
+|name|contents|
+|:----|:----|
+|[DynamoDB](http://aws.amazon.com/dynamodb/)|Automatic ultra scalable NoSQL DB based on fast SSDs. Multiple Availability Zones. Elastic MapReduce Integration. Backup to S3 and much more...
+|[Azure Table Storage](http://msdn.microsoft.com/en-us/library/dd179423.aspx)|Collections of free form entities (row key, partition key, timestamp). Blob and Queue Storage available, 3 times redundant. Accessible via REST or ATOM.
+|[Riak](http://basho.com/products/#riak)|API:**tons of languages, JSON**, Protocol:**REST**, Query Method:**MapReduce term matching**, Scaling:**Multiple Masters**; Written in:**Erlang**, Concurrency:**eventually consistent**(stronger then MVCC via Vector Clocks)
+|[Redis](http://redis.io/)|API:**Tons of languages**, Written in:**C**, Concurrency:**in memory**and saves asynchronous disk after a defined time. Append only mode available. Different kinds of fsync policies. Replication:**Master / Slave**, Misc:**also lists, sets, sorted sets, hashes, queues**. Cheat-Sheet:<a href="http://masonoise.files.wordpress.com/2010/03/redis-cheatsheet-v1.pdf" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>, great slides<a href="http://blog.simonwillison.net/post/57956858672/redis" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>Admin UI<a href="http://www.servicestack.net/mythz_blog/?p=381" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>From the Ground up<a href="http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>
+|[Aerospike](http://www.aerospike.com/)|Fast and web-scale DBMS. RAM or SSD. Predictable performance; achieves 2.5 M TPS (reads and writes), 99% under 1 ms. Tunable consistency. Replicated, zero configuration, zero downtime, auto-clustering, rolling upgrades, Cross Datacenter Replication (XDR). Written in: C. APIs: C, C#, Erlang, Go, Java, Libevent, Node, Perl, PHP, Python, Ruby. Links:<a href="http://www.aerospike.com/community" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Community</a>,<a href="http://www.aerospike.com/develop" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Development</a>,<a href="http://www.slideshare.net/AerospikeDB/flash-economics-and-lessons-learned-from-operating-low-latency-platforms-at-high-throughput-with-aerospike-nosql" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Slides</a>,<a href="http://www.intel.com/content/dam/www/public/us/en/documents/solution-briefs/xeon-e5-v3-ssd-aerospike-nosql-brief.pdf" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">2.5M TPS on 1 node at Intel</a>,<a href="http://highscalability.com/blog/2014/8/18/1-aerospike-server-x-1-amazon-ec2-instance-1-million-tps-for.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">1M TPS on AmazonWS</a>,<a href="https://communities.intel.com/community/itpeernetwork/blog/2015/02/17/reaching-one-million-database-transactions-per-second-aerospike-intel-ssd" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">1M TPS w/ SSDs on 1 Server</a>,<a href="http://highscalability.com/blog/2015/3/17/in-memory-computing-at-aerospike-scale-when-to-choose-and-ho.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Combating Memory Fragmentation</a>
+|[LevelDB](http://code.google.com/p/leveldb/)|**Fast**&amp; Batch updates. DB from**Google**. Written in C++. Blog<a href="http://google-opensource.blogspot.com/2011/07/leveldb-fast-persistent-key-value-store.html" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>, hot Benchmark<a href="http://leveldb.googlecode.com/svn/trunk/doc/benchmark.html" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>, Article<a href="http://www.golem.de/1107/85298.html" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">&raquo;</a>(in German). Java<a href="https://github.com/fusesource/leveldbjni" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">access</a>. C# (for Universal Windows Platform)<a href="https://github.com/maxpert/LevelDBWinRT" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">access</a>.
+|[RocksDB](http://rocksdb.org/)|API:**C++**. Written in C++. Facebook`s improvements to Google`s LevelDB to speed throughput for datasets larger than RAM. Embedded solution.
+|[Berkeley DB](http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html)|API:**Many languages**, Written in:**C**, Replication:**Master / Slave**, Concurrency:**MVCC**, License:**Sleepycat**,<a href="http://www.oracle.com/technetwork/database/berkeleydb/overview/index-093405.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Berkeley DB Java Edition</a>: API:**Java**, Written in:**Java**, Replication:**Master / Slave**, Concurrency:**serializable transaction isolation**, License:**Sleepycat**
+|[Helium](https://www.levyx.com/helium)|API:**C, C++, Java, Python, NodeJS**. Written in C. Key-value store aimed at high throughput and low latency (usecs) applications. Designed to run on many-core systems with fast storage such as SSDs and NVMs. Low and predictable memory footprint, low write amplification. License:**proprietary**Mode:**embedded, single server****Links**<a href="https://cloudplatform.googleblog.com/2015/07/Multi-million-operations-per-second-on-a-single-Google-Cloud-Platform-instance.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Multi million ops/sec on GCP</a>,<a href="https://www.samsung.com/semiconductor/global.semi.static/Whitepaper_Samsung_Low_Latency_Z-SSD_Levyx_Helium_Data_Store_Jan2018.pdf" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Real-time low latency KV with Helium and Samsung Z-SSD</a>
+|[KeyDB](https://github.com/JohnSully/KeyDB)|API:**Multiple languages (Redis Compatible)**Replication:**Master / Master**- A multithreaded fork of Redis with a ton of extra features such as Active Replication, AWS S3 integration, and significantly lower latency.
+|[GenieDB](https://www.crunchbase.com/organization/geniedb)|Immediate consistency sharded KV store with an eventually consistent AP store bringing eventual consistency issues down to the theoretical minimum. It features efficient record coalescing. GenieDB speaks SQL and co-exists / do intertable joins with SQL RDBMs.
+|[BangDB](http://www.iqlect.com/)|API:**Get,Put,Delete**, Protocol:**Native, HTTP,**Flavor:**Embedded, Network, Elastic Cache**, Replication:**P2P based Network Overlay**, Written in:**C++**, Concurrency: ?, Misc:robust, crash proof, Elastic, throw machines to scale linearly, Btree/Ehash
+|[Chordless](http://sourceforge.net/projects/chordless/)|API:**Java &amp; simple RPC to vals**, Protocol:**internal**, Query Method:**M/R inside value objects**, Scaling:**every node is master for its slice of namespace**, Written in:**Java**, Concurrency:**serializable transaction isolation**,
+|[Scalaris](http://code.google.com/p/scalaris/)|(please help provide more facts!) Written in:**Erlang**, Replication:**Strong consistency over replicas**, Concurrency:**non blocking Paxos**.
+|[Tokyo Cabinet / Tyrant](http://fallabs.com/tokyocabinet/)|**Links**: nice talk<a href="http://www.infoq.com/presentations/grigorik-tokyo-cabinet-recipes" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, slides<a href="http://www.scribd.com/doc/12016121/Tokyo-Cabinet-and-Tokyo-Tyrant-Presentation" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, Misc:**Kyoto**Cabinet<a href="http://fallabs.com/kyotocabinet/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[Scalien](http://scalien.com/)|API / Protocol:**http**(text, html, JSON)**, C, C++, Python**, Java, Ruby, PHP,Perl. Concurrency:**Paxos**.
+|[Voldemort](http://project-voldemort.com/)|Open-Source implementation of Amazons Dynamo Key-Value Store.
+|[Dynomite](http://wiki.github.com/cliffmoon/dynomite/dynomite-framework)|Open-Source implementation of Amazons Dynamo Key-Value Store. written in Erlang. With "data partitioning, versioning, and read repair, and user-provided storage engines provide persistence and query processing".
+|[KAI](http://sourceforge.net/projects/kai/)|Open Source Amazon Dynamo implementation, Misc:<a href="http://www.slideshare.net/takemaru/kai-an-open-source-implementation-of-amazons-dynamo-472179" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">slides</a>
+|[MemcacheDB](http://memcachedb.org/)|API:**Memcache protocol**(get, set, add, replace, etc.), Written in:**C**, Data Model:**Blob**, Misc: Is Memcached writing to BerkleyDB.
+|[Faircom C-Tree](http://www.faircom.com/nosql)|API:**C, C++, C#, Java, PHP, Perl**, Written in:**C,C++**. Misc:**Transaction logging. Client/server. Embedded. SQL wrapper**(not core). Been around since 1979.
+|[LSM](http://www.sqlite.org/src4/artifact/41b08c1d31c156d3916558aad89b7e7ae8a381c5)|Key-Value DBMS that was written as part of SQLite4, They claim it is faster then LevelDB. Instead of supporting custom comparators, they have a recommended data encoding for keys that allows various data types to be sorted.
+|[KitaroDB](http://www.kitarodb.com/)|: A fast, efficient on-disk data store for**Windows Phone 8, Windows RT, Win32 (x86 &amp; x64)**and**.NET**. Provides for key-value and multiple segmented key access. APIs for**C#, VB, C++, C**and**HTML5/JavaScript**. Written in**pure C**for high performance and low footprint. Supports async and synchronous operations with 2GB max record size.
+|[upscaledb](http://upscaledb.com/)|: (embedded solution) API:**C, C++, .NET, Java, Erlang.**Written in**C,C++**. Fast key/value store with a parameterized B+-tree. Keys are "typed" (i.e. 32bit integers, floats, variable length or fixed length binary data). Has built-in analytical functions like SUM, AVERAGE etc.
+|[STSdb](http://stsdb.com/)|API:**C#**, Written in**C#**, embedded solution, generic XTable&lt;TKey,TRecord&gt; implementation, ACID transactions, snapshots, table versions, shared records, vertical data compression, custom compression, composite &amp; custom primary keys, available backend file system layer, works over multiple volumes, petabyte scalability, LINQ.
+|[Tarantool/Box](https://github.com/mailru/tarantool)|API:**C, Perl, PHP, Python, Java and Ruby**. Written in:**Objective C**,Protocol:**asynchronous binary, memcached, text (Lua console)**. Data model:**collections of dimensionless tuples, indexed using primary + secondary keys**. Concurrency:**lock-free in memory, consistent with disk (write ahead log).**Replication:**master/slave, configurable**. Other:**call Lua stored procedures.**
+|[Chronicle Map](https://github.com/OpenHFT/Chronicle-Map)|In-memory (opt. persistence via mmap), highly concurrent, low-latency key-value store. API:**Java**. Written in:**Java**. Protocol: in-process Java, remote via<a href="http://chronicle.software/products/chronicle-engine/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Chronicle Engine</a>+ Wire: binary, text, Java, C# bindnings. Concurrency: in-memory lock striping, read-write locks. Replication:**multi-master, eventually consistent**.
+|[Maxtable](http://code.google.com/p/maxtable/)|API:**C**, Query Method:**MQL, native API**, Replication:**DFS Replication**, Consistency:**strict consistency**Written in:**C**.
+|[Pincaster](http://github.com/jedisct1/Pincaster)|For geolocalized apps. Concurrency:**in-memory with asynchronous disk writes**. API:**HTTP/JSON**. Written in:**C**. License:**BSD**.
+|[RaptorDB](http://www.codeproject.com/KB/database/RaptorDB.aspx)|A pure key value store with optimized b+tree and murmur hashing. (In the near future it will be a JSON document DBMS much like mongodb and couchdb.)
+|[TIBCO Active Spaces](https://ssl.tibcommunity.com/blogs/activespaces)|peer-to-peer distributed in-memory (with persistence) datagrid that implements and expands on the concept of the Tuple Space. Has SQL Queries and ACID (=&gt; NewSQL).
+|[allegro-C](http://www.allegro-c.de/)|Key-Value concept. Variable number of keys per record. Multiple key values, Hierarchic records. Relationships. Diff. record types in same DB. Indexing: B*-Tree. All aspects configurable. Full scripting language. Multi-user ACID. Web interfaces (PHP, Perl, ActionScript) plus Windows client.
+|[nessDB](https://github.com/shuttler/nessDB)|A fast key-value DBMS (using LSM-Tree storage engine), API:**Redis protocol**(SET,MSET,GET,MGET,DEL etc.), Written in:**ANSI C**
+|[HyperDex](http://hyperdex.org/)|Distributed searchable key-value store. Fast (latency &amp; throughput), scalable, consistent, fault tolerance, using hyperspace hashing. APIs for C, C++ and Python.
+|[SharedHashFile](https://github.com/simonhf/sharedhashfile)|Fast, open source, shared memory (using memory mapped files e.g. in /dev/shm or on SSD), multi process, hash table, e.g. on an 8 core i7-3720QM CPU @ 2.60GHz using /dev/shm, 8 processes combined have a 12.2 million / 2.5 to 5.9 million TPS read/write using small binary keys to a hash file containing 50 million keys. Uses sharding internally to mitigate lock contention. Written in**C**.
+|[Symas LMDB](http://symas.com/mdb/)|Ultra-fast, ultra-compact key-value embedded data store developed by Symas for the OpenLDAP Project. It uses memory-mapped files, so it has the read performance of a pure in-memory DBMS while still offering the persistence of standard disk-based DBMS, and is only limited to the size of the virtual address space, (it is not limited to the size of physical RAM)
+|[Sophia](http://sphia.org/)|Sophia is a modern embeddable key-value DBMS designed for a high load environment. It has unique architecture that was created as a result of research and rethinking of primary algorithmic constraints, associated with a getting popular Log-file based data structures, such as LSM-tree. Implemented as a small C-written, BSD-licensed library.
+|[NCache](http://www.alachisoft.com/ncache/)|.NET Open Source Distributed Cache. Written in C#. API .NET &amp; Java. Query Parallel SQL Query, LINQ &amp; Tags. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration &amp; Monitoring Tools, Messaging, Runtime Data Sharing, Cache &amp; Item Level Events, Continuous Query &amp; Custom Events, DB Dependencies &amp; Expirations
+|[TayzGrid](http://www.alachisoft.com/tayzgrid/)|Open Source In-Memory JCache compliant Data Grid. Written in Java. API Java, JCache JSR 107 &amp; .NET. Query SQL &amp; DB Synchronization. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration &amp; Monitoring Tools, Distributed Messaging, MapReduce, Entry Processor and Aggregator
+|[PickleDB](http://pythonhosted.org/pickleDB/)|Redis inspired K/V store for Python object serialization.
+|[Mnesia](http://www.erlang.org/doc/apps/mnesia/index.html)|(ErlangDB<a href="http://www.infoq.com/news/2007/08/mnesia" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>)
+|[LightCloud](http://opensource.plurk.com/LightCloud/)|(based on Tokyo Tyrant)
+|[Hibari](http://hibari.sourceforge.net/)|Hibari is a highly available, strongly consistent, durable, distributed key-value data store
+|[OpenLDAP](http://highlandsun.com/hyc/mdb/)|Key-value store, B+tree. Lightning fast reads+fast bulk loads. Memory-mapped files for persistent storage with all the speed of an in-memory DBMS. No tuning conf required. Full ACID support. MVCC, readers run lockless. Tiny code, written in C, compiles to under 32KB of x86-64 object code. Modeled after the BerkeleyDB API for easy migration from Berkeley-based code. Benchmarks against LevelDB, Kyoto Cabinet, SQLite3, and BerkeleyDB are available, plus full paper and presentation slides.
+|[Genomu](http://genomu.com/)|High availability, concurrency-oriented event-based K/V DBMS with transactions and causal consistency. Protocol:**MsgPack**, API:**Erlang, Elixir, Node.js**. Written in:<a href="http://elixir-lang.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Elixir</a>,<a href="https://github.com/genomu/genomu" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Github-Repo</a>.
+|[BinaryRage](https://github.com/mchidk/BinaryRage)|BinaryRage is designed to be a lightweight ultra fast key/value store for .NET with no dependencies. Tested with more than 200,000 complex objects written to disk per second on a crappy laptop 🙂 No configuration, no strange driver/connector, no server, no setup - simply reference the dll and start using it in less than a minute.
+|[Elliptics](http://www.ioremap.net/projects/elliptics/)|Github Page<a href="https://github.com/reverbrain/elliptics" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[DBreeze](https://github.com/hhblaze/DBreeze)|Professional, open-source, NoSql (embedded Key/Value storage), transactional, ACID-compliant, multi-threaded, object DBMS management system for .NET 3.0&gt; MONO. Written in C#.
+|[TreodeDB](http://https//github.com/Treode/store)|API:**Scala**. Written in Scala. Replication:**Replicas vote on writes and reads**. Sharding:**Hashes keys onto array of replica cohorts.**Concurrency:**Optimistic + Multiversion Concurrency Control. Provides multirow atomic writes. Exposes optimistic concurrency through API to support HTTP Etags.**Embedded solution.
+|[BoltDB](https://github.com/boltdb/bolt)|Key/Value DB written in Go.
+|[Serenity](http://serenitydb.org/)|Serenity DBMS implements basic Redis commands and extends them with support of Consistent Cursors, ACID transactions, Stored procedures, etc. The DBMS is designed to store data bigger then available RAM.
+|[Cachelot](http://cachelot.io/)|API:**Memcached**. Written in**C++**. In-memory LRU cache with very small memory footprint. Works within fixed amount of memory. Cachelot has a C++ cache library and stand-alone server on top of it.
+|[filejson](https://www.npmjs.com/package/filejson)|Use a JSON encoded file to automatically save a JavaScript value to disk whenever that value changes. A value can be a Javascript: string, number, boolean, null, object, or an array. The value can be structured in an array or an object to allow for more complex data stores. These structures can also be nested. As a result, you can use this module as a simple document store for storing semistructured data.
+|[InfinityDB](https://boilerbay.com/infinitydb/)|InfinityDB is an all-Java embedded DBMS with access like java.util.concurrent.ConcurrentNavigableMap over a tuple space, enhanced for nested Maps, LOBs, huge sparse arrays, wide tables with no size constraints. Transactions, compression, multi-core concurrency, easy schema evolution. Avoid the text/binary trap: strongly-typed, fine-grained access to big structures. 1M ops/sec. Commercial, closed source, patented.
+|[KeyVast](https://github.com/keyvast/keyvast)|Key Value Store with scripting language. Data types include list, dictionary and set. Hierarchical keys. API:**TCP/IP**, Protocol:**Query language**, Written in:**Delphi**, License:**MIT**, Links:<a href="https://github.com/keyvast/keyvast" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Github</a>
+|[SCR Siemens Common Repository](http://www.convergence-creators.siemens.com/common-repository-telco-data-storage.html)|In-Memory, scale-by-cell division (under load), multi-tiered scalability (transactions, entries, indicies), read=write, geo-redundancy, redundancy per datatype, LDAP, API, bulkload facility for VNF state resiliency, VNF-M integratable, self-[re-]balancing, Backend for Mobile Network Functions
+|[IOWOW](http://iowow.io/)|The C/C++ persistent key/value storage engine based on**<a href="https://en.wikipedia.org/wiki/Skip_list" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">skip list</a>**data structure. API:**C/C++**. Protocol:**Native**. Written in:**C11**, Concurrency:**RW locking**. License:**MIT**
+|[BBoxDB](https://github.com/jnidzwetzki/bboxdb/)|A distributed data store for multi-dimensional data. BBoxDB enhances the key-value data model by a bounding box, which describes the location of a value in an n-dimensional space. Data can be efficiently retrieved using hyper-rectangle queries. Spatial joins and dynamic data redistribution are also supported. API:**Java**, Protocol:**asynchronous binary**, Data model:**Key-bounding-box-value**, Scaling:**Auto-Sharding, Replication**, Written in:**Java**, Concurrency:**eventually consistent / RW locking**
+|[NuSTER](https://github.com/jiangwenyuan/nuster)|A HTTP based, user facing, RESTful NoSQL cache server based on HAProxy. It can be used as an internal NoSQL cache sits between your application and DBMS like Memcached or Redis as well as a user facing NoSQL cache that sits between end user and your application. It supports headers, cookies, so you can store per-user data to same endpoint. Protocol:**HTTP**. Written in:**C**.
+|[JDX](http://js2dx.com/)|A lightweight in-memory document-oriented DBMS written with JavaScript. Includes Single Page Application API, node serialization, tree browsing and CRUD operations on document tuples through web GUI. Integrate with server-side noSQL DBMS instance into a transaction-synchronous cluster, create SPA content or browse and serialize document tuples with HTML interface.
+|[Antidote](http://antidotedb.eu/)|Geo-replicated; multi-master; both reads &amp; writes have local latency; sharded. Available under Partition (AP) with a high consistency (CP); MVCC; transactions; causal consistency (no ordering anomalies). API: CRDTs (= concurrent update, convergence). Protocol buffers, Erlang, JavaScript, Java, Go, REST. Ongoing work: same guarantees at edge; SQL-like language; static analysis; strong consistency on demand. Open source; written in Erlang. Publication:<a href="http://doi.ieeecomputersociety.org/10.1109/ICDCS.2016.98" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Cure</a>  
+
+===  Graph Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[Neo4J](http://www.neo4j.org/)|API:**lots of langs**, Protocol:**Java embedded / REST**, Query Method:**Cypher, nativeJavaAPI, JRuby**, Replication:**typical MySQL style master/slave**, Written in:**Java**, Concurrency:**non-block reads, writes locks involved nodes/relationships until commit**, Misc:**ACID**possible, Links: Video<a href="http://www.infoq.com/presentations/emil-eifrem-neo4j" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, Blog<a href="http://blog.neo4j.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[ArangoDB</a>,&nbsp;<a href="https://fauna.com/" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">FaunaDB</a>,&nbsp;<a href="http://orientdb.com/" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">OrientDB</a>,&nbsp;<a href="http://gundb.io/" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">gunDB](http://www.arangodb.com/)|(Doc Store &amp;**GraphDB**&amp; Key-Value. More details in CategoryMultimodel Database Management Systems)  
+|[Infinite Graph](http://www.infinitegraph.com/)|(by Objectivity) API:**Java**, Protocol:**Direct Language Binding**, Query Method:**Graph Navigation API,****Predicate Language Qualification**, Written in:**Java (Core C++)**, Data Model:**Labeled Directed Multi Graph**, Concurrency:**Update locking on subgraphs, concurrent non-blocking ingest**, Misc:**Free for Qualified Startups**.
+|[Sparksee](http://www.sparsity-technologies.com/dex.php)|(former DEX): API:**Java, .NET, C++, Python, Objective-C, Blueprints Interface**Protocol:**Embedded**, Query Method:**as above + Gremlin (via Blueprints)**, Written in:**C++**, Data Model:**Labeled Directed Attributed Multigraph**, Concurrency:**yes**, Misc: ACID possible, Free community edition up to 1 Mio objects, Links: Intro<a href="http://www.slideshare.net/SparsityTechnologies/sparksee-overview" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, Technical Overview<a href="http://www.slideshare.net/SparsityTechnologies/sparksee-technology-overview" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[TITAN](https://github.com/thinkaurelius/titan/wiki)|: API:**Java, Blueprints, Gremlin, Python, Clojure**Protocol:**Thrift, RexPro(Binary), Rexster (HTTP/REST)**Query Method:**Gremlin, SPARQL**Written In:**Java**Data Model:**labeled Property Graph, directed, multi-graph adjacency list**Concurrency:**ACID Tunable C**Replication:**Multi-Master**License:**Apache 2**Pluggable backends:**Cassandra, HBase, MapR M7 Tables, BDB, Persistit, Hazelcast**Links:<a href="https://groups.google.com/forum/#!forum/aureliusgraphs" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Titan User Group</a>
+|[InfoGrid](http://infogrid.org/)|API:**Java, http/REST**, Protocol:**as API + XPRISO, OpenID, RSS, Atom, JSON, Java embedded**, Query Method:**Web user interface with html, RSS, Atom, JSON output, Java native**, Replication:**peer-to-peer**, Written in:**Java,**Concurrency:**concurrent reads, write lock within one MeshBase**, Misc: Presentation<a href="http://www.slideshare.net/infogrid/info-grid-core-ideas" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[HyperGraphDB](http://www.kobrix.com/hgdb.jsp)|API: **Java**(and Java Langs), Written in:**Java**, Query Method:**Java**or P2P, Replication:**P2P**, Concurrency:**STM**, Misc: Open-Source, Especially for AI and Semantic Web.
+|[GraphBase](http://graphbase.net/)|Sub-graph-based API, query language, tools &amp; transactions. Embedded Java, remote-proxy Java or REST. Distributed storage &amp; processing. Read/write all Nodes. Permissions &amp; Constraints frameworks. Object storage, vertex-embedded agents. Supports multiple graph models. Written in Java
+|[Trinity](http://research.microsoft.com/en-us/projects/trinity/)|API:**C#**, Protocol:**C# Language Binding**, Query Method:**Graph Navigation API**, Replication:**P2P with Master Node**, Written in:**C#**, Concurrency:**Yes (Transactional update in online query mode, Non-blocking read in Batch Mode)**Misc:**distributed in-memory storage, parallel graph computation platform (Microsoft Research Project)**
+|[AllegroGraph](http://www.franz.com/agraph/)|API:**Java, Python, Ruby, C#, Perl, Clojure, Lisp**Protocol:**REST**, Query Method:**SPARQL**and**Prolog**, Libraries:**Social Networking Analytics**&amp;**GeoSpatial**, Written in:**Common****Lisp**, Links: Learning Center<a href="http://www.franz.com/agraph/support/learning/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, Videos<a href="http://www.franz.com/agraph/services/conferences_seminars/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[BrightstarDB](http://www.brightstardb.com/)|A native,**.NET**, semantic web DBMS with code first Entity Framework,**LINQ**and**OData**support. API:**C#**, Protocol:**SPARQL HTTP, C#**, Query Method:**LINQ, SPARQL**, Written in:**C#**
+|[Bigdata](http://www.systap.com/bigdata.htm)|API:**Java, Jini service discovery**, Concurrency:**very high (MVCC)**, Written in:**Java**, Misc: GPL + commercial, Data:**RDF data with inference, dynamic key-range sharding of indices**, Misc: Blog<a href="http://www.bigdata.com/blog" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>(parallel DBMS, high-availability architecture, immortal DBMS with historical views)
+|[Meronymy](http://www.meronymy.com/)|RDF enterprise database management system. It is cross-platform and can be used with most programming languages. Main features: high performance, guarantee database transactions with ACID, secure with ACL's, SPARQL &amp; SPARUL, ODBC &amp; JDBC drivers, RDF &amp; RDFS.<a href="http://en.wikipedia.org/wiki/Meronymy_SPARQL_Database_Server" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[WhiteDB](http://whitedb.org/)|WhiteDB is a fast lightweight graph/N-tuples shared memory DBMS library written in C with focus on speed, portability and ease of use. Both for Linux and Windows, dual licensed with GPLv3 and a free nonrestrictive royalty-free commercial licence.
+|[Onyx DBMS](http://onyxdevtools.com/)|Graph/ORM high throughput DBMS built in Java supports embedded, in-memory, and remote. Horizontal scalability through sharding, partitioning, replication, and disaster recovery API:**Java, REST via (Objective C, Android, etc...)**, Protocol:**Java embedded/Binary Socket/REST**, Query Method:**Persistence Manager/ORM**, Replication:**Multicast**, Written in:**Java**, Concurrency:**Re-entrant read/write**, Misc:**Free and Open Source. Commercial licensing available**<a href="http://www.onyxdevtools.com/learn/tutorials/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Tutorials</a>
+|[OpenLink Virtuoso](http://virtuoso.openlinksw.com/)|a/k/a**Virtuoso Universal Server Multi-model (hybrid)**DBMS supporting SQL/Tabular Relational (SQL), RDF/Graph Relational (SPARQL), XML (XPath, XQuery), Text/Document/Object, and more, available in Community (Open Source) and Enterprise (Commercial) Editions.
+|[VertexDB<a href="http://github.com/twitter/flockdb" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">FlockDB](http://www.dekorte.com/projects/opensource/vertexdb/)|by twitter<a href="http://gigaom.com/2010/04/12/twitter-open-sources-the-home-of-its-social-graph/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a><a href="http://github.com/twitter/flockdb" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[weaver](http://weaver.systems/)|scalable, fast, consistent
+|[BrightstarDB|.|
+|[Execom IOG](http://iog.codeplex.com/)|.|
+|[Fallen 8](http://www.brightstardb.com/)|
+
+===  Multimodel Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[ArangoDB](https://www.arangodb.com/)|API:**REST, Graph Blueprints, C#, D, Ruby, Python, Java, PHP, Go, Python, etc.**Data Model:**Documents, Graphs and Key/Values.**Protocol:**HTTP using JSON.**Query Method:**declarative query language (AQL), query by example.**Replication:**master-slave (m-m to follow)**, Sharding:**automatic and configurable**Written in:**C/C++/Javascript (V8 integrated),**Concurrency:**MVCC, tunable**Misc:**ACID transactions, microservices framework "Foxx" (Javascript)**, many indices as**secondary, fulltext, geo, hash, Skip-list, capped collections**
+|[OpenLink Virtuoso](http://virtuoso.openlinksw.com/)|a/k/a**Virtuoso Universal Server Multi-model (hybrid)**DBMS supporting SQL/Tabular Relational (SQL), RDF/Graph Relational (SPARQL), XML (XPath, XQuery), Text/Document/Object, and more, available in Community (Open Source) and Enterprise (Commercial) Editions.<br />**API:**ODBC, JDBC, OLE DB, ADO.NET, JSON, RDF4J/Sesame, Redland, SPARQL, others;<br />**Protocol:**ODBC, JDBC, OLE DB, ADO.NET, HTTP, SPARQL, NNTP, IMAP, POP, LDP, others;<br />**Query ****Method:**SQL, SPARQL, SPARQL-in-SQL (SPASQL), SQL-in-SPARQL (via SQL/PSM), XPath, XQuery, others;<br />**Replication (Enterprise Edition only):**Star, Chain, and/or Bi-Directional Replication Clusters, as well as Shared-Nothing Elastic Clusters;<br />**Written in:**C/C++;<em>extensible via C/C++, Java, Perl, Python, PHP, others;</em><br />**Concurrency:**ACID; **Misc**: Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC)<br />**Links**:<a href="http://docs.openlinksw.com/virtuoso" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Virtuoso manual</a>,<a href="http://vos.openlinksw.com/owiki/wiki/VOS/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Evolving Documentation</a>.<a href="https://github.com/openlink/virtuoso-opensource/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">Open Source Project</a>
+|[OrientDB](http://orientdb.com/)|API:**REST, Binary Protocol, Java, Node.js, Tinkerpop Blueprints, Python, PHP, Go, Elixir, etc.**, Schema:**Has features of an Object DBMS, Document DBMS, Graph DBMS, and Key-Value DBMS**, Written in:**Java**, Query Method:**SQL, Gremlin, SparQL**, Concurrency:**MVCC, tunable**, Indexing:**Primary, Secondary, Composite indexes with support for Full-Text and Spatial**, Replication:**Master-Master + sharding**, Misc:**Really fast, Lightweight, ACID with recovery**.
+|[FaunaDB](https://fauna.com/)|Packaging: Fully managed**serverless cloud**, or**on-premise enterprise**packages. API:**HTTP, JavaScript, C#, Java, Ruby, Python, Swift, Android, Go, Python, Scala.**Data Model:**Documents, Graphs and Key/Values.**Query Method:**Fauna Query Language**is optimized for expressing business transactions including precondition checks and control flow. Replication:**active/active with global ACID transactions**, Sharding:**automatic**Written in:**Scala**Concurrency:**MVCC with configurable snapshot retention, all transactions are consistent.**Misc:**Multi-region ACID transactions**, indexes,**joins**, and object level security.
+|[FoundationDB](http://www.foundationdb.com/)|Bought by Apple Inc. Closed and reopened for public access.
+|[Datomic](http://www.datomic.com/)|API:**Many jvm languages**, Protocol:**Native + REST**, Query Method:**Datalog + custom extensions**, Scaling:**elastic via underlying DB (in-mem, DynamoDB, Riak, CouchBase, Infinispan, more to come)**, Written in:**Clojure**, Concurrency:**ACID**MISC: smart caching, unlimited read scalability, full-text search, cardinality, bi-directional refs 4 graph traversal, loves Clojure + Storm.
+|[gunDB](http://gundb.io/)|API: **JavaScript**Schema:**Has features of an Object DBMS, Document DBMS, Graph DBMS, and Key-Value DBMS**Written in:**JavaScript**Query Method:**JavaScript**Concurrency:**Eventual consistency with hybrid vector/timestamp/lexical conflict resolution**Indexing:**O(1) key/value, supports multiple indices per record**Replication:**Multi-Master/Master; browser peer-to-peer (P2P) enabled**Misc:**Open source, realtime sync, offline-first, distributed/decentralized, graph-oriented, and fault-tolerant**
+|[CortexDB](http://cortex-ag.com/cortexdoku/cms.php?i=206df578da20202020212024)|CortexDB is a dynamic schema-less multi-model data base providing nearly all advantages of up to now known NoSQL data base types (key-value store, document store, graph DB, multi-value DB, column DB) with dynamic re-organization during continuous operations, managing analytical and transaction data for agile software configuration,change requests on the fly, self service and low footprint.
+|[Oracle NOSQL Database](http://www.oracle.com/technetwork/database/database-technologies/nosqldb/overview/index.html)|Oracle NoSQL Database is a distributed key-value DBMS with support for JSON docs. It is designed to provide highly reliable, scalable and available data storage across a configurable set of systems that function as storage nodes. NoSQL and the Enterprise Data is stored as key-value pairs, which are written to particular storage node(s), based on the hashed value of the primary key. Storage nodes are replicated to ensure high availability, rapid failover in the event of a node failure and optimal load balancing of queries. API: Java/C, Python, NodeJs, C#.
+|[AlchemyDB](http://code.google.com/p/alchemydatabase/)|GraphDB + RDBMS + KV Store + Document Store. Alchemy Database is a low-latency high-TPS NewSQL RDBMS embedded in the NOSQL datastore redis. Extensive datastore-side-scripting is provided via deeply embedded Lua. Bought and integrated with Aerospike.
+|[WonderDB](http://www.wonderdb.org/)|API:JDBC,SQL; WonderDB is fully transactional, distributed NewSQL DBMS implemented in java based on relational architectures. So you can get best of both worlds, sql, joins and ease of use from SQL and distribution, replication and sharding from NoSQL movement. Tested performance is over 60K per node with Amazon m3.xlarge VM.
+|[RockallDB](http://www.rockallsoftware.com/)|A new concept to &lsquo;NoSQL&rsquo; DBMS where a memory allocator and a transactional DBMS are melted together into an almost seamless whole. The programming model uses variants of well-known memory allocation calls like &lsquo;new&rsquo; and &lsquo;delete&rsquo; to manage the database. The result is very fast, natural to use, reliable and scalable. It is especially good in Big Data, data collection, embedded, high performance, Internet of Things (IoT) or mobile type applications.
+|[ZZZ Base](http://zzz.bg/)|GraphDB + KV Store + Document Store + Object + TimeSeries. ZZZ base is a knowledge base embedded in a single executable ZZZ server. Currently, a base can store up to 8,000,000 terabytes of information. A ZZZ server can access an unlimited number of knowledge bases on the computer on which it is installed or on the Internet by linking to an unlimited number of other ZZZ servers.
+
+===  Object Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[Versant](http://www.versant.com/)|API: Languages/Protocol:**Java, C#, C++, Python**. Schema: language class model (easy changeable). Modes:**always consistent and eventually consistent**Replication:**synchronous fault tolerant and peer to peer asynchronous**. Concurrency:**optimistic and object based locks**. Scaling:**can add physical nodes on fly for scale out/in****and migrate objects between nodes without impact to application code**. Misc:**MapReduce via parallel SQL like query across logical database groupings.**
+|[db4o](http://db4o.com/)|API:**Java, C#, .Net Langs**, Protocol:**language**, Query Method:**QBE (by Example), Soda, Native Queries, LINQ (.NET)**, Replication:**db4o2db4o &amp; dRS to relational**, Written in:**Java**, Concurrency:**ACID serialized**, Misc:**embedded lib,****Links**: DZone Refcard #53<a href="http://refcardz.dzone.com/refcardz/getting-started-db4o" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, Book<a href="http://www.amazon.com/Definitive-Guide-db4o-Stefan-Edlich/dp/1590596560/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>,
+|[Objectivity](http://www.objectivity.com/)|API: Languages:**Java, C#, C++, Python, Smalltalk, SQL access through ODBC**. Schema:**native language class model, direct support for references, interoperable across all language bindings. 64 bit unique object ID (OID) supports multi exa-byte**. Platforms:**32 and 64 bit Windows, Linux, Mac OSX, *Unix**. Modes:**always consistent (ACID).**Concurrency:**locks at cluster of objects (container) level.**Scaling:**unique distributed architecture, dynamic addition/removal of clients &amp; servers, cloud environment ready.**Replication:**synchronous with quorum fault tolerant across peer to peer partitions.**
+|[GemStone/S](http://gemtalksystems.com/)|API:**Java, C, C++, Smalltalk**Schema:**language class model**Platforms:**Linux, AIX, Solaris, Mac OSX, Windows clients**Modes:**always consistent (ACID)**Replication:**shared page cache per node, hot standby failover**Concurrency:**optimistic and object based locks**Scaling:**arbitrarily large number of nodes**Misc:**SQL via GemConnect**
+|[Starcounter](http://www.starcounter.com/)|API:**C# (.NET languages)**, Schema:**Native language class model**, Query method:**SQL**, Concurrency:**Fully ACID compliant**, Storage:**In-memory with transactions secured on disk**, Reliability:**Full checkpoint recovery**, Misc:**VMDBMS - Integrating the DBMS with the virtual machine for maximal performance and ease of use**.
+|[Perst](http://www.mcobject.com/perst)|API:**Java,Java ME,C#,Mono**. Query method:**OO via Perst collections, QBE, Native Queries, LINQ, native full-text search, JSQL**Replication:**Async+sync (master-slave)**Written in:**Java, C#**. Caching:**Object cache (LRU, weak, strong), page pool, in-memory DBMS**Concurrency:**Pessimistic+optimistic (MVCC)****+ async or sync (ACID)**Index types:**Many tree models + Time Series**. Misc: Embedded lib., encryption, automatic recovery, native full text search, on-line or off-line backup.
+|[VelocityDB](http://www.velocitydb.com/)|Written in**100% pure C#**, Concurrency:**ACID/transactional, pessimistic/optimistic locking,**Misc: compact data, B-tree indexes, LINQ queries, 64bit object identifiers (Oid) supporting multi millions of databases and high performance. Deploy with a single DLL of around 400KB.
+|[HSS Database](http://highspeed-solutions.net/db.aspx)|Written in:**100% C#**, The HSS DB v3.0 (HighSpeed-Solutions Database), is a client based, zero-configuration, auto schema evolution, acid/transactional, LINQ Query, DBMS for Microsoft .NET 4/4.5, Windows 8 (Windows Runtime), Windows Phone 7.5/8, Silverlight 5, MonoTouch for iPhone and Mono for Android
+|[ZODB](http://zodb.org/)|API:**Python**, Protocol:**Internal, ZEO**, Query Method:**Direct object access, zope.catalog, gocept.objectquery,**Replication:**ZEO, ZEORAID, RelStorage**Written in:**Python, C**Concurrency:**MVCC**, License:**Zope Public License (OSI approved)**Misc: Used in production since 1998
+|[Newt DB](http://www.newtdb.org/)|Newt DB leverages the pluggable storage layer of ZODB to use RelStorage to store data in Postgres. Newt adds conversion of data from the native serialization used by ZODB to JSON, stored in a Postgres JSONB column. The JSON data supplements the native data to support indexing, search, and access from non-Python applications. It adds a search API for searching the Postgres JSON data and returning persistent objects. Query Method:**Postgres SQL, ZODB API**, Replication:**Postgres, ZEO, ZEORAID, RelStorage**, Written in:**Python**, Concurrency:**MVCC**, License:**MIT**
+|[NEO](http://www.neoppod.org/)|API:**Python - ZODB "Storage" interface**, Protocol:**native**, Query Method:**transactional key-value**, Replication:**native**, Written in:**Python**, Concurrency:**MVCC**(internally), License:**GPL "v2 or later"**, Misc: Load balancing, fault tolerant, hot-extensible.
+|[Magma](http://wiki.squeak.org/squeak/2665)|Smalltalk DB, optimistic locking, Transactions, etc.
+|[siaqodb](http://siaqodb.com/)|An object DBMS engine that currently runs on**.NET, Mono, Silverlight,Windows Phone 7, MonoTouch, MonoAndroid, CompactFramework**; It has implemented a Sync Framework Provider and can be**synchronized**with**MS SQLServer**; Query method:**LINQ**;
+|[JADE](https://www.jadeworld.com/)|Programming Language with an Object DBMS build in. Around since 1996.
+|[Sterling](http://sterling.codeplex.com/)|is a lightweight object-oriented DBMS for .NET with support for Silverlight and Windows Phone 7. It features in-memory keys and indexes, triggers, and support for compressing and encrypting the underlying data.
+|[MarcelloDB](https://github.com/markmeeus/MarcelloDB)|An embedded object DBMS designed for**mobile apps**targeting .net and Mono runtimes. Supports .net/mono, Xamarin (iOS and Android), Windows 8.1/10, Windows Phone 8.1. Simple API, built on top of json.net and has a simple but effective indexing mechanism. Development is focussed on being lightweight and developer friendly. Has transaction support. Open-source and free to use.
+|[Morantex](http://www.morantex.com/)|Stores .NET classes in a datapool. Build for speed. SQL Server integration. LINQ support.
+|[EyeDB](http://www.eyedb.org/)|EyeDB is an**LGPL OODBMS**, provides an advanced object model (inheritance, collections, arrays, methods, triggers, constraints, reflexivity), an object definition language based on ODMG ODL, an object query and manipulation language based on ODMG OQL. Programming interfaces for C++ and Java.
+|[FramerD](http://www.framerd.org/)|Object-Oriented DBMS designed to support the maintenance and sharing of knowledge bases. Optimized for pointer-intensive data structures used by semantic networks, frame systems, and many intelligent agent applications. Written in:**ANSI C**.
+|[Ninja Database Pro](http://www.kellermansoftware.com/p-43-ninja-net-database-pro.aspx)|Ninja Database Pro is a .NET ACID compliant relational object DBMS that supports transactions, indexes, encryption, and compression. It currently runs on .NET Desktop Applications, Silverlight Applications, and Windows Phone 7 Applications.
+|[NDatabase](http://ndatabase.wix.com/home)|API:**C#, .Net, Mono, Windows Phone 7, Silverlight,**Protocol:**language,**Query Method:**Soda, LINQ (.NET),**Written in:**C#**, Misc: embedded lib, indexes, triggers, handle circular ref, LinqPad support, Northwind sample, refactoring, in-memory DBMS, Transactions Support (ACID) and more, Documentation:<a href="http://ndatabase.net/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[PicoLisp](http://www.picolisp.com/)|Language and Object DBMS, can be viewed as a DBMS Development Framework. Schema:**native language class model with relations + various indexes**. Queries:**language build in + a small Prolog like DSL Pilog**. Concurrency:**synchronization + locks**. Replication, distribution and fault tolerance is not implemented per default but can be implemented with native functionality. Written in C (32bit) or assembly (64bit).
+|[acid-state](http://acid-state.seize.it/)|API:**Haskell**, Query Method:**Functional programming**, Written in:**Haskell**, Concurrency:**ACID, GHC concurrent runtime**, Misc: In-memory with disk-based log, supports remote access Links: Wiki<a href="http://acid-state.seize.it/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, Docs<a href="http://hackage.haskell.org/packages/archive/acid-state/0.8.3/doc/html/Data-Acid.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[ObjectDB](http://www.objectdb.com/)|API:**Java (JPA / JDO)**Query method:**JPA JPQL, JDO JDOQL**Replication:**Master-slave**Written in:**100% Pure Java**Caching:**Object cache, Data cache, Page cache, Query Result cache, Query program cache**Concurrency:**Object level locking (pessimistic + optimistic)**Index types:**BTree, single, path, collection**Misc: Used in production since 2004, Embedded mode, Client Server mode, automatic recovery, on-line backup.
+|[CoreObject](http://www.coreobject.org/)|CoreObject: Version-controlled OODB, that supports powerful undo, semantic merging, and real-time collaborative editing. MIT-licensed, API:**ObjC**, Schema:**EMOF-like**, Concurrency:**ACID**, Replication:**differential sync**, Misc: DVCS based on object graph diffs, selective undo, refs across versioned docs, tagging, temporal indexing, integrity checking.
+
+===  Grid & Cloud Database Management Solutions  ===
+
+|name|contents|
+|:----|:----|
+|[GridGain](https://www.gridgain.com/)|In-Memory Computing Platform built on Apache&reg; Ignite&trade; to provide high-speed transactions with ACID guarantees, real-time streaming, and fast analytics in a single, comprehensive data access and processing layer. The distributed in-memory key value store is ANSI SQL-99 compliant with support for SQL and DML via JDBC or ODBC. API: Java, .NET, and C++. Minimal or no modifications to the application or database layers for architectures built on all popular RDBMS, NoSQL or Apache&trade; Hadoop&reg; DBMS.
+|[Crate Data](https://crate.io/)|A<a href="http://en.wikipedia.org/wiki/Shared_nothing_architecture" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">shared nothing</a>, document-oriented cluster data store. Accessed via SQL and has builtin<a href="https://crate.io/blog/using-crate-data-as-a-blobstore/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">BLOB support</a>. Uses the cluster state implementation and node discovery of Elasticsearch. License:**Apache 2.0**, Query Method:**SQL**, Clients:**HTTP (REST), Python, Java (JDBC or native), Ruby, JS, Erlang**, Replication + Sharding:**automatic and configurable**, written in:**Java**,<a href="https://github.com/crate/crate" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Crate Data GitHub Project</a>,<a href="https://crate.io/docs/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; Documentation</a>.
+|[Oracle Coherence](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html)|Oracle Coherence offers distributed, replicated, multi-datacenter, tiered (off-heap/SSD) and near (client) caching. It provides distributed processing, querying, eventing, and map/reduce, session management, and propagation of database updates to caches. Operational support provided by a Grid Archive deployment model.
+|[GigaSpaces](http://www.gigaspaces.com/)|Popular SpaceBased Grid Solution.
+|[GemFire](http://www.vmware.com/products/application-platform/vfabric-gemfire)|GemFire offers in-memory globally distributed data management with dynamic scalability, very high performance and granular control supporting the most demanding applications. Well integrated with the Spring Framework, developers can quickly and easily provide sophisticated data management for applications. With simple horizontal scale-out, data latency caused by network roundtrips and disk I/O can be avoided even as applications grow.
+|[Infinispan](http://www.jboss.org/infinispan.html)|scalable, highly available data grid platform,**open source**, written in**Java**.
+|[Queplix](http://www.queplix.com/)|NOSQL Data Integration Environment, can integrate relational, object, BigData &ndash; NOSQL easily and without any SQL.
+|[Hazelcast](http://www.hazelcast.com/)|Hazelcast is a in-memory data grid that offers distributed data in Java with dynamic scalability under the Apache 2 open source license. It provides distributed data structures in Java in a single Jar file including hashmaps, queues, locks, topics and an execution service that allows you to simply program these data structures as pure java objects, while benefitting from symmetric multiprocessing and cross-cluster shared elastic memory of very high ingest data streams and very high transactional loads.
+
+===  XML Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[EMC Documentum xDB](http://www.emc.com/products/detail/software/documentum-xdb.htm)|(commercial system) API: Java, XQuery, Protocol: WebDAV, web services, Query method: XQuery, XPath, XPointer, Replication: lazy primary copy replication (master/replicas), Written in: Java, Concurrency: concurrent reads, writes with lock; transaction isolation, Misc: Fully transactional persistent DOM; versioning; multiple index types; metadata and non-XML data support; unlimited horizontal scaling. Developer Network<a href="http://developer.emc.com/xmltech" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[eXist](http://exist-db.org/)|API: XQuery, XML:DB API, DOM, SAX, Protocols: HTTP/REST, WebDAV, SOAP, XML-RPC, Atom, Query Method: XQuery, Written in: Java (open source), Concurrency: Concurrent reads, lock on write; Misc: Entire web applications can be written in XQuery, using XSLT, XHTML, CSS, and Javascript (for AJAX functionality). (1.4) adds a new full text search index based on Apache Lucene, a lightweight URL rewriting and MVC framework, and support for XProc.
+|[Sedna](http://modis.ispras.ru/sedna/)|Misc: ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
+|[BaseX](http://basex.org/)|BaseX is a fast, powerful, lightweight XML DBMS and XPath/XQuery processor with highly conformant support for the latest W3C Update and Full Text Recommendations. Client/Server architecture, ACID transaction support, user management, logging, Open Source, BSD-license, written in Java, runs out of the box.
+|[Qizx](http://www.xmlmind.com/qizx/)|commercial and open source version, API: Java, Protocols: HTTP, REST, Query Method: XQuery, XQuery Full-Text, XQuery Update, Written in: Java, full source can be purchased, Concurrency: Concurrent reads &amp; writes, isolation, Misc: Terabyte scalable, emphasizes query speed.
+|[Berkeley DB XML](http://www.oracle.com/database/berkeley-db/xml/index.html)|API: Many languages, Written in: C++, Query Method: XQuery, Replication: Master / Slave, Concurrency: MVCC, License: Sleepycat
+|[JEntigrator](http://www.gradatech.de/whitepaper.html)|API: Java. The application and database management system in one. Collects data as multiple XML files on the disk. Implements facet-oriented data model. Each data object is considered as an universal facet container. The end-user can design and evolve data objects individually through the GUI without any coding by adding/removing facets to/from it.
+
+===  Multidimensional Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[Globals:](http://globalsdb.org/)|by Intersystems, multidimensional array.Node.js API, array based APIs (Java / .NET), and a Java based document API.
+|[Intersystems Cache](http://www.intersystems.com/)|Post-relational System. Multidimensional array APIs, Object APIs, Relational Support (Fully SQL capable JDBC, ODBC, etc.) and Document APIs are new in the upcoming 2012.2.x versions. Available for Windows, Linux and OpenVMS.
+|[GT.M](http://fis-gtm.com/)|API:**M, C, Python, Perl**, Protocol:**native, inprocess C**, Misc: Wrappers:**M/DB for SimpleDB compatible HTTP**<a href="http://www.mgateway.com/mdb.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>,**MDB:X**for XML<a href="http://mgateway.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>,**PIP**for mapping to tables for SQL<a href="http://fis-pip.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>, Features: Small footprint (17MB), Terabyte Scalability, Unicode support, Database encryption, Secure, ACID transactions (single node), eventual consistency (replication), License: AGPL v3 on x86 GNU/Linux,**Links**: Slides<a href="http://www.slideshare.net/robtweed/gtm-a-tried-and-tested-schemaless-database" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[SciDB](http://scidb.org/)|**Array**Data Model for Scientists,<a href="http://scidb.org/Documents/SciDB-VLDB09-paper.pdf" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; paper</a>,<a href="http://scidb.org/Documents/SciDB-VLDB09-poster.pdf" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; poster</a>,<a href="http://highscalability.com/blog/2010/4/29/product-scidb-a-science-oriented-dbms-at-100-petabytes.html" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo; HiScaBlog</a>
+|[MiniM DB](http://www.minimdb.com/)|: Multidimensional arrays, API:**M, C, Pascal, Perl, .NET, ActiveX, Java, WEB.**Available for Windows and Linux.
+|[rasdaman](http://www.rasdaman.org/)|: Short description: Rasdaman is a scientific DBMS that allows to store and retrieve multi-dimensional raster data (arrays) of unlimited size through an SQL-style query language. API: C++/Java, Written in C++, Query method: SQL-like query language rasql, as well as via OGC standards WCPS, WCS, WPS<a href="http://www.rasdaman.com/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">link2</a>
+|[DaggerDB](http://www.daggerdb.com/)|: is a new Realtime analytics DBMS written in .NET C#. ACID compliant. fluent .NET query API, Client / server or in-process. In-memory and persistent mode.
+
+===  Multivalue Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[U2](http://www.rocketsoftware.com/u2)|(UniVerse, UniData): MultiValue Databases, Data Structure: MultiValued, Supports nested entities, Virtual Metadata, API: BASIC, InterCall, Socket, .NET and Java API's, IDE: Native, Record Oriented, Scalability: automatic table space allocation, Protocol: Client Server, SOA, Terminal Line, X-OFF/X-ON, Written in: C, Query Method: Native mvQuery, (Retrieve/UniQuery) and SQL, Replication: yes, Hot standby, Concurrency: Record and File Locking (Fine and Coarse Granularity)
+|[OpenInsight](http://www.revelation.com/index.php/features)|API: Basic+, .Net, COM, Socket, ODBC, Protocol: TCP/IP, Named Pipes, Telnet, VT100. HTTP/S Query Method: RList, SQL &amp; XPath Written in: Native 4GL, C, C++, Basic+, .Net, Java Replication: Hot Standby Concurrency: table &amp;/or row locking, optionally transaction based &amp; commit &amp; rollback Data structure: Relational &amp;/or MultiValue, supports nested entities Scalability: rows and tables size dynamically
+|[TigerLogic PICK](http://www.tigerlogic.com/tigerlogic/pick/database/pickdatabase.jsp)|(D3, mvBase, mvEnterprise) Data Structure:**Dynamic multidimensional PICK data model, multi-valued, dictionary-driven**, API:**NET, Java, PHP, C++,**Protocol:**C/S**, Written In:**C**, Query Method:**AQL, SQL, ODBC, Pick/BASIC**, Replication:**Hot Backup, FFR, Transaction Logging + real-time replication**, Concurrency:**Row Level Locking**, Connectivity:**OSFI, ODBC, Web-Services, Web-enabled**, Security: File level AES-128 encryption
+|[Reality](http://www.nps-reality.com/)|(Reality NPS): The original MultiValue dataset DBMS, virtual machine, enquiry and rapid development environment. Delivers ultra efficiency, scalability and resilience while extended for the web and with built-in auto sizing, failsafe and more. Interoperability includes Web Services - Java Classes, RESTful, XML, ActiveX, Sockets, .NetLanguages, C and, for those interoperate with the world of SQL, ODBC/JDBC with two-way transparent SQL data access.
+|[OpenQM](http://www.openqm.com/)|Supports nested data. Fully automated table space allocation. Concurrency control via task locks, file locks &amp; shareable/exclusive record locks. Case insensitivity option. Secondary key indices. Integrated data replication. QMBasic programming language for rapid development. OO programming integrated into QMBasic. QMClient connectivity from Visual Basic, PowerBasic, Delphi, PureBasic, ASP, PHP, C and more. Extended multivalue query language.
+|[Model 204 Database](http://www.rocketsoftware.com/m204)|A high performance dbms that runs on IBM mainframes (IBM z/OS, z/VM, zVSE), +SQL interface with nested entity support API: native 4GL (SOUL + o-o support), SQL, Host Language (COBOL, Assembler, PL1) API, ODBC, JDBC, .net, Websphere MQ, Sockets Scalability: automatic table space allocation, 64-bit support Written in: IBM assembler, C Query method: SOUL, SQL, RCL ( invocation of native language from client ) Concurrency: record and file level locking Connectivity: TN3270, Telnet, Http
+|[Tieto TRIP](http://www.tieto.com/services/information-management/enterprise-content-management-services/multimedia-content-management-trip)|Hybrid DBMS / search engine system with characteristics of multi-value, document, relational, XML, and graph DBMS. Used in production since 1985 for high-performance search and retrieve solutions. Full-text search, text classification, similarity search, results ranking, real time facets, Unicode, Chinese word segmentation, and more. Platforms: Windows, Linux, AIX and Solaris. API: .NET, Java and C/C++. Query methods: native (CCL), SQL subset, XPath. Commercial.
+|[ESENT](http://msdn.microsoft.com/en-us/library/windows/desktop/gg269259%28v=EXCHG.10%29.aspx)|(by Microsoft) ISAM storage technology. Access using index or cursor navigation. Denormalized schemas, wide tables with sparse columns, multi-valued columns, and sparse and rich indexes. C# and Delphi drivers available. Backend for a number of MS Products as Exchange.
+|[jBASE](http://www.jbase.com/index.html)|jBASE is an application platform and DBMS that allows normal MultiValue (MV) applications to become native Windows, Unix or Linux programs. Traditional MV features are supported, including BASIC, Proc, Paragraph, Query and Dictionaries. jBASE jEDI Architecture, allows you to store data in any DBMS, such as Microsoft SQL, Oracle and DB2. jBASE jAgent supports BASIC, C, C++, .NET, Java and REST APIs. Additional features include dynamic objects, encryption, case insensitivity, audit logging and transaction journaling for online backup and disaster recovery.
+
+===  Event Sourcing  ===
+
+|name|contents|
+|:----|:----|
+|[Event Store](http://eventsourcing.com/)|-|
+|[Eventsourcing for Java (es4j)](http://geteventstore.com/)|Key features: Clean, succinct Command/Event model, Compact data storage layout, Disruptor for fast message processing, CQengine for fast indexing and querying, In-memory and on-disk storage, Causality-preserving Hybrid Logical Clocks, Locking synchronization primitive, OSGi support 
+
+===  Time Series / Streaming Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[Axibase](http://axibase.com/products/axibase-time-series-database/)|Distributed DB designed to store and analyze high-frequency time-series data at scale. Includes a large set of built-in features: Rule Engine, Visualization, Data Forecasting, Data Mining. API:**RESTful API, Network API, Data API, Meta API, SQL**API Clients:**R, Java, Ruby, Python, PHP, Node.js**Replication:**Master Slave**Major protocol &amp; format support:**CSV, nmon, pickle, StatsD, collectd, tcollector, scollector, JMX, JDBC, SNMP, JSON, ICMP, OVPM, SOAP**.
+|[kdb+](http://kx.com/)|time-series DBMS optimized for Big Data analytics.
+|[quasardb](https://www.quasardb.net/)|very high-performance time series DBMS. Highly scalable. API:**C, C++, Java, Python and (limited) RESTful**Protocol:**binary**Query method:**API/SQL-like,**Replication:**Distributed**, Written in:**C++ 11/Assembly**, Concurrency:**ACID**, Misc:**built-in data compression, native support for FreeBSD, Linux and Windows**. License:**Commercial**.
+|[Riak TS](http://basho.com/products/riak-ts/)|Enterprise-grade NoSQL time series DBMS optimized specifically for IoT and Time Series data. It ingests, transforms, stores, and analyzes massive amounts of time series data. Riak TS is engineered to be faster than Cassandra.  
+|[Informix Time Series Solution](https://www.ibm.com/developerworks/data/library/techarticle/dm-1203timeseries/index.html) , [influxdata](https://influxdata.com/) , [pipelinedb](https://pipelinedb.com/)|The Berkeley Tree DataBase BTrDB provides very fast storage of scalar-valued timeseries data. Stores data with nanosecond-precision timestamps. Boasts 16.7 million writes per second and 19.8 million reads per second on a single Intel Xeon E5-2680v2 based cloud server with 60GB of RAM (EC2 c3.8xlarge).  
+|[eXtremeDB](http://www.mcobject.com/extremedbfamily.shtml)|(listed also under other NoSQL related DBMS)
+|[Akumuli](https://akumuli.org/)|Akumuli is a column-oriented time-series DBMS. It uses novel data-structures and compression algorithms designed with time-series data in mind. It can take full advantage of modern SSD and NVMe drives. Akumuli integrates with Grafana, Prometheus, Collectd, and other monitoring systems.  
+
+===  Other NoSQL related database management systems  ===
+
+|name|contents|
+|:----|:----|
+|[IBM Lotus/Domino](http://www-01.ibm.com/software/lotus/)|Type: Document Store, API: Java, HTTP, IIOP, C API, REST Web Services, DXL, Languages: Java, JavaScript, LotusScript, C, @Formulas, Protocol: HTTP, NRPC, Replication: Master/Master, Written in: C, Concurrency: Eventually Consistent, Scaling: Replication Clusters
+|[eXtremeDB](http://www.mcobject.com/extremedbfamily.shtml)|Type: Hybrid In-Memory and/or Persistent DBMS DBMS Written in: C; API: C/C++, SQL, JNI, C#(.NET), JDBC; Replication: Async+sync (master-slave), Cluster; Scalability: 64-bit and MVCC
+|[RDM Embedded](http://www.raima.com/products/rdme/)|APIs: C++, Navigational C. Embedded Solution that is ACID Compliant with Multi-Core, On-Disk &amp; In-Memory Support. Distributed Capabilities, Hot Online Backup, supports all Main Platforms. Supported B Tree &amp; Hash Indexing. Replication: Master/Slave, Concurrency: MVCC. Client/Server: In-process/Built-in.
+|[ISIS Family](http://www.unesco.org/webworld/isis/isis.htm)|(semistructured databases)<a href="http://bvsmodelo.bvsalud.org/php/level.php?lang=en&amp;component=31" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[Moonshadow](http://www.moonshadowmobile.com/data-visualization/big-data-visualizer/)|NoSql, in-memory, flat-file, cloud-based. API interfaces. Small data footprint and very fast data retrieval. Stores 200 million records with 200 attributes in just 10GB. Retrieves 150 million records per second per CPU core. Often used to visualize big data on maps. Written in C.
+|[VaultDB](http://www.rediosoft.com/)|Next-gen NoSQL encrypted document store. Multi-recipient / group encryption. Features: concurrency, indices, ACID transactions, replication and PKI management. Supports PHP and many others. Written in**C++**. Commercial but has a free version. API:**JSON**
+|[Vyhodb](http://www.vyhodb.com/)|**Service oriented, schema-less, network data model DBMS**. Client application invokes methods of vyhodb services, which are written in Java and deployed inside vyhodb. Vyhodb services reads and modifies storage data. API:**Java**, Protocol: RSI -**Remote service invocation**, Written in: Java, ACID:**fully supported**, Replication:**async master slave**, Misc:**online backup**, License: proprietary
+|[Applied Calculus](http://nncnannara.net/)|Applied Calculus implements persistent AVL Trees / AVL DBMS. 14 different types of DBMS - represented as classes in both C# and Java. These DBMS perform transaction logging on the node file to ensure that failed transactions are backed out. Very fast on solid state storage (ca. 1780 transactions/second. AVL Trees considerably outperform B+ Trees on solid state. Very natural language interface. Each DBMS is represented as a collection class that strongly resembles the corresponding class in Pure Calculus.
+|[Prevayler](http://www.prevayler.org/)|Java RAM Data structure journalling.
+|[Yserial](http://yserial.sourceforge.net/)|Python wrapper over sqlite3
+|[SpreadsheetDB](https://www.spreadsheetdb.io/)|A DBMS as a service that can be queried with a spreadsheet through an HTTP API.
+|[chaozzDB](https://chaozz.nl/chaozzdb)|A full-featured, easy-to-use flatfile (noSQL) DBMS. Download from Github<a href="https://github.com/chaozznl/chaozzDB" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&gt;&gt;</a>  
+
+===  Scientific and Specialized Database Management Systems  ===
+
+|name|contents|
+|:----|:----|
+|[BayesDB](http://probcomp.csail.mit.edu/bayesdb/)|BayesDB, a Bayesian database table, lets users query the probable implications of their tabular data as easily as an SQL DBMS lets them query the data itself. Using the built-in Bayesian Query Language (BQL), users with no statistics training can solve basic data science problems, such as detecting predictive relationships between variables, inferring missing values, simulating probable observations, and identifying statistically similar database entries.
+|[GPUdb](http://www.gpudb.com/)|A distributed DBMS for many core devices. GPUdb leverages many core devices such as NVIDIA GPUs to provide an un-parallelled parallel DBMS experience. GPUdb is a scalable, distributed DBMS with SQL-style query capability, capable of storing Big Data. Developers using the GPUdb API add data, and query the data with operations like select, group by, and join. GPUdb includes many operations not available in other "cloud DBMS" offerings.
+
+===  unresolved and uncategorized  ===
+
+|name|contents|
+|:----|:----|
+|[Web Hosting Canada Reviews](https://hostingcanada.org/)|- Live up time tracking and testing on over 20 of the most popular hosting solutions. Hosting speeds compared across 3 different CMS configurations.  
+|[KirbyBase](https://rubygems.org/gems/KirbyBase)|Written in:**Ruby**. github:<a href="https://github.com/gurugeek/KirbyBase" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">&raquo;</a>
+|[Tokutek](http://tokutek.com/)|-|
+|[Recutils](http://www.gnu.org/software/recutils/)|GNU Tool for text files containing records and fields. [Manual](http://www.gnu.org/software/recutils/manual/index.html)
+|[FileDB:](http://www.eztools-software.com/tools/filedb/)|Mainly targeted to Silverlight/Windows Phone developers but its also great for any .NET application where a simple local DBMS is required, extremely Lightweight - less than 50K, stores one table per file, including index, compiled versions for Windows Phone 7, Silverlight and .NET, fast, free to use in your applications
+|[MentDB:](http://www.mentdb.org/)|A digital brain, based on the language of thought (Mentalese), to manage relations and strategies (with thoughts/words/symbols) into a cognitive cerebral structure. Programing language:**MQL**(Mentalese Query Language) for mental processes,**ACID**transaction, API:**REST**and**web**socket, Thoughts Performance: READ: 18035/s; WRITE: 416/s; Asynchronous Full**JAVA**
+|[D2000:](https://doc.ipesoft.com/display/D2DOCEN/D2000)|Realtime application server with an in-memory realtime DBMS with object level events and optional persistence of data of selected objects. Subscribe/publish mechanism of objects changes distribution. API / Query Method: SQL(ODBC), C, Java, multiple industrial communication protocols. Support for timeseries. Multiplatform (Windows/Linux/ARM/HP-UX/OpenVMS). Replication: async (master-slaves). Proprietary code. Written in: ADA
+|[CodernityDB](http://labs.codernity.com/codernitydb/)|**illuminate Correlation Database** [>>](http://www.datainnovationsgroup.com/) **FluidDB Column Oriented DB)**[>>](http://doc.fluidinfo.com/fluidDB/), [Fleet DB](http://fleetdb.org/)**Btrieve**, [Twisted Storage](http://twistedstorage.com/), [Java-Chronicle](https://github.com/peter-lawrey/Java-Chronicle), Ringo, Sherpa, tin, Dryad, SkyNet, Disco Possibly the oldest NoSQL DB (together with MUMPS and IBMs IMS &amp; IDMS [1968,1964])  [**Adabas**](http://documentation.softwareag.com/adabas/ada814mfr/adamf/concepts/cfadais.htm)  VSAM by IBM is also a good candidate.

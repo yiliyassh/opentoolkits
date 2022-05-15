@@ -1,40 +1,37 @@
-## TIOBE Index for April 2022    |  [返回](README.md)
-- April Headline: MATLAB about to drop out of the top 20  
+## [TIOBE Index for May 2022](https://www.tiobe.com/tiobe-index/) | [返回](README.md)
+- May Headline: C# gains most ranking points
 
- Good old MATLAB is about to drop out of the top 20 for the first time in more than 10 years. 
- The MATLAB programming language is mainly used in the numerical analysis domain. It is often combined with Simulink models, which are from the same MathWorks company. 
- Although MATLAB has a biannual release cycle, the language doesn't evolve that much. And since MATLAB licenses are rather expensive, alternatives are catching up quickly now. 
- Its main competitors are Python (currently number 1) and Julia (moving from position 32 to position 26 this month). --Paul Jansen CEO TIOBE Software  
+  
+If we compare the current TIOBE index rankings to 1 year ago (May 2021), C# is gaining most popular of all programming languages by far. Its rankings has increased almost 2% for the last 12 months. C# is one of the most mature programming languages in existence, supporting many modern programming paradigms. Until recently, its only disadvantage was that its Linux support was questionable, but this is changing rapidly the last couple of years. So chances are high that C# might enter the TIOBE index top 3 by replacing C. Another serious contender for this top 3 position is C++. Its long term trend, boosted by C++20, is definitely upward. -- Paul Jansen CEO TIOBE Software
 
-The TIOBE Programming Community index is an indicator of the popularity of programming languages. 
-The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. 
-Popular search engines such as Google, Bing, Yahoo!, Wikipedia, Amazon, YouTube and Baidu are used to calculate the ratings. 
-It is important to note that the TIOBE index is not about the best programming language or the language in which most lines of code have been written.  
+The TIOBE Programming Community index is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. Popular search engines such as Google, Bing, Yahoo!, Wikipedia, Amazon, YouTube and Baidu are used to calculate the ratings. It is important to note that the TIOBE index is not about the best programming language or the language in which most lines of code have been written.
 
-The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system. The definition of the TIOBE index can be found here.   
+The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system. The definition of the TIOBE index can be found here.
 
 ```
-Mar 2022 Mar 2021 Programming Language 	Ratings 	
-1	3	Python		14.26%	+3.95%
-2	1	C		13.06%	-2.27%
-3	2	Java		11.19%	+0.74%
-4	4	C++		8.66%	+2.14%
-5	5	C#		5.92%	+0.95%
-6	6	Visual Basic	5.77%	+0.91%
-7	7	JavaScript	2.09%	-0.03%
-8	8	PHP		1.92%	-0.15%
-9	9  Assembly language	1.90%	-0.07%
-10	10	SQL		1.85%	-0.02%
-11	13	R		1.37%	+0.12%
-12	14Delphi/Object Pascal	1.12%	-0.07%
-13	11	Go		0.98%	-0.33%
-14	19	Swift		0.90%	-0.05%
-15	18	MATLAB		0.80%	-0.23%
-16	16	Ruby		0.66%	-0.52%
-17	12Classic Visual Basic	0.60%	-0.66%
-18	20	Objective-C	0.59%	-0.31%
-19	17	Perl		0.57%	-0.58%
-20	38	Lua		0.56%	+0.23%
+May 2022 	May 2021 	Programming Language 	Ratings 	Change
+
+1	2	change	Python page	Python	12.74%	+0.86%
+2	1	change	C page	C	11.59%	-1.80%
+3	3		Java page	Java	10.99%	-0.74%
+4	4		C++ page	C++	8.83%	+1.01%
+5	5		C# page	C#	6.39%	+1.98%
+6	6		Visual Basic page	Visual Basic	5.86%	+1.85%
+7	7		JavaScript page	JavaScript	2.12%	-0.33%
+8	8		Assembly language page	Assembly language	1.92%	-0.51%
+9	10	change	SQL page	SQL	1.87%	+0.16%
+10	9	change	PHP page	PHP	1.52%	-0.34%
+11	17	change	Delphi/Object Pascal page	Delphi/Object Pascal	1.42%	+0.22%
+12	18	change	Swift page	Swift	1.23%	+0.08%
+13	13		R page	R	1.22%	-0.16%
+14	16	change	Go page	Go	1.11%	-0.11%
+15	12	change	Classic Visual Basic page	Classic Visual Basic	1.03%	-0.38%
+16	21	change	Objective-C page	Objective-C	1.03%	+0.24%
+17	19	change	Perl page	Perl	0.99%	-0.05%
+18	37	change	Lua page	Lua	0.98%	+0.64%
+19	11	change	Ruby page	Ruby	0.86%	-0.64%
+20	15	change	MATLAB page	MATLAB	0.82%	-0.41%
+
 ```
 
 ## 编程语言名人堂 Programming Language Hall of Fame  

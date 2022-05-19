@@ -68,7 +68,7 @@ https://distrowatch.com/
 
 ***
 ## Linux 内核——The Linux Kernel Archives  
-- 最新的 [内核](https://www.kernel.org/) 信息 Latest Release [5.17.7](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.7.tar.xz)
+- 最新的 [内核](https://www.kernel.org/) 信息 Latest Release [5.17.9](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.9.tar.xz)
 ```
 Protocol 	Location
 HTTP 	https://www.kernel.org/pub/
@@ -79,16 +79,15 @@ RSYNC 	rsync://rsync.kernel.org/pub/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.18-rc6|2022-05-08|[tarball](https://git.kernel.org/torvalds/t/linux-5.18-rc6.tar.gz)
-|stable:|5.17.7|2022-05-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.7.tar.xz)
-|stable:|5.16.20 |2022-04-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.20.tar.xz)
-|longterm:|5.15.39|2022-05-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.39.tar.xz)
-|longterm:|5.10.115|2022-05-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.115.tar.xz)
-|longterm:|5.4.193|2022-05-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.193.tar.xz)
-|longterm:|4.19.242|2022-05-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.242.tar.xz)
-|longterm:|4.14.278|2022-05-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.278.tar.xz)
-|longterm:|4.9.313|2022-05-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.313.tar.xz)
-|linux-next:|next-20220513|2022-05-13|[browse](https://git.kernel.org/next/linux-next/h/next-20220513)
+|mainline:|5.18-rc7|2022-05-16|[tarball](https://git.kernel.org/torvalds/t/linux-5.18-rc7.tar.gz)
+|stable:|5.17.9|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.9.tar.xz)
+|longterm:|5.15.41|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.41.tar.xz)
+|longterm:|5.10.117|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.117.tar.xz)
+|longterm:|5.4.195|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.195.tar.xz)
+|longterm:|4.19.244|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.244.tar.xz)
+|longterm:|4.14.280|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.280.tar.xz)
+|longterm:|4.9.315|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.315.tar.xz)
+|linux-next:|next-20220519|2022-05-19|[browse](https://git.kernel.org/next/linux-next/h/next-20220519)
 
 - 快速下载最新版Linux内核
 ```
@@ -100,7 +99,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update:  Sunday 15 May 2022 02:08 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update:  Thursday 19 May 2022 22:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 ```
 wget -c --no-check-certificate https://distrowatch.com/packages.php
@@ -111,7 +110,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |应用软件（详情）|版本（下载）|说明|
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
-|[bind](http://www.isc.org/downloads/bind/)|[9.18.2](https://ftp.isc.org/isc/bind9/9.18.2/bind-9.18.2.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
+|[bind](http://www.isc.org/downloads/bind/)|[9.18.3](https://ftp.isc.org/isc/bind9/9.18.3/bind-9.18.3.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.23.1](https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.83.1](https://github.com/curl/curl/releases/download/curl-7_83_0/curl-7.83.1.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.16](https://github.com/moby/moby/archive/refs/tags/v20.10.16.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
@@ -132,7 +131,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.29](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.29.tar.gz)|MySQL: an SQL database server
 |[nginx](http://nginx.org/)|[1.20.2](http://nginx.org/download/nginx-1.20.2.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](http://www.insecure.org/nmap/)|[7.92](http://download.insecure.org/nmap/dist/nmap-7.92.tgz)|Nmap: a utility for network exploration or security auditing
-|[NVIDIA](http://www.nvidia.com/object/unix.html)|[510.68.02](http://download.nvidia.com/XFree86/Linux-x86_64/510.68.02/NVIDIA-Linux-x86_64-510.68.02.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+|[NVIDIA](http://www.nvidia.com/object/unix.html)|[510.73.05](http://download.nvidia.com/XFree86/Linux-x86_64/510.73.05/NVIDIA-Linux-x86_64-510.73.05.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.34.1](http://www.cpan.org/src/5.0/perl-5.34.1.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
 |[php](http://www.php.net/)|[8.1.6](http://us3.php.net/distributions/php-8.1.6.tar.xz)|PHP: a server-side HTML embedded scripting language
@@ -267,6 +266,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
+|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
 |[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)
 |[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)
 

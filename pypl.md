@@ -284,5 +284,4 @@ If you believe in collective wisdom, the TOPDB Top Database index can help you d
 |27|Memcached|0.11 %|-0.0 %
 |28|Netezza|0.08 %|-0.0 %
 |29|CouchDB|0.07 %|-0.0 %
->>>>>>> Stashed changes
 |30|dBase|0.05 %|-0.0 %

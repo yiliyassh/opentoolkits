@@ -38,10 +38,9 @@
 https://distrowatch.com/
 - 几百种linux发行版的详细介绍和官网链接，镜像下载等。珍爱生命，拥抱开源~_~  
 ###  [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
-- 2022-02-25: Distribution Release: Ubuntu 20.04.4
+-  2022-04-21: Distribution Release: Ubuntu 22.04
+-  2022-02-25: Distribution Release: Ubuntu 20.04.4
 -  2021-10-14: Distribution Release: Ubuntu 21.10
--  2021-09-17: Distribution Release: Ubuntu 18.04.6
--  2021-08-26: Distribution Release: Ubuntu 20.04.3
 ###   [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 - 2021-06-23: Distribution Release: Android-x86 8.1-r6
 -  2020-02-27: Distribution Release: Android-x86 9.0-r1
@@ -52,10 +51,11 @@ https://distrowatch.com/
 -  2021-06-04: Distribution Release: CentOS 8.4.2105
 -  2020-11-13: Distribution Release: CentOS 7.9.2009
 ###   [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
-- 2022-04-15: Development Release: FreeBSD 13.1-RC3
+-  2022-05-16: BSD Release: FreeBSD 13.1
 -  2021-12-08: BSD Release: FreeBSD 12.3
 -  2021-04-13: BSD Release: FreeBSD 13.0
 ###   [opensuse](https://distrowatch.com/table.php?distribution=opensuse)
+-  2022-05-17: Development Release: openSUSE 15.4 RC
 - 2022-03-02: Development Release: openSUSE 15.4 Beta
 -  2021-12-02: Development Release: openSUSE 15.4 Alpha
 -  2021-06-02: Distribution Release: openSUSE 15.3
@@ -68,14 +68,15 @@ https://distrowatch.com/
 
 ***
 ## Linux 内核——The Linux Kernel Archives  
-- 最新的 [内核](https://www.kernel.org/) 信息 Latest Release [5.17.9](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.9.tar.xz)
-```
-Protocol 	Location
-HTTP 	https://www.kernel.org/pub/
-GIT 	https://git.kernel.org/
-RSYNC 	rsync://rsync.kernel.org/pub/
-```
-======
+- 最新的 [内核](https://www.kernel.org/) 信息 
+
+|Protocol|Location
+|:----|:----|
+|Latest Release| [5.17.9](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.9.tar.xz)
+|HTTP| 	https://www.kernel.org/pub/  
+|GIT| 	https://git.kernel.org/  
+|RSYNC| 	rsync://rsync.kernel.org/pub/  
+- 版本和发布信息
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
@@ -89,22 +90,20 @@ RSYNC 	rsync://rsync.kernel.org/pub/
 |longterm:|4.9.315|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.315.tar.xz)
 |linux-next:|next-20220519|2022-05-19|[browse](https://git.kernel.org/next/linux-next/h/next-20220519)
 
-- 快速下载最新版Linux内核
-```
-wget -c --no-check-certificate https://www.kernel.org/
-cat index.html |grep ChangeLog|awk -F '"' '{print $2}'|uniq|xargs wget -c 
-cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c 
-```
+- 快速下载最新内核
+>wget -c --no-check-certificate https://www.kernel.org/
+cat index.html |grep ChangeLog|awk -F '"' '{print $2}'|uniq|xargs wget -c   
+cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c   
+
 ## 包管理备忘录[Package Management Cheatsheet](https://distrowatch.com/dwres.php?resource=package-management)
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
 - [ Last Update:  Thursday 19 May 2022 22:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
-```
-wget -c --no-check-certificate https://distrowatch.com/packages.php
+>wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
-```
+
 ======常见的应用软件======
 
 |应用软件（详情）|版本（下载）|说明|
@@ -266,7 +265,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
+|[May. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-20-2022.html)|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
 |[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)
 |[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)
 

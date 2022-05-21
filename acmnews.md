@@ -6,7 +6,7 @@
 
 |=|=|=|
 |:----|:----|:----|
-|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
+|[May. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-20-2022.html)|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
 |[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)
 |[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)
   
@@ -141,4 +141,3 @@
 |[Dec 2000](https://technews.acm.org/archives.cfm?d=2000-12-dec)|[Nov 2000](https://technews.acm.org/archives.cfm?d=2000-11-nov)|[Oct 2000](https://technews.acm.org/archives.cfm?d=2000-10-oct)|[Sep 2000](https://technews.acm.org/archives.cfm?d=2000-09-sep)|[Aug 2000](https://technews.acm.org/archives.cfm?d=2000-08-aug)|[Jul 2000](https://technews.acm.org/archives.cfm?d=2000-07-jul)
 |[Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
 |[Dec 1999](https://technews.acm.org/archives.cfm?d=1999-12-dec)
->>>>>>> Stashed changes

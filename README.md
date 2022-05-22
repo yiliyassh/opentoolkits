@@ -282,11 +282,42 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  
 - [本地镜像   (1997~2022年)  ](web-server-survey.md)
-### 2022
-- [April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)
-- [March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)
-- [February 2022 Web Server Survey](https://news.netcraft.com/archives/2022/02/28/february-2022-web-server-survey.html)
-- [January 2022 Web Server Survey]( https://news.netcraft.com/archives/2022/01/17/january-2022-web-server-survey.html)
+- 最新数据
+
+- web server developers: Market share of all sites
+
+|Developer|	March 2022|	Percent|	April 2022|	Percent|	Change
+|:----|:----|:----|:----|:----|:----|
+|nginx|361,976,272|30.95%|361,438,143|31.13%|0.18
+|Apache|272,919,651|23.33%|268,005,916|23.08%|-0.25
+|OpenResty|91,479,385|7.82%|92,950,864|8.01%|0.19
+|Cloudflare|63,739,599|5.45%|63,701,232|5.49%|0.04
+- 历史数据
+
+|Hosting|date|
+|:----|:----|
+|[April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)|27th April, 2022
+|[March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)|29th March, 2022
+|[February 2022 Web Server Survey](https://news.netcraft.com/archives/2022/02/28/february-2022-web-server-survey.html)|28th February, 2022
+
+## 最可靠的托管主机 [Most Reliable Hosting Company Sites](https://news.netcraft.com/archives/category/hosting/)
+- [本地镜像   (2003~2022年)  ](web-hosting.md)
+- 最新数据
+
+|Rank|Performance Graph|OS|Outage hh:mm:ss|Failed Req%|DNS|Connect|First byte|Total|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|1|[Aruba](https://uptime.netcraft.com/perf/graph?collector=38,39,44,45&sd=1648771208&range=2591999&sample=8&site=www.aruba.it)|unknown|0:00:00|0.000|0.355|0.007|0.0280.072
+|2|[CWCS Managed Hosting](https://uptime.netcraft.com/perf/graph?collector=38,39,44,45&sd=1648771208&range=2591999&sample=8&site=www.cwcs.co.uk)|Linux|0:00:00|0.000|0.338|0.063|0.1280.128
+|3|[krystal.uk](https://uptime.netcraft.com/perf/graph?collector=38,39,44,45&sd=1648771208&range=2591999&sample=8&site=krystal.uk)|Linux|0:00:00|0.000|0.183|0.070|0.1380.138
+|4|[New York Internet (NYI)](https://uptime.netcraft.com/perf/graph?collector=38,39,44,45&sd=1648771208&range=2591999&sample=8&site=www.nyi.net)|FreeBSD|0:00:00|0.000|0.565|0.076|0.1510.152
+|5|[Bigstep](https://uptime.netcraft.com/perf/graph?collector=38,39,44,45&sd=1648771208&range=2591999&sample=8&site=www.bigstep.com)|Linux|0:00:00|0.000|0.185|0.078|0.1540.154
+- 历史数据
+
+|Hosting|date|
+|:----|:----|
+|[Most Reliable Hosting Company Sites in April 2022](https://news.netcraft.com/archives/2022/05/03/most-reliable-hosting-company-sites-in-april-2022.html)|3rd May, 2022
+|[Most Reliable Hosting Company Sites in March 2022](https://news.netcraft.com/archives/2022/04/05/most-reliable-hosting-company-sites-in-march-2022.html)|5th April, 2022
+|[Most Reliable Hosting Company Sites in February 2022](https://news.netcraft.com/archives/2022/03/02/most-reliable-hosting-company-sites-in-february-2022.html)|2nd March, 2022
 
 ***
 ## 开源镜像网站  [详情](mirrors.md)

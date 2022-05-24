@@ -15,6 +15,8 @@
 |[shotcut](https://www.shotcut.org)|简单易用，兼顾专业
 |[openshot](https://www.openshot.org/)|切割分离方便
 |[kdenlive](https://kdenlive.org/en/)|专业级别的好工具
+|[ShareX](https://getsharex.com/)|录屏截屏图像编辑
+
 ## 必备的实用工具
 
 |名称|说明|
@@ -211,7 +213,6 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 - Other NoSQL related database management systems
 - Scientific and Specialized Database Management Systems
 - unresolved and uncategorized  
-
 ***
 ## TIOBE 语言排行榜
 - [TIOBE Index for May 2022](https://www.tiobe.com/tiobe-index/)  |  [本地镜像](tiobe.md)
@@ -279,6 +280,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |.|.|.|.|.|.|
 |[Dec 2000](https://technews.acm.org/archives.cfm?d=2000-12-dec)|[Nov 2000](https://technews.acm.org/archives.cfm?d=2000-11-nov)|[Oct 2000](https://technews.acm.org/archives.cfm?d=2000-10-oct)|[Sep 2000](https://technews.acm.org/archives.cfm?d=2000-09-sep)|[Aug 2000](https://technews.acm.org/archives.cfm?d=2000-08-aug)|[Jul 2000](https://technews.acm.org/archives.cfm?d=2000-07-jul)
 |[Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
+***
+## Stack Overflow Annual Developer Survey [年度开发者调查](https://insights.stackoverflow.com/survey/)
+
+|年度|查看|下载|
+|:----|:----|:----|
+|**2021**  |[View Survey Results](https://insights.stackoverflow.com/survey/2021)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2021.zip)
+|2020  |[View Results](https://insights.stackoverflow.com/survey/2020)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip)
+
 ***
 ## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  
 - [本地镜像   (1997~2022年)  ](web-server-survey.md)

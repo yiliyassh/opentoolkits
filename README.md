@@ -74,7 +74,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release| [5.17.9](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.9.tar.xz)
+|Latest Release|[5.18](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -82,15 +82,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.18-rc7|2022-05-16|[tarball](https://git.kernel.org/torvalds/t/linux-5.18-rc7.tar.gz)
-|stable:|5.17.9|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.9.tar.xz)
-|longterm:|5.15.41|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.41.tar.xz)
-|longterm:|5.10.117|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.117.tar.xz)
-|longterm:|5.4.195|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.195.tar.xz)
-|longterm:|4.19.244|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.244.tar.xz)
-|longterm:|4.14.280|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.280.tar.xz)
-|longterm:|4.9.315|2022-05-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.315.tar.xz)
-|linux-next:|next-20220519|2022-05-19|[browse](https://git.kernel.org/next/linux-next/h/next-20220519)
+|mainline:|5.18|2022-05-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.tar.xz)
+|stable:|5.17.11|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.11.tar.xz)
+|longterm:|5.15.43|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.43.tar.xz)
+|longterm:|5.10.118|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.118.tar.xz)
+|longterm:|5.4.196|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.196.tar.xz)
+|longterm:|4.19.245|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.245.tar.xz)
+|longterm:|4.14.281|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.281.tar.xz)
+|longterm:|4.9.316|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.316.tar.xz)
+|linux-next:|next-20220527|2022-05-27|[browse](https://git.kernel.org/next/linux-next/h/next-20220527)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -101,7 +101,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update:  Thursday 19 May 2022 22:08 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update:  Friday 27 May 2022 08:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -112,7 +112,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
 |[bind](http://www.isc.org/downloads/bind/)|[9.18.3](https://ftp.isc.org/isc/bind9/9.18.3/bind-9.18.3.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
-|[cmake](https://cmake.org/)|[3.23.1](https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1.tar.gz)|cmake: a cross-platform, open-source build system
+|[cmake](https://cmake.org/)|[3.23.2](https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.83.1](https://github.com/curl/curl/releases/download/curl-7_83_0/curl-7.83.1.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.16](https://github.com/moby/moby/archive/refs/tags/v20.10.16.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](http://eclipse.org/)|[4.23](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
@@ -128,9 +128,9 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[lighttpd](http://www.lighttpd.net/)|[1.4.64](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.64.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](http://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
 |[make](http://www.gnu.org/software/make/)|[4.3](https://ftp.gnu.org/gnu/make/make-4.3.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
-|[mariadb](https://mariadb.org/)|[10.7.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.7.3/source/mariadb-10.7.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
+|[mariadb](https://mariadb.org/)|[10.8.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.8.3/source/mariadb-10.8.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.29](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.29.tar.gz)|MySQL: an SQL database server
-|[nginx](http://nginx.org/)|[1.20.2](http://nginx.org/download/nginx-1.20.2.tar.gz)|nginx: an HTTP and reverse proxy server
+|[nginx](http://nginx.org/)|[1.22.0](http://nginx.org/download/nginx-1.22.0.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](http://www.insecure.org/nmap/)|[7.92](http://download.insecure.org/nmap/dist/nmap-7.92.tgz)|Nmap: a utility for network exploration or security auditing
 |[NVIDIA](http://www.nvidia.com/object/unix.html)|[510.73.05](http://download.nvidia.com/XFree86/Linux-x86_64/510.73.05/NVIDIA-Linux-x86_64-510.73.05.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
@@ -143,7 +143,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.29.0](https://snort.org/downloads/snortplus/snort3-3.1.29.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[snort](https://www.snort.org/)|[3.1.30.0](https://snort.org/downloads/snortplus/snort3-3.1.30.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.38.5](https://www.sqlite.org/2022/sqlite-amalgamation-3380500.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.5](http://www.squid-cache.org/Versions/v5/squid-5.5.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
@@ -152,7 +152,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[VirtualBox](https://www.virtualbox.org/)|[6.1.34](http://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.0](https://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz)|wget: retrieves files from web and FTP sites
 |[wireshark](https://www.wireshark.org/)|[3.6.5](https://www.wireshark.org/download/src/wireshark-3.6.5.tar.xz)|Wireshark: a network protocol analyzer
-|[wordpress](https://wordpress.org/)|[5.9.3](https://wordpress.org/wordpress-5.9.3.tar.gz)|WordPress: publishing software for the world wide web
+|[wordpress](https://wordpress.org/)|[6.0](https://wordpress.org/wordpress-6.0.tar.gz)|WordPress: publishing software for the world wide web
 ***
 ## 数据库排名——DB-Engines Ranking  | [本地镜像](db.md)
 - Complete ranking  [完整排名 388 systems in ranking, March 2022](https://db-engines.com/en/ranking)
@@ -266,6 +266,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
+|[May. 25, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-25-2022.html)|[May. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-23-2022.html)
 |[May. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-20-2022.html)|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
 |[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)
 |[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)
@@ -282,11 +283,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
 ***
 ## Stack Overflow Annual Developer Survey [年度开发者调查](https://insights.stackoverflow.com/survey/)
+- [本地镜像   (2011~2021年)  ](StackOverflow.md)    
+
 
 |年度|查看|下载|
 |:----|:----|:----|
 |**2021**  |[View Survey Results](https://insights.stackoverflow.com/survey/2021)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2021.zip)
 |2020  |[View Results](https://insights.stackoverflow.com/survey/2020)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip)
+|2019  |[View Results](https://insights.stackoverflow.com/survey/2019)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip)
 
 ***
 ## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  
@@ -329,17 +333,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[Most Reliable Hosting Company Sites in February 2022](https://news.netcraft.com/archives/2022/03/02/most-reliable-hosting-company-sites-in-february-2022.html)|2nd March, 2022
 
 ***
-## 开源镜像网站  [详情](mirrors.md)
-### 国内企业开源镜像站点
-- 阿里云：http://mirrors.aliyun.com/
-- 华为云：https://mirrors.huaweicloud.com/home
-- 网易：http://mirrors.163.com/
-- 搜狐：http://mirrors.sohu.com/
-### 国内教育开源镜像站点
-- 清华大学：https://mirrors.tuna.tsinghua.edu.cn/
-- 中国科技大学：https://mirrors.ustc.edu.cn/
-- 上海交通大学：http://ftp.sjtu.edu.cn/，ftp://ftp.sjtu.edu.cn/
-- 西安交通大学：http://mirrors.xjtu.edu.cn/
-- 浙江大学：http://mirrors.zju.edu.cn/
-- 南京大学：https://mirrors.nju.edu.cn/
+## [开源镜像网站](mirrors.md)
+
+|企业开源|教育开源|
+|:----|:----|
+[阿里云](http://mirrors.aliyun.com/)|[清华大学](https://mirrors.tuna.tsinghua.edu.cn/)
+[华为云](https://mirrors.huaweicloud.com/home)|[中国科技大学](https://mirrors.ustc.edu.cn/)
+[网易](http://mirrors.163.com/)|[浙江大学](http://mirrors.zju.edu.cn/)
+[搜狐](http://mirrors.sohu.com/)|[南京大学](https://mirrors.nju.edu.cn/)
+| |[上海交通大学](http://ftp.sjtu.edu.cn/)  .   [ftp](ftp://ftp.sjtu.edu.cn/)
+| |[西安交通大学](http://mirrors.xjtu.edu.cn/)
 

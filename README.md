@@ -74,7 +74,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.18](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.tar.xz)
+|Latest Release|[5.18.1](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.1.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -83,14 +83,16 @@ https://distrowatch.com/
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
 |mainline:|5.18|2022-05-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.tar.xz)
-|stable:|5.17.11|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.11.tar.xz)
-|longterm:|5.15.43|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.43.tar.xz)
-|longterm:|5.10.118|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.118.tar.xz)
+|stable:|5.18.1|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.1.tar.xz)
+|stable:|5.17.12|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.12.tar.xz)
+|longterm:|5.15.44|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.44.tar.xz)
+|longterm:|5.10.119|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.119.tar.xz)
 |longterm:|5.4.196|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.196.tar.xz)
 |longterm:|4.19.245|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.245.tar.xz)
 |longterm:|4.14.281|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.281.tar.xz)
 |longterm:|4.9.316|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.316.tar.xz)
-|linux-next:|next-20220527|2022-05-27|[browse](https://git.kernel.org/next/linux-next/h/next-20220527)
+|linux-next:|next-20220603|2022-06-03|[browse](https://git.kernel.org/next/linux-next/h/next-20220603)
+
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -101,7 +103,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update:  Friday 27 May 2022 08:08 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update:  Friday 3 June 2022 05:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -132,9 +134,9 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.29](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.29.tar.gz)|MySQL: an SQL database server
 |[nginx](http://nginx.org/)|[1.22.0](http://nginx.org/download/nginx-1.22.0.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](http://www.insecure.org/nmap/)|[7.92](http://download.insecure.org/nmap/dist/nmap-7.92.tgz)|Nmap: a utility for network exploration or security auditing
-|[NVIDIA](http://www.nvidia.com/object/unix.html)|[510.73.05](http://download.nvidia.com/XFree86/Linux-x86_64/510.73.05/NVIDIA-Linux-x86_64-510.73.05.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+|[NVIDIA](http://www.nvidia.com/object/unix.html)|[515.48.07](http://download.nvidia.com/XFree86/Linux-x86_64/515.48.07/NVIDIA-Linux-x86_64-515.48.07.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
-|[perl](https://www.perl.org)|[5.34.1](http://www.cpan.org/src/5.0/perl-5.34.1.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
+|[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
 |[php](http://www.php.net/)|[8.1.6](http://us3.php.net/distributions/php-8.1.6.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
 |[postgresql](https://www.postgresql.org/)|[14.3](https://ftp.postgresql.org/pub/source/v14.3/postgresql-14.3.tar.bz2)|PostgreSQL: a relational database management system
@@ -143,14 +145,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.30.0](https://snort.org/downloads/snortplus/snort3-3.1.30.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[snort](https://www.snort.org/)|[3.1.31.0](https://snort.org/downloads/snortplus/snort3-3.1.31.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.38.5](https://www.sqlite.org/2022/sqlite-amalgamation-3380500.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.5](http://www.squid-cache.org/Versions/v5/squid-5.5.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](http://www.tcpdump.org/)|[4.99.1](http://www.tcpdump.org/release/tcpdump-4.99.1.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
 |[vim](https://www.vim.org/)|[8.2](http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
 |[VirtualBox](https://www.virtualbox.org/)|[6.1.34](http://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
-|[wget](https://www.gnu.org/software/wget/)|[2.0.0](https://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz)|wget: retrieves files from web and FTP sites
+|[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
 |[wireshark](https://www.wireshark.org/)|[3.6.5](https://www.wireshark.org/download/src/wireshark-3.6.5.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[6.0](https://wordpress.org/wordpress-6.0.tar.gz)|WordPress: publishing software for the world wide web
 ***
@@ -261,12 +263,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2022年5月](https://technews.acm.org/archives.cfm?d=2022-05-may
+- [2022年6月](https://technews.acm.org/archives.cfm?d=2022-06-jun
   )|   [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
-|[May. 25, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-25-2022.html)|[May. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-23-2022.html)
+|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)
+|[May. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-27-2022.html)|[May. 25, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-25-2022.html)|[May. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-23-2022.html)
 |[May. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-20-2022.html)|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
 |[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)
 |[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)

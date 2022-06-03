@@ -11,34 +11,34 @@ If you believe in collective wisdom, the PYPL Popularity of Programming Language
 
 |Rank|Language|Share占比%|Trend趋势|
 |:----|:----|:----|:----|
-|1|Python|27.85 %|-2.5 %
-|2|Java|17.86 %|-0.1 %
-|3|JavaScript|9.17 %|+0.4 %
-|4|C#|7.62 %|+0.7 %
-|5|C/C++|7.0 %|+0.4 %
-|6|PHP|5.36 %|-1.0 %
-|7|R|4.34 %|+0.5 %
-|8|TypeScript|2.39 %|+0.7 %
-|9|Objective-C|2.25 %|+0.0 %
-|10|Swift|2.05 %|+0.3 %
-|11|Matlab|1.82 %|+0.2 %
-|12|Kotlin|1.58 %|-0.2 %
-|13|Go|1.38 %|-0.1 %
-|14|Rust|1.15 %|+0.3 %
-|15|Ruby|1.14 %|+0.0 %
-|16|VBA|1.04 %|-0.2 %
-|17|Ada|0.81 %|+0.2 %
-|18|Scala|0.7 %|+0.2 %
-|19|Dart|0.66 %|+0.0 %
-|20|Abap|0.66 %|+0.1 %
-|21|Visual Basic|0.66 %|+0.0 %
-|22|Lua|0.5 %|+0.0 %
-|23|Groovy|0.45 %|+0.1 %
-|24|Perl|0.45 %|+0.0 %
-|25|Julia|0.4 %|+0.0 %
-|26|Cobol|0.28 %|+0.0 %
-|27|Haskell|0.28 %|+0.1 %
-|28|Delphi/Pascal|0.14 %|+0.0 %
+|1|Python|27.61 %|-2.8 %
+|2|Java|17.64 %|-0.7 %
+|3|JavaScript|9.21 %|+0.4 %
+|4|C#|7.79 %|+0.8 %
+|5|C/C++|7.01 %|+0.4 %
+|6|PHP|5.27 %|-1.0 %
+|7|R|4.26 %|+0.5 %
+|8|TypeScript|2.43 %|+0.7 %
+|9|Objective-C|2.21 %|+0.1 %
+|10|Swift|2.17 %|+0.4 %
+|11|Matlab|1.71 %|+0.2 %
+|12|Kotlin|1.57 %|-0.2 %
+|13|Go|1.48 %|+0.0 %
+|14|Rust|1.29 %|+0.4 %
+|15|Ruby|1.1 %|-0.0 %
+|16|VBA|1.07 %|-0.2 %
+|17|Ada|0.95 %|+0.4 %
+|18|Scala|0.73 %|+0.2 %
+|19|Visual Basic|0.65 %|-0.0 %
+|20|Dart|0.64 %|+0.0 %
+|21|Abap|0.58 %|+0.1 %
+|22|Lua|0.51 %|-0.0 %
+|23|Groovy|0.48 %|+0.1 %
+|24|Perl|0.44 %|+0.0 %
+|25|Julia|0.41 %|+0.0 %
+|26|Cobol|0.34 %|+0.1 %
+|27|Haskell|0.29 %|+0.1 %
+|28|Delphi/Pascal|0.16 %|+0.1 %
 
 - Top [**IDE**](https://pypl.github.io/IDE.html) index  
 >The Top IDE Index is created by analyzing how often IDEs' download page are searched on Google  
@@ -112,35 +112,36 @@ If you believe in collective wisdom, the TOPDB Top Database index can help you d
 
 |Rank|Database|Share占比%|Trend趋势|
 |:----|:----|:----|:----|
-|1|Oracle|32.09 %|+2.3 %
-|2|MySQL|16.64 %|+0.1 %
-|3|SQL Server|13.72 %|-0.4 %
-|4|Microsoft Access|7.59 %|-1.3 %
-|5|PostgreSQL|4.94 %|+0.5 %
-|6|MongoDB|4.48 %|-0.4 %
-|7|Firebase|3.09 %|-1.0 %
+|1|Oracle|32.49 %|+2.7 %
+|2|MySQL|16.75 %|+0.2 %
+|3|SQL Server|13.86 %|-0.5 %
+|4|Microsoft Access|7.32 %|-1.2 %
+|5|PostgreSQL|4.88 %|+0.5 %
+|6|MongoDB|4.37 %|-0.8 %
+|7|Firebase|3.11 %|-1.0 %
 |8|Splunk|2.69 %|+0.0 %
-|9|Redis|2.28 %|+0.3 %
-|10|Elasticsearch|2.1 %|+0.1 %
-|11|SQLite|1.65 %|+0.0 %
-|12|DB2|1.32 %|-0.1 %
-|13|MariaDB|1.23 %|+0.0 %
-|14|Apache Hive|1.14 %|-0.0 %
-|15|SAP HANA|1.05 %|-0.1 %
-|16|DynamoDB|0.85 %|+0.2 %
-|17|FileMaker|0.48 %|-0.1 %
-|18|Solr|0.46 %|+0.0 %
-|19|Neo4j|0.39 %|+0.0 %
+|9|Redis|2.24 %|+0.2 %
+|10|Elasticsearch|2.04 %|+0.1 %
+|11|SQLite|1.64 %|+0.0 %
+|12|DB2|1.31 %|-0.1 %
+|13|MariaDB|1.2 %|+0.0 %
+|14|Apache Hive|1.09 %|-0.1 %
+|15|SAP HANA|1.03 %|-0.2 %
+|16|DynamoDB|0.84 %|+0.1 %
+|17|FileMaker|0.47 %|-0.1 %
+|18|Solr|0.45 %|+0.0 %
+|19|Neo4j|0.4 %|+0.0 %
 |20|Sybase|0.33 %|-0.0 %
-|21|Ingres|0.29 %|-0.0 %
-|22|Firebird|0.28 %|+0.0 %
-|23|Hbase|0.22 %|-0.0 %
-|24|CouchBase|0.14 %|+0.0 %
+|21|Firebird|0.29 %|+0.0 %
+|22|Ingres|0.29 %|-0.0 %
+|23|Hbase|0.21 %|-0.0 %
+|24|CouchBase|0.14 %|-0.0 %
 |25|Riak|0.13 %|-0.0 %
 |26|Informix|0.12 %|+0.0 %
 |27|Memcached|0.11 %|-0.0 %
-|28|Netezza|0.08 %|-0.0 %
+|28|Netezza|0.07 %|-0.0 %
 |29|CouchDB|0.07 %|-0.0 %
+|30|dBase|0.05 %|-0.0 %
 =======
 ## PYPL
 

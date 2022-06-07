@@ -74,7 +74,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.18.1](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.1.tar.xz)
+|Latest Release|[5.18.2](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.2.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -82,17 +82,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.18|2022-05-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.tar.xz)
-|stable:|5.18.1|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.1.tar.xz)
-|stable:|5.17.12|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.12.tar.xz)
-|longterm:|5.15.44|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.44.tar.xz)
-|longterm:|5.10.119|2022-05-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.119.tar.xz)
-|longterm:|5.4.196|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.196.tar.xz)
-|longterm:|4.19.245|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.245.tar.xz)
-|longterm:|4.14.281|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.281.tar.xz)
-|longterm:|4.9.316|2022-05-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.316.tar.xz)
-|linux-next:|next-20220603|2022-06-03|[browse](https://git.kernel.org/next/linux-next/h/next-20220603)
-
+|mainline:|5.19-rc1|2022-06-06|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc1.tar.gz)
+|stable:|5.18.2|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.2.tar.xz)
+|stable:|5.17.13|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.13.tar.xz)
+|longterm:|5.15.45|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.45.tar.xz)
+|longterm:|5.10.120|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.120.tar.xz)
+|longterm:|5.4.197|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.197.tar.xz)
+|longterm:|4.19.246|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.246.tar.xz)
+|longterm:|4.14.282|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.282.tar.xz)
+|longterm:|4.9.317|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.317.tar.xz)
+|linux-next:|next-20220606|2022-06-06|[browse](https://git.kernel.org/next/linux-next/h/next-20220606)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -103,7 +102,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update:  Friday 3 June 2022 05:08 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update:  Tuesday 7 June 2022 01:38 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -140,14 +139,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[php](http://www.php.net/)|[8.1.6](http://us3.php.net/distributions/php-8.1.6.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
 |[postgresql](https://www.postgresql.org/)|[14.3](https://ftp.postgresql.org/pub/source/v14.3/postgresql-14.3.tar.bz2)|PostgreSQL: a relational database management system
-|[Python](https://www.python.org/)|[3.10.4](https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz)|Python: an interpreted, interactive, object-oriented programming language
+|[Python](https://www.python.org/)|[3.10.5](https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qt](https://www.qt.io/)|[6.3.0](https://download.qt-project.org/official_releases/qt/6.3/6.3.0/single/qt-everywhere-src-6.3.0.tar.xz)|Qt: a C++ application framework for writing graphical applications
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
 |[snort](https://www.snort.org/)|[3.1.31.0](https://snort.org/downloads/snortplus/snort3-3.1.31.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.38.5](https://www.sqlite.org/2022/sqlite-amalgamation-3380500.zip)|SQLite: an embeddable SQL engine in a C library
-|[squid](http://www.squid-cache.org/)|[5.5](http://www.squid-cache.org/Versions/v5/squid-5.5.tar.xz)|Squid: a full-featured web proxy cache
+|[squid](http://www.squid-cache.org/)|[5.6](http://www.squid-cache.org/Versions/v5/squid-5.6.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](http://www.tcpdump.org/)|[4.99.1](http://www.tcpdump.org/release/tcpdump-4.99.1.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
 |[vim](https://www.vim.org/)|[8.2](http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
@@ -268,7 +267,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)
+|[Jun. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-06-2022.html)|[Jun. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-03-2022.html)|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)
 |[May. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-27-2022.html)|[May. 25, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-25-2022.html)|[May. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-23-2022.html)
 |[May. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-20-2022.html)|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
 |[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)

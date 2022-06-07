@@ -127,7 +127,7 @@ for item in items:
 |[httpd](http://httpd.apache.org/)|[2.4.53](https://archive.apache.org/dist/httpd/httpd-2.4.53.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
 |[ibus](https://github.com/ibus/ibus/wiki)|[1.5.26](https://github.com/ibus/ibus/archive/1.5.26.tar.gz)|IBus: an intelligent input bus for Linux and UNIX
 |[icewm](https://ice-wm.org/)|[2.9.7](https://github.com/ice-wm/icewm/releases/download/2.9.7/icewm-2.9.7.tar.lz)|IceWM: an X Window manager that emulates the looks of Motif, OS/2 and Windows
-|[ImageMagick](http://www.imagemagick.org/)|[7.1.0-36](https://github.com/ImageMagick/ImageMagick/archive/7.1.0-36.tar.gz)|ImageMagick: a software suite to create, edit and compose bitmap images
+|[ImageMagick](https://imagemagick.org/)|[7.1.0-37](https://github.com/ImageMagick/ImageMagick/archive/7.1.0-37.tar.gz)|ImageMagick: a software suite to create, edit and compose bitmap images
 |[inkscape](https://www.inkscape.org/)|[1.2](https://inkscape.org/gallery/item/33449/inkscape-1.2_2022-05-15_dc2aedaf03.tar.xz)|Inkscape: a drawing tool that uses the W3C standard scalable vector graphics format (SVG)
 |[iptables](http://www.netfilter.org/projects/iptables/)|[1.8.8](http://www.netfilter.org/projects/iptables/files/iptables-1.8.8.tar.bz2)|iptables: enables the creation of packet alteration and firewall rules
 |[k3b](http://www.k3b.org/)|[22.04.1](https://github.com/KDE/k3b/archive/v22.04.1.tar.gz)|K3b: a KDE-GUI for cdrecord and cdrdao, similar to Nero
@@ -150,7 +150,7 @@ for item in items:
 |[lighttpd](http://www.lighttpd.net/)|[1.4.64](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.64.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lilo](http://www.joonet.de/lilo/)|[24.2](http://www.joonet.de/lilo/ftp/sources/lilo-24.2.tar.gz)|LILO: a boot loader for x86 computers
 |[links](http://links.twibright.com/)|[2.27](http://links.twibright.com/download/links-2.27.tar.bz2)|Links: a text and graphics mode web browser similar to Lynx
-|[linux](https://www.kernel.org/)|[5.18.1](https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.18.1.tar.xz)|Linux kernel: a UNIX clone written from scratch by Linus Torvalds
+|[linux](https://www.kernel.org/)|[5.18.2](https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.18.2.tar.xz)|Linux kernel: a UNIX clone written from scratch by Linus Torvalds
 |[llvm](http://llvm.org/)|[14.0.3](https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.3/llvm-14.0.3.src.tar.xz)|LLVM: a collection of modular and reusable compiler and toolchain technologies
 |[lua](https://www.lua.org/)|[5.4.4](https://www.lua.org/ftp/lua-5.4.4.tar.gz)|Lua: a powerful, efficient, lightweight, embeddable scripting language
 |[lumina](https://lumina-desktop.org/)|[1.6.2](https://github.com/lumina-desktop/lumina/archive/v1.6.2.tar.gz)|Lumina: a lightweight desktop environment for use on any UNIX-like operating system
@@ -171,7 +171,7 @@ for item in items:
 |[midori](https://astian.org/en/midori-browser/)|[9.0](https://github.com/midori-browser/core/releases/download/v9.0/midori-v9.0.tar.gz)|Midori: a lightweight web browser
 |[mod_perl](http://perl.apache.org/)|[2.0.12](http://archive.apache.org/dist/perl/mod_perl-2.0.12.tar.gz)|mod_perl: provides a Perl module for httpd
 |[MPlayer](http://www.mplayerhq.hu/)|[1.5](https://mplayerhq.hu/MPlayer/releases/MPlayer-1.5.tar.xz)|MPlayer: a movie and animation player
-|[mutt](http://www.mutt.org/)|[2.2.5](http://ftp.mutt.org/pub/mutt/mutt-2.2.5.tar.gz)|Mutt: a text-based MIME Email client
+|[mutt](http://www.mutt.org/)|[2.2.6](http://ftp.mutt.org/pub/mutt/mutt-2.2.6.tar.gz)|Mutt: a text-based MIME Email client
 |[mypaint](http://mypaint.org/)|[2.0.1](https://github.com/mypaint/mypaint/releases/download/v2.0.1/mypaint-2.0.1.tar.xz)|MyPaint: a nimble, distraction-free and easy tool for digital painters
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.29](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.29.tar.gz)|MySQL: an SQL database server
 |[mythtv](https://www.mythtv.org/)|[32.0](https://github.com/MythTV/mythtv/archive/v32.0.tar.gz)|MythTV: an open-source software digital video recorder (DVR) project
@@ -192,7 +192,7 @@ for item in items:
 |[openshot](https://www.openshot.org/)|[2.6.1](https://github.com/OpenShot/openshot-qt/archive/v2.6.1.tar.gz)|OpenShot: a video editor
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[openssl](https://www.openssl.org/)|[3.0.3](https://ftp.openssl.org/source/openssl-3.0.3.tar.gz)|OpenSSL: a library for providing encrypted transport layers
-|[opera](https://www.opera.com/)|[87.0.4390.36](https://ftp.opera.com/pub/opera/desktop/87.0.4390.36/linux/)|Opera: a light-weight graphical web browser
+|[opera](https://www.opera.com/)|[87.0.4390.45](https://ftp.opera.com/pub/opera/desktop/87.0.4390.45/linux/)|Opera: a light-weight graphical web browser
 |[pacman](https://archlinux.org/pacman/)|[6.0.1](https://gitlab.archlinux.org/pacman/pacman/-/archive/v6.0.1/pacman-v6.0.1.tar.bz2)|pacman: a utility which manages software packages in Linux
 |[parted](http://www.gnu.org/software/parted/parted.html)|[3.5](https://ftp.gnu.org/gnu/parted/parted-3.5.tar.xz)|GNU Parted: a program to create, destroy, resize and copy PC disk partitions
 |[pcmanfm](http://pcmanfm.sourceforge.net/)|[1.3.2](http://downloads.sourceforge.net/pcmanfm/pcmanfm-1.3.2.tar.xz)|PCManFM: an extremely fast and lightweight file manager
@@ -208,7 +208,7 @@ for item in items:
 |[ppp](http://www.samba.org/ppp/)|[2.4.9](https://github.com/paulusmack/ppp/archive/ppp-2.4.9.tar.gz)|PPP: provides a server/client for point to point protocol
 |[privoxy](http://www.privoxy.org/)|[3.0.33](http://downloads.sourceforge.net/ijbswa/privoxy-3.0.33-stable-src.tar.gz)|Privoxy: a non-caching web proxy with advanced filtering capabilities for enhancing privacy
 |[pulseaudio](http://www.pulseaudio.org/)|[16.0](http://freedesktop.org/software/pulseaudio/releases/pulseaudio-16.0.tar.xz)|PulseAudio: a sound server for POSIX and Win32 systems
-|[Python](https://www.python.org/)|[3.10.4](https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz)|Python: an interpreted, interactive, object-oriented programming language
+|[Python](https://www.python.org/)|[3.10.5](https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qbittorrent](https://www.qbittorrent.org/)|[4.4.3.1](http://downloads.sourceforge.net/qbittorrent/qbittorrent-4.4.3.1.tar.xz)|qBittorrent: a P2P BitTorrent client
 |[qemu](http://wiki.qemu.org/)|[7.0.0](http://wiki.qemu.org/download/qemu-7.0.0.tar.xz)|QEMU: an open source machine emulator and virtualiser
 |[qt](https://www.qt.io/)|[6.3.0](https://download.qt-project.org/official_releases/qt/6.3/6.3.0/single/qt-everywhere-src-6.3.0.tar.xz)|Qt: a C++ application framework for writing graphical applications
@@ -232,7 +232,7 @@ for item in items:
 |[snort](https://www.snort.org/)|[3.1.31.0](https://snort.org/downloads/snortplus/snort3-3.1.31.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[SpamAssassin](http://spamassassin.apache.org/)|[3.4.6](http://www.apache.org/dist/spamassassin/source/Mail-SpamAssassin-3.4.6.tar.bz2)|SpamAssassin: a mail filter which attempts to identify spam using text analysis
 |[sqlite](http://www.sqlite.org/)|[3.38.5](https://www.sqlite.org/2022/sqlite-amalgamation-3380500.zip)|SQLite: an embeddable SQL engine in a C library
-|[squid](http://www.squid-cache.org/)|[5.5](http://www.squid-cache.org/Versions/v5/squid-5.5.tar.xz)|Squid: a full-featured web proxy cache
+|[squid](http://www.squid-cache.org/)|[5.6](http://www.squid-cache.org/Versions/v5/squid-5.6.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[sylpheed](http://sylpheed.sraoss.jp/en/)|[3.7.0](http://sylpheed.sraoss.jp/sylpheed/v3.7/sylpheed-3.7.0.tar.xz)|Sylpheed: an e-mail client and news reader based on GTK+
 |[synaptic](https://tracker.debian.org/pkg/synaptic)|[0.90.2](https://deb.debian.org/debian/pool/main/s/synaptic/synaptic_0.90.2.+nmu1.tar.xz)|Synaptic: a graphical front-end for APT
@@ -261,7 +261,7 @@ for item in items:
 |[wireshark](https://www.wireshark.org/)|[3.6.5](https://www.wireshark.org/download/src/wireshark-3.6.5.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[6.0](https://wordpress.org/wordpress-6.0.tar.gz)|WordPress: publishing software for the world wide web
 |[xfdesktop](http://www.xfce.org/)|[4.16.0](http://archive.xfce.org/src/xfce/xfdesktop/4.16/xfdesktop-4.16.0.tar.bz2)|Xfdesktop: a desktop manager for the Xfce desktop
-|[xfsprogs](http://xfs.org/)|[5.16.0](https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/xfsprogs-5.16.0.tar.xz)|xfsprogs: a set of utilities for managing the XFS file system
+|[xfsprogs](http://xfs.org/)|[5.18.0](https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/xfsprogs-5.18.0.tar.xz)|xfsprogs: a set of utilities for managing the XFS file system
 |[xine-lib](http://www.xine-project.org/)|[1.2.12](http://downloads.sourceforge.net/xine/xine-lib-1.2.12.tar.xz)|xine-lib: contains the libraries for xine, a free video player
 |[xorg-server](https://www.x.org/)|[21.1.3](https://www.x.org/archive/individual/xserver/xorg-server-21.1.3.tar.xz)|X.Org: the X.Org Foundation's public implementation of the X Window System
 |[xz](https://tukaani.org/xz/)|[5.2.5](https://tukaani.org/xz/xz-5.2.5.tar.xz)|XZ Utils: data compression software with high compression ratio

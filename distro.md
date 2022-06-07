@@ -1,5 +1,6 @@
 ## [Linux](https://distrowatch.com)发行版大全    |  [返回](README.md)
->几百种linux发行版的详细介绍和官网链接，镜像下载等。珍爱生命，拥抱开源~_~  
+>几百种linux发行版的详细介绍和官网链接，镜像下载等。    
+> 珍爱生命，拥抱开源~_~  
 
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
@@ -18,7 +19,7 @@ Releases...
 -  2014-05-21: Development Release: Android-x86 4.4 RC2
 -
 Headlines...
--  2021-09-23 >Android applications running on GNU/Linux
+- 2021-09-23 >Android applications running on GNU/Linux
 -  2016-05-26 >Oracle vs Google case concludes
 -
 
@@ -39,7 +40,7 @@ Releases...
 -  2018-05-10: Distribution Release: CentOS 7-1804
 -
 Headlines...
--  2021-12-31 >CentOS Linux 8 reaches its end of life
+- 2021-12-31 >CentOS Linux 8 reaches its end of life
 -  2021-03-08 >Downgrading CentOS
 -  2020-12-08 >CentOS Linux being phased out in favour of Stream
 -  2020-11-03 >CentOS 6 nears end of life
@@ -68,7 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -
 Headlines...
--  2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
+- 2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
 -  2022-04-03 >Debian launches vote for Project Leader
 -  2022-03-26 >Debian publishes updated media - 10.12 and 11.3
 -  2022-03-14 >Debian plans freeze for version 12
@@ -83,6 +84,7 @@ Headlines...
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases...
+-  2022-06-03: Distribution Release: deepin 20.6
 -  2022-04-01: Distribution Release: deepin 20.5
 -  2022-01-19: Distribution Release: deepin 20.4
 -  2021-11-25: Distribution Release: deepin 20.3
@@ -94,10 +96,9 @@ Releases...
 -  2019-04-28: Distribution Release: deepin 15.10
 -  2019-01-16: Distribution Release: deepin 15.9
 -  2018-11-15: Distribution Release: deepin 15.8
--  2018-08-20: Distribution Release: deepin 15.7
 -
 Headlines...
--  2017-03-28 >Running deepin apps on Ubuntu
+- 2017-03-28 >Running deepin apps on Ubuntu
 -  
 
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
@@ -117,7 +118,7 @@ Releases...
 -  2019-09-17: Development Release: Fedora 31 Beta
 -
 Headlines...
--  2022-05-18 >Fedora 34 approaches its end of life
+- 2022-05-18 >Fedora 34 approaches its end of life
 -  2022-05-16 >How to upgrade Fedora Silverblue
 -  2022-05-05 >Fedora drops plan to phase out Legacy BIOS support
 -  2022-04-13 >Microdnf may replace DNF in Fedora
@@ -146,7 +147,7 @@ Releases...
 -  2021-02-27: Development Release: FreeBSD 13.0-BETA4
 -
 Headlines...
--  2022-03-30 >Sandboxing software running on FreeBSD
+- 2022-03-30 >Sandboxing software running on FreeBSD
 -  2022-03-15 >Rebooting into a new snapshot without shutting down
 -  2022-03-11 >FreeBSD publishes status report
 -  2022-03-03 >FreeBSD 12.2 nears its end of life
@@ -175,7 +176,7 @@ Releases...
 -  2008-04-01: Development Release: Gentoo Linux 2008.0 Beta 1
 -
 Headlines...
--  2022-04-04 >Gentoo is making a beautiful live GUI image
+- 2022-04-04 >Gentoo is making a beautiful live GUI image
 -  2022-01-04 >Gentoo takes a look back at 2021
 -  2021-07-20 >Gentoo expanding download options
 -  2021-01-05 >Gentoo debates keeping LibreSSL support
@@ -204,8 +205,7 @@ Releases...
 -  2019-04-13: BSD Release: GhostBSD 19.04
 -
 Headlines...
-- 
-2021-11-15 >GhostBSD hosting on-line meeting
+- 2021-11-15 >GhostBSD hosting on-line meeting
 -  2021-08-30 >GhostBSD drops OpenRC for RC
 -  2019-08-24 >GhostBSD switching to STABLE packages
 -  2018-12-01 >Interview with Eric Turgeon
@@ -230,7 +230,7 @@ Releases...
 -  2016-09-01: BSD Release: OpenBSD 6.0
 -
 Headlines...
--  2022-03-07 >OpenBSD now running on Apple M1-powered computers
+- 2022-03-07 >OpenBSD now running on Apple M1-powered computers
 -  2021-08-03 >InitWare running on OpenBSD
 -  2021-06-24 >Configuring the system with GearBSD
 -  2021-05-19 >OpenBSD's migration from GCC to Clang
@@ -259,7 +259,7 @@ Releases...
 -  2018-05-25: Distribution Release: openSUSE 15
 -
 Headlines...
--  2022-01-14 >openSUSE 15.2 releases its end of life
+- 2022-01-14 >openSUSE 15.2 releases its end of life
 -  2021-09-07 >Corruption caused by unzip on openSUSE
 -  2021-07-26 >openSUSE shutting down its community portal
 -  2021-07-19 >openSUSE adjusts repositories and updates
@@ -274,6 +274,7 @@ Headlines...
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
 ======
 Releases...
+-  2022-05-20: Distribution Release: Oracle Linux 8.6
 -  2021-05-27: Distribution Release: Oracle Linux 8.4
 -  2020-11-13: Distribution Release: Oracle Linux 8.3
 -  2020-10-08: Distribution Release: Oracle Linux 7.9
@@ -285,10 +286,9 @@ Releases...
 -  2018-04-18: Distribution Release: Oracle Linux 7.5
 -  2017-09-09: Distribution Release: Oracle Linux 7.4
 -  2017-03-28: Distribution Release: Oracle Linux 6.9
--  2016-11-11: Distribution Release: Oracle Linux 7.3
 -
 Headlines...
--  2021-04-06 >Oracle loses API lawsuit against Google
+- 2021-04-06 >Oracle loses API lawsuit against Google
 -  
 
 [redhat](https://distrowatch.com/table.php?distribution=redhat)
@@ -308,7 +308,7 @@ Releases...
 -  2019-11-05: Distribution Release: Red Hat Enterprise Linux 8.1
 -
 Headlines...
--  2022-01-19 >Red Hat provides live kernel patching through Web Console
+- 2022-01-19 >Red Hat provides live kernel patching through Web Console
 -  2021-09-10 >Interview with Linux pioneer Pete Zaitcev
 -  2021-03-26 >Red Hat withdraws funding from FSF
 -  2021-02-25 >Red Hat to provide free licenses to open source projects
@@ -337,7 +337,7 @@ Releases...
 -  2015-07-17: Distribution Release: SUSE Linux Enterprise 11 SP4
 -
 Headlines...
--  2022-01-19 >SUSE Liberty to support multiple distributions
+- 2022-01-19 >SUSE Liberty to support multiple distributions
 -  2021-03-08 >Sharing code between openSUSE and SLE
 -  2019-03-17 >SUSE becomes independent
 -  2018-06-27 >SUSE's reproducible builds
@@ -365,7 +365,7 @@ Releases...
 -  2015-10-09: Development Release: FreeNAS 10.2-ALPHA
 -
 Headlines...
--   2021-10-26 >TrueNAS SCALE launched
+- 2021-10-26 >TrueNAS SCALE launched
 -  2021-01-02 >FreeNAS pages migrated to TrueNAS
 -  2020-03-06 >FreeNAS and TrueNAS to unite
 -  2017-04-13 >FreeNAS changes plans for Corral
@@ -375,7 +375,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases...
--  2022-04-21: Distribution Release: Ubuntu 22.04
+- 2022-04-21: Distribution Release: Ubuntu 22.04
 -  2022-02-25: Distribution Release: Ubuntu 20.04.4
 -  2021-10-14: Distribution Release: Ubuntu 21.10
 -  2021-09-24: Development Release: Ubuntu 21.10 Beta
@@ -389,6 +389,8 @@ Releases...
 -  2020-08-13: Distribution Release: Ubuntu 16.04.7, 18.04.5
 -
 Headlines...
+- 2022-05-31 >Ubuntu 21.10 nears its end of life
+-  2022-05-27 >Ubuntu users struggle with out of memory service
 -  2022-05-19 >Canonical seeks to improve gaming experience
 -  2022-05-01 >Unity7 sees its first release in six years
 -  2022-04-28 >Ubuntu's Active Directory authentication explained
@@ -397,6 +399,4 @@ Headlines...
 -  2022-01-13 >Ubuntu outlines plans for GNOME in 22.04
 -  2021-12-15 >Finding and fixing bugs on Ubuntu
 -  2021-10-18 >Plans for features in Ubuntu 22.04
--  2021-10-11 >Ubuntu works to speed up Snap load times
--  2021-10-04 >Alternative Snap client called published
 -

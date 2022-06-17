@@ -1,5 +1,7 @@
 # 我常用的开源工具箱——my open source toolkits
-- 自由分享是知识的本质 :+1::+1::+1:
+- 自由分享是知识的本质 :+1::+1::+1:  
+  每周更新  ^_^    
+  ^_^欢迎^_^推荐或自荐工具/软件/资源，请提交 [issue](https://github.com/yiliyassh/opentoolkits/issues)  
 ***
 ## 开源办公套件
 
@@ -74,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.18.3](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.3.tar.xz)
+|Latest Release|[5.18.5](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.5.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -82,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.19-rc1|2022-06-06|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc1.tar.gz)
-|stable:|5.18.3|2022-06-09|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.3.tar.xz)
-|stable:|5.17.14|2022-06-09|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.14.tar.xz)
-|longterm:|5.15.46|2022-06-09|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.46.tar.xz)
-|longterm:|5.10.121|2022-06-09|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.121.tar.xz)
-|longterm:|5.4.197|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.197.tar.xz)
-|longterm:|4.19.246|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.246.tar.xz)
-|longterm:|4.14.282|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.282.tar.xz)
-|longterm:|4.9.317|2022-06-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.317.tar.xz)
-|linux-next:|next-20220610|2022-06-10|[browse](https://git.kernel.org/next/linux-next/h/next-20220610)
+|mainline:|5.19-rc2|2022-06-12|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc2.tar.gz)
+|stable:|5.18.5|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.5.tar.xz)
+|stable:|5.17.15 |2022-06-14|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.15.tar.xz)
+|longterm:|5.15.48|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.48.tar.xz)
+|longterm:|5.10.123|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.123.tar.xz)
+|longterm:|5.4.199|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.199.tar.xz)
+|longterm:|4.19.248|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.248.tar.xz)
+|longterm:|4.14.284|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.284.tar.xz)
+|longterm:|4.9.319|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.319.tar.xz)
+|linux-next:|next-20220616|2022-06-16|[browse](https://git.kernel.org/next/linux-next/h/next-20220616)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -102,7 +104,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update:   Sunday 12 June 2022 09:08 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update: Friday 17 June 2022 06:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -112,11 +114,11 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |应用软件（详情）|版本（下载）|说明|
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
-|[bind](http://www.isc.org/downloads/bind/)|[9.18.3](https://ftp.isc.org/isc/bind9/9.18.3/bind-9.18.3.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
+|[bind](http://www.isc.org/downloads/bind/)|[9.18.4](https://ftp.isc.org/isc/bind9/9.18.4/bind-9.18.4.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.23.2](https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.83.1](https://github.com/curl/curl/releases/download/curl-7_83_0/curl-7.83.1.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.17](https://github.com/moby/moby/archive/refs/tags/v20.10.17.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
-|[eclipse](http://eclipse.org/)|[4.23](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
+|[eclipse](http://eclipse.org/)|[4.24](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.1.0](http://ftp.gnu.org/gnu/gcc/gcc-12.1.0/gcc-12.1.0.tar.xz)|GNU GCC: the GNU compiler collection
 |[git](https://git-scm.com/)|[2.36.1](https://github.com/git/git/archive/v2.36.1.tar.gz)|Git: an open source version control system
@@ -138,13 +140,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
 |[php](http://www.php.net/)|[8.1.7](http://us3.php.net/distributions/php-8.1.7.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
-|[postgresql](https://www.postgresql.org/)|[14.3](https://ftp.postgresql.org/pub/source/v14.3/postgresql-14.3.tar.bz2)|PostgreSQL: a relational database management system
+|[postgresql](https://www.postgresql.org/)|[14.4](https://ftp.postgresql.org/pub/source/v14.4/postgresql-14.4.tar.bz2)|PostgreSQL: a relational database management system
 |[Python](https://www.python.org/)|[3.10.5](https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz)|Python: an interpreted, interactive, object-oriented programming language
-|[qt](https://www.qt.io/)|[6.3.0](https://download.qt-project.org/official_releases/qt/6.3/6.3.0/single/qt-everywhere-src-6.3.0.tar.xz)|Qt: a C++ application framework for writing graphical applications
+|[qt](https://www.qt.io/)|[6.3.1](https://download.qt-project.org/official_releases/qt/6.3/6.3.1/single/qt-everywhere-src-6.3.1.tar.xz)|Qt: a C++ application framework for writing graphical applications
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.31.0](https://snort.org/downloads/snortplus/snort3-3.1.31.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[snort](https://www.snort.org/)|[3.1.32.0](https://snort.org/downloads/snortplus/snort3-3.1.32.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.38.5](https://www.sqlite.org/2022/sqlite-amalgamation-3380500.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.6](http://www.squid-cache.org/Versions/v5/squid-5.6.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
@@ -152,7 +154,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[vim](https://www.vim.org/)|[8.2](http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
 |[VirtualBox](https://www.virtualbox.org/)|[6.1.34](http://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
-|[wireshark](https://www.wireshark.org/)|[3.6.5](https://www.wireshark.org/download/src/wireshark-3.6.5.tar.xz)|Wireshark: a network protocol analyzer
+|[wireshark](https://www.wireshark.org/)|[3.6.6](https://www.wireshark.org/download/src/wireshark-3.6.6.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[6.0](https://wordpress.org/wordpress-6.0.tar.gz)|WordPress: publishing software for the world wide web
 ***
 ## 数据库排名——DB-Engines Ranking  | [本地镜像](db.md)
@@ -267,7 +269,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
+|[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)
+|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
 |[Jun. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-06-2022.html)|[Jun. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-03-2022.html)|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)

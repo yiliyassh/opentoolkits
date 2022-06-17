@@ -5,6 +5,8 @@
 
 |=|=|=|
 |:----|:----|:----|
+|[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)
+|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
 |[Jun. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-06-2022.html)|[Jun. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-03-2022.html)|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)
 - [2022年5月](https://technews.acm.org/archives.cfm?d=2022-05-may)
 
@@ -15,16 +17,6 @@
 |[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)
 |[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)
   
-- [2022年4月](https://technews.acm.org/archives.cfm?d=2022-04-apr)
-
-|=|=|=|
-|:----|:----|:----|
-|[Apr. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-29-2022.html)|[Apr. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-27-2022.html)|[Apr. 25, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-25-2022.html)
-|[Apr. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-22-2022.html)|[Apr. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-20-2022.html)|[Apr. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-18-2022.html)
-|[Apr. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-15-2022.html)|[Apr. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-13-2022.html)|[Apr. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-11-2022.html)
-|[Apr. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-08-2022.html)|[Apr. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-06-2022.html)|[Apr. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-04-2022.html)
-|[Apr. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-04-apr/apr-01-2022.html)
-
 - [ 历史归档  2000年~2022年 ](https://technews.acm.org/archives.cfm) 
 
 |= |= |= |= |= |= |

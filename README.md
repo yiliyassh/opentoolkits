@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.18.5](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.5.tar.xz)
+|Latest Release|[5.18.6](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.6.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.19-rc2|2022-06-12|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc2.tar.gz)
-|stable:|5.18.5|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.5.tar.xz)
+|mainline:|5.19-rc3|2022-06-19|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc3.tar.gz)
+|stable:|5.18.6|2022-06-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.6.tar.xz)
 |stable:|5.17.15 |2022-06-14|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.15.tar.xz)
-|longterm:|5.15.48|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.48.tar.xz)
-|longterm:|5.10.123|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.123.tar.xz)
-|longterm:|5.4.199|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.199.tar.xz)
+|longterm:|5.15.49|2022-06-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.49.tar.xz)
+|longterm:|5.10.124|2022-06-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.124.tar.xz)
+|longterm:|5.4.200|2022-06-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.200.tar.xz)
 |longterm:|4.19.248|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.248.tar.xz)
 |longterm:|4.14.284|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.284.tar.xz)
 |longterm:|4.9.319|2022-06-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.319.tar.xz)
-|linux-next:|next-20220616|2022-06-16|[browse](https://git.kernel.org/next/linux-next/h/next-20220616)
+|linux-next:|next-20220623|2022-06-23|[browse](https://git.kernel.org/next/linux-next/h/next-20220623)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -104,7 +104,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Friday 17 June 2022 06:08 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update: Friday 24 June 2022 00:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -156,6 +156,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
 |[wireshark](https://www.wireshark.org/)|[3.6.6](https://www.wireshark.org/download/src/wireshark-3.6.6.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[6.0](https://wordpress.org/wordpress-6.0.tar.gz)|WordPress: publishing software for the world wide web
+
 ***
 ## 数据库排名——DB-Engines Ranking  | [本地镜像](db.md)
 - Complete ranking  [完整排名 388 systems in ranking, March 2022](https://db-engines.com/en/ranking)
@@ -218,7 +219,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 - unresolved and uncategorized  
 ***
 ## TIOBE 语言排行榜
-- [TIOBE Index for May 2022](https://www.tiobe.com/tiobe-index/)  |  [本地镜像](tiobe.md)
+- [TIOBE Index for June 2022](https://www.tiobe.com/tiobe-index/)  |  [本地镜像](tiobe.md)
 
 |Year|Winner|Year|Winner|
 |:----|:----|:----|:----|
@@ -269,8 +270,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)
-|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
+|[Jun. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-22-2022.html)|[Jun. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-20-2022.html)|[Jun. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-17-2022.html)
+|[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
 |[Jun. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-06-2022.html)|[Jun. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-03-2022.html)|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
@@ -311,9 +312,9 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |Hosting|date|
 |:----|:----|
+|[May 2022 Web Server Survey](https://news.netcraft.com/archives/2022/05/30/may-2022-web-server-survey.html)|30th May, 2022
 |[April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)|27th April, 2022
 |[March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)|29th March, 2022
-|[February 2022 Web Server Survey](https://news.netcraft.com/archives/2022/02/28/february-2022-web-server-survey.html)|28th February, 2022
 
 ## 最可靠的托管主机 [Most Reliable Hosting Company Sites](https://news.netcraft.com/archives/category/hosting/)
 - [本地镜像   (2003~2022年)  ](web-hosting.md)
@@ -330,9 +331,9 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |Hosting|date|
 |:----|:----|
+|[Most Reliable Hosting Company Sites in May 2022](https://news.netcraft.com/archives/2022/06/06/most-reliable-hosting-company-sites-in-may-2022.html)|6th June, 2022
 |[Most Reliable Hosting Company Sites in April 2022](https://news.netcraft.com/archives/2022/05/03/most-reliable-hosting-company-sites-in-april-2022.html)|3rd May, 2022
 |[Most Reliable Hosting Company Sites in March 2022](https://news.netcraft.com/archives/2022/04/05/most-reliable-hosting-company-sites-in-march-2022.html)|5th April, 2022
-|[Most Reliable Hosting Company Sites in February 2022](https://news.netcraft.com/archives/2022/03/02/most-reliable-hosting-company-sites-in-february-2022.html)|2nd March, 2022
 
 ***
 ## [开源镜像网站](mirrors.md)

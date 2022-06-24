@@ -1,36 +1,66 @@
-## [TIOBE Index for May 2022](https://www.tiobe.com/tiobe-index/) | [返回](README.md)
-- May Headline: C# gains most ranking points
+## [TIOBE Index for June 2022](https://www.tiobe.com/tiobe-index/) | [返回](README.md)
+- June Headline: C++ is about to surpass Java
 
-  
-If we compare the current TIOBE index rankings to 1 year ago (May 2021), C# is gaining most popular of all programming languages by far. Its rankings has increased almost 2% for the last 12 months. C# is one of the most mature programming languages in existence, supporting many modern programming paradigms. Until recently, its only disadvantage was that its Linux support was questionable, but this is changing rapidly the last couple of years. So chances are high that C# might enter the TIOBE index top 3 by replacing C. Another serious contender for this top 3 position is C++. Its long term trend, boosted by C++20, is definitely upward. -- Paul Jansen CEO TIOBE Software
+It seems to be that Java is on the losing side. In April 2020, Java was still number 1 on the TIOBE index. In that same month, Java had to give up its first place to C. Later on, in 2021, Python became unstoppable and surpassed Java as well. Now it looks like C++ is the next language to overtake Java. High level programming with performance is C++'s key reason why it is doing so well. The C++ language is revised every 3 years. Such revisions contain ground-breaking new features, which get the language on par with C# and Java, but without the performance penalty of a garbage collector. Let's see where C++ is heading the next few months. -- Paul Jansen CEO TIOBE Software
 
 The TIOBE Programming Community index is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. Popular search engines such as Google, Bing, Yahoo!, Wikipedia, Amazon, YouTube and Baidu are used to calculate the ratings. It is important to note that the TIOBE index is not about the best programming language or the language in which most lines of code have been written.
 
-The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system. The definition of the TIOBE index can be found here.
+The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system. The definition of the TIOBE index can be found here.   
 
 ```
-May 2022 	May 2021 	Programming Language 	Ratings 	Change
+Jun 2022 	Jun 2021 	Change 	Programming Language 	Ratings 	Change
+1	2	change	Python page	Python	12.20%	+0.35%
+2	1	change	C page	C	11.91%	-0.64%
+3	3		Java page	Java	10.47%	-1.07%
+4	4		C++ page	C++	9.63%	+2.26%
+5	5		C# page	C#	6.12%	+1.79%
+6	6		Visual Basic page	Visual Basic	5.42%	+1.40%
+7	7		JavaScript page	JavaScript	2.09%	-0.24%
+8	10	change	SQL page	SQL	1.94%	+0.06%
+9	9		Assembly language page	Assembly language	1.85%	-0.21%
+10	16	change	Swift page	Swift	1.55%	+0.44%
+11	11		Classic Visual Basic page	Classic Visual Basic	1.33%	-0.40%
+12	18	change	Delphi/Object Pascal page	Delphi/Object Pascal	1.32%	+0.26%
+13	8	change	PHP page	PHP	1.25%	-0.97%
+14	23	change	Objective-C page	Objective-C	1.02%	+0.33%
+15	20	change	Go page	Go	1.02%	+0.07%
+16	14	change	R page	R	0.98%	-0.22%
+17	15	change	Perl page	Perl	0.76%	-0.41%
+18	38	change	Lua page	Lua	0.76%	+0.43%
+19	13	change	Ruby page	Ruby	0.75%	-0.48%
+20	26	change	Prolog page	Prolog	0.74%	+0.18%
 
-1	2	change	Python page	Python	12.74%	+0.86%
-2	1	change	C page	C	11.59%	-1.80%
-3	3		Java page	Java	10.99%	-0.74%
-4	4		C++ page	C++	8.83%	+1.01%
-5	5		C# page	C#	6.39%	+1.98%
-6	6		Visual Basic page	Visual Basic	5.86%	+1.85%
-7	7		JavaScript page	JavaScript	2.12%	-0.33%
-8	8		Assembly language page	Assembly language	1.92%	-0.51%
-9	10	change	SQL page	SQL	1.87%	+0.16%
-10	9	change	PHP page	PHP	1.52%	-0.34%
-11	17	change	Delphi/Object Pascal page	Delphi/Object Pascal	1.42%	+0.22%
-12	18	change	Swift page	Swift	1.23%	+0.08%
-13	13		R page	R	1.22%	-0.16%
-14	16	change	Go page	Go	1.11%	-0.11%
-15	12	change	Classic Visual Basic page	Classic Visual Basic	1.03%	-0.38%
-16	21	change	Objective-C page	Objective-C	1.03%	+0.24%
-17	19	change	Perl page	Perl	0.99%	-0.05%
-18	37	change	Lua page	Lua	0.98%	+0.64%
-19	11	change	Ruby page	Ruby	0.86%	-0.64%
-20	15	change	MATLAB page	MATLAB	0.82%	-0.41%
+Position	Programming Language	Ratings
+21	SAS	0.70%
+22	(Visual) FoxPro	0.70%
+23	COBOL	0.69%
+24	MATLAB	0.64%
+25	Scratch	0.60%
+26	Fortran	0.55%
+27	Rust	0.52%
+28	Julia	0.52%
+29	Ada	0.50%
+30	Kotlin	0.44%
+31	PL/SQL	0.40%
+32	Lisp	0.35%
+33	D	0.30%
+34	Scala	0.30%
+35	Groovy	0.26%
+36	TypeScript	0.25%
+37	Dart	0.23%
+38	Haskell	0.21%
+39	VBScript	0.20%
+40	Awk	0.20%
+41	Transact-SQL	0.20%
+42	Apex	0.20%
+43	PowerShell	0.19%
+44	Scheme	0.19%
+45	Bash	0.18%
+46	ABAP	0.18%
+47	Simulink	0.18%
+48	LabVIEW	0.17%
+49	X++	0.17%
+50	ML	0.17%
 
 ```
 
@@ -38,7 +68,6 @@ May 2022 	May 2021 	Programming Language 	Ratings 	Change
 
 The hall of fame listing all "Programming Language of the Year" award winners is shown below.   
 The award is given to the programming language that has the highest rise in ratings in a year.   
-
 
 |Year|	Winner|
 |:----|:----|

@@ -351,7 +351,7 @@
 |330.|[SWC-DB](https://db-engines.com/en/system/SWC-DB)
 |331.|[Resin Cache](https://db-engines.com/en/system/Resin+Cache)
 |332.|[OushuDB](https://db-engines.com/en/system/OushuDB)
-|333.|[Fujitsu Enterprise Postgres](https://db-engines.com/en/system/Fujitsu+Enterprise+Postgres)
+|333.|[Fujitsu Enterprise Postgres ](https://db-engines.com/en/system/Fujitsu+Enterprise+Postgres)
 |334.|[BigObject](https://db-engines.com/en/system/BigObject)
 |335.|[Qdrant](https://db-engines.com/en/system/Qdrant)
 |336.|[Bangdb ](https://db-engines.com/en/system/Bangdb)
@@ -376,7 +376,7 @@
 |355.|[Siaqodb](https://db-engines.com/en/system/Siaqodb)
 |356.|[Yaacomo](https://db-engines.com/en/system/Yaacomo)
 |357.|[NosDB](https://db-engines.com/en/system/NosDB)
-|358.|[Machbase ](https://db-engines.com/en/system/Machbase)
+|358.|[Machbase](https://db-engines.com/en/system/Machbase)
 |359.|[STSdb](https://db-engines.com/en/system/STSdb)
 |360.|[Sadas Engine](https://db-engines.com/en/system/Sadas+Engine)
 |361.|[Blueflood](https://db-engines.com/en/system/Blueflood)
@@ -417,3 +417,4 @@
 |363.|[WhiteDB](https://db-engines.com/en/system/WhiteDB)
 |363.|[XTDB](https://db-engines.com/en/system/XTDB)
 |363.|[Yanza](https://db-engines.com/en/system/Yanza)
+

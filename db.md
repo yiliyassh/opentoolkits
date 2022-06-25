@@ -1,5 +1,5 @@
 ## 数据库排名——DB-Engines Ranking    |  [返回](README.md)
-- Complete ranking  [394 systems in ranking, May 2022](https://db-engines.com/en/ranking)
+- Complete ranking  [398 systems in ranking, June 2022](https://db-engines.com/en/ranking)
 - Relational DBMS [关系数据库](https://db-engines.com/en/ranking/relational+dbms)
 -  Key-value stores [键值数据库](https://db-engines.com/en/ranking/key-value+store)
 -  Document stores  [文档数据库](https://db-engines.com/en/ranking/document+store)

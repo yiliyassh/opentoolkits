@@ -159,7 +159,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 ***
 ## 数据库排名——DB-Engines Ranking  | [本地镜像](db.md)
-- Complete ranking  [完整排名 388 systems in ranking, March 2022](https://db-engines.com/en/ranking)
+- Complete ranking  [完整排名 398 systems in ranking, June 2022](https://db-engines.com/en/ranking)
 - Relational DBMS [关系数据库](https://db-engines.com/en/ranking/relational+dbms)
 -  Key-value stores [键值数据库](https://db-engines.com/en/ranking/key-value+store)
 -  Document stores  [文档数据库](https://db-engines.com/en/ranking/document+store)
@@ -178,18 +178,25 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 ======数据库排名======
 
-|排名|数据库
-|:----|:----
-1.|[Oracle ](https://db-engines.com/en/system/Oracle)
-|2.|[MySQL ](https://db-engines.com/en/system/MySQL)
-|3.|[Microsoft SQL Server ](https://db-engines.com/en/system/Microsoft+SQL+Server)
-|4.|[PostgreSQL ](https://db-engines.com/en/system/PostgreSQL)
-|5.|[MongoDB ](https://db-engines.com/en/system/MongoDB)
-|6.|[Redis ](https://db-engines.com/en/system/Redis)
-|7.|[IBM Db2](https://db-engines.com/en/system/IBM+Db2)
-|8.|[Elasticsearch ](https://db-engines.com/en/system/Elasticsearch)
-|9.|[Microsoft Access](https://db-engines.com/en/system/Microsoft+Access)
-|10.|[SQLite](https://db-engines.com/en/system/SQLite)
+|数据库|技术文档|初始版本|最新版本|
+|:----|:----|:----|:----|
+|[Oracle](https://www.oracle.com/database/)|[Technical documentation](https://docs.oracle.com/en/database/)|1980|19c, February 2019
+|[MySQL](https://www.mysql.com/)|[Technical documentation](https://dev.mysql.com/doc/)|1995|8.0.29, April 2022
+|[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/)|[Technical documentation](https://docs.microsoft.com/en-US/sql/sql-server/)|1989|SQL Server 2019, November 2019
+|[PostgreSQL](https://www.postgresql.org/)|[Technical documentation](https://www.postgresql.org/docs/)|1989: Postgres, 1996: PostgreSQL|14.3, May 2022
+|[MongoDB](http://www.mongodb.com/)|[Technical documentation](http://docs.mongodb.com/­manual)|2009|5.0.8, April 2022
+|[Memcached](http://www.memcached.org/)|[Technical documentation](https://github.com/memcached/memcached/wiki)|2003|1.6.15, March 2022
+|[Redis](http://redis.com)|[Technical documentation](http://redis.io/­documentation)|2009|7.0.0, April 2022
+|[IBM Db2 ](https://www.ibm.com/analytics/db2)|[Technical documentation](https://www.ibm.com/support/knowledgecenter/SSEPGG)|1983 |12.1, October 2016
+|[Elasticsearch](https://www.elastic.co/elasticsearch/)|[Technical documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)|2010|7.8.0, June 2020
+|[Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access)|[Technical documentation](https://developer.microsoft.com/en-us/access)|1992|1902 (16.0.11328.20222), March 2019
+|[SQLite](https://www.sqlite.org/)|[Technical documentation](https://www.sqlite.org/docs.html)|2000|3.38.5(6 May 2022), May 2022
+|[Hive](https://hive.apache.org/)|[Technical documentation](https://cwiki.apache.org/confluence/display/Hive/Home)|2012|3.1.2, August 2019
+|[Hbase](http://hbase.apache.org/)|[Technical documentation](https://hbase.apache.org/book.html)|2008|2.3.4, January 2021
+|[Teradata](https://www.teradata.com/)|[Technical documentation](https://docs.teradata.com/)|1984|Teradata Vantage 1.0 MU2, January 2019
+|[Solr](https://lucene.apache.org/solr/)|[Technical documentation](https://lucene.apache.org/solr/resources.html)|2006|9.0.0, May 2022
+|[ClickHouse](https://clickhouse.tech/)|[Technical documentation](https://clickhouse.tech/docs/)|2016|v22.4.5.9-stable, May 2022
+|[Greenplum](https://greenplum.org/)|[Technical documentation](http://docs.greenplum.org/)|2005|6.7.1, April 2020
 ***
 ## NoSQL数据库  |    [本地镜像](nosql.md)
 - [LIST OF NOSQL DATABASE MANAGEMENT SYSTEMS](https://hostingdata.co.uk/nosql-database/) [currently >225]

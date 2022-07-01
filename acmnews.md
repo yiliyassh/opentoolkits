@@ -5,6 +5,7 @@
 
 |=|=|=|
 |:----|:----|:----|
+|[Jun. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-29-2022.html)|[Jun. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-27-2022.html)|[Jun. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-24-2022.html)
 |[Jun. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-22-2022.html)|[Jun. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-20-2022.html)|[Jun. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-17-2022.html)
 |[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
 |[Jun. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-06-2022.html)|[Jun. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-03-2022.html)|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)

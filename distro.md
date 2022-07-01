@@ -2,7 +2,6 @@
 >几百种linux发行版的详细介绍和官网链接，镜像下载等。    
 > 珍爱生命，拥抱开源~_~  
 
-D:\prg\Anaconda3\python.exe D:/test/mygit/sync-opentoolkits.py
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
 Releases... 
@@ -119,6 +118,7 @@ Releases...
 -  2019-09-17: Development Release: Fedora 31 Beta
 -      
 Headlines... 
+-  2022-06-29 >Fedora plans to provide unfiltered access to Flathub
 -  2022-05-18 >Fedora 34 approaches its end of life
 -  2022-05-16 >How to upgrade Fedora Silverblue
 -  2022-05-05 >Fedora drops plan to phase out Legacy BIOS support
@@ -128,7 +128,6 @@ Headlines...
 -  2022-02-16 >Installing software on Fedora Silverblue
 -  2022-02-09 >The purpose of Fedora's Flatpak packages
 -  2022-01-11 >Fedora to get revamped installer
--  2021-12-15 >Wayland versus X.Org for gaming
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -261,6 +260,7 @@ Releases...
 -  2019-02-21: Development Release: openSUSE 15.1 Beta
 -      
 Headlines... 
+-  2022-06-28 >openSUSE seeks feedback
 -  2022-06-07 >openSUSE Leap may be phased out
 -  2022-01-14 >openSUSE 15.2 releases its end of life
 -  2021-09-07 >Corruption caused by unzip on openSUSE
@@ -270,7 +270,6 @@ Headlines...
 -  2021-02-11 >openSUSE announces Step project
 -  2021-01-13 >openSUSE 15.1 nears its end of life
 -  2020-12-16 >openSUSE, CloudLinux offer alternatives to CentOS
--  2020-12-08 >openSUSE running on the PinePhone
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
@@ -325,6 +324,7 @@ Headlines...
 [sle](https://distrowatch.com/table.php?distribution=sle)
 ======
 Releases... 
+-  2022-06-24: Distribution Release: SUSE Linux Enterprise 15 SP4
 -  2021-06-23: Distribution Release: SUSE Linux Enterprise 15 SP3
 -  2020-07-21: Distribution Release: SUSE Linux Enterprise 15 SP2
 -  2019-12-20: Distribution Release: SUSE Linux Enterprise 12 SP5
@@ -336,7 +336,6 @@ Releases...
 -  2017-09-07: Distribution Release: SUSE Linux Enterprise 12 SP3
 -  2016-11-08: Distribution Release: SUSE Linux Enterprise 12 SP2
 -  2015-12-22: Distribution Release: SUSE Linux Enterprise 12 SP1
--  2015-07-17: Distribution Release: SUSE Linux Enterprise 11 SP4
 -      
 Headlines... 
 -  2022-01-19 >SUSE Liberty to support multiple distributions

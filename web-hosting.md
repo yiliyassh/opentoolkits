@@ -19,6 +19,8 @@
 
 |Hosting|date|
 |:----|:----|
+|[Most Reliable Hosting Company Sites in June 2022](https://news.netcraft.com/archives/2022/07/08/most-reliable-hosting-company-sites-in-june-2022.html)|8th July, 2022
+|[Most Reliable Hosting Company Sites in May 2022](https://news.netcraft.com/archives/2022/06/06/most-reliable-hosting-company-sites-in-may-2022.html)|6th June, 2022
 |[Most Reliable Hosting Company Sites in April 2022](https://news.netcraft.com/archives/2022/05/03/most-reliable-hosting-company-sites-in-april-2022.html)|3rd May, 2022
 |[Most Reliable Hosting Company Sites in March 2022](https://news.netcraft.com/archives/2022/04/05/most-reliable-hosting-company-sites-in-march-2022.html)|5th April, 2022
 |[Most Reliable Hosting Company Sites in February 2022](https://news.netcraft.com/archives/2022/03/02/most-reliable-hosting-company-sites-in-february-2022.html)|2nd March, 2022

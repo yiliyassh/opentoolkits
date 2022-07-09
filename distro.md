@@ -275,6 +275,7 @@ Headlines...
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
 ======
 Releases... 
+-  2022-07-06: Distribution Release: Oracle Linux 9.0
 -  2022-06-14: Development Release: Oracle Linux 9.0 Developer Preview
 -  2022-05-20: Distribution Release: Oracle Linux 8.6
 -  2021-05-27: Distribution Release: Oracle Linux 8.4
@@ -286,7 +287,6 @@ Releases...
 -  2019-05-02: Development Release: Oracle Linux 8 Beta
 -  2018-11-07: Distribution Release: Oracle Linux 7.6
 -  2018-04-18: Distribution Release: Oracle Linux 7.5
--  2017-09-09: Distribution Release: Oracle Linux 7.4
 -      
 Headlines... 
 -  2021-04-06 >Oracle loses API lawsuit against Google

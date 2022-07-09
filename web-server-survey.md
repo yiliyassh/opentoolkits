@@ -50,6 +50,8 @@
 
 |Hosting|date|
 |:----|:----|
+|[June 2022 Web Server Survey](https://news.netcraft.com/archives/2022/06/30/june-2022-web-server-survey.html)|30th June, 2022
+|[May 2022 Web Server Survey](https://news.netcraft.com/archives/2022/05/30/may-2022-web-server-survey.html)|30th May, 2022
 |[April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)|27th April, 2022
 |[March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)|29th March, 2022
 |[February 2022 Web Server Survey](https://news.netcraft.com/archives/2022/02/28/february-2022-web-server-survey.html)|28th February, 2022

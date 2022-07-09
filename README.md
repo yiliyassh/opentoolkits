@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.18.8](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.8.tar.xz)
+|Latest Release|[5.18.10](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.10.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.19-rc4|2022-06-26|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc4.tar.gz)
-|stable:|5.18.8|2022-06-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.8.tar.xz)
+|mainline:|5.19-rc5|2022-07-03|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc5.tar.gz)
+|stable:|5.18.10|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.10.tar.xz)
 |stable:|5.17.15 |2022-06-14|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.15.tar.xz)
-|longterm:|5.15.51|2022-06-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.51.tar.xz)
-|longterm:|5.10.127|2022-06-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.127.tar.xz)
-|longterm:|5.4.202|2022-06-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.202.tar.xz)
-|longterm:|4.19.249|2022-06-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.249.tar.xz)
-|longterm:|4.14.285|2022-06-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.285.tar.xz)
-|longterm:|4.9.320|2022-06-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.320.tar.xz)
-|linux-next:|next-20220630|2022-06-30|[browse](https://git.kernel.org/next/linux-next/h/next-20220630)
+|longterm:|5.15.53|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.53.tar.xz)
+|longterm:|5.10.129|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.129.tar.xz)
+|longterm:|5.4.204|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.204.tar.xz)
+|longterm:|4.19.251|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.251.tar.xz)
+|longterm:|4.14.287|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.287.tar.xz)
+|longterm:|4.9.322|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.322.tar.xz)
+|linux-next:|next-20220708|2022-07-08|[browse](https://git.kernel.org/next/linux-next/h/next-20220708)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -104,7 +104,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Friday 1 July 2022 04:38 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update: Saturday 9 July 2022 02:38 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -138,7 +138,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[NVIDIA](http://www.nvidia.com/object/unix.html)|[515.57](http://download.nvidia.com/XFree86/Linux-x86_64/515.57/NVIDIA-Linux-x86_64-515.57.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
-|[php](http://www.php.net/)|[8.1.7](http://us3.php.net/distributions/php-8.1.7.tar.xz)|PHP: a server-side HTML embedded scripting language
+|[php](http://www.php.net/)|[8.1.8](http://us3.php.net/distributions/php-8.1.8.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
 |[postgresql](https://www.postgresql.org/)|[14.4](https://ftp.postgresql.org/pub/source/v14.4/postgresql-14.4.tar.bz2)|PostgreSQL: a relational database management system
 |[Python](https://www.python.org/)|[3.10.5](https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz)|Python: an interpreted, interactive, object-oriented programming language
@@ -242,8 +242,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |2012|	Objective-C
 ***
 ## PYPL 排行榜
-**Worldwide, May 2022 compared to a year ago:**   |  [本地镜像](pypl.md)
-
+**Worldwide, Jul 2022 compared to a year ago:**   |  [本地镜像](pypl.md)
 
 |Rank|[**Language**](https://pypl.github.io/PYPL.html)|占比%|[**Database**](https://pypl.github.io/DB.html)|占比%|[**IDE**](https://pypl.github.io/IDE.html)|占比%|[**ODE**](https://pypl.github.io/ODE.html)|占比%|
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|
@@ -272,11 +271,12 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2022年6月](https://technews.acm.org/archives.cfm?d=2022-06-jun
+- [2022年7月](https://technews.acm.org/archives.cfm?d=2022-06-jun
   )|   [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
+|[Jul. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-08-2022.html)|[Jul. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-06-2022.html)
 |[Jun. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-29-2022.html)|[Jun. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-27-2022.html)|[Jun. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-24-2022.html)
 |[Jun. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-22-2022.html)|[Jun. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-20-2022.html)|[Jun. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-17-2022.html)
 |[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
@@ -294,14 +294,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
 ***
 ## Stack Overflow Annual Developer Survey [年度开发者调查](https://insights.stackoverflow.com/survey/)
-- [本地镜像   (2011~2021年)  ](StackOverflow.md)    
-
+- [本地镜像   (2011~2022年)  ](StackOverflow.md)    
 
 |年度|查看|下载|
 |:----|:----|:----|
-|**2021**  |[View Survey Results](https://insights.stackoverflow.com/survey/2021)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2021.zip)
+|**2022**  |[View Survey Results](https://survey.stackoverflow.co/2022)| |
+|**2021**  |[View Results](https://insights.stackoverflow.com/survey/2021)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2021.zip)
 |2020  |[View Results](https://insights.stackoverflow.com/survey/2020)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip)
-|2019  |[View Results](https://insights.stackoverflow.com/survey/2019)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip)
 
 ***
 ## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  
@@ -320,9 +319,9 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |Hosting|date|
 |:----|:----|
+|[June 2022 Web Server Survey](https://news.netcraft.com/archives/2022/06/30/june-2022-web-server-survey.html)|30th June, 2022
 |[May 2022 Web Server Survey](https://news.netcraft.com/archives/2022/05/30/may-2022-web-server-survey.html)|30th May, 2022
 |[April 2022 Web Server Survey](https://news.netcraft.com/archives/2022/04/27/april-2022-web-server-survey.html)|27th April, 2022
-|[March 2022 Web Server Survey](https://news.netcraft.com/archives/2022/03/29/march-2022-web-server-survey.html)|29th March, 2022
 
 ## 最可靠的托管主机 [Most Reliable Hosting Company Sites](https://news.netcraft.com/archives/category/hosting/)
 - [本地镜像   (2003~2022年)  ](web-hosting.md)
@@ -339,9 +338,9 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |Hosting|date|
 |:----|:----|
+|[Most Reliable Hosting Company Sites in June 2022](https://news.netcraft.com/archives/2022/07/08/most-reliable-hosting-company-sites-in-june-2022.html)|8th July, 2022
 |[Most Reliable Hosting Company Sites in May 2022](https://news.netcraft.com/archives/2022/06/06/most-reliable-hosting-company-sites-in-may-2022.html)|6th June, 2022
 |[Most Reliable Hosting Company Sites in April 2022](https://news.netcraft.com/archives/2022/05/03/most-reliable-hosting-company-sites-in-april-2022.html)|3rd May, 2022
-|[Most Reliable Hosting Company Sites in March 2022](https://news.netcraft.com/archives/2022/04/05/most-reliable-hosting-company-sites-in-march-2022.html)|5th April, 2022
 
 ***
 ## [开源镜像网站](mirrors.md)

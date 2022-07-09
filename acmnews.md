@@ -1,7 +1,12 @@
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周  **一、三、五**  发布   |  [返回](README.md)
-- [2022年6月](https://technews.acm.org/archives.cfm?d=2022-06-jun
-  )
+- [2022年7月](https://technews.acm.org/archives.cfm?d=2022-07-jul)  
+
+|=|=|=|
+|:----|:----|:----|
+|[Jul. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-08-2022.html)|[Jul. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-06-2022.html)
+
+- [2022年6月](https://technews.acm.org/archives.cfm?d=2022-06-jun)  
 
 |=|=|=|
 |:----|:----|:----|

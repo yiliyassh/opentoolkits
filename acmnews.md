@@ -4,25 +4,9 @@
 
 |=|=|=|
 |:----|:----|:----|
-|[Jul. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-08-2022.html)|[Jul. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-06-2022.html)
+|[Jul. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-15-2022.html)|[Jul. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-13-2022.html)
+|[Jul. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-11-2022.html)|[Jul. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-08-2022.html)|[Jul. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-06-2022.html)
 
-- [2022年6月](https://technews.acm.org/archives.cfm?d=2022-06-jun)  
-
-|=|=|=|
-|:----|:----|:----|
-|[Jun. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-29-2022.html)|[Jun. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-27-2022.html)|[Jun. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-24-2022.html)
-|[Jun. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-22-2022.html)|[Jun. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-20-2022.html)|[Jun. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-17-2022.html)
-|[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)
-|[Jun. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-06-2022.html)|[Jun. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-03-2022.html)|[Jun. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-01-2022.html)
-- [2022年5月](https://technews.acm.org/archives.cfm?d=2022-05-may)
-
-|=|=|=|
-|:----|:----|:----|
-|[May. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-27-2022.html)|[May. 25, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-25-2022.html)|[May. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-23-2022.html)
-|[May. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-20-2022.html)|[May. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-18-2022.html)|[May. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-16-2022.html)
-|[May. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-13-2022.html)|[May. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-11-2022.html)|[May. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-09-2022.html)
-|[May. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-06-2022.html)|[May. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-04-2022.html)|[May. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-05-may/may-02-2022.html)
-  
 - [ 历史归档  2000年~2022年 ](https://technews.acm.org/archives.cfm) 
 
 |= |= |= |= |= |= |

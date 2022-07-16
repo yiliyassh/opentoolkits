@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.18.10](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.10.tar.xz)
+|Latest Release|[5.18.12](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.12.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.19-rc5|2022-07-03|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc5.tar.gz)
-|stable:|5.18.10|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.10.tar.xz)
-|stable:|5.17.15 |2022-06-14|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.15.tar.xz)
-|longterm:|5.15.53|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.53.tar.xz)
-|longterm:|5.10.129|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.129.tar.xz)
-|longterm:|5.4.204|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.204.tar.xz)
-|longterm:|4.19.251|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.251.tar.xz)
-|longterm:|4.14.287|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.287.tar.xz)
-|longterm:|4.9.322|2022-07-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.322.tar.xz)
-|linux-next:|next-20220708|2022-07-08|[browse](https://git.kernel.org/next/linux-next/h/next-20220708)
+|mainline:|5.19-rc6|2022-07-10|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc6.tar.gz)
+|stable:|5.18.12|2022-07-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.12.tar.xz)
+|longterm:|5.15.55|2022-07-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.55.tar.xz)
+|longterm:|5.10.131|2022-07-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.131.tar.xz)
+|longterm:|5.4.206|2022-07-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.206.tar.xz)
+|longterm:|4.19.252|2022-07-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.252.tar.xz)
+|longterm:|4.14.288|2022-07-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.288.tar.xz)
+|longterm:|4.9.323|2022-07-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.323.tar.xz)
+|linux-next:|next-20220715|2022-07-15|[browse](https://git.kernel.org/next/linux-next/h/next-20220715)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -104,7 +103,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Saturday 9 July 2022 02:38 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update: Saturday 16 July 2022 06:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -121,7 +120,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[eclipse](http://eclipse.org/)|[4.24](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.1.0](http://ftp.gnu.org/gnu/gcc/gcc-12.1.0/gcc-12.1.0.tar.xz)|GNU GCC: the GNU compiler collection
-|[git](https://git-scm.com/)|[2.37.0](https://github.com/git/git/archive/v2.37.0.tar.gz)|Git: an open source version control system
+|[git](https://git-scm.com/)|[2.37.1](https://github.com/git/git/archive/v2.37.1.tar.gz)|Git: an open source version control system
 |[glibc](http://www.gnu.org/software/libc/libc.html)|[2.35](http://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.7](http://ftp.gnu.org/gnu/grep/grep-3.7.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
@@ -147,7 +146,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
 |[snort](https://www.snort.org/)|[3.1.32.0](https://snort.org/downloads/snortplus/snort3-3.1.32.0.tar.gz)|Snort: a light-weight network intrusion detection program
-|[sqlite](http://www.sqlite.org/)|[3.39.0](https://www.sqlite.org/2022/sqlite-amalgamation-3380000.zip)|SQLite: an embeddable SQL engine in a C library
+|[sqlite](http://www.sqlite.org/)|[3.39.1](https://www.sqlite.org/2022/sqlite-amalgamation-3390100.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.6](http://www.squid-cache.org/Versions/v5/squid-5.6.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](http://www.tcpdump.org/)|[4.99.1](http://www.tcpdump.org/release/tcpdump-4.99.1.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
@@ -155,7 +154,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[VirtualBox](https://www.virtualbox.org/)|[6.1.34](http://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
 |[wireshark](https://www.wireshark.org/)|[3.6.6](https://www.wireshark.org/download/src/wireshark-3.6.6.tar.xz)|Wireshark: a network protocol analyzer
-|[wordpress](https://wordpress.org/)|[6.0](https://wordpress.org/wordpress-6.0.tar.gz)|WordPress: publishing software for the world wide web
+|[wordpress](https://wordpress.org/)|[6.0.1](https://wordpress.org/wordpress-6.0.1.tar.gz)|WordPress: publishing software for the world wide web
 
 ***
 ## 数据库排名——DB-Engines Ranking  | [本地镜像](db.md)
@@ -276,7 +275,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[Jul. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-08-2022.html)|[Jul. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-06-2022.html)
+|[Jul. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-15-2022.html)|[Jul. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-13-2022.html)
+|[Jul. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-11-2022.html)|[Jul. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-08-2022.html)|[Jul. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-06-2022.html)
 |[Jun. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-29-2022.html)|[Jun. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-27-2022.html)|[Jun. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-24-2022.html)
 |[Jun. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-22-2022.html)|[Jun. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-20-2022.html)|[Jun. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-17-2022.html)
 |[Jun. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-15-2022.html)|[Jun. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-13-2022.html)|[Jun. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-10-2022.html)|[Jun. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-06-jun/jun-08-2022.html)

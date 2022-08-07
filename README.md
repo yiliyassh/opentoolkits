@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.18.15](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.15.tar.xz)
+|Latest Release|[5.19](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,15 +84,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|5.19-rc8|2022-07-24|[tarball](https://git.kernel.org/torvalds/t/linux-5.19-rc8.tar.gz)
-|stable:|5.18.15|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.15.tar.xz)
-|longterm:|5.15.58|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.58.tar.xz)
-|longterm:|5.10.134|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.134.tar.xz)
-|longterm:|5.4.208|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.208.tar.xz)
+|mainline:|5.19|2022-07-31|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.tar.xz)
+|stable:|5.18.16|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.16.tar.xz)
+|longterm:|5.15.59|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.59.tar.xz)
+|longterm:|5.10.135|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.135.tar.xz)
+|longterm:|5.4.209|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.209.tar.xz)
 |longterm:|4.19.254|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.254.tar.xz)
 |longterm:|4.14.290|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.290.tar.xz)
 |longterm:|4.9.325|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.325.tar.xz)
-|linux-next:|next-20220728|2022-07-28|[browse](https://git.kernel.org/next/linux-next/h/next-20220728)
+|linux-next:|next-20220805|2022-08-05|[browse](https://git.kernel.org/next/linux-next/h/next-20220805)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -103,7 +103,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Saturday 30 July 2022 10:08 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update: Sunday 7 August 2022 21:41 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -114,33 +114,33 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
 |[bind](http://www.isc.org/downloads/bind/)|[9.18.5](https://ftp.isc.org/isc/bind9/9.18.5/bind-9.18.5.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
-|[cmake](https://cmake.org/)|[3.23.3](https://github.com/Kitware/CMake/releases/download/v3.23.3/cmake-3.23.3.tar.gz)|cmake: a cross-platform, open-source build system
+|[cmake](https://cmake.org/)|[3.24.0](https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.84.0](https://github.com/curl/curl/releases/download/curl-7_84_0/curl-7.84.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.17](https://github.com/moby/moby/archive/refs/tags/v20.10.17.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](http://eclipse.org/)|[4.24](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.1.0](http://ftp.gnu.org/gnu/gcc/gcc-12.1.0/gcc-12.1.0.tar.xz)|GNU GCC: the GNU compiler collection
 |[git](https://git-scm.com/)|[2.37.1](https://github.com/git/git/archive/v2.37.1.tar.gz)|Git: an open source version control system
-|[glibc](http://www.gnu.org/software/libc/libc.html)|[2.35](http://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
+|[glibc](http://www.gnu.org/software/libc/libc.html)|[2.36](http://ftp.gnu.org/gnu/glibc/glibc-2.36.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.7](http://ftp.gnu.org/gnu/grep/grep-3.7.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
 |[httpd](http://httpd.apache.org/)|[2.4.54](https://archive.apache.org/dist/httpd/httpd-2.4.54.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
 |[iptables](http://www.netfilter.org/projects/iptables/)|[1.8.8](http://www.netfilter.org/projects/iptables/files/iptables-1.8.8.tar.bz2)|iptables: enables the creation of packet alteration and firewall rules
 |[lftp](http://lftp.yar.ru/)|[4.9.2](http://lftp.yar.ru/ftp/lftp-4.9.2.tar.xz)|LFTP: a sophisticated FTP/HTTP client, file transfer program
-|[lighttpd](http://www.lighttpd.net/)|[1.4.65](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.65.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
+|[lighttpd](http://www.lighttpd.net/)|[1.4.66](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.66.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](http://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
 |[make](http://www.gnu.org/software/make/)|[4.3](https://ftp.gnu.org/gnu/make/make-4.3.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
 |[mariadb](https://mariadb.org/)|[10.8.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.8.3/source/mariadb-10.8.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.30](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.30.tar.gz)|MySQL: an SQL database server
 |[nginx](http://nginx.org/)|[1.22.0](http://nginx.org/download/nginx-1.22.0.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](http://www.insecure.org/nmap/)|[7.92](http://download.insecure.org/nmap/dist/nmap-7.92.tgz)|Nmap: a utility for network exploration or security auditing
-|[NVIDIA](http://www.nvidia.com/object/unix.html)|[515.57](http://download.nvidia.com/XFree86/Linux-x86_64/515.57/NVIDIA-Linux-x86_64-515.57.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+|[NVIDIA](http://www.nvidia.com/object/unix.html)|[515.65.01](https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
-|[php](http://www.php.net/)|[8.1.8](http://us3.php.net/distributions/php-8.1.8.tar.xz)|PHP: a server-side HTML embedded scripting language
+|[php](http://www.php.net/)|[8.1.9](http://us3.php.net/distributions/php-8.1.9.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
 |[postgresql](https://www.postgresql.org/)|[14.4](https://ftp.postgresql.org/pub/source/v14.4/postgresql-14.4.tar.bz2)|PostgreSQL: a relational database management system
-|[Python](https://www.python.org/)|[3.10.5](https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz)|Python: an interpreted, interactive, object-oriented programming language
+|[Python](https://www.python.org/)|[3.10.6](https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qt](https://www.qt.io/)|[6.3.1](https://download.qt-project.org/official_releases/qt/6.3/6.3.1/single/qt-everywhere-src-6.3.1.tar.xz)|Qt: a C++ application framework for writing graphical applications
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
@@ -182,19 +182,19 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[Oracle](https://www.oracle.com/database/)|[Technical documentation](https://docs.oracle.com/en/database/)|1980|19c, February 2019
 |[MySQL](https://www.mysql.com/)|[Technical documentation](https://dev.mysql.com/doc/)|1995|8.0.29, April 2022
 |[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/)|[Technical documentation](https://docs.microsoft.com/en-US/sql/sql-server/)|1989|SQL Server 2019, November 2019
-|[PostgreSQL](https://www.postgresql.org/)|[Technical documentation](https://www.postgresql.org/docs/)|1989: Postgres, 1996: PostgreSQL|14.3, May 2022
+|[PostgreSQL](https://www.postgresql.org/)|[Technical documentation](https://www.postgresql.org/docs/)|1989: Postgres, 1996: PostgreSQL|14.4, June 2022
 |[MongoDB](http://www.mongodb.com/)|[Technical documentation](http://docs.mongodb.com/­manual)|2009|5.0.8, April 2022
 |[Memcached](http://www.memcached.org/)|[Technical documentation](https://github.com/memcached/memcached/wiki)|2003|1.6.15, March 2022
 |[Redis](http://redis.com)|[Technical documentation](http://redis.io/­documentation)|2009|7.0.0, April 2022
 |[IBM Db2 ](https://www.ibm.com/analytics/db2)|[Technical documentation](https://www.ibm.com/support/knowledgecenter/SSEPGG)|1983 |12.1, October 2016
 |[Elasticsearch](https://www.elastic.co/elasticsearch/)|[Technical documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)|2010|7.8.0, June 2020
 |[Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access)|[Technical documentation](https://developer.microsoft.com/en-us/access)|1992|1902 (16.0.11328.20222), March 2019
-|[SQLite](https://www.sqlite.org/)|[Technical documentation](https://www.sqlite.org/docs.html)|2000|3.38.5(6 May 2022), May 2022
+|[SQLite](https://www.sqlite.org/)|[Technical documentation](https://www.sqlite.org/docs.html)|2000|3.39.1  (13 July 2022), July 2022
 |[Hive](https://hive.apache.org/)|[Technical documentation](https://cwiki.apache.org/confluence/display/Hive/Home)|2012|3.1.2, August 2019
 |[Hbase](http://hbase.apache.org/)|[Technical documentation](https://hbase.apache.org/book.html)|2008|2.3.4, January 2021
 |[Teradata](https://www.teradata.com/)|[Technical documentation](https://docs.teradata.com/)|1984|Teradata Vantage 1.0 MU2, January 2019
 |[Solr](https://lucene.apache.org/solr/)|[Technical documentation](https://lucene.apache.org/solr/resources.html)|2006|9.0.0, May 2022
-|[ClickHouse](https://clickhouse.tech/)|[Technical documentation](https://clickhouse.tech/docs/)|2016|v22.4.5.9-stable, May 2022
+|[ClickHouse](https://clickhouse.tech/)|[Technical documentation](https://clickhouse.tech/docs/)|2016|v22.6.3.35-stable, July 2022
 |[Greenplum](https://greenplum.org/)|[Technical documentation](http://docs.greenplum.org/)|2005|6.7.1, April 2020
 ***
 ## NoSQL数据库  |    [本地镜像](nosql.md)
@@ -275,18 +275,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[Jul. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-29-2022.html)|[Jul. 27, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-27-2022.html)
-|[Jul. 25, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-25-2022.html)|[Jul. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-22-2022.html)|[Jul. 20, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-20-2022.html)
-|[Jul. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-18-2022.html)|[Jul. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-15-2022.html)|[Jul. 13, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-13-2022.html)
-|[Jul. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-11-2022.html)|[Jul. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-08-2022.html)|[Jul. 06, 2022](https://technews.acm.org/archives.cfm?fo=2022-07-jul/jul-06-2022.html)
+|[Aug. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-05-2022.html)|[Aug. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-03-2022.html)|[Aug. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-01-2022.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
 
 |= |= |= |= |= |= |
 |:----|:----|:----|:----|:----|:----|
+|[Aug 2022](https://technews.acm.org/archives.cfm?d=2022-08-aug) ||[Jul 2022](https://technews.acm.org/archives.cfm?d=2022-07-jul)
 |[Jun 2022](https://technews.acm.org/archives.cfm?d=2022-06-jun) |[May 2022](https://technews.acm.org/archives.cfm?d=2022-05-may)|[Apr 2022](https://technews.acm.org/archives.cfm?d=2022-04-apr)|[Mar 2022](https://technews.acm.org/archives.cfm?d=2022-03-mar)|[Feb 2022](https://technews.acm.org/archives.cfm?d=2022-02-feb)|[Jan 2022](https://technews.acm.org/archives.cfm?d=2022-01-jan)
-|[Dec 2021](https://technews.acm.org/archives.cfm?d=2021-12-dec)|[Nov 2021](https://technews.acm.org/archives.cfm?d=2021-11-nov)|[Oct 2021](https://technews.acm.org/archives.cfm?d=2021-10-oct)|[Sep 2021](https://technews.acm.org/archives.cfm?d=2021-09-sep)|[Aug 2021](https://technews.acm.org/archives.cfm?d=2021-08-aug)|[Jul 2021](https://technews.acm.org/archives.cfm?d=2021-07-jul)|[Jun 2021](https://technews.acm.org/archives.cfm?d=2021-06-jun)
-|[Jun 2021 ](https://technews.acm.org/archives.cfm?d=2021-06-jun)|[May 2021](https://technews.acm.org/archives.cfm?d=2021-05-may)|[Apr 2021](https://technews.acm.org/archives.cfm?d=2021-04-apr)|[Mar 2021](https://technews.acm.org/archives.cfm?d=2021-03-mar)|[Feb 2021](https://technews.acm.org/archives.cfm?d=2021-02-feb)|[Jan 2021](https://technews.acm.org/archives.cfm?d=2021-01-jan)
 |.|.|.|.|.|.|
 |[Dec 2000](https://technews.acm.org/archives.cfm?d=2000-12-dec)|[Nov 2000](https://technews.acm.org/archives.cfm?d=2000-11-nov)|[Oct 2000](https://technews.acm.org/archives.cfm?d=2000-10-oct)|[Sep 2000](https://technews.acm.org/archives.cfm?d=2000-09-sep)|[Aug 2000](https://technews.acm.org/archives.cfm?d=2000-08-aug)|[Jul 2000](https://technews.acm.org/archives.cfm?d=2000-07-jul)
 |[Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)

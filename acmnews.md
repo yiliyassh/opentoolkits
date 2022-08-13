@@ -4,6 +4,7 @@
 
 |=|=|=|
 |:----|:----|:----|
+|[Aug. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-12-2022.html)|[Aug. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-10-2022.html)|[Aug. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-08-2022.html)
 |[Aug. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-05-2022.html)|[Aug. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-03-2022.html)|[Aug. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-01-2022.html)
 - [ 历史归档  2000年~2022年 ](https://technews.acm.org/archives.cfm) 
 

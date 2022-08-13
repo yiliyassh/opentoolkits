@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.19](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.tar.xz)
+|Latest Release|[5.19.1](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.1.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -85,14 +85,15 @@ https://distrowatch.com/
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
 |mainline:|5.19|2022-07-31|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.tar.xz)
-|stable:|5.18.16|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.16.tar.xz)
-|longterm:|5.15.59|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.59.tar.xz)
-|longterm:|5.10.135|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.135.tar.xz)
-|longterm:|5.4.209|2022-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.209.tar.xz)
-|longterm:|4.19.254|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.254.tar.xz)
+|stable:|5.19.1|2022-08-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.1.tar.xz)
+|stable:|5.18.17|2022-08-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.17.tar.xz)
+|longterm:|5.15.60|2022-08-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.60.tar.xz)
+|longterm:|5.10.136|2022-08-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.136.tar.xz)
+|longterm:|5.4.210|2022-08-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.210.tar.xz)
+|longterm:|4.19.255|2022-08-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.255.tar.xz)
 |longterm:|4.14.290|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.290.tar.xz)
 |longterm:|4.9.325|2022-07-29|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.325.tar.xz)
-|linux-next:|next-20220805|2022-08-05|[browse](https://git.kernel.org/next/linux-next/h/next-20220805)
+|linux-next:|next-20220812|2022-08-12|[browse](https://git.kernel.org/next/linux-next/h/next-20220812)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -103,7 +104,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Sunday 7 August 2022 21:41 GMT ](https://distrowatch.com/packages.php)  
+- [ Last Update: Saturday 13 August 2022 03:08 GMT ](https://distrowatch.com/packages.php)  
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -120,7 +121,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[eclipse](http://eclipse.org/)|[4.24](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.1.1](https://ftp.gnu.org/gnu/gawk/gawk-5.1.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.1.0](http://ftp.gnu.org/gnu/gcc/gcc-12.1.0/gcc-12.1.0.tar.xz)|GNU GCC: the GNU compiler collection
-|[git](https://git-scm.com/)|[2.37.1](https://github.com/git/git/archive/v2.37.1.tar.gz)|Git: an open source version control system
+|[git](https://git-scm.com/)|[2.37.2](https://github.com/git/git/archive/v2.37.2.tar.gz)|Git: an open source version control system
 |[glibc](http://www.gnu.org/software/libc/libc.html)|[2.36](http://ftp.gnu.org/gnu/glibc/glibc-2.36.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.7](http://ftp.gnu.org/gnu/grep/grep-3.7.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
@@ -139,13 +140,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
 |[php](http://www.php.net/)|[8.1.9](http://us3.php.net/distributions/php-8.1.9.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
-|[postgresql](https://www.postgresql.org/)|[14.4](https://ftp.postgresql.org/pub/source/v14.4/postgresql-14.4.tar.bz2)|PostgreSQL: a relational database management system
+|[postgresql](https://www.postgresql.org/)|[14.5](https://ftp.postgresql.org/pub/source/v14.5/postgresql-14.5.tar.bz2)|PostgreSQL: a relational database management system
 |[Python](https://www.python.org/)|[3.10.6](https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qt](https://www.qt.io/)|[6.3.1](https://download.qt-project.org/official_releases/qt/6.3/6.3.1/single/qt-everywhere-src-6.3.1.tar.xz)|Qt: a C++ application framework for writing graphical applications
 |[rsync](http://rsync.samba.org/)|[3.2.4](http://rsync.samba.org/ftp/rsync/rsync-3.2.4.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.38.0](https://snort.org/downloads/snortplus/snort3-3.1.38.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[snort](https://www.snort.org/)|[3.1.39.0](https://snort.org/downloads/snortplus/snort3-3.1.39.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.39.2](https://www.sqlite.org/2022/sqlite-amalgamation-3390200.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.6](http://www.squid-cache.org/Versions/v5/squid-5.6.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
@@ -275,6 +276,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
+|[Aug. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-12-2022.html)|[Aug. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-10-2022.html)|[Aug. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-08-2022.html)
 |[Aug. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-05-2022.html)|[Aug. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-03-2022.html)|[Aug. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-01-2022.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)

@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2022-07-09 >Debian publishes 11.4 install media
 -  2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
 -  2022-04-03 >Debian launches vote for Project Leader
 -  2022-03-26 >Debian publishes updated media - 10.12 and 11.3
@@ -78,12 +79,12 @@ Headlines...
 -  2021-11-24 >Debian adjusts APT to make it safer
 -  2021-10-25 >Debian puts out call to work on CPU ports
 -  2021-10-09 >Debian refreshes media for versions 10 and 11
--  2021-08-14 >Debian publishes Hurd 2021 media
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases... 
+-  2022-08-16: Development Release: deepin 23 Preview
 -  2022-06-03: Distribution Release: deepin 20.6
 -  2022-04-01: Distribution Release: deepin 20.5
 -  2022-01-19: Distribution Release: deepin 20.4
@@ -95,9 +96,9 @@ Releases...
 -  2019-07-19: Distribution Release: deepin 15.11
 -  2019-04-28: Distribution Release: deepin 15.10
 -  2019-01-16: Distribution Release: deepin 15.9
--  2018-11-15: Distribution Release: deepin 15.8
 -      
 Headlines... 
+-  2022-08-16 >deepin becomes independent
 -  2017-03-28 >Running deepin apps on Ubuntu
 -  
 
@@ -147,6 +148,7 @@ Releases...
 -  2021-02-27: Development Release: FreeBSD 13.0-BETA4
 -      
 Headlines... 
+-  2022-08-09 >FreeBSD publishes status report
 -  2022-06-13 >FreeBSD publishes status report
 -  2022-03-30 >Sandboxing software running on FreeBSD
 -  2022-03-15 >Rebooting into a new snapshot without shutting down
@@ -156,7 +158,6 @@ Headlines...
 -  2021-11-15 >FreeBSD improves boot times
 -  2021-09-23 >FreeBSD to change root's shell
 -  2021-09-14 >cgroup filesystem for BSDs
--  2021-07-24 >FreeBSD publishes status report
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -377,6 +378,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2022-08-11: Distribution Release: Ubuntu 22.04.1
 -  2022-04-21: Distribution Release: Ubuntu 22.04
 -  2022-02-25: Distribution Release: Ubuntu 20.04.4
 -  2021-10-14: Distribution Release: Ubuntu 21.10
@@ -388,9 +390,10 @@ Releases...
 -  2021-02-04: Distribution Release: Ubuntu 20.04.2
 -  2020-10-22: Distribution Release: Ubuntu 20.10
 -  2020-10-02: Development Release: Ubuntu 20.10 Beta
--  2020-08-13: Distribution Release: Ubuntu 16.04.7, 18.04.5
 -      
 Headlines... 
+-  2022-08-16 >Ubuntu packages .NET
+-  2022-07-21 >Ubuntu now certified to run on Dell XPS 13
 -  2022-06-15 >Ubuntu Core 22 launches with optional real-time kernel
 -  2022-05-31 >Ubuntu 21.10 nears its end of life
 -  2022-05-27 >Ubuntu users struggle with out of memory service
@@ -399,7 +402,5 @@ Headlines...
 -  2022-04-28 >Ubuntu's Active Directory authentication explained
 -  2022-02-11 >Ubuntu gets new tool to gather system information
 -  2022-01-21 >Ubuntu 21.04 reaches its end of life
--  2022-01-13 >Ubuntu outlines plans for GNOME in 22.04
--  2021-12-15 >Finding and fixing bugs on Ubuntu
 -  
 

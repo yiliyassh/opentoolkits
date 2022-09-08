@@ -1,10 +1,10 @@
 ## [Linux](https://distrowatch.com)发行版大全    |  [返回](README.md)
 >几百种linux发行版的详细介绍和官网链接，镜像下载等。    
 > 珍爱生命，拥抱开源~_~  
-
+> 
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
-Releases... 
+Releases...  
 -  2021-06-23: Distribution Release: Android-x86 8.1-r6
 -  2020-02-27: Distribution Release: Android-x86 9.0-r1
 -  2017-04-25: Distribution Release: Android-x86 6.0-r3
@@ -26,7 +26,8 @@ Headlines...
 [centos](https://distrowatch.com/table.php?distribution=centos)
 ======
 Releases... 
--  2021-12-03: Distribution Release: CentOS 9
+- 
+ 2021-12-03: Distribution Release: CentOS 9
 -  2021-11-16: Distribution Release: CentOS 8.5.2111
 -  2021-06-04: Distribution Release: CentOS 8.4.2105
 -  2020-11-13: Distribution Release: CentOS 7.9.2009
@@ -69,6 +70,8 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2022-08-29 >Debian switches default Chromium search engine 
+-  2022-08-27 >Debian considers how to handle non-free firmware
 -  2022-07-09 >Debian publishes 11.4 install media
 -  2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
 -  2022-04-03 >Debian launches vote for Project Leader
@@ -77,8 +80,6 @@ Headlines...
 -  2022-02-22 >Installing Debian on M1-powered Apple computers
 -  2021-12-18 >Debian updates Bullseye with 11.2
 -  2021-11-24 >Debian adjusts APT to make it safer
--  2021-10-25 >Debian puts out call to work on CPU ports
--  2021-10-09 >Debian refreshes media for versions 10 and 11
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -119,6 +120,7 @@ Releases...
 -  2019-09-17: Development Release: Fedora 31 Beta
 -      
 Headlines... 
+-  2022-09-06 >Fedora 39 may get new package manager
 -  2022-06-29 >Fedora plans to provide unfiltered access to Flathub
 -  2022-05-18 >Fedora 34 approaches its end of life
 -  2022-05-16 >How to upgrade Fedora Silverblue
@@ -128,7 +130,6 @@ Headlines...
 -  2022-03-21 >Gaming on Fedora compared with Windows
 -  2022-02-16 >Installing software on Fedora Silverblue
 -  2022-02-09 >The purpose of Fedora's Flatpak packages
--  2022-01-11 >Fedora to get revamped installer
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -378,6 +379,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2022-09-01: Distribution Release: Ubuntu 20.04.5
 -  2022-08-11: Distribution Release: Ubuntu 22.04.1
 -  2022-04-21: Distribution Release: Ubuntu 22.04
 -  2022-02-25: Distribution Release: Ubuntu 20.04.4
@@ -389,9 +391,9 @@ Releases...
 -  2021-04-01: Development Release: Ubuntu 21.04 Beta
 -  2021-02-04: Distribution Release: Ubuntu 20.04.2
 -  2020-10-22: Distribution Release: Ubuntu 20.10
--  2020-10-02: Development Release: Ubuntu 20.10 Beta
 -      
 Headlines... 
+-  2022-08-24 >Mir available for Wayland implementations
 -  2022-08-16 >Ubuntu packages .NET
 -  2022-07-21 >Ubuntu now certified to run on Dell XPS 13
 -  2022-06-15 >Ubuntu Core 22 launches with optional real-time kernel
@@ -401,6 +403,5 @@ Headlines...
 -  2022-05-01 >Unity7 sees its first release in six years
 -  2022-04-28 >Ubuntu's Active Directory authentication explained
 -  2022-02-11 >Ubuntu gets new tool to gather system information
--  2022-01-21 >Ubuntu 21.04 reaches its end of life
 -  
 

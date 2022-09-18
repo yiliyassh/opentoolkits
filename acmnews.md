@@ -1,14 +1,12 @@
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周  **一、三、五**  发布   |  [返回](README.md)
-- [2022年9月](https://technews.acm.org/archives.cfm?d=2022-09-sep)| [本地镜像](acmnews.md)
+- [2022年9月](https://technews.acm.org/archives.cfm?d=2022-09-sep) | [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
+|[Sep. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-16-2022.html)
+|[Sep. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-14-2022.html)|[Sep. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-12-2022.html)|[Sep. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-09-2022.html)
 |[Sep. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-07-2022.html)|[Aug. 31, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-31-2022.html)|[Aug. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-29-2022.html)
-|[Aug. 26, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-26-2022.html)|[Aug. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-24-2022.html)|[Aug. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-22-2022.html)
-|[Aug. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-19-2022.html)|[Aug. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-17-2022.html)|[Aug. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-15-2022.html)
-|[Aug. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-12-2022.html)|[Aug. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-10-2022.html)|[Aug. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-08-2022.html)
-|[Aug. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-05-2022.html)|[Aug. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-03-2022.html)|[Aug. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-01-2022.html)
 - [ 历史归档  2000年~2022年 ](https://technews.acm.org/archives.cfm) 
 
 |= |= |= |= |= |= |

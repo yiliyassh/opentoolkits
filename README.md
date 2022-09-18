@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.19.7](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.7.tar.xz)
+|Latest Release|[5.19.9](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.9.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.0-rc4|2022-09-04|[tarball](https://git.kernel.org/torvalds/t/linux-6.0-rc4.tar.gz)
-|stable:|5.19.7|2022-09-05|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.7.tar.xz)
+|mainline:|6.0-rc5|2022-09-11|[tarball](https://git.kernel.org/torvalds/t/linux-6.0-rc5.tar.gz)
+|stable:|5.19.9|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.9.tar.xz)
 |stable:|5.18.19 |2022-08-21|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.19.tar.xz)
-|longterm:|5.15.65|2022-09-05|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.65.tar.xz)
-|longterm:|5.10.141|2022-09-05|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.141.tar.xz)
-|longterm:|5.4.212|2022-09-05|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.212.tar.xz)
-|longterm:|4.19.257|2022-09-05|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.257.tar.xz)
-|longterm:|4.14.292|2022-09-05|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.292.tar.xz)
-|longterm:|4.9.327|2022-09-05|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.327.tar.xz)
-|linux-next:|next-20220907|2022-09-07|[browse](https://git.kernel.org/next/linux-next/h/next-20220907)
+|longterm:|5.15.68|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.68.tar.xz)
+|longterm:|5.10.143|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.143.tar.xz)
+|longterm:|5.4.213|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.213.tar.xz)
+|longterm:|4.19.258|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.258.tar.xz)
+|longterm:|4.14.293|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.293.tar.xz)
+|longterm:|4.9.328|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.328.tar.xz)
+|linux-next:|next-20220916|2022-09-16|[browse](https://git.kernel.org/next/linux-next/h/next-20220916)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -104,7 +104,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Thursday 8 September 2022 05:08 GMT ](https://distrowatch.com/packages.php) 
+- [ Last Update: Sunday 18 September 2022 11:38 GMT ](https://distrowatch.com/packages.php) 
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -115,10 +115,10 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
 |[bind](http://www.isc.org/downloads/bind/)|[9.18.6](https://ftp.isc.org/isc/bind9/9.18.6/bind-9.18.6.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
-|[cmake](https://cmake.org/)|[3.24.1](https://github.com/Kitware/CMake/releases/download/v3.24.1/cmake-3.24.1.tar.gz)|cmake: a cross-platform, open-source build system
+|[cmake](https://cmake.org/)|[3.24.2](https://github.com/Kitware/CMake/releases/download/v3.24.2/cmake-3.24.2.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.85.0](https://github.com/curl/curl/releases/download/curl-7_85_0/curl-7.85.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
-|[docker](https://www.docker.com/community-edition)|[20.10.17](https://github.com/moby/moby/archive/refs/tags/v20.10.17.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
-|[eclipse](http://eclipse.org/)|[4.24](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
+|[docker](https://www.docker.com/community-edition)|[20.10.18](https://github.com/moby/moby/archive/refs/tags/v20.10.18.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
+|[eclipse](http://eclipse.org/)|[4.25](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.2.0](https://ftp.gnu.org/gnu/gawk/gawk-5.2.0.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.2.0](http://ftp.gnu.org/gnu/gcc/gcc-12.2.0/gcc-12.2.0.tar.xz)|GNU GCC: the GNU compiler collection
 |[git](https://git-scm.com/)|[2.37.3](https://github.com/git/git/archive/v2.37.3.tar.gz)|Git: an open source version control system
@@ -128,7 +128,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[httpd](http://httpd.apache.org/)|[2.4.54](https://archive.apache.org/dist/httpd/httpd-2.4.54.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
 |[iptables](http://www.netfilter.org/projects/iptables/)|[1.8.8](http://www.netfilter.org/projects/iptables/files/iptables-1.8.8.tar.bz2)|iptables: enables the creation of packet alteration and firewall rules
 |[lftp](http://lftp.yar.ru/)|[4.9.2](http://lftp.yar.ru/ftp/lftp-4.9.2.tar.xz)|LFTP: a sophisticated FTP/HTTP client, file transfer program
-|[lighttpd](http://www.lighttpd.net/)|[1.4.66](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.66.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
+|[lighttpd](http://www.lighttpd.net/)|[1.4.67](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.67.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](http://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
 |[make](http://www.gnu.org/software/make/)|[4.3](https://ftp.gnu.org/gnu/make/make-4.3.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
 |[mariadb](https://mariadb.org/)|[10.9.2](https://ftp.osuosl.org/pub/mariadb/mariadb-10.9.2/source/mariadb-10.9.2.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
@@ -142,11 +142,11 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
 |[postgresql](https://www.postgresql.org/)|[14.5](https://ftp.postgresql.org/pub/source/v14.5/postgresql-14.5.tar.bz2)|PostgreSQL: a relational database management system
 |[Python](https://www.python.org/)|[3.10.7](https://www.python.org/ftp/python/3.10.7/Python-3.10.7.tgz)|Python: an interpreted, interactive, object-oriented programming language
-|[qt](https://www.qt.io/)|[6.3.1](https://download.qt-project.org/official_releases/qt/6.3/6.3.1/single/qt-everywhere-src-6.3.1.tar.xz)|Qt: a C++ application framework for writing graphical applications
-|[rsync](http://rsync.samba.org/)|[3.2.5](http://rsync.samba.org/ftp/rsync/rsync-3.2.5.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
+|[qt](https://www.qt.io/)|[6.3.2](https://download.qt-project.org/official_releases/qt/6.3/6.3.2/single/qt-everywhere-src-6.3.2.tar.xz)|Qt: a C++ application framework for writing graphical applications
+|[rsync](http://rsync.samba.org/)|[3.2.6](http://rsync.samba.org/ftp/rsync/rsync-3.2.6.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.1.2](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.8](https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.40.0](https://snort.org/downloads/snortplus/snort3-3.1.40.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[snort](https://www.snort.org/)|[3.1.41.0](https://snort.org/downloads/snortplus/snort3-3.1.41.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.39.3](https://www.sqlite.org/2022/sqlite-amalgamation-3390200.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.7](http://www.squid-cache.org/Versions/v5/squid-5.7.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
@@ -156,6 +156,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
 |[wireshark](https://www.wireshark.org/)|[3.6.8](https://www.wireshark.org/download/src/wireshark-3.6.8.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[6.0.2](https://wordpress.org/wordpress-6.0.2.tar.gz)|WordPress: publishing software for the world wide web
+
 
 ***
 ## 数据库排名——DB-Engines Ranking  | [本地镜像](db.md)
@@ -271,15 +272,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2022年9月](https://technews.acm.org/archives.cfm?d=2022-09-sep)| [本地镜像](acmnews.md)
+- [2022年9月](https://technews.acm.org/archives.cfm?d=2022-09-sep) | [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
+|[Sep. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-16-2022.html)
+|[Sep. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-14-2022.html)|[Sep. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-12-2022.html)|[Sep. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-09-2022.html)
 |[Sep. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-07-2022.html)|[Aug. 31, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-31-2022.html)|[Aug. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-29-2022.html)
-|[Aug. 26, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-26-2022.html)|[Aug. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-24-2022.html)|[Aug. 22, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-22-2022.html)
-|[Aug. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-19-2022.html)|[Aug. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-17-2022.html)|[Aug. 15, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-15-2022.html)
-|[Aug. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-12-2022.html)|[Aug. 10, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-10-2022.html)|[Aug. 08, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-08-2022.html)
-|[Aug. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-05-2022.html)|[Aug. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-03-2022.html)|[Aug. 01, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-01-2022.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
 

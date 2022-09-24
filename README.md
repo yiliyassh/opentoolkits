@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[5.19.9](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.9.tar.xz)
+|Latest Release|[5.19.11](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.11.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.0-rc5|2022-09-11|[tarball](https://git.kernel.org/torvalds/t/linux-6.0-rc5.tar.gz)
-|stable:|5.19.9|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.9.tar.xz)
-|stable:|5.18.19 |2022-08-21|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.19.tar.xz)
-|longterm:|5.15.68|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.68.tar.xz)
-|longterm:|5.10.143|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.143.tar.xz)
-|longterm:|5.4.213|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.213.tar.xz)
-|longterm:|4.19.258|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.258.tar.xz)
-|longterm:|4.14.293|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.293.tar.xz)
-|longterm:|4.9.328|2022-09-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.328.tar.xz)
-|linux-next:|next-20220916|2022-09-16|[browse](https://git.kernel.org/next/linux-next/h/next-20220916)
+|mainline:|6.0-rc6|2022-09-18|[tarball](https://git.kernel.org/torvalds/t/linux-6.0-rc6.tar.gz)
+|stable:|5.19.11|2022-09-23|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.11.tar.xz)
+|longterm:|5.15.70|2022-09-23|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.70.tar.xz)
+|longterm:|5.10.145|2022-09-23|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.145.tar.xz)
+|longterm:|5.4.214|2022-09-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.214.tar.xz)
+|longterm:|4.19.259|2022-09-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.259.tar.xz)
+|longterm:|4.14.294|2022-09-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.294.tar.xz)
+|longterm:|4.9.329|2022-09-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.329.tar.xz)
+|linux-next:|next-20220923|2022-09-23|[browse](https://git.kernel.org/next/linux-next/h/next-20220923)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -104,7 +103,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Sunday 18 September 2022 11:38 GMT ](https://distrowatch.com/packages.php) 
+- [ Last Update: Saturday 24 September 2022 11:38 GMT ](https://distrowatch.com/packages.php) 
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -114,7 +113,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |应用软件（详情）|版本（下载）|说明|
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.1.16](http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz)|Bash: an sh-compatible command language interpreter
-|[bind](http://www.isc.org/downloads/bind/)|[9.18.6](https://ftp.isc.org/isc/bind9/9.18.6/bind-9.18.6.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
+|[bind](http://www.isc.org/downloads/bind/)|[9.18.7](https://ftp.isc.org/isc/bind9/9.18.7/bind-9.18.7.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.24.2](https://github.com/Kitware/CMake/releases/download/v3.24.2/cmake-3.24.2.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.85.0](https://github.com/curl/curl/releases/download/curl-7_85_0/curl-7.85.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.18](https://github.com/moby/moby/archive/refs/tags/v20.10.18.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
@@ -131,11 +130,11 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[lighttpd](http://www.lighttpd.net/)|[1.4.67](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.67.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](http://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
 |[make](http://www.gnu.org/software/make/)|[4.3](https://ftp.gnu.org/gnu/make/make-4.3.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
-|[mariadb](https://mariadb.org/)|[10.9.2](https://ftp.osuosl.org/pub/mariadb/mariadb-10.9.2/source/mariadb-10.9.2.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
+|[mariadb](https://mariadb.org/)|[10.9.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.9.3/source/mariadb-10.9.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.30](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.30.tar.gz)|MySQL: an SQL database server
 |[nginx](http://nginx.org/)|[1.22.0](http://nginx.org/download/nginx-1.22.0.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](http://www.insecure.org/nmap/)|[7.93](http://download.insecure.org/nmap/dist/nmap-7.93.tgz)|Nmap: a utility for network exploration or security auditing
-|[NVIDIA](http://www.nvidia.com/object/unix.html)|[515.65.01](https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+|[NVIDIA](http://www.nvidia.com/object/unix.html)|[515.76](https://us.download.nvidia.com/XFree86/Linux-x86_64/515.76/NVIDIA-Linux-x86_64-515.76.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.0p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
 |[php](http://www.php.net/)|[8.1.10](http://us3.php.net/distributions/php-8.1.10.tar.xz)|PHP: a server-side HTML embedded scripting language
@@ -276,7 +275,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[Sep. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-16-2022.html)
+|[Sep. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-23-2022.html)
+|[Sep. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-21-2022.html)|[Sep. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-19-2022.html)|[Sep. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-16-2022.html)
 |[Sep. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-14-2022.html)|[Sep. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-12-2022.html)|[Sep. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-09-2022.html)
 |[Sep. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-09-sep/sep-07-2022.html)|[Aug. 31, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-31-2022.html)|[Aug. 29, 2022](https://technews.acm.org/archives.cfm?fo=2022-08-aug/aug-29-2022.html)
 

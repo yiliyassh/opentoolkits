@@ -4,7 +4,7 @@
 > 
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
-Releases...  
+Releases... 
 -  2021-06-23: Distribution Release: Android-x86 8.1-r6
 -  2020-02-27: Distribution Release: Android-x86 9.0-r1
 -  2017-04-25: Distribution Release: Android-x86 6.0-r3
@@ -26,8 +26,7 @@ Headlines...
 [centos](https://distrowatch.com/table.php?distribution=centos)
 ======
 Releases... 
-- 
- 2021-12-03: Distribution Release: CentOS 9
+-  2021-12-03: Distribution Release: CentOS 9
 -  2021-11-16: Distribution Release: CentOS 8.5.2111
 -  2021-06-04: Distribution Release: CentOS 8.4.2105
 -  2020-11-13: Distribution Release: CentOS 7.9.2009
@@ -70,6 +69,8 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2022-10-02 >Debian votes on non-free firmware on install media
+-  2022-09-10 >Debian publishes new media for Buster and Bullseye
 -  2022-08-29 >Debian switches default Chromium search engine 
 -  2022-08-27 >Debian considers how to handle non-free firmware
 -  2022-07-09 >Debian publishes 11.4 install media
@@ -78,8 +79,6 @@ Headlines...
 -  2022-03-26 >Debian publishes updated media - 10.12 and 11.3
 -  2022-03-14 >Debian plans freeze for version 12
 -  2022-02-22 >Installing Debian on M1-powered Apple computers
--  2021-12-18 >Debian updates Bullseye with 11.2
--  2021-11-24 >Debian adjusts APT to make it safer
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -106,6 +105,7 @@ Headlines...
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases... 
+-  2022-09-13: Development Release: Fedora 37 Beta
 -  2022-05-10: Distribution Release: Fedora 36
 -  2022-03-29: Development Release: Fedora 36 Beta
 -  2021-11-02: Distribution Release: Fedora 35
@@ -117,9 +117,9 @@ Releases...
 -  2020-04-28: Distribution Release: Fedora 32
 -  2020-03-17: Development Release: Fedora 32 Beta
 -  2019-10-29: Distribution Release: Fedora 31
--  2019-09-17: Development Release: Fedora 31 Beta
 -      
 Headlines... 
+-  2022-09-28 >Fedora disabling patent-encumbered Mesa codecs
 -  2022-09-06 >Fedora 39 may get new package manager
 -  2022-06-29 >Fedora plans to provide unfiltered access to Flathub
 -  2022-05-18 >Fedora 34 approaches its end of life
@@ -129,7 +129,6 @@ Headlines...
 -  2022-04-05 >Fedora considers dropping Legacy BIOS support
 -  2022-03-21 >Gaming on Fedora compared with Windows
 -  2022-02-16 >Installing software on Fedora Silverblue
--  2022-02-09 >The purpose of Fedora's Flatpak packages
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -262,6 +261,7 @@ Releases...
 -  2019-02-21: Development Release: openSUSE 15.1 Beta
 -      
 Headlines... 
+-  2022-09-26 >openSUSE talks about ALP prototypes
 -  2022-06-28 >openSUSE seeks feedback
 -  2022-06-07 >openSUSE Leap may be phased out
 -  2022-01-14 >openSUSE 15.2 releases its end of life
@@ -271,7 +271,6 @@ Headlines...
 -  2021-04-12 >openSUSE revokes sponsorship of FSF and its events
 -  2021-02-11 >openSUSE announces Step project
 -  2021-01-13 >openSUSE 15.1 nears its end of life
--  2020-12-16 >openSUSE, CloudLinux offer alternatives to CentOS
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
@@ -379,6 +378,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2022-09-30: Development Release: Ubuntu 22.10 Beta
 -  2022-09-01: Distribution Release: Ubuntu 20.04.5
 -  2022-08-11: Distribution Release: Ubuntu 22.04.1
 -  2022-04-21: Distribution Release: Ubuntu 22.04
@@ -390,9 +390,9 @@ Releases...
 -  2021-04-22: Distribution Release: Ubuntu 21.04
 -  2021-04-01: Development Release: Ubuntu 21.04 Beta
 -  2021-02-04: Distribution Release: Ubuntu 20.04.2
--  2020-10-22: Distribution Release: Ubuntu 20.10
 -      
 Headlines... 
+-  2022-09-13 >A new software centre for Ubuntu
 -  2022-08-24 >Mir available for Wayland implementations
 -  2022-08-16 >Ubuntu packages .NET
 -  2022-07-21 >Ubuntu now certified to run on Dell XPS 13
@@ -402,6 +402,4 @@ Headlines...
 -  2022-05-19 >Canonical seeks to improve gaming experience
 -  2022-05-01 >Unity7 sees its first release in six years
 -  2022-04-28 >Ubuntu's Active Directory authentication explained
--  2022-02-11 >Ubuntu gets new tool to gather system information
 -  
-

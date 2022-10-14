@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2022-10-13 >Debian prepares for Bookworm freeze
 -  2022-10-02 >Debian votes on non-free firmware on install media
 -  2022-09-10 >Debian publishes new media for Buster and Bullseye
 -  2022-08-29 >Debian switches default Chromium search engine 
@@ -78,7 +79,6 @@ Headlines...
 -  2022-04-03 >Debian launches vote for Project Leader
 -  2022-03-26 >Debian publishes updated media - 10.12 and 11.3
 -  2022-03-14 >Debian plans freeze for version 12
--  2022-02-22 >Installing Debian on M1-powered Apple computers
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -392,6 +392,7 @@ Releases...
 -  2021-02-04: Distribution Release: Ubuntu 20.04.2
 -      
 Headlines... 
+-  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
 -  2022-09-13 >A new software centre for Ubuntu
 -  2022-08-24 >Mir available for Wayland implementations
 -  2022-08-16 >Ubuntu packages .NET
@@ -401,5 +402,5 @@ Headlines...
 -  2022-05-27 >Ubuntu users struggle with out of memory service
 -  2022-05-19 >Canonical seeks to improve gaming experience
 -  2022-05-01 >Unity7 sees its first release in six years
--  2022-04-28 >Ubuntu's Active Directory authentication explained
 -  
+

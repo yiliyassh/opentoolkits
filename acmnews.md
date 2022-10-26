@@ -4,7 +4,8 @@
 
 |=|=|=|
 |:----|:----|:----|
-|[Oct. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-12-2022.html)
+|[Oct. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-24-2022.html)|[Oct. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-21-2022.html)|[Oct. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-19-2022.html)
+|[Oct. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-17-2022.html)|[Oct. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-14-2022.html)|[Oct. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-12-2022.html)
 |[Oct. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-07-2022.html)|[Oct. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-05-2022.html)|[Oct. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-03-2022.html)
 - [ 历史归档  2000年~2022年 ](https://technews.acm.org/archives.cfm) 
 

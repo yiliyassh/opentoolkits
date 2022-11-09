@@ -1,5 +1,5 @@
 ## Apache开源项目
-[共计 222 个项目 ](https://projects.apache.org/)   [json格式](https://projects.apache.org/json/foundation/releases.json)     [返回](README.md)  
+[共计 223 个项目 ](https://projects.apache.org/)   [json格式](https://projects.apache.org/json/foundation/releases.json)     [返回](README.md)  
 
 ======
 - [name 名称排序列表](https://projects.apache.org/projects.html?name)
@@ -16,7 +16,7 @@
 |名称-版本|发布日期|
 |:----|:----|
 |accumulo-1.10.2|2022-02-13|
- |accumulo-2.0.1|2020-12-25|
+ |accumulo-2.1.0|2022-11-01|
  |accumulo2-maven-plugin-1.0.0|2019-08-07|
 - activemq
 
@@ -64,13 +64,13 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|airflow-1.5.0|2022-03-11|
- |airflow-1.5.0.tgz.prov|2022-03-11|
- |airflow-1.6.0|2022-05-20|
+|airflow-1.6.0|2022-05-20|
  |airflow-1.6.0.tgz.prov|2022-05-20|
- |airflow-chart-1.5.0|2022-03-11|
+ |airflow-1.7.0|2022-10-14|
+ |airflow-1.7.0.tgz.prov|2022-10-14|
  |airflow-chart-1.6.0|2022-05-20|
- |apache-airflow-2.4.1|2022-09-30|
+ |airflow-chart-1.7.0|2022-10-14|
+ |apache-airflow-2.4.2|2022-10-24|
  |apache-airflow-client-2.1.0|2021-05-31|
  |apache-airflow-client-2.2.0|2021-12-01|
  |apache-airflow-client-2.3.0|2022-08-03|
@@ -107,7 +107,7 @@
  |apache-airflow-providers-facebook-3.0.1|2022-07-16|
  |apache-airflow-providers-ftp-3.1.0|2022-07-16|
  |apache-airflow-providers-github-2.1.0|2022-07-16|
- |apache-airflow-providers-google-8.3.0|2022-08-14|
+ |apache-airflow-providers-google-8.4.0|2022-10-06|
  |apache-airflow-providers-grpc-3.0.0|2022-06-13|
  |apache-airflow-providers-hashicorp-3.1.0|2022-08-14|
  |apache-airflow-providers-http-4.0.0|2022-07-16|
@@ -140,7 +140,7 @@
  |apache-airflow-providers-sendgrid-3.0.0|2022-06-13|
  |apache-airflow-providers-sftp-4.1.0|2022-10-01|
  |apache-airflow-providers-singularity-3.0.0|2022-06-13|
- |apache-airflow-providers-slack-5.1.0|2022-07-16|
+ |apache-airflow-providers-slack-6.0.0|2022-10-06|
  |apache-airflow-providers-snowflake-3.3.0|2022-10-01|
  |apache-airflow-providers-sqlite-3.2.1|2022-09-08|
  |apache-airflow-providers-ssh-3.2.0|2022-10-01|
@@ -172,7 +172,7 @@
  |apache-ant-antunit-1.4.1|2021-07-07|
  |apache-ant-compress-1.5|2017-06-13|
  |apache-ant-dotnet-1.1|2012-03-11|
- |apache-ivy-2.5.0|2019-10-20|
+ |apache-ivy-2.5.1|2022-11-04|
  |apache-ivyde-2.2.0.final-201311091524-RELEASE|2013-11-09|
  |apache-ivyde-sources-2.2.0.final-201311091524-RELEASE|2013-11-09|
 - any23
@@ -189,6 +189,7 @@
  |apache-apisix-2.13.3|2022-08-26|
  |apache-apisix-2.15.0|2022-07-28|
  |apache-apisix-2.99.0|2022-09-26|
+ |apache-apisix-3.0.0|2022-11-02|
  |apache-apisix-dashboard-2.11.0|2022-04-09|
  |apache-apisix-dashboard-2.13.0|2022-06-02|
  |apache-apisix-ingress-controller-1.4.0|2022-01-03|
@@ -207,8 +208,8 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-archiva-2.2.7|2021-12-19|
- |apache-archiva-2.2.8|2022-05-20|
+|apache-archiva-2.2.8|2022-05-20|
+ |apache-archiva-2.2.9|2022-10-04|
  |archiva-15|2015-03-01|
  |archiva-16|2016-05-28|
  |archiva-18|2017-05-16|
@@ -261,7 +262,7 @@
  |org.apache.aries.jndi.rmi-1.0.0|2013-01-30|
  |org.apache.aries.jndi.url-1.0.0|2013-01-30|
  |org.apache.aries.jpa.main-2.7.3|2021-08-20|
- |org.apache.aries.proxy-1.1.12|2022-01-05|
+ |org.apache.aries.proxy-1.1.13|2022-10-12|
  |org.apache.aries.rsa.main-1.13.0|2018-10-05|
  |org.apache.aries.rsa.main-1.14.0|2019-05-20|
  |org.apache.aries.subsystem-1.0.0|2013-06-04|
@@ -280,18 +281,20 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-arrow-6.0.2|2022-07-14|
+|apache-arrow-10.0.0|2022-10-20|
+ |apache-arrow-6.0.2|2022-07-14|
  |apache-arrow-7.0.0|2022-02-03|
  |apache-arrow-7.0.1|2022-07-14|
  |apache-arrow-8.0.0|2022-05-03|
  |apache-arrow-8.0.1|2022-07-14|
  |apache-arrow-9.0.0|2022-07-29|
- |apache-arrow-ballista-0.8.0|2022-09-19|
- |apache-arrow-datafusion-12.0.0|2022-09-15|
- |apache-arrow-julia-2.3.0|2022-04-09|
+ |apache-arrow-ballista-0.9.0|2022-10-26|
+ |apache-arrow-datafusion-14.0.0|2022-11-07|
+ |apache-arrow-julia-2.4.0|2022-10-25|
  |apache-arrow-object-store-rs-0.4.0|2022-08-13|
  |apache-arrow-object-store-rs-0.5.0|2022-09-11|
- |apache-arrow-rs-23.0.0|2022-09-19|
+ |apache-arrow-object-store-rs-0.5.1|2022-10-10|
+ |apache-arrow-rs-26.0.0|2022-11-03|
 - asterixdb
 
 |名称-版本|发布日期|
@@ -354,12 +357,14 @@
 |apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35|2021-03-08|
  |apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646|2022-01-18|
  |apache-beam-2.41.0|2022-08-24|
+ |apache-beam-2.42.0|2022-10-17|
  |apache-beam-37fd13e738185822af132fe2e457b618e766802f|2021-11-03|
  |apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd|2021-03-16|
  |apache-beam-d93c591deb21237ddb656583d74444ef7a4debba|2021-05-20|
  |apache-beam-db8db0b6ed0fe1e4891f207f0f7f811798e54db1|2022-08-08|
  |apache-beam-f2468baf6224127634d0d5ab03a9fdd730bb8dfe|2022-01-18|
  |apache-beam-jupyterlab-sidepanel-v2.0.0|2021-10-20|
+ |apache-beam-jupyterlab-sidepanel-v3.0.0|2022-10-11|
 - bigtop
 
 |名称-版本|发布日期|
@@ -380,6 +385,7 @@
  |bookkeeper-4.14.5|2022-04-12|
  |bookkeeper-4.15.0|2022-04-29|
  |bookkeeper-4.15.1|2022-08-24|
+ |bookkeeper-4.15.2|2022-09-23|
  |distributedlog-0.5.0|2017-09-12|
 - brooklyn
 
@@ -414,22 +420,33 @@
  |apache-calcite-1.32.0|2022-09-10|
  |apache-calcite-avatica-1.21.0|2022-05-08|
  |apache-calcite-avatica-1.22.0|2022-07-27|
- |apache-calcite-avatica-go-5.0.0|2020-07-14|
  |apache-calcite-avatica-go-5.1.0|2022-03-27|
+ |apache-calcite-avatica-go-5.2.0|2022-10-13|
 - camel
 
 |名称-版本|发布日期|
 |:----|:----|
 |apache-camel-2.25.4|2021-05-28|
  |apache-camel-3.11.7|2022-05-05|
- |apache-camel-3.14.5|2022-08-20|
+ |apache-camel-3.14.6|2022-11-05|
  |apache-camel-3.16.0|2022-03-28|
  |apache-camel-3.17.0|2022-05-19|
- |apache-camel-3.18.2|2022-09-08|
+ |apache-camel-3.18.3|2022-10-31|
+ |apache-camel-3.19.0|2022-10-03|
  |apache-camel-k-runtime-1.12.0|2022-03-14|
  |apache-camel-k-runtime-1.13.0|2022-04-19|
- |apache-camel-quarkus-2.13.0|2022-09-26|
+ |apache-camel-k-runtime-1.15.0|2022-09-29|
+ |apache-camel-quarkus-2.13.1|2022-11-07|
+ |apache-camel-quarkus-2.14.0|2022-11-07|
  |apache-camel-quarkus-2.7.2|2022-07-04|
+ |camel-k-client-1.10.1-linux|2022-10-10|
+ |camel-k-client-1.10.1-mac|2022-10-10|
+ |camel-k-client-1.10.1-mac-arm64bit|2022-10-10|
+ |camel-k-client-1.10.1-windows|2022-10-10|
+ |camel-k-client-1.10.2-linux|2022-10-18|
+ |camel-k-client-1.10.2-mac|2022-10-18|
+ |camel-k-client-1.10.2-mac-arm64bit|2022-10-18|
+ |camel-k-client-1.10.2-windows|2022-10-18|
  |camel-k-client-1.8.2-linux|2022-03-03|
  |camel-k-client-1.8.2-mac|2022-03-03|
  |camel-k-client-1.8.2-mac-arm64bit|2022-03-03|
@@ -446,19 +463,28 @@
  |camel-k-client-1.9.2-mac|2022-05-17|
  |camel-k-client-1.9.2-mac-arm64bit|2022-05-17|
  |camel-k-client-1.9.2-windows|2022-05-17|
+ |camel-k-examples-1.10.1|2022-10-10|
+ |camel-k-examples-1.10.2|2022-10-18|
  |camel-k-examples-1.8.2|2022-03-03|
  |camel-k-examples-1.9.0|2022-04-21|
  |camel-k-examples-1.9.1|2022-05-09|
  |camel-k-examples-1.9.2|2022-05-17|
+ |camel-k-runtime-1.15.1|2022-10-18|
+ |camel-k-sources-1.10.1|2022-10-10|
+ |camel-k-sources-1.10.2|2022-10-18|
  |camel-k-sources-1.8.2|2022-03-14|
  |camel-k-sources-1.9.0|2022-04-27|
  |camel-k-sources-1.9.1|2022-05-09|
  |camel-k-sources-1.9.2|2022-05-17|
  |camel-kafka-connector-1.0.0|2022-01-24|
  |camel-kafka-connector-3.18.1|2022-09-19|
+ |camel-kafka-connector-3.18.2|2022-10-21|
  |camel-kamelets-sources-0.7.1|2022-03-14|
  |camel-kamelets-sources-0.8.0|2022-04-13|
  |camel-kamelets-sources-0.8.1|2022-05-09|
+ |camel-kamelets-sources-0.9.1|2022-10-05|
+ |camel-kamelets-sources-0.9.2|2022-10-26|
+ |camel-kamelets-sources-0.9.3|2022-11-04|
 - carbondata
 
 |名称-版本|发布日期|
@@ -479,10 +505,10 @@
  |Sources|2020-08-28|
  |apache-cassandra-2.1.22|2020-08-28|
  |apache-cassandra-2.2.19|2020-10-29|
- |apache-cassandra-3.0.27|2022-05-06|
- |apache-cassandra-3.11.13|2022-05-06|
- |apache-cassandra-4.0.6|2022-08-18|
- |apache-cassandra-4.1-alpha1|2022-05-20|
+ |apache-cassandra-3.0.28|2022-10-19|
+ |apache-cassandra-3.11.14|2022-10-19|
+ |apache-cassandra-4.0.7|2022-10-19|
+ |apache-cassandra-4.1-beta1|2022-09-26|
  |cassandra-2.1.22-1|2020-08-28|
  |cassandra-2.1.22-1.noarch|2020-08-28|
  |cassandra-2.2.19-1|2020-10-29|
@@ -514,11 +540,11 @@
  |cassandra-tools_3.0.24_all|2021-02-01|
  |cassandra-tools_3.0.25_all|2021-07-28|
  |cassandra-tools_3.0.26_all|2022-02-10|
- |cassandra-tools_3.0.27_all|2022-05-06|
+ |cassandra-tools_3.0.27_all|2022-05-13|
  |cassandra-tools_3.11.10_all|2021-02-01|
  |cassandra-tools_3.11.11_all|2021-07-28|
  |cassandra-tools_3.11.12_all|2022-02-10|
- |cassandra-tools_3.11.13_all|2022-05-06|
+ |cassandra-tools_3.11.13_all|2022-05-14|
  |cassandra-tools_3.11.6_all|2020-02-14|
  |cassandra-tools_3.11.7_all|2020-07-24|
  |cassandra-tools_3.11.8_all|2020-08-31|
@@ -535,7 +561,7 @@
  |cassandra-tools_4.0~beta4_all|2020-12-30|
  |cassandra-tools_4.0~rc1_all|2021-04-25|
  |cassandra-tools_4.0~rc2_all|2021-06-30|
- |cassandra-tools_4.1~alpha1_all|2022-05-20|
+ |cassandra-tools_4.1~alpha1_all|2022-05-27|
  |cassandra_2.1.21.diff|2019-02-11|
  |cassandra_2.1.21.dsc|2019-02-11|
  |cassandra_2.1.21.orig|2019-02-11|
@@ -576,9 +602,9 @@
  |cassandra_3.0.26|2022-02-10|
  |cassandra_3.0.26.dsc|2022-02-10|
  |cassandra_3.0.26_all|2022-02-10|
- |cassandra_3.0.27|2022-05-06|
- |cassandra_3.0.27.dsc|2022-05-06|
- |cassandra_3.0.27_all|2022-05-06|
+ |cassandra_3.0.27|2022-05-13|
+ |cassandra_3.0.27.dsc|2022-05-13|
+ |cassandra_3.0.27_all|2022-05-13|
  |cassandra_3.11.10|2021-02-01|
  |cassandra_3.11.10.dsc|2021-02-01|
  |cassandra_3.11.10_all|2021-02-01|
@@ -588,9 +614,9 @@
  |cassandra_3.11.12|2022-02-10|
  |cassandra_3.11.12.dsc|2022-02-10|
  |cassandra_3.11.12_all|2022-02-10|
- |cassandra_3.11.13|2022-05-06|
- |cassandra_3.11.13.dsc|2022-05-06|
- |cassandra_3.11.13_all|2022-05-06|
+ |cassandra_3.11.13|2022-05-14|
+ |cassandra_3.11.13.dsc|2022-05-14|
+ |cassandra_3.11.13_all|2022-05-14|
  |cassandra_3.11.6|2020-02-14|
  |cassandra_3.11.6.dsc|2020-02-14|
  |cassandra_3.11.6_all|2020-02-14|
@@ -636,9 +662,9 @@
  |cassandra_4.0~rc2|2021-06-30|
  |cassandra_4.0~rc2.dsc|2021-06-30|
  |cassandra_4.0~rc2_all|2021-06-30|
- |cassandra_4.1~alpha1|2022-05-20|
- |cassandra_4.1~alpha1.dsc|2022-05-20|
- |cassandra_4.1~alpha1_all|2022-05-20|
+ |cassandra_4.1~alpha1|2022-05-27|
+ |cassandra_4.1~alpha1.dsc|2022-05-27|
+ |cassandra_4.1~alpha1_all|2022-05-27|
 - cayenne
 
 |名称-版本|发布日期|
@@ -704,7 +730,7 @@
 |:----|:----|
 |CONTRIBUTING.md|2020-07-19|
  |apache-commons-rdf-0.5.0|2017-12-23|
- |bcel-6.5.0|2020-06-08|
+ |bcel-6.6.1|2022-11-02|
  |bsf-2.4.0|2013-03-03|
  |bsf-3.1|2013-03-03|
  |commons-54|2022-09-21|
@@ -717,12 +743,12 @@
  |commons-collections4-4.1|2019-02-07|
  |commons-collections4-4.2|2018-07-11|
  |commons-collections4-4.4|2019-07-09|
- |commons-compress-1.21|2021-07-12|
+ |commons-compress-1.22|2022-10-31|
  |commons-configuration-1.10|2013-10-28|
  |commons-configuration2-2.8.0|2022-07-04|
  |commons-crypto-1.1.0|2020-09-01|
  |commons-csv-1.9.0|2021-07-30|
- |commons-daemon-1.3.1|2022-05-09|
+ |commons-daemon-1.3.2|2022-10-05|
  |commons-dbcp2-2.4.0|2018-06-16|
  |commons-dbcp2-2.9.0|2021-08-03|
  |commons-dbutils-1.7|2017-07-21|
@@ -748,12 +774,12 @@
  |commons-math-2.2|2013-03-03|
  |commons-math3-3.6.1|2016-03-21|
  |commons-net-3.8.0|2021-02-19|
- |commons-numbers-1.0|2021-07-17|
+ |commons-numbers-1.1|2022-11-01|
  |commons-pool2-2.11.1|2021-08-17|
  |commons-pool2-2.6.2|2019-04-11|
  |commons-proxy-1.0|2014-08-26|
  |commons-release-plugin-1.8.0|2022-03-17|
- |commons-rng-1.4|2021-09-13|
+ |commons-rng-1.5|2022-10-10|
  |commons-scxml-0.9|2013-03-03|
  |commons-text-1.10.0|2022-09-28|
  |commons-validator-1.7|2020-08-07|
@@ -832,14 +858,16 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-curator-5.3.0|2022-07-04|
+|apache-curator-5.4.0|2022-11-03|
 - cxf
 
 |名称-版本|发布日期|
 |:----|:----|
 |apache-cxf-3.3.13|2022-03-01|
  |apache-cxf-3.4.8|2022-06-28|
+ |apache-cxf-3.4.9|2022-10-12|
  |apache-cxf-3.5.3|2022-06-28|
+ |apache-cxf-3.5.4|2022-10-12|
  |apache-fediz-1.5.1|2020-11-30|
  |apache-fediz-1.6.0|2022-02-14|
  |cxf-dosgi-main-2.3.0|2018-03-15|
@@ -850,8 +878,8 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-daffodil-3.3.0|2022-03-17|
- |apache-daffodil-3.3.0-1.noarch|2022-03-17|
+|apache-daffodil-3.4.0|2022-11-02|
+ |apache-daffodil-3.4.0-1.noarch|2022-11-02|
  |apache-daffodil-vscode-1.1.0|2022-08-15|
  |apache-daffodil-vscode-1.1.0.vsix|2022-08-15|
 - datafu
@@ -922,6 +950,7 @@
 |apache-dolphinscheduler-1.3.9|2021-10-18|
  |apache-dolphinscheduler-2.0.5|2022-03-02|
  |apache-dolphinscheduler-2.0.6|2022-07-04|
+ |apache-dolphinscheduler-2.0.7|2022-10-19|
  |apache-dolphinscheduler-3.0.0|2022-08-05|
  |apache-dolphinscheduler-3.0.0-alpha|2022-04-14|
  |apache-dolphinscheduler-3.0.0-beta-1|2022-05-26|
@@ -947,6 +976,7 @@
  |apache-doris-1.1.0|2022-07-10|
  |apache-doris-1.1.1|2022-07-25|
  |apache-doris-1.1.2|2022-09-10|
+ |apache-doris-1.1.3|2022-10-11|
  |apache-doris-flink-connector-1.11_2.12-1.0.3-incubating|2022-03-19|
  |apache-doris-flink-connector-1.12_2.11-1.0.3|2022-08-15|
  |apache-doris-flink-connector-1.12_2.12-1.0.3-incubating|2022-03-19|
@@ -984,13 +1014,15 @@
 |:----|:----|
 |apache-dubbo-2.7.18|2022-09-29|
  |apache-dubbo-3.0.12|2022-09-29|
- |apache-dubbo-3.1.1|2022-09-29|
+ |apache-dubbo-3.1.2|2022-11-08|
+ |apache-dubbo-3.2.0-beta.1|2022-11-08|
  |apache-dubbo-admin-0.4.0|2021-11-22|
  |apache-dubbo-extensions-1.0.2|2022-08-02|
  |apache-dubbo-extensions-3.0.0-SNAPSHOT|2021-03-29|
  |apache-dubbo-js-4.0.0|2021-07-25|
  |dubbo-go-pixiu-v0.5.1-rc2|2022-08-08|
  |dubbo-hessian-lite-3.2.13|2022-09-08|
+ |dubbo-rust-v0.2.0|2022-10-24|
 - echarts
 
 |名称-版本|发布日期|
@@ -1042,13 +1074,13 @@
  |org.apache.felix.healthcheck.generalchecks-3.0.4|2022-07-10|
  |org.apache.felix.healthcheck.webconsoleplugin-2.0.2|2020-07-15|
  |org.apache.felix.http.api-3.0.0|2015-08-10|
- |org.apache.felix.http.base-4.2.0|2022-02-20|
- |org.apache.felix.http.bridge-4.2.0|2022-02-20|
+ |org.apache.felix.http.base-4.2.2|2022-10-10|
+ |org.apache.felix.http.bridge-4.2.2|2022-10-10|
  |org.apache.felix.http.bundle-3.0.0|2015-02-02|
- |org.apache.felix.http.jetty-4.2.0|2022-02-20|
+ |org.apache.felix.http.jetty-4.2.2|2022-10-10|
  |org.apache.felix.http.proxy-3.0.6|2019-05-15|
  |org.apache.felix.http.samples.bridge-2.3.2|2014-11-11|
- |org.apache.felix.http.servlet-api-2.0.0|2022-06-13|
+ |org.apache.felix.http.servlet-api-2.1.0|2022-11-02|
  |org.apache.felix.http.sslfilter-1.2.6|2018-10-18|
  |org.apache.felix.http.whiteboard-4.0.0|2018-04-30|
  |org.apache.felix.httplite.complete-0.1.4|2012-12-28|
@@ -1081,7 +1113,7 @@
  |org.apache.felix.prefs-1.1.0|2016-10-15|
  |org.apache.felix.resolver-2.0.4|2021-06-21|
  |org.apache.felix.rootcause-0.2.0|2021-08-18|
- |org.apache.felix.scr-2.2.2|2022-06-17|
+ |org.apache.felix.scr-2.2.4|2022-10-12|
  |org.apache.felix.scr.annotations-1.12.0|2016-10-18|
  |org.apache.felix.scr.ant-1.18.0|2018-01-15|
  |org.apache.felix.scr.bnd-1.9.6|2019-12-07|
@@ -1138,32 +1170,32 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-flink-1.14.6|2022-09-10|
- |apache-flink-1.15.2|2022-08-17|
- |apache-flink-libraries-1.14.6|2022-09-10|
+|apache-flink-1.15.2|2022-08-17|
+ |apache-flink-1.16.0|2022-10-20|
  |apache-flink-libraries-1.15.2|2022-08-17|
+ |apache-flink-libraries-1.16.0|2022-10-20|
  |apache-flink-ml-2.0.0|2021-12-30|
  |apache-flink-ml-2.1.0|2022-07-01|
  |apache-flink-statefun-3.2.0|2022-01-25|
- |flink-1.14.6|2022-09-10|
  |flink-1.15.2|2022-08-17|
- |flink-kubernetes-operator-1.0.1|2022-06-23|
- |flink-kubernetes-operator-1.0.1-helm|2022-06-23|
+ |flink-1.16.0|2022-10-20|
  |flink-kubernetes-operator-1.1.0|2022-07-20|
  |flink-kubernetes-operator-1.1.0-helm|2022-07-20|
+ |flink-kubernetes-operator-1.2.0|2022-09-30|
+ |flink-kubernetes-operator-1.2.0-helm|2022-09-30|
  |flink-ml-2.0.0|2021-12-30|
  |flink-ml-2.1.0|2022-07-01|
- |flink-shaded-14.0|2021-07-15|
  |flink-shaded-15.0|2022-01-18|
+ |flink-shaded-16.0|2022-09-27|
  |flink-statefun-3.2.0|2022-01-25|
  |flink-table-store-0.1.0|2022-04-29|
- |flink-table-store-0.2.0|2022-08-24|
- |index.yaml|2022-06-23|
+ |flink-table-store-0.2.1|2022-10-08|
+ |index.yaml|2022-07-20|
 - flume
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-flume-1.10.1|2022-08-20|
+|apache-flume-1.11.0|2022-10-25|
 - fluo
 
 |名称-版本|发布日期|
@@ -1185,16 +1217,16 @@
 |:----|:----|
 |apache-geode-1.13.8|2022-03-04|
  |apache-geode-1.14.4|2022-03-05|
- |apache-geode-1.15.0|2022-06-16|
+ |apache-geode-1.15.1|2022-09-29|
  |apache-geode-benchmarks-1.13.8|2022-03-04|
  |apache-geode-benchmarks-1.14.4|2022-03-05|
- |apache-geode-benchmarks-1.15.0|2022-06-15|
+ |apache-geode-benchmarks-1.15.1|2022-09-29|
  |apache-geode-examples-1.13.8|2022-03-04|
  |apache-geode-examples-1.14.4|2022-03-05|
- |apache-geode-examples-1.15.0|2022-06-15|
+ |apache-geode-examples-1.15.1|2022-09-29|
  |apache-geode-native-1.13.8|2022-03-04|
  |apache-geode-native-1.14.4|2022-03-05|
- |apache-geode-native-1.15.0|2022-06-15|
+ |apache-geode-native-1.15.1|2022-09-29|
  |apache-kafka-connect-geode-1.1.0|2021-12-16|
  |geode-kafka-connector-rel-v1.1.0|2021-12-16|
 - geronimo
@@ -1232,7 +1264,7 @@
  |geronimo-txmanager-3.1.5|2022-03-08|
  |geronimo-validation_2.0_spec-1.0|2018-10-04|
  |safeguard-1.2.1|2019-02-28|
- |xbean-4.21|2022-04-16|
+ |xbean-4.22|2022-10-14|
 - giraph
 
 |名称-版本|发布日期|
@@ -1266,13 +1298,13 @@
 |名称-版本|发布日期|
 |:----|:----|
 |apache-groovy-2.4.21|2020-12-03|
- |apache-groovy-2.5.18|2022-07-23|
+ |apache-groovy-2.5.19|2022-10-16|
  |apache-groovy-3.0.13|2022-09-18|
- |apache-groovy-4.0.5|2022-09-09|
+ |apache-groovy-4.0.6|2022-10-16|
  |apache-groovy-sdk-2.4.21|2020-12-03|
- |apache-groovy-sdk-2.5.18|2022-07-23|
+ |apache-groovy-sdk-2.5.19|2022-10-16|
  |apache-groovy-sdk-3.0.13|2022-09-18|
- |apache-groovy-sdk-4.0.5|2022-09-09|
+ |apache-groovy-sdk-4.0.6|2022-10-16|
 - guacamole
 
 |名称-版本|发布日期|
@@ -1316,14 +1348,14 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|RELEASENOTES.md|2022-08-24|
- |hbase-2.4.14|2022-08-24|
- |hbase-2.5.0|2022-08-23|
+|RELEASENOTES.md|2022-10-13|
+ |hbase-2.4.15|2022-10-13|
+ |hbase-2.5.1|2022-10-17|
  |hbase-3.0.0-alpha-3|2022-06-27|
  |hbase-connectors-1.0.0|2019-05-03|
  |hbase-filesystem-1.0.0-alpha1|2019-06-06|
  |hbase-operator-tools-1.2.0|2021-12-20|
- |hbase-thirdparty-4.1.1|2022-06-22|
+ |hbase-thirdparty-4.1.2|2022-10-10|
 - helix
 
 |名称-版本|发布日期|
@@ -1347,13 +1379,17 @@
 |名称-版本|发布日期|
 |:----|:----|
 |apache-hop-2.0.0|2022-06-02|
+ |apache-hop-2.1.0|2022-10-14|
  |apache-hop-client-2.0.0|2022-06-02|
+ |apache-hop-client-2.1.0|2022-10-14|
+ |hop-0.1.0|2022-10-14|
 - httpcomponents
 
 |名称-版本|发布日期|
 |:----|:----|
 |commons-httpclient-3.1|2012-11-26|
  |httpcomponents-12|2020-09-06|
+ |httpcomponents-13|2022-11-01|
  |httpcomponents-asyncclient-4.1.4|2018-07-23|
  |httpcomponents-asyncclient-4.1.5|2021-12-10|
  |httpcomponents-client-4.5.13|2020-10-06|
@@ -1364,6 +1400,7 @@
  |httpcomponents-core-4.4.15|2021-12-07|
  |httpcomponents-core-5.0.4|2021-05-05|
  |httpcomponents-core-5.1.4|2022-07-08|
+ |httpcomponents-core-5.2|2022-11-06|
  |httpcomponents-core-5.2-beta2|2022-06-01|
 - httpd
 
@@ -1386,20 +1423,21 @@
  |hudi-0.11.0|2022-04-29|
  |hudi-0.11.1|2022-06-19|
  |hudi-0.12.0|2022-08-16|
+ |hudi-0.12.1|2022-10-18|
  |hudi-0.9.0|2021-08-25|
 - iceberg
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-iceberg-0.13.2|2022-06-13|
- |apache-iceberg-0.14.0|2022-07-16|
- |apache-iceberg-0.14.1|2022-09-11|
+|apache-iceberg-0.14.1|2022-09-11|
+ |apache-iceberg-1.0.0|2022-10-17|
+ |pyiceberg-0.1.0|2022-10-17|
 - ignite
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-ignite-2.13.0|2022-04-20|
- |apache-ignite-2.13.0-nuget|2022-04-20|
+|apache-ignite-2.14.0|2022-09-30|
+ |apache-ignite-2.14.0-nuget|2022-09-30|
  |apache-ignite-3.0.0-alpha4|2022-01-28|
  |apache-ignite-3.0.0-alpha5|2022-06-14|
  |ignite-aws-ext|2022-04-29|
@@ -1419,7 +1457,7 @@
 |:----|:----|
 |apache-impala-3.4.1|2022-04-07|
  |apache-impala-4.0.0|2021-07-12|
- |apache-impala-4.1.0|2022-06-01|
+ |apache-impala-4.1.1|2022-10-19|
 - incubator-annotator
 
 |名称-版本|发布日期|
@@ -1432,6 +1470,7 @@
 |apache-brpc-1.0.0-incubating|2021-10-31|
  |apache-brpc-1.1.0-incubating|2022-03-29|
  |apache-brpc-1.2.0-incubating|2022-07-11|
+ |apache-brpc-1.3.0-incubating|2022-10-11|
 - incubator-datalab
 
 |名称-版本|发布日期|
@@ -1441,7 +1480,7 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-devlake-0.13.0-incubating|2022-08-26|
+|apache-devlake-0.14.0-incubating|2022-09-30|
 - incubator-eventmesh
 
 |名称-版本|发布日期|
@@ -1460,9 +1499,16 @@
 |:----|:----|
 |heron-0.20.4-incubating|2021-05-23|
  |heron-0.20.4-incubating-debian10|2021-05-23|
+ |heron-0.20.5-incubating|2022-07-09|
+ |heron-artifacts-0.20.5-incubating|2022-07-09|
  |heron-install-0.20.4-incubating-centos7.sh|2021-05-23|
  |heron-install-0.20.4-incubating-debian10.sh|2021-05-23|
  |heron-install-0.20.4-incubating-ubuntu18.04.sh|2021-05-23|
+ |heron-install-0.20.5-incubating-centos7.sh|2022-07-09|
+ |heron-install-0.20.5-incubating-darwin.sh|2022-07-09|
+ |heron-install-0.20.5-incubating-debian11.sh|2022-07-09|
+ |heron-install-0.20.5-incubating-ubuntu22.04.sh|2022-07-09|
+ |heronpy-0.20.5rc4|2022-07-09|
 - incubator-kvrocks
 
 |名称-版本|发布日期|
@@ -1484,7 +1530,7 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-linkis-1.2.0-incubating|2022-08-20|
+|apache-linkis-1.3.0-incubating|2022-10-17|
 - incubator-livy
 
 |名称-版本|发布日期|
@@ -1501,12 +1547,7 @@
 |apache-milagro-crypto-c-2.0.1-incubating|2020-01-31|
  |apache-milagro-crypto-js-1.0.0-incubating|2019-08-27|
  |apache-milagro-dta-0.1.0-incubating|2019-10-03|
-- incubator-mxnet
-
-|名称-版本|发布日期|
-|:----|:----|
-|apache-mxnet-1.9.1-incubating|2022-05-10|
- |apache-mxnet-2.0.0.beta1-incubating|2022-03-22|
+ |apache-milagro-mpc-0.1-incubating|2022-11-04|
 - incubator-nemo
 
 |名称-版本|发布日期|
@@ -1527,11 +1568,13 @@
  |apache-nuttx-10.1.0-incubating|2021-05-26|
  |apache-nuttx-10.2.0-incubating|2021-11-23|
  |apache-nuttx-10.3.0-incubating|2022-06-22|
+ |apache-nuttx-11.0.0-incubating|2022-10-13|
  |apache-nuttx-9.1.1-incubating|2020-12-09|
  |apache-nuttx-apps-10.0.1-incubating|2020-12-09|
  |apache-nuttx-apps-10.1.0-incubating|2021-05-26|
  |apache-nuttx-apps-10.2.0-incubating|2021-11-23|
  |apache-nuttx-apps-10.3.0-incubating|2022-06-22|
+ |apache-nuttx-apps-11.0.0-incubating|2022-10-13|
  |apache-nuttx-apps-9.1.1-incubating|2020-12-09|
 - incubator-pagespeed
 
@@ -1543,9 +1586,7 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-pegasus-2.1.0-incubating|2020-11-30|
- |apache-pegasus-2.2.0-incubating|2021-06-27|
- |apache-pegasus-2.3.0-incubating|2021-11-26|
+|apache-pegasus-2.4.0-incubating|2022-10-30|
 - incubator-ponymail
 
 |名称-版本|发布日期|
@@ -1560,6 +1601,7 @@
  |apache-seatunnel-incubating-2.1.2|2022-06-07|
  |apache-seatunnel-incubating-2.1.3|2022-07-27|
  |apache-seatunnel-incubating-2.2.0-beta|2022-09-26|
+ |apache-seatunnel-incubating-2.3.0-beta|2022-10-24|
 - incubator-sedona
 
 |名称-版本|发布日期|
@@ -1575,8 +1617,8 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|RELEASE_VALIDATION.md|2022-03-04|
- |apache-streampipes-0.69.0-incubating|2022-03-04|
+|RELEASE_VALIDATION.md|2022-09-07|
+ |apache-streampipes-0.70.0-incubating|2022-09-07|
 - incubator-teaclave
 
 |名称-版本|发布日期|
@@ -1602,7 +1644,12 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|tuweni-2.2.0-incubating|2022-03-11|
+|tuweni-2.3.0-incubating|2022-09-24|
+- incubator-uniffle
+
+|名称-版本|发布日期|
+|:----|:----|
+|apache-uniffle-0.6.0-incubating|2022-10-13|
 - incubator-wayang
 
 |名称-版本|发布日期|
@@ -1624,14 +1671,13 @@
 |名称-版本|发布日期|
 |:----|:----|
 |apache-iotdb-0.12.6|2022-07-13|
- |apache-iotdb-0.13.2|2022-09-05|
- |apache-iotdb-0.14.0-preview2|2022-09-13|
+ |apache-iotdb-0.13.3|2022-10-21|
+ |apache-iotdb-0.14.0-preview3|2022-10-14|
 - isis
 
 |名称-版本|发布日期|
 |:----|:----|
-|isis-1.17.0|2019-01-06|
- |isis-2.0.0-M7|2022-02-28|
+|isis-bom-2.0.0-M9|2022-10-18|
 - jackrabbit
 
 |名称-版本|发布日期|
@@ -1641,7 +1687,7 @@
  |jackrabbit-2.14.10|2021-09-06|
  |jackrabbit-2.16.10|2022-09-07|
  |jackrabbit-2.20.6|2022-07-04|
- |jackrabbit-2.21.12|2022-08-08|
+ |jackrabbit-2.21.13|2022-10-12|
  |jackrabbit-filevault-3.2.8|2021-03-11|
  |jackrabbit-filevault-3.4.10|2021-02-26|
  |jackrabbit-filevault-3.5.8|2021-12-17|
@@ -1650,8 +1696,8 @@
  |jackrabbit-jca-2.14.10|2021-09-06|
  |jackrabbit-jca-2.16.10|2022-09-07|
  |jackrabbit-jca-2.20.6|2022-07-04|
- |jackrabbit-jca-2.21.12|2022-08-08|
- |jackrabbit-oak-1.22.12|2022-07-15|
+ |jackrabbit-jca-2.21.13|2022-10-12|
+ |jackrabbit-oak-1.22.13|2022-10-13|
  |jackrabbit-oak-1.4.26|2020-02-17|
  |jackrabbit-oak-1.44.0|2022-07-12|
  |jackrabbit-oak-1.6.23|2022-03-11|
@@ -1662,19 +1708,19 @@
 |名称-版本|发布日期|
 |:----|:----|
 |apache-james-mpt-0.1|2013-03-22|
- |apache-jdkim-0.2|2013-03-22|
+ |apache-jdkim-0.3|2022-10-07|
  |apache-jsieve-0.7|2018-01-31|
+ |apache-jsieve-0.8|2022-10-28|
  |apache-jsieve-sources-0.7|2018-01-31|
+ |apache-jsieve-sources-0.8|2022-10-28|
  |apache-jspf-sources-1.0.1|2018-01-31|
- |hupa-0.0.2|2021-07-19|
- |james-2.3.2.1|2015-09-26|
+ |apache-jspf-sources-1.0.2|2022-10-28|
  |james-3.6.2|2022-01-27|
- |james-3.7.0|2022-03-02|
- |james-3.7.1|2022-08-30|
+ |james-3.7.2|2022-10-07|
  |james-mime4j-sources-0.8.7|2022-04-01|
+ |james-mime4j-sources-0.8.8|2022-10-28|
  |james-server-app-3.6.2|2022-01-27|
- |james-server-app-3.7.0|2022-03-02|
- |james-server-app-3.7.1|2022-08-30|
+ |james-server-app-3.7.2|2022-10-07|
  |james-server-cassandra-guice|2022-01-27|
  |james-server-distributed-guice|2022-01-27|
  |james-server-jpa-guice|2022-02-07|
@@ -1749,8 +1795,8 @@
  |apache-karaf-4.0.10|2017-09-29|
  |apache-karaf-4.1.7|2018-11-29|
  |apache-karaf-4.2.16|2022-06-10|
- |apache-karaf-4.3.7|2022-04-19|
- |apache-karaf-4.4.1|2022-07-10|
+ |apache-karaf-4.3.8|2022-10-19|
+ |apache-karaf-4.4.2|2022-10-19|
  |apache-karaf-cave-3.0.0|2016-02-04|
  |apache-karaf-cave-4.0.0|2016-02-04|
  |apache-karaf-cave-4.1.1|2018-09-10|
@@ -1793,11 +1839,13 @@
 |:----|:----|
 |apache-kylin-3.1.3|2022-01-05|
  |apache-kylin-4.0.1|2022-01-05|
+ |apache-kylin-4.0.2|2022-10-11|
 - libcloud
 
 |名称-版本|发布日期|
 |:----|:----|
 |apache-libcloud-3.6.0|2022-05-26|
+ |apache-libcloud-3.6.1|2022-10-10|
 - logging
 
 |名称-版本|发布日期|
@@ -1823,10 +1871,11 @@
 |名称-版本|发布日期|
 |:----|:----|
 |lucene-8.11.2|2022-06-13|
- |lucene-9.4.0|2022-09-27|
+ |lucene-9.4.1|2022-10-20|
  |pylucene-7.7.1|2019-06-03|
  |pylucene-8.11.0|2021-12-15|
  |pylucene-9.1.0|2022-04-27|
+ |pylucene-9.4.1|2022-11-07|
  |solr-8.11.2|2022-06-13|
 - lucenenet
 
@@ -1892,8 +1941,9 @@
  |apache-maven-3.5.4|2018-06-17|
  |apache-maven-3.6.3|2019-11-19|
  |apache-maven-3.8.6|2022-06-06|
+ |apache-maven-4.0.0-alpha-2|2022-10-16|
  |apache-source-release-descriptor-1.0.6|2016-05-07|
- |doxia-2.0.0-M3|2022-06-20|
+ |doxia-2.0.0-M4|2022-10-19|
  |doxia-converter-1.2|2013-07-07|
  |doxia-sitetools-2.0.0-M3|2022-06-23|
  |enforcer-3.1.0|2022-06-10|
@@ -1907,6 +1957,7 @@
  |maven-archiver-3.6.0|2022-06-26|
  |maven-artifact-plugin-3.3.0|2022-04-06|
  |maven-artifact-transfer-0.13.1|2020-12-26|
+ |maven-build-cache-extension-1.0.0|2022-11-07|
  |maven-checkstyle-plugin-3.2.0|2022-08-23|
  |maven-clean-plugin-3.2.0|2022-04-04|
  |maven-common-artifact-filters-3.3.2|2022-09-16|
@@ -1918,7 +1969,7 @@
  |maven-deploy-plugin-3.0.0|2022-07-19|
  |maven-doap-plugin-1.2|2015-03-16|
  |maven-docck-plugin-1.1|2015-04-08|
- |maven-ear-plugin-3.2.0|2021-01-03|
+ |maven-ear-plugin-3.3.0|2022-10-22|
  |maven-ejb-plugin-3.2.1|2022-04-21|
  |maven-filtering-3.3.0|2022-06-14|
  |maven-fluido-skin-1.11.1|2022-06-29|
@@ -1938,16 +1989,16 @@
  |maven-jmod-plugin-3.0.0-alpha-1|2017-09-20|
  |maven-linkcheck-plugin-1.2|2014-10-11|
  |maven-mapping-3.0.0|2015-11-24|
- |maven-mvnd-0.8.0|2022-05-04|
- |maven-mvnd-0.8.1|2022-09-19|
+ |maven-mvnd-0.8.2|2022-10-10|
+ |maven-mvnd-0.8.2-darwin-aarch64|2022-10-10|
  |maven-patch-plugin-1.2|2015-03-09|
  |maven-pdf-plugin-1.6.1|2022-08-19|
  |maven-plugin-3.4.2|2022-07-23|
  |maven-plugin-testing-3.3.0|2014-12-30|
- |maven-plugin-tools-3.6.4|2022-01-17|
+ |maven-plugin-tools-3.7.0|2022-11-07|
  |maven-pmd-plugin-3.19.0|2022-09-05|
  |maven-rar-plugin-3.0.0|2022-07-20|
- |maven-release-3.0.0-M6|2022-06-08|
+ |maven-release-3.0.0-M7|2022-11-02|
  |maven-remote-resources-plugin-3.0.0|2022-07-20|
  |maven-reporting-api-3.1.1|2022-07-31|
  |maven-reporting-api-4.0.0-M2|2022-07-04|
@@ -1957,11 +2008,11 @@
  |maven-resolver-1.8.2|2022-07-28|
  |maven-resolver-ant-tasks-1.4.0|2021-11-26|
  |maven-resources-plugin-3.3.0|2022-07-25|
- |maven-scm-2.0.0-M2|2022-07-30|
+ |maven-scm-2.0.0-M3|2022-10-28|
  |maven-scm-publish-plugin-3.1.0|2020-12-26|
  |maven-script-interpreter-1.3|2020-11-14|
  |maven-scripting-plugin-3.0.0|2021-03-01|
- |maven-shade-plugin-3.4.0|2022-09-14|
+ |maven-shade-plugin-3.4.1|2022-11-04|
  |maven-shared-incremental-1.1|2013-04-24|
  |maven-shared-io-3.0.0|2015-12-23|
  |maven-shared-jar-1.2|2016-01-03|
@@ -2013,6 +2064,12 @@
  |apache-mnemonic-0.14.0|2021-03-28|
  |apache-mnemonic-0.15.0|2021-07-04|
  |apache-mnemonic-0.16.0|2021-10-22|
+- mxnet
+
+|名称-版本|发布日期|
+|:----|:----|
+|apache-mxnet-1.9.1-incubating|2022-05-10|
+ |apache-mxnet-2.0.0.beta1-incubating|2022-03-22|
 - myfaces
 
 |名称-版本|发布日期|
@@ -2035,6 +2092,7 @@
  |myfaces-core-3.0.1|2021-06-07|
  |myfaces-core-3.0.2|2022-06-06|
  |myfaces-core-4.0.0-RC1|2022-07-07|
+ |myfaces-core-4.0.0-RC2|2022-10-24|
  |myfaces-extcdi-1.0.6|2014-10-30|
  |myfaces-extcdi-jsf12-1.0.6|2014-10-30|
  |myfaces-extcdi-jsf20-1.0.6|2014-10-30|
@@ -2044,8 +2102,8 @@
  |myfaces-test-1.0.7|2014-10-30|
  |myfaces-tobago-2.5.0|2022-07-06|
  |myfaces-tobago-4.5.5|2022-07-06|
- |myfaces-tobago-5.1.0|2022-07-06|
- |myfaces-tobago-5.2.0|2022-07-25|
+ |myfaces-tobago-4.6.0|2022-11-06|
+ |myfaces-tobago-5.3.0|2022-10-10|
  |portlet-bridge-1.0.0|2014-10-30|
  |portlet-bridge-2.0.0|2014-10-30|
  |tomahawk-1.1.14|2014-10-30|
@@ -2077,6 +2135,8 @@
 |:----|:----|
 |apache-netbeans-jackpot-13.0|2022-06-21|
  |apache-netbeans-java-15.0.0.vsix|2022-09-02|
+ |apache-netbeans-java-15.0.301|2022-10-14|
+ |apache-netbeans-java-15.0.301.vsix|2022-10-14|
  |bcpg.nbm|2022-08-27|
  |bcpkix.nbm|2022-08-27|
  |bcprov.nbm|2022-08-27|
@@ -2870,7 +2930,7 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|nifi-1.17.0|2022-07-28|
+|nifi-1.18.0|2022-10-03|
  |nifi-fds-0.2.0|2019-07-23|
  |nifi-fds-0.3.0|2022-01-25|
  |nifi-minifi-cpp-0.10.0|2021-06-07|
@@ -3081,12 +3141,14 @@
  |phoenix-4.16.1|2021-05-15|
  |phoenix-5.1.2|2021-05-30|
  |phoenix-omid-1.0.2|2020-11-17|
+ |phoenix-omid-1.1.0|2022-10-06|
  |phoenix-queryserver-6.0.0|2021-07-16|
  |phoenix-tephra-0.16.1|2021-05-04|
  |phoenix-thirdparty-1.1.0|2021-01-29|
  |phoenix-thirdparty-2.0.0|2022-04-11|
  |python-phoenixdb-1.1.0|2021-08-18|
  |python-phoenixdb-1.2.0|2022-07-12|
+ |python-phoenixdb-1.2.1|2022-10-13|
 - pig
 
 |名称-版本|发布日期|
@@ -3107,7 +3169,7 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-plc4x-0.9.1|2021-12-14|
+|apache-plc4x-0.10.0|2022-10-03|
  |apache-plc4x-code-generation-1.5.0|2021-09-08|
  |apache-plc4x-code-generation-1.6.0|2022-09-22|
 - poi
@@ -3168,75 +3230,86 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|Packages|2022-06-13|
- |apache-pulsar|2022-06-13|
- |apache-pulsar-2.10.1|2022-06-13|
+|APKINDEX|2022-10-21|
+ |Packages|2022-10-13|
+ |apache-pulsar|2022-10-13|
+ |apache-pulsar-2.10.2|2022-10-13|
  |apache-pulsar-2.8.4|2022-08-11|
  |apache-pulsar-adapters-2.8.0|2021-06-26|
- |apache-pulsar-client-dev|2022-06-13|
+ |apache-pulsar-client-3.0.0-1.aarch64|2022-10-21|
+ |apache-pulsar-client-3.0.0-r0.apk|2022-10-21|
+ |apache-pulsar-client-cpp-3.0.0|2022-10-21|
+ |apache-pulsar-client-debuginfo-3.0.0-1.aarch64|2022-10-21|
+ |apache-pulsar-client-dev|2022-10-13|
+ |apache-pulsar-client-dev-3.0.0-r0.apk|2022-10-21|
+ |apache-pulsar-client-devel-3.0.0-1.aarch64|2022-10-21|
  |apache-pulsar-client-go-0.8.1|2022-03-08|
+ |apache-pulsar-client-go-0.9.0-candidate-2|2022-09-29|
  |apache-pulsar-manager-0.3.0|2022-05-10|
- |pulsar-client-node-1.6.2|2022-03-07|
- |pulsar-io-aerospike-2.10.1.nar|2022-06-13|
+ |pulsar-3.0.0|2022-11-03|
+ |pulsar-3.0.0.tgz.prov|2022-11-03|
+ |pulsar-chart-3.0.0|2022-11-03|
+ |pulsar-client-node-1.7.0|2022-10-06|
+ |pulsar-io-aerospike-2.10.2.nar|2022-10-13|
  |pulsar-io-aerospike-2.8.4.nar|2022-08-11|
- |pulsar-io-batch-data-generator-2.10.1.nar|2022-06-13|
- |pulsar-io-canal-2.10.1.nar|2022-06-13|
+ |pulsar-io-batch-data-generator-2.10.2.nar|2022-10-13|
+ |pulsar-io-canal-2.10.2.nar|2022-10-13|
  |pulsar-io-canal-2.8.4.nar|2022-08-11|
- |pulsar-io-cassandra-2.10.1.nar|2022-06-13|
+ |pulsar-io-cassandra-2.10.2.nar|2022-10-13|
  |pulsar-io-cassandra-2.8.4.nar|2022-08-11|
- |pulsar-io-data-generator-2.10.1.nar|2022-06-13|
+ |pulsar-io-data-generator-2.10.2.nar|2022-10-13|
  |pulsar-io-data-generator-2.8.4.nar|2022-08-11|
- |pulsar-io-debezium-mongodb-2.10.1.nar|2022-06-13|
+ |pulsar-io-debezium-mongodb-2.10.2.nar|2022-10-13|
  |pulsar-io-debezium-mongodb-2.8.4.nar|2022-08-11|
- |pulsar-io-debezium-mssql-2.10.1.nar|2022-06-13|
- |pulsar-io-debezium-mysql-2.10.1.nar|2022-06-13|
+ |pulsar-io-debezium-mssql-2.10.2.nar|2022-10-13|
+ |pulsar-io-debezium-mysql-2.10.2.nar|2022-10-13|
  |pulsar-io-debezium-mysql-2.8.4.nar|2022-08-11|
- |pulsar-io-debezium-oracle-2.10.1.nar|2022-06-13|
- |pulsar-io-debezium-postgres-2.10.1.nar|2022-06-13|
+ |pulsar-io-debezium-oracle-2.10.2.nar|2022-10-13|
+ |pulsar-io-debezium-postgres-2.10.2.nar|2022-10-13|
  |pulsar-io-debezium-postgres-2.8.4.nar|2022-08-11|
- |pulsar-io-dynamodb-2.10.1.nar|2022-06-13|
+ |pulsar-io-dynamodb-2.10.2.nar|2022-10-13|
  |pulsar-io-dynamodb-2.8.4.nar|2022-08-11|
- |pulsar-io-elastic-search-2.10.1.nar|2022-06-13|
+ |pulsar-io-elastic-search-2.10.2.nar|2022-10-13|
  |pulsar-io-elastic-search-2.8.4.nar|2022-08-11|
- |pulsar-io-file-2.10.1.nar|2022-06-13|
+ |pulsar-io-file-2.10.2.nar|2022-10-13|
  |pulsar-io-file-2.8.4.nar|2022-08-11|
- |pulsar-io-flume-2.10.1.nar|2022-06-13|
+ |pulsar-io-flume-2.10.2.nar|2022-10-13|
  |pulsar-io-flume-2.8.4.nar|2022-08-11|
- |pulsar-io-hbase-2.10.1.nar|2022-06-13|
+ |pulsar-io-hbase-2.10.2.nar|2022-10-13|
  |pulsar-io-hbase-2.8.4.nar|2022-08-11|
- |pulsar-io-hdfs2-2.10.1.nar|2022-06-13|
+ |pulsar-io-hdfs2-2.10.2.nar|2022-10-13|
  |pulsar-io-hdfs2-2.8.4.nar|2022-08-11|
- |pulsar-io-hdfs3-2.10.1.nar|2022-06-13|
+ |pulsar-io-hdfs3-2.10.2.nar|2022-10-13|
  |pulsar-io-hdfs3-2.8.4.nar|2022-08-11|
- |pulsar-io-influxdb-2.10.1.nar|2022-06-13|
+ |pulsar-io-influxdb-2.10.2.nar|2022-10-13|
  |pulsar-io-influxdb-2.8.4.nar|2022-08-11|
- |pulsar-io-jdbc-clickhouse-2.10.1.nar|2022-06-13|
+ |pulsar-io-jdbc-clickhouse-2.10.2.nar|2022-10-13|
  |pulsar-io-jdbc-clickhouse-2.8.4.nar|2022-08-11|
- |pulsar-io-jdbc-mariadb-2.10.1.nar|2022-06-13|
+ |pulsar-io-jdbc-mariadb-2.10.2.nar|2022-10-13|
  |pulsar-io-jdbc-mariadb-2.8.4.nar|2022-08-11|
- |pulsar-io-jdbc-postgres-2.10.1.nar|2022-06-13|
+ |pulsar-io-jdbc-postgres-2.10.2.nar|2022-10-13|
  |pulsar-io-jdbc-postgres-2.8.4.nar|2022-08-11|
- |pulsar-io-jdbc-sqlite-2.10.1.nar|2022-06-13|
+ |pulsar-io-jdbc-sqlite-2.10.2.nar|2022-10-13|
  |pulsar-io-jdbc-sqlite-2.8.4.nar|2022-08-11|
- |pulsar-io-kafka-2.10.1.nar|2022-06-13|
+ |pulsar-io-kafka-2.10.2.nar|2022-10-13|
  |pulsar-io-kafka-2.8.4.nar|2022-08-11|
- |pulsar-io-kafka-connect-adaptor-2.10.1.nar|2022-06-13|
+ |pulsar-io-kafka-connect-adaptor-2.10.2.nar|2022-10-13|
  |pulsar-io-kafka-connect-adaptor-2.8.4.nar|2022-08-11|
- |pulsar-io-kinesis-2.10.1.nar|2022-06-13|
+ |pulsar-io-kinesis-2.10.2.nar|2022-10-13|
  |pulsar-io-kinesis-2.8.4.nar|2022-08-11|
- |pulsar-io-mongo-2.10.1.nar|2022-06-13|
+ |pulsar-io-mongo-2.10.2.nar|2022-10-13|
  |pulsar-io-mongo-2.8.4.nar|2022-08-11|
- |pulsar-io-netty-2.10.1.nar|2022-06-13|
+ |pulsar-io-netty-2.10.2.nar|2022-10-13|
  |pulsar-io-netty-2.8.4.nar|2022-08-11|
- |pulsar-io-nsq-2.10.1.nar|2022-06-13|
+ |pulsar-io-nsq-2.10.2.nar|2022-10-13|
  |pulsar-io-nsq-2.8.4.nar|2022-08-11|
- |pulsar-io-rabbitmq-2.10.1.nar|2022-06-13|
+ |pulsar-io-rabbitmq-2.10.2.nar|2022-10-13|
  |pulsar-io-rabbitmq-2.8.4.nar|2022-08-11|
- |pulsar-io-redis-2.10.1.nar|2022-06-13|
+ |pulsar-io-redis-2.10.2.nar|2022-10-13|
  |pulsar-io-redis-2.8.4.nar|2022-08-11|
- |pulsar-io-solr-2.10.1.nar|2022-06-13|
+ |pulsar-io-solr-2.10.2.nar|2022-10-13|
  |pulsar-io-solr-2.8.4.nar|2022-08-11|
- |pulsar-io-twitter-2.10.1.nar|2022-06-13|
+ |pulsar-io-twitter-2.10.2.nar|2022-10-13|
  |pulsar-io-twitter-2.8.4.nar|2022-08-11|
 - qpid
 
@@ -3247,13 +3320,14 @@
  |apache-qpid-jms-2.1.0|2022-09-16|
  |apache-qpid-jms-amqp-0-x-6.4.0|2020-05-28|
  |apache-qpid-proton-j-0.34.0|2022-08-30|
+ |apache-qpid-protonj2-1.0.0-M10|2022-10-26|
  |apache-qpid-protonj2-1.0.0-M8|2022-08-23|
  |apache-qpid-protonj2-1.0.0-M9|2022-09-20|
  |qpid-dispatch-1.19.0|2022-03-17|
  |qpid-interop-test-0.3.0|2021-11-05|
  |qpid-proton-0.37.0|2022-03-15|
- |qpid-proton-dotnet-1.0.0-M3|2022-08-08|
  |qpid-proton-dotnet-1.0.0-M4|2022-09-21|
+ |qpid-proton-dotnet-1.0.0-M5|2022-10-24|
  |qpid-python-1.37.0|2017-11-22|
 - ranger
 
@@ -3276,10 +3350,12 @@
  |apache-ratis-2.1.0|2021-06-26|
  |apache-ratis-2.2.0|2021-10-11|
  |apache-ratis-2.3.0|2022-05-11|
+ |apache-ratis-2.4.0|2022-10-10|
  |apache-ratis-incubating-1.0.0|2020-07-20|
  |ratis-thirdparty-1.0.0|2022-04-27|
  |ratis-thirdparty-1.0.1|2022-07-04|
  |ratis-thirdparty-1.0.2|2022-08-19|
+ |ratis-thirdparty-1.0.3|2022-11-02|
 - rocketmq
 
 |名称-版本|发布日期|
@@ -3293,8 +3369,11 @@
  |rocketmq-client-golang-5.0.0|2022-09-22|
  |rocketmq-client-java-5.0.0|2022-08-10|
  |rocketmq-client-java-5.0.1|2022-09-02|
+ |rocketmq-client-java-5.0.2|2022-10-09|
  |rocketmq-dashboard-1.0.0|2021-10-08|
+ |rocketmq-eventbridge-1.0.0|2022-11-07|
  |rocketmq-proto-2.0.0|2022-08-10|
+ |rocketmq-proto-2.0.1|2022-10-19|
  |rocketmq-spring-rocketmq-spring-all-2.2.2|2022-04-14|
  |rocketmq-streams-1.0.1-preview|2022-05-27|
 - roller
@@ -3339,7 +3418,8 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-servicecomb-java-chassis-distribution-2.7.10|2022-09-15|
+|apache-servicecomb-java-chassis-distribution-1.3.10|2022-11-08|
+ |apache-servicecomb-java-chassis-distribution-2.8.2|2022-11-08|
  |apache-servicecomb-kie-0.2.0|2021-02-23|
  |apache-servicecomb-kie-0.2.0-linux-arm64|2021-02-23|
  |apache-servicecomb-mesher-1.6.3|2019-09-09|
@@ -3358,19 +3438,25 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-shardingsphere-5.2.0|2022-09-05|
+|apache-shardingsphere-5.2.1|2022-10-15|
  |apache-shardingsphere-elasticjob-3.0.1|2021-10-04|
  |apache-shardingsphere-elasticjob-3.0.1-ui|2021-12-27|
+ |apache-shardingsphere-elasticjob-3.0.2|2022-10-18|
+ |apache-shardingsphere-elasticjob-3.0.2-ui|2022-10-26|
 - shenyu
 
 |名称-版本|发布日期|
 |:----|:----|
 |apache-shenyu-2.5.0|2022-08-20|
+ |shenyu-client-dotnet-v1.0.0|2022-10-12|
+ |shenyu-client-golang-v1.0.0|2022-10-12|
+ |shenyu-nginx-1.0.0-1|2022-10-31|
 - shiro
 
 |名称-版本|发布日期|
 |:----|:----|
-|shiro-root-1.9.1|2022-06-23|
+|shiro-root-1.10.0|2022-10-07|
+ |shiro-root-1.9.1|2022-06-23|
 - singa
 
 |名称-版本|发布日期|
@@ -3387,7 +3473,6 @@
 |:----|:----|
 |apache-skywalking-apm-9.2.0|2022-08-30|
  |apache-skywalking-banyandb-java-client-0.1.0|2022-05-26|
- |apache-skywalking-java-agent-8.11.0|2022-06-18|
  |apache-skywalking-java-agent-8.12.0|2022-09-01|
  |apache-skywalking-rover-0.3.0|2022-09-07|
  |apache-skywalking-satellite-1.0.0|2022-05-17|
@@ -3396,7 +3481,7 @@
  |skywalking-4.3.0|2022-09-17|
  |skywalking-banyandb-0.1.0|2022-06-06|
  |skywalking-cli-0.11.0|2022-09-17|
- |skywalking-client-js-0.8.0|2022-04-07|
+ |skywalking-client-js-0.9.0|2022-10-10|
  |skywalking-e2e-1.0.0|2021-09-12|
  |skywalking-e2e-1.1.0|2021-11-07|
  |skywalking-e2e-1.2.0|2022-07-04|
@@ -3445,42 +3530,42 @@
  |org.apache.sling.capabilities-0.1.2|2018-12-17|
  |org.apache.sling.capabilities.jcr-0.1.2|2018-12-17|
  |org.apache.sling.clam-1.1.0|2019-09-04|
- |org.apache.sling.cms-1.1.0|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-author.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-base.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-boot.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-caconfig.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-cms.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-composite-runtime.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-composite-seed.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-composum.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-discovery.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-distribution.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-event.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-feature.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-framework-properties.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-groovy.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-healthcheck.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-healthchecks.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-maintenance.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-models-jacksonexporter.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-oak_base.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-reference.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-renderer.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-scripting.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-segment.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms-author.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms-composite-runtime.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms-composite-seed.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms-renderer.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms-standalone.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms-upgrade.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms_standalone_far.far|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-slingcms_upgrade_far.far|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-standalone.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-thumbnails.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-validation.slingosgifeature|2021-11-11|
- |org.apache.sling.cms.feature-1.1.0-webconsole.slingosgifeature|2021-11-11|
+ |org.apache.sling.cms-1.1.2|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-author.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-base.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-boot.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-caconfig.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-cms.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-composite-runtime.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-composite-seed.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-composum.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-discovery.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-distribution.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-event.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-feature.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-framework-properties.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-groovy.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-healthcheck.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-healthchecks.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-maintenance.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-models-jacksonexporter.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-oak_base.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-reference.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-renderer.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-scripting.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-segment.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms-author.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms-composite-runtime.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms-composite-seed.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms-renderer.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms-standalone.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms-upgrade.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms_standalone_far.far|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-slingcms_upgrade_far.far|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-standalone.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-thumbnails.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-validation.slingosgifeature|2022-11-01|
+ |org.apache.sling.cms.feature-1.1.2-webconsole.slingosgifeature|2022-11-01|
  |org.apache.sling.commons.clam-2.0.0|2019-09-03|
  |org.apache.sling.commons.classloader-1.4.4|2018-12-08|
  |org.apache.sling.commons.compiler-2.4.0|2020-06-22|
@@ -3518,7 +3603,7 @@
  |org.apache.sling.discovery.base-2.0.14|2022-08-03|
  |org.apache.sling.discovery.commons-1.0.28|2022-08-03|
  |org.apache.sling.discovery.impl-1.2.12|2017-05-11|
- |org.apache.sling.discovery.oak-1.2.40|2022-08-03|
+ |org.apache.sling.discovery.oak-1.2.42|2022-10-31|
  |org.apache.sling.discovery.standalone-1.0.2|2016-01-03|
  |org.apache.sling.discovery.support-1.0.6|2020-08-18|
  |org.apache.sling.distribution.api-0.7.0|2022-04-29|
@@ -3541,10 +3626,10 @@
  |org.apache.sling.extensions.threaddump-0.2.2|2013-01-21|
  |org.apache.sling.extensions.webconsolebranding-1.0.2|2017-05-22|
  |org.apache.sling.extensions.webconsolesecurityprovider-1.2.6|2022-08-04|
- |org.apache.sling.feature-1.2.30|2022-01-15|
+ |org.apache.sling.feature-1.3.0|2022-10-31|
  |org.apache.sling.feature.analyser-1.6.8|2022-09-23|
  |org.apache.sling.feature.apiregions-1.1.8|2021-06-08|
- |org.apache.sling.feature.cpconverter-1.1.18|2022-08-22|
+ |org.apache.sling.feature.cpconverter-1.1.22|2022-10-31|
  |org.apache.sling.feature.diff-0.0.6|2020-01-24|
  |org.apache.sling.feature.extension.apiregions-1.6.2|2022-06-16|
  |org.apache.sling.feature.extension.content-1.0.10|2021-03-16|
@@ -3770,7 +3855,7 @@
  |org.apache.sling.validation.api-1.0.0|2017-04-12|
  |org.apache.sling.validation.core-1.0.4|2017-12-21|
  |org.apache.sling.validation.test-services-1.0.4|2017-12-21|
- |org.apache.sling.xss-2.2.20|2022-05-24|
+ |org.apache.sling.xss-2.3.2|2022-10-31|
  |org.apache.sling.xss.compat-1.1.0|2017-05-11|
  |scriptingbundle-maven-plugin-0.5.2|2021-12-21|
  |sling-49|2022-08-08|
@@ -3819,13 +3904,13 @@
 |:----|:----|
 |SparkR_3.1.3|2022-02-06|
  |SparkR_3.2.2|2022-07-11|
- |SparkR_3.3.0|2022-06-09|
+ |SparkR_3.3.1|2022-10-15|
  |pyspark-3.1.3|2022-02-06|
  |pyspark-3.2.2|2022-07-11|
- |pyspark-3.3.0|2022-06-09|
+ |pyspark-3.3.1|2022-10-15|
  |spark-3.1.3|2022-02-06|
  |spark-3.2.2|2022-07-11|
- |spark-3.3.0|2022-06-09|
+ |spark-3.3.1|2022-10-15|
 - storm
 
 |名称-版本|发布日期|
@@ -3893,7 +3978,7 @@
  |apache-syncope-enduser-2.1.12|2022-08-05|
  |org.apache.syncope.ide.eclipse.site-2.1.12|2022-08-05|
  |syncope-2.1.12|2022-08-05|
- |syncope-3.0.0-M0|2022-08-05|
+ |syncope-3.0.0-M2|2022-10-27|
  |syncope-client-cli-2.1.12|2022-08-05|
  |syncope-core-upgrade-2.1.12|2022-08-05|
  |syncope-ide-netbeans-2.1.12.nbm|2022-08-05|
@@ -3937,8 +4022,7 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|tika-1.28.5|2022-09-14|
- |tika-2.4.1|2022-06-17|
+|tika-2.6.0|2022-11-03|
 - tinkerpop
 
 |名称-版本|发布日期|
@@ -3952,18 +4036,17 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-tomcat-10.0.23|2022-07-14|
- |apache-tomcat-10.0.26|2022-09-23|
- |apache-tomcat-10.1.0|2022-09-23|
- |apache-tomcat-8.5.82|2022-08-08|
- |apache-tomcat-9.0.67|2022-09-23|
- |jakartaee-migration-1.0.3|2022-09-06|
+|apache-tomcat-10.0.27|2022-10-03|
+ |apache-tomcat-10.1.1|2022-10-03|
+ |apache-tomcat-8.5.83|2022-10-03|
+ |apache-tomcat-9.0.68|2022-10-03|
  |jakartaee-migration-1.0.4|2022-09-15|
+ |jakartaee-migration-1.0.5|2022-11-02|
  |taglibs-standard-1.2.5|2015-03-10|
  |tomcat-connectors-1.2.48|2020-03-06|
  |tomcat-maven-plugin-2.2|2013-11-07|
  |tomcat-native-1.2.35|2022-07-06|
- |tomcat-native-2.0.1|2022-07-06|
+ |tomcat-native-2.0.2|2022-11-02|
 - tomee
 
 |名称-版本|发布日期|
@@ -3979,18 +4062,14 @@
  |apache-tomee-7.1.4-plume|2020-08-05|
  |apache-tomee-7.1.4-plus|2020-08-05|
  |apache-tomee-7.1.4-webprofile|2020-08-05|
- |apache-tomee-8.0.12-microprofile|2022-06-14|
- |apache-tomee-8.0.12-plume|2022-06-14|
- |apache-tomee-8.0.12-plus|2022-06-14|
- |apache-tomee-8.0.12-webprofile|2022-06-14|
- |apache-tomee-9.0.0-M7-microprofile|2021-05-15|
- |apache-tomee-9.0.0-M7-plume|2021-05-15|
- |apache-tomee-9.0.0-M7-plus|2021-05-15|
- |apache-tomee-9.0.0-M7-webprofile|2021-05-15|
- |apache-tomee-9.0.0-M8-microprofile|2022-07-05|
- |apache-tomee-9.0.0-M8-plume|2022-07-05|
- |apache-tomee-9.0.0-M8-plus|2022-07-05|
- |apache-tomee-9.0.0-M8-webprofile|2022-07-05|
+ |apache-tomee-8.0.13-microprofile|2022-10-11|
+ |apache-tomee-8.0.13-plume|2022-10-11|
+ |apache-tomee-8.0.13-plus|2022-10-11|
+ |apache-tomee-8.0.13-webprofile|2022-10-11|
+ |apache-tomee-9.0.0.RC1-microprofile|2022-11-03|
+ |apache-tomee-9.0.0.RC1-plume|2022-11-03|
+ |apache-tomee-9.0.0.RC1-plus|2022-11-03|
+ |apache-tomee-9.0.0.RC1-webprofile|2022-11-03|
  |arquillian-tomee-moviefun-example-1.7.5|2017-10-24|
  |examples-4.7.5|2017-10-24|
  |examples-7.0.9|2020-08-05|
@@ -4005,8 +4084,8 @@
  |tomee-1.7.5|2017-10-24|
  |tomee-7.0.9|2020-08-05|
  |tomee-7.1.4|2020-08-05|
- |tomee-8.0.12|2022-06-14|
- |tomee-9.0.0-M7|2021-05-15|
+ |tomee-8.0.13|2022-10-11|
+ |tomee-9.0.0.RC1|2022-11-03|
  |tomee-jaxrs-1.7.5|2017-10-24|
  |tomee-microprofile-7.1.4|2020-08-05|
  |tomee-patch-0.9|2022-05-09|
@@ -4080,7 +4159,8 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|apache-tvm-v0.6.0-incubating|2019-12-05|
+|apache-tvm-v0.10.0|2022-10-17|
+ |apache-tvm-v0.6.0-incubating|2019-12-05|
  |apache-tvm-v0.6.1-incubating|2020-07-10|
  |apache-tvm-v0.7.0-incubating|2020-10-09|
  |apache-tvm-v0.8.0|2021-11-24|
@@ -4106,6 +4186,7 @@
  |uimaj-2.11.0|2021-06-09|
  |uimaj-3.2.0|2021-04-28|
  |uimaj-3.3.0|2022-04-29|
+ |uimaj-3.3.1|2022-10-19|
  |uimaj-io-json-0.4.0|2022-07-13|
 - unomi
 
@@ -4117,8 +4198,10 @@
  |unomi-1.5.7|2021-07-23|
  |unomi-1.6.0|2022-02-22|
  |unomi-1.6.1|2022-09-07|
+ |unomi-2.0.0|2022-09-29|
  |unomi-manual-1_5_x|2020-11-24|
  |unomi-manual-1_6_x|2022-03-01|
+ |unomi-manual-2_0_x|2022-10-04|
  |unomi-tracker-1.0.0|2022-09-22|
  |unomi-tracker-1.0.1|2022-09-26|
 - vcl
@@ -4146,7 +4229,7 @@
 |apache-wicket-6.30.0|2018-12-05|
  |apache-wicket-7.18.0|2021-04-02|
  |apache-wicket-8.14.0|2022-01-29|
- |apache-wicket-9.11.0|2022-07-06|
+ |apache-wicket-9.12.0|2022-10-11|
 - ws
 
 |名称-版本|发布日期|
@@ -4160,6 +4243,7 @@
  |woden-1.0M10|2015-09-06|
  |wss4j-2.3.3|2021-09-20|
  |wss4j-2.4.1|2022-02-18|
+ |wss4j-3.0.0|2022-10-10|
  |xmlschema-2.2.5|2020-01-07|
  |xmlschema-2.3.0|2021-09-20|
 - xalan
@@ -4181,7 +4265,7 @@
  |Xerces-J-tools.2.12.1-xml-schema-1.1|2020-01-12|
  |Xerces-J-tools.2.12.2|2022-01-24|
  |Xerces-J-tools.2.12.2-xml-schema-1.1|2022-01-24|
- |xerces-c-3.2.3|2020-04-10|
+ |xerces-c-3.2.4|2022-10-17|
  |xml-commons-external-1.2.06|2014-10-30|
  |xml-commons-external-1.3.05|2014-10-30|
  |xml-commons-external-1.4.01|2014-10-30|
@@ -4190,7 +4274,7 @@
 
 |名称-版本|发布日期|
 |:----|:----|
-|batik-1.15|2022-09-22|
+|batik-1.16|2022-10-25|
  |fop-2.7|2022-01-20|
  |fop-pdf-images-2.7|2022-01-20|
  |xmlgraphics-commons-2.7|2022-01-20|
@@ -4201,7 +4285,7 @@
 |RELEASENOTES.md|2020-04-17|
  |apache-yetus-0.12.0|2020-04-17|
  |apache-yetus-0.13.0|2020-12-06|
- |apache-yetus-0.14.0|2022-05-16|
+ |apache-yetus-0.14.1|2022-10-24|
 - yunikorn
 
 |名称-版本|发布日期|

@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[6.0.5](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.5.tar.xz)
+|Latest Release|[6.0.7](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.7.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.1-rc2|2022-10-23|[tarball](https://git.kernel.org/torvalds/t/linux-6.1-rc2.tar.gz)
-|stable:|6.0.5|2022-10-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.5.tar.xz)
+|mainline:|6.1-rc4|2022-11-06|[tarball](https://git.kernel.org/torvalds/t/linux-6.1-rc4.tar.gz)
+|stable:|6.0.7|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.7.tar.xz)
 |stable:|5.19.17 |2022-10-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.17.tar.xz)
-|longterm:|5.15.75|2022-10-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.75.tar.xz)
-|longterm:|5.10.150|2022-10-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.150.tar.xz)
-|longterm:|5.4.220|2022-10-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.220.tar.xz)
-|longterm:|4.19.262|2022-10-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.262.tar.xz)
-|longterm:|4.14.296|2022-10-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.296.tar.xz)
-|longterm:|4.9.331|2022-10-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.331.tar.xz)
-|linux-next:|next-20221026|2022-10-26|[browse](https://git.kernel.org/next/linux-next/h/next-20221026)
+|longterm:|5.15.77|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.77.tar.xz)
+|longterm:|5.10.153|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.153.tar.xz)
+|longterm:|5.4.223|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.223.tar.xz)
+|longterm:|4.19.264|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.264.tar.xz)
+|longterm:|4.14.298|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.298.tar.xz)
+|longterm:|4.9.332|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.332.tar.xz)
+|linux-next:|next-20221109|2022-11-09|[browse](https://git.kernel.org/next/linux-next/h/next-20221109)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -276,6 +276,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
+|[Nov. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-07-2022.html)|[Nov. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-04-2022.html)|[Nov. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-02-2022.html)
+|[Oct. 31, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-31-2022.html)|[Oct. 28, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-28-2022.html)|[Oct. 26, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-26-2022.html)
 |[Oct. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-24-2022.html)|[Oct. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-21-2022.html)|[Oct. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-19-2022.html)
 |[Oct. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-17-2022.html)|[Oct. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-14-2022.html)|[Oct. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-12-2022.html)
 |[Oct. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-07-2022.html)|[Oct. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-05-2022.html)|[Oct. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-03-2022.html)
@@ -284,7 +286,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |= |= |= |= |= |= |
 |:----|:----|:----|:----|:----|:----|
-|[Oct 2022](https://technews.acm.org/archives.cfm?d=2022-10-oct)|[Sep 2022](https://technews.acm.org/archives.cfm?d=2022-09-sep) |[Aug 2022](https://technews.acm.org/archives.cfm?d=2022-08-aug) |[Jul 2022](https://technews.acm.org/archives.cfm?d=2022-07-jul)
+|[Nov 2022](https://technews.acm.org/archives.cfm?d=2022-11-nov) |[Oct 2022](https://technews.acm.org/archives.cfm?d=2022-10-oct)|[Sep 2022](https://technews.acm.org/archives.cfm?d=2022-09-sep) |[Aug 2022](https://technews.acm.org/archives.cfm?d=2022-08-aug) |[Jul 2022](https://technews.acm.org/archives.cfm?d=2022-07-jul)
 |[Jun 2022](https://technews.acm.org/archives.cfm?d=2022-06-jun) |[May 2022](https://technews.acm.org/archives.cfm?d=2022-05-may)|[Apr 2022](https://technews.acm.org/archives.cfm?d=2022-04-apr)|[Mar 2022](https://technews.acm.org/archives.cfm?d=2022-03-mar)|[Feb 2022](https://technews.acm.org/archives.cfm?d=2022-02-feb)|[Jan 2022](https://technews.acm.org/archives.cfm?d=2022-01-jan)
 |.|.|.|.|.|.|
 |[Dec 2000](https://technews.acm.org/archives.cfm?d=2000-12-dec)|[Nov 2000](https://technews.acm.org/archives.cfm?d=2000-11-nov)|[Oct 2000](https://technews.acm.org/archives.cfm?d=2000-10-oct)|[Sep 2000](https://technews.acm.org/archives.cfm?d=2000-09-sep)|[Aug 2000](https://technews.acm.org/archives.cfm?d=2000-08-aug)|[Jul 2000](https://technews.acm.org/archives.cfm?d=2000-07-jul)

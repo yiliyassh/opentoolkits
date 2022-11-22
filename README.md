@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[6.0.7](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.7.tar.xz)
+|Latest Release|[6.0.9](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.9.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.1-rc4|2022-11-06|[tarball](https://git.kernel.org/torvalds/t/linux-6.1-rc4.tar.gz)
-|stable:|6.0.7|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.7.tar.xz)
+|mainline:|6.1-rc6|2022-11-21|[tarball](https://git.kernel.org/torvalds/t/linux-6.1-rc6.tar.gz)
+|stable:|6.0.9|2022-11-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.9.tar.xz)
 |stable:|5.19.17 |2022-10-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.17.tar.xz)
-|longterm:|5.15.77|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.77.tar.xz)
-|longterm:|5.10.153|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.153.tar.xz)
-|longterm:|5.4.223|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.223.tar.xz)
-|longterm:|4.19.264|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.264.tar.xz)
-|longterm:|4.14.298|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.298.tar.xz)
-|longterm:|4.9.332|2022-11-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.332.tar.xz)
-|linux-next:|next-20221109|2022-11-09|[browse](https://git.kernel.org/next/linux-next/h/next-20221109)
+|longterm:|5.15.79|2022-11-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.79.tar.xz)
+|longterm:|5.10.155|2022-11-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.155.tar.xz)
+|longterm:|5.4.224|2022-11-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.224.tar.xz)
+|longterm:|4.19.265|2022-11-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.265.tar.xz)
+|longterm:|4.14.299|2022-11-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.299.tar.xz)
+|longterm:|4.9.333|2022-11-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.333.tar.xz)
+|linux-next:|next-20221122|2022-11-22|[browse](https://git.kernel.org/next/linux-next/h/next-20221122)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/

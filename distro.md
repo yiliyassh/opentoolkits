@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2022-11-22 >Testing and Unstable users may find Anacron disabled
 -  2022-10-13 >Debian prepares for Bookworm freeze
 -  2022-10-02 >Debian votes on non-free firmware on install media
 -  2022-09-10 >Debian publishes new media for Buster and Bullseye
@@ -78,12 +79,12 @@ Headlines...
 -  2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
 -  2022-04-03 >Debian launches vote for Project Leader
 -  2022-03-26 >Debian publishes updated media - 10.12 and 11.3
--  2022-03-14 >Debian plans freeze for version 12
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases... 
+-  2022-11-10: Development Release: deepin 23 Alpha
 -  2022-08-16: Development Release: deepin 23 Preview
 -  2022-06-03: Distribution Release: deepin 20.6
 -  2022-04-01: Distribution Release: deepin 20.5
@@ -95,7 +96,6 @@ Releases...
 -  2020-04-15: Development Release: deepin 20 Beta
 -  2019-07-19: Distribution Release: deepin 15.11
 -  2019-04-28: Distribution Release: deepin 15.10
--  2019-01-16: Distribution Release: deepin 15.9
 -      
 Headlines... 
 -  2022-08-16 >deepin becomes independent
@@ -105,6 +105,7 @@ Headlines...
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases... 
+-  2022-11-15: Distribution Release: Fedora 37
 -  2022-09-13: Development Release: Fedora 37 Beta
 -  2022-05-10: Distribution Release: Fedora 36
 -  2022-03-29: Development Release: Fedora 36 Beta
@@ -116,24 +117,26 @@ Releases...
 -  2020-09-29: Development Release: Fedora 33 Beta
 -  2020-04-28: Distribution Release: Fedora 32
 -  2020-03-17: Development Release: Fedora 32 Beta
--  2019-10-29: Distribution Release: Fedora 31
 -      
 Headlines... 
+-  2022-11-22 >Fedora testing web-based installer
+-  2022-11-08 >Fedora considering Phosh spin for mobile devices
+-  2022-10-28 >Fedora delayed due to OpenSSL bug
+-  2022-10-18 >Fedora to revamp live media
 -  2022-09-28 >Fedora disabling patent-encumbered Mesa codecs
 -  2022-09-06 >Fedora 39 may get new package manager
 -  2022-06-29 >Fedora plans to provide unfiltered access to Flathub
 -  2022-05-18 >Fedora 34 approaches its end of life
 -  2022-05-16 >How to upgrade Fedora Silverblue
 -  2022-05-05 >Fedora drops plan to phase out Legacy BIOS support
--  2022-04-13 >Microdnf may replace DNF in Fedora
--  2022-04-05 >Fedora considers dropping Legacy BIOS support
--  2022-03-21 >Gaming on Fedora compared with Windows
--  2022-02-16 >Installing software on Fedora Silverblue
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
 ======
 Releases... 
+-  2022-12-06: BSD Release: FreeBSD 12.4
+-  2022-11-12: Development Release: FreeBSD 12.4-RC2
+-  2022-11-05: Development Release: FreeBSD 12.4-RC1
 -  2022-05-16: BSD Release: FreeBSD 13.1
 -  2022-04-15: Development Release: FreeBSD 13.1-RC3
 -  2022-04-08: Development Release: FreeBSD 13.1-RC2
@@ -143,11 +146,9 @@ Releases...
 -  2021-04-13: BSD Release: FreeBSD 13.0
 -  2021-03-30: Development Release: FreeBSD 13.0-RC4
 -  2021-03-20: Development Release: FreeBSD 13.0-RC3
--  2021-03-13: Development Release: FreeBSD 13.0-RC2
--  2021-03-06: Development Release: FreeBSD 13.0-RC1
--  2021-02-27: Development Release: FreeBSD 13.0-BETA4
 -      
 Headlines... 
+-  2022-10-21 >FreeBSD publishes status report
 -  2022-08-09 >FreeBSD publishes status report
 -  2022-06-13 >FreeBSD publishes status report
 -  2022-03-30 >Sandboxing software running on FreeBSD
@@ -157,7 +158,6 @@ Headlines...
 -  2022-02-16 >Qubes-like isolation using FreeBSD tools
 -  2021-11-15 >FreeBSD improves boot times
 -  2021-09-23 >FreeBSD to change root's shell
--  2021-09-14 >cgroup filesystem for BSDs
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -218,6 +218,7 @@ Headlines...
 [openbsd](https://distrowatch.com/table.php?distribution=openbsd)
 ======
 Releases... 
+-  2022-10-20: BSD Release: OpenBSD 7.2
 -  2022-04-21: BSD Release: OpenBSD 7.1
 -  2021-10-14: BSD Release: OpenBSD 7.0
 -  2021-05-01: BSD Release: OpenBSD 6.9
@@ -229,7 +230,6 @@ Releases...
 -  2018-04-02: BSD Release: OpenBSD 6.3
 -  2017-10-09: BSD Release: OpenBSD 6.2
 -  2017-04-11: BSD Release: OpenBSD 6.1
--  2016-09-01: BSD Release: OpenBSD 6.0
 -      
 Headlines... 
 -  2022-03-07 >OpenBSD now running on Apple M1-powered computers
@@ -261,6 +261,9 @@ Releases...
 -  2019-02-21: Development Release: openSUSE 15.1 Beta
 -      
 Headlines... 
+-  2022-11-30 >openSUSE 15.3 Leap nears its end of life
+-  2022-11-28 >openSUSE phasing out old 64-bit x86 support
+-  2022-11-08 >openSUSE provides online manual pages
 -  2022-09-26 >openSUSE talks about ALP prototypes
 -  2022-06-28 >openSUSE seeks feedback
 -  2022-06-07 >openSUSE Leap may be phased out
@@ -268,14 +271,13 @@ Headlines...
 -  2021-09-07 >Corruption caused by unzip on openSUSE
 -  2021-07-26 >openSUSE shutting down its community portal
 -  2021-07-19 >openSUSE adjusts repositories and updates
--  2021-04-12 >openSUSE revokes sponsorship of FSF and its events
--  2021-02-11 >openSUSE announces Step project
--  2021-01-13 >openSUSE 15.1 nears its end of life
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
 ======
 Releases... 
+-  2022-11-30: Distribution Release: Oracle Linux 9.1
+-  2022-11-21: Distribution Release: Oracle Linux 8.7
 -  2022-07-06: Distribution Release: Oracle Linux 9.0
 -  2022-06-14: Development Release: Oracle Linux 9.0 Developer Preview
 -  2022-05-20: Distribution Release: Oracle Linux 8.6
@@ -286,8 +288,6 @@ Releases...
 -  2019-11-17: Distribution Release: Oracle Linux 8.1
 -  2019-07-19: Distribution Release: Oracle Linux 8.0
 -  2019-05-02: Development Release: Oracle Linux 8 Beta
--  2018-11-07: Distribution Release: Oracle Linux 7.6
--  2018-04-18: Distribution Release: Oracle Linux 7.5
 -      
 Headlines... 
 -  2021-04-06 >Oracle loses API lawsuit against Google
@@ -296,6 +296,8 @@ Headlines...
 [redhat](https://distrowatch.com/table.php?distribution=redhat)
 ======
 Releases... 
+-  2022-11-17: Distribution Release: Red Hat Enterprise Linux 9.1
+-  2022-11-13: Distribution Release: Red Hat Enterprise Linux 8.7
 -  2022-05-18: Distribution Release: Red Hat Enterprise Linux 9.0
 -  2022-05-11: Distribution Release: Red Hat Enterprise Linux 8.6
 -  2021-11-11: Distribution Release: Red Hat Enterprise Linux 8.5
@@ -306,8 +308,6 @@ Releases...
 -  2020-07-28: Development Release: Red Hat Enterprise Linux 8.3 Beta
 -  2020-04-29: Distribution Release: Red Hat Enterprise Linux 8.2
 -  2020-04-02: Distribution Release: Red Hat Enterprise Linux 7.8
--  2020-01-21: Development Release: Red Hat Enterprise Linux 8.2 Beta
--  2019-11-05: Distribution Release: Red Hat Enterprise Linux 8.1
 -      
 Headlines... 
 -  2022-01-19 >Red Hat provides live kernel patching through Web Console
@@ -353,6 +353,7 @@ Headlines...
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+-  2022-11-01: BSD Release: TrueNAS 13.0-U3 "CORE"
 -  2022-06-22: Distribution Release: TrueNAS 22.02.2 "SCALE"
 -  2020-01-29: BSD Release: FreeNAS 11.3
 -  2018-12-06: BSD Release: FreeNAS 11.2
@@ -364,7 +365,6 @@ Releases...
 -  2017-03-15: BSD Release: FreeNAS Corral
 -  2016-11-24: Development Release: FreeNAS 10-BETA2
 -  2016-09-02: Development Release: FreeNAS 10-BETA
--  2016-03-22: BSD Release: FreeNAS 9.10
 -      
 Headlines... 
 -  2022-06-16 >TrueNAS has three editions, all tracked now on one page
@@ -378,6 +378,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2022-10-20: Distribution Release: Ubuntu 22.10
 -  2022-09-30: Development Release: Ubuntu 22.10 Beta
 -  2022-09-01: Distribution Release: Ubuntu 20.04.5
 -  2022-08-11: Distribution Release: Ubuntu 22.04.1
@@ -389,9 +390,9 @@ Releases...
 -  2021-08-26: Distribution Release: Ubuntu 20.04.3
 -  2021-04-22: Distribution Release: Ubuntu 21.04
 -  2021-04-01: Development Release: Ubuntu 21.04 Beta
--  2021-02-04: Distribution Release: Ubuntu 20.04.2
 -      
 Headlines... 
+-  2022-11-10 >Disabling automatic updates coming to Snap packages
 -  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
 -  2022-09-13 >A new software centre for Ubuntu
 -  2022-08-24 >Mir available for Wayland implementations
@@ -401,6 +402,4 @@ Headlines...
 -  2022-05-31 >Ubuntu 21.10 nears its end of life
 -  2022-05-27 >Ubuntu users struggle with out of memory service
 -  2022-05-19 >Canonical seeks to improve gaming experience
--  2022-05-01 >Unity7 sees its first release in six years
--  
 

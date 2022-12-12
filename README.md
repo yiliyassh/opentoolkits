@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[6.0.11](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.11.tar.xz)
+|Latest Release|[6.1](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,15 +84,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.1-rc8|2022-12-04|[tarball](https://git.kernel.org/torvalds/t/linux-6.1-rc8.tar.gz)
-|stable:|6.0.11|2022-12-02|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.11.tar.xz)
-|longterm:|5.15.81|2022-12-02|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.81.tar.xz)
-|longterm:|5.10.157|2022-12-02|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.157.tar.xz)
-|longterm:|5.4.225|2022-11-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.225.tar.xz)
-|longterm:|4.19.267|2022-11-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.267.tar.xz)
-|longterm:|4.14.300|2022-11-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.300.tar.xz)
-|longterm:|4.9.334|2022-11-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.334.tar.xz)
-|linux-next:|next-20221206|2022-12-06|[browse](https://git.kernel.org/next/linux-next/h/next-20221206)
+|mainline:|6.1|2022-12-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.tar.xz)
+|stable:|6.0.12|2022-12-08|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.12.tar.xz)
+|longterm:|5.15.82|2022-12-08|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.82.tar.xz)
+|longterm:|5.10.158|2022-12-08|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.158.tar.xz)
+|longterm:|5.4.226|2022-12-08|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.226.tar.xz)
+|longterm:|4.19.268|2022-12-08|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.268.tar.xz)
+|longterm:|4.14.301|2022-12-08|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.301.tar.xz)
+|longterm:|4.9.335|2022-12-08|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.335.tar.xz)
+|linux-next:|next-20221208|2022-12-08|[browse](https://git.kernel.org/next/linux-next/h/next-20221208)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -117,10 +117,10 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[cmake](https://cmake.org/)|[3.25.1](https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.86.0](https://github.com/curl/curl/releases/download/curl-7_86_0/curl-7.86.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.21](https://github.com/moby/moby/archive/refs/tags/v20.10.21.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
-|[eclipse](http://eclipse.org/)|[4.25](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
+|[eclipse](http://eclipse.org/)|[4.26](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.2.1](https://ftp.gnu.org/gnu/gawk/gawk-5.2.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.2.0](http://ftp.gnu.org/gnu/gcc/gcc-12.2.0/gcc-12.2.0.tar.xz)|GNU GCC: the GNU compiler collection
-|[git](https://git-scm.com/)|[2.38.1](https://github.com/git/git/archive/v2.38.1.tar.gz)|Git: an open source version control system
+|[git](https://git-scm.com/)|[2.39.0](https://github.com/git/git/archive/v2.39.0.tar.gz)|Git: an open source version control system
 |[glibc](http://www.gnu.org/software/libc/libc.html)|[2.36](http://ftp.gnu.org/gnu/glibc/glibc-2.36.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.8](http://ftp.gnu.org/gnu/grep/grep-3.8.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
@@ -137,7 +137,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[NVIDIA](http://www.nvidia.com/object/unix.html)|[525.60.11](https://us.download.nvidia.com/XFree86/Linux-x86_64/525.60.11/NVIDIA-Linux-x86_64-525.60.11.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](http://www.openssh.com/portable.html)|[9.1p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.1p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
-|[php](http://www.php.net/)|[8.1.13](http://us3.php.net/distributions/php-8.1.13.tar.xz)|PHP: a server-side HTML embedded scripting language
+|[php](https://www.php.net/)|[8.2.0](https://www.php.net/distributions/php-8.2.0.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
 |[postgresql](https://www.postgresql.org/)|[15.1](https://ftp.postgresql.org/pub/source/v15.1/postgresql-15.1.tar.bz2)|PostgreSQL: a relational database management system
 |[Python](https://www.python.org/)|[3.11.1](https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz)|Python: an interpreted, interactive, object-oriented programming language
@@ -153,7 +153,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[vim](https://www.vim.org/)|[9.0](http://ftp.vim.org/pub/vim/unix/vim-9.0.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
 |[VirtualBox](https://www.virtualbox.org/)|[7.0.4](http://download.virtualbox.org/virtualbox/7.0.4/VirtualBox-7.0.4.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
-|[wireshark](https://www.wireshark.org/)|[4.0.1](https://www.wireshark.org/download/src/wireshark-4.0.1.tar.xz)|Wireshark: a network protocol analyzer
+|[wireshark](https://www.wireshark.org/)|[4.0.2](https://www.wireshark.org/download/src/wireshark-4.0.2.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[6.1.1](https://wordpress.org/wordpress-6.1.1.tar.gz)|WordPress: publishing software for the world wide web
 
 
@@ -274,7 +274,8 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
-|[Dec. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-05-2022.html)|[Dec. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-02-2022.html)
+|[Dec. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-09-2022.html)
+|[Dec. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-07-2022.html)|[Dec. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-05-2022.html)|[Dec. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-02-2022.html)
 |[Nov. 30, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-30-2022.html)|[Nov. 28, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-28-2022.html)|[Nov. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-23-2022.html)
 |[Nov. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-21-2022.html)|[Nov. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-18-2022.html)|[Nov. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-16-2022.html)
 |[Nov. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-14-2022.html)|[Nov. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-11-2022.html)|[Nov. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-09-2022.html)

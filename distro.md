@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2022-12-17 >Debian updates Bullseye media
 -  2022-11-22 >Testing and Unstable users may find Anacron disabled
 -  2022-10-13 >Debian prepares for Bookworm freeze
 -  2022-10-02 >Debian votes on non-free firmware on install media
@@ -78,12 +79,12 @@ Headlines...
 -  2022-07-09 >Debian publishes 11.4 install media
 -  2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
 -  2022-04-03 >Debian launches vote for Project Leader
--  2022-03-26 >Debian publishes updated media - 10.12 and 11.3
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases... 
+-  2022-12-08: Distribution Release: deepin 20.8
 -  2022-11-10: Development Release: deepin 23 Alpha
 -  2022-08-16: Development Release: deepin 23 Preview
 -  2022-06-03: Distribution Release: deepin 20.6
@@ -95,7 +96,6 @@ Releases...
 -  2020-09-11: Distribution Release: deepin 20
 -  2020-04-15: Development Release: deepin 20 Beta
 -  2019-07-19: Distribution Release: deepin 15.11
--  2019-04-28: Distribution Release: deepin 15.10
 -      
 Headlines... 
 -  2022-08-16 >deepin becomes independent
@@ -119,16 +119,16 @@ Releases...
 -  2020-03-17: Development Release: Fedora 32 Beta
 -      
 Headlines... 
+-  2022-12-22 >Fedora to speed up shutdown times
+-  2022-12-20 >Fedora proposes unified kernel images
+-  2022-12-12 >Fedora to get Budgie spin
+-  2022-12-07 >Fedora 35 nearing its end of life
 -  2022-11-22 >Fedora testing web-based installer
 -  2022-11-08 >Fedora considering Phosh spin for mobile devices
 -  2022-10-28 >Fedora delayed due to OpenSSL bug
 -  2022-10-18 >Fedora to revamp live media
 -  2022-09-28 >Fedora disabling patent-encumbered Mesa codecs
 -  2022-09-06 >Fedora 39 may get new package manager
--  2022-06-29 >Fedora plans to provide unfiltered access to Flathub
--  2022-05-18 >Fedora 34 approaches its end of life
--  2022-05-16 >How to upgrade Fedora Silverblue
--  2022-05-05 >Fedora drops plan to phase out Legacy BIOS support
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -148,6 +148,7 @@ Releases...
 -  2021-03-20: Development Release: FreeBSD 13.0-RC3
 -      
 Headlines... 
+-  2023-01-02 >History of HardenedBSD
 -  2022-10-21 >FreeBSD publishes status report
 -  2022-08-09 >FreeBSD publishes status report
 -  2022-06-13 >FreeBSD publishes status report
@@ -157,7 +158,6 @@ Headlines...
 -  2022-03-03 >FreeBSD 12.2 nears its end of life
 -  2022-02-16 >Qubes-like isolation using FreeBSD tools
 -  2021-11-15 >FreeBSD improves boot times
--  2021-09-23 >FreeBSD to change root's shell
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -232,6 +232,7 @@ Releases...
 -  2017-04-11: BSD Release: OpenBSD 6.1
 -      
 Headlines... 
+-  2023-01-02 >Porting KDE Plasma components to OpenBSD
 -  2022-03-07 >OpenBSD now running on Apple M1-powered computers
 -  2021-08-03 >InitWare running on OpenBSD
 -  2021-06-24 >Configuring the system with GearBSD
@@ -241,7 +242,6 @@ Headlines...
 -  2019-09-13 >OpenBSD disables DoH in Firefox
 -  2018-10-16 >OpenBSD 6.4 to offer auto-joining to wifi networks
 -  2018-07-12 >OpenBSD to auto-join wi-fi networks
--  2018-06-20 >OpenBSD disables hyper-threading
 -  
 
 [opensuse](https://distrowatch.com/table.php?distribution=opensuse)
@@ -353,6 +353,7 @@ Headlines...
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+-  2022-12-15: Distribution Release: TrueNAS 22.12.0 "SCALE"
 -  2022-11-01: BSD Release: TrueNAS 13.0-U3 "CORE"
 -  2022-06-22: Distribution Release: TrueNAS 22.02.2 "SCALE"
 -  2020-01-29: BSD Release: FreeNAS 11.3
@@ -364,7 +365,6 @@ Releases...
 -  2017-05-05: Development Release: FreeNAS 11.0-RC
 -  2017-03-15: BSD Release: FreeNAS Corral
 -  2016-11-24: Development Release: FreeNAS 10-BETA2
--  2016-09-02: Development Release: FreeNAS 10-BETA
 -      
 Headlines... 
 -  2022-06-16 >TrueNAS has three editions, all tracked now on one page
@@ -392,6 +392,7 @@ Releases...
 -  2021-04-01: Development Release: Ubuntu 21.04 Beta
 -      
 Headlines... 
+-  2023-01-02 >Ubuntu is testing a new system installer
 -  2022-11-10 >Disabling automatic updates coming to Snap packages
 -  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
 -  2022-09-13 >A new software centre for Ubuntu
@@ -401,5 +402,5 @@ Headlines...
 -  2022-06-15 >Ubuntu Core 22 launches with optional real-time kernel
 -  2022-05-31 >Ubuntu 21.10 nears its end of life
 -  2022-05-27 >Ubuntu users struggle with out of memory service
--  2022-05-19 >Canonical seeks to improve gaming experience
+-  
 

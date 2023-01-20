@@ -1,4 +1,4 @@
-## [TIOBE Index for June 2022](https://www.tiobe.com/tiobe-index/) | [返回](README.md)
+## [TIOBE Index for January 2023](https://www.tiobe.com/tiobe-index/) | [返回](README.md)
 - June Headline: C++ is about to surpass Java
 
 It seems to be that Java is on the losing side. In April 2020, Java was still number 1 on the TIOBE index. In that same month, Java had to give up its first place to C. Later on, in 2021, Python became unstoppable and surpassed Java as well. Now it looks like C++ is the next language to overtake Java. High level programming with performance is C++'s key reason why it is doing so well. The C++ language is revised every 3 years. Such revisions contain ground-breaking new features, which get the language on par with C# and Java, but without the performance penalty of a garbage collector. Let's see where C++ is heading the next few months. -- Paul Jansen CEO TIOBE Software
@@ -71,6 +71,7 @@ The award is given to the programming language that has the highest rise in rati
 
 |Year|	Winner|
 |:----|:----|
+|2022|	C++
 |2021|	Python
 |2020|	Python
 |2019|	C

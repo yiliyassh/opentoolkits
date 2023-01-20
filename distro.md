@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2023-01-19 >Debian 12 entering freeze
 -  2022-12-17 >Debian updates Bullseye media
 -  2022-11-22 >Testing and Unstable users may find Anacron disabled
 -  2022-10-13 >Debian prepares for Bookworm freeze
@@ -78,7 +79,6 @@ Headlines...
 -  2022-08-27 >Debian considers how to handle non-free firmware
 -  2022-07-09 >Debian publishes 11.4 install media
 -  2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
--  2022-04-03 >Debian launches vote for Project Leader
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -119,6 +119,7 @@ Releases...
 -  2020-03-17: Development Release: Fedora 32 Beta
 -      
 Headlines... 
+-  2023-01-17 >Fedora seeks feedback on system installer
 -  2022-12-22 >Fedora to speed up shutdown times
 -  2022-12-20 >Fedora proposes unified kernel images
 -  2022-12-12 >Fedora to get Budgie spin
@@ -128,7 +129,6 @@ Headlines...
 -  2022-10-28 >Fedora delayed due to OpenSSL bug
 -  2022-10-18 >Fedora to revamp live media
 -  2022-09-28 >Fedora disabling patent-encumbered Mesa codecs
--  2022-09-06 >Fedora 39 may get new package manager
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)

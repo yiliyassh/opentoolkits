@@ -2,6 +2,7 @@
 >几百种linux发行版的详细介绍和官网链接，镜像下载等。    
 > 珍爱生命，拥抱开源~_~  
 > 
+D:\prg\Anaconda3\python.exe D:/yiliyas/mygit/sync-opentoolkits.py
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
 Releases... 
@@ -69,6 +70,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2023-01-23 >Debian adopting Opensnitch package
 -  2023-01-19 >Debian 12 entering freeze
 -  2022-12-17 >Debian updates Bullseye media
 -  2022-11-22 >Testing and Unstable users may find Anacron disabled
@@ -78,7 +80,6 @@ Headlines...
 -  2022-08-29 >Debian switches default Chromium search engine 
 -  2022-08-27 >Debian considers how to handle non-free firmware
 -  2022-07-09 >Debian publishes 11.4 install media
--  2022-04-19 >McIntyre suggest fives ways to deal with non-free firmware
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -148,6 +149,7 @@ Releases...
 -  2021-03-20: Development Release: FreeBSD 13.0-RC3
 -      
 Headlines... 
+-  2023-01-26 >FreeBSD publishes quarterly status report
 -  2023-01-02 >History of HardenedBSD
 -  2022-10-21 >FreeBSD publishes status report
 -  2022-08-09 >FreeBSD publishes status report
@@ -157,7 +159,6 @@ Headlines...
 -  2022-03-11 >FreeBSD publishes status report
 -  2022-03-03 >FreeBSD 12.2 nears its end of life
 -  2022-02-16 >Qubes-like isolation using FreeBSD tools
--  2021-11-15 >FreeBSD improves boot times
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -392,6 +393,7 @@ Releases...
 -  2021-04-01: Development Release: Ubuntu 21.04 Beta
 -      
 Headlines... 
+-  2023-01-20 >Ubuntu 18.04 nears its end of life
 -  2023-01-02 >Ubuntu is testing a new system installer
 -  2022-11-10 >Disabling automatic updates coming to Snap packages
 -  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
@@ -401,6 +403,5 @@ Headlines...
 -  2022-07-21 >Ubuntu now certified to run on Dell XPS 13
 -  2022-06-15 >Ubuntu Core 22 launches with optional real-time kernel
 -  2022-05-31 >Ubuntu 21.10 nears its end of life
--  2022-05-27 >Ubuntu users struggle with out of memory service
 -  
 

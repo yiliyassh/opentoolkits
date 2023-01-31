@@ -4,20 +4,13 @@
 
 |=|=|=|
 |:----|:----|:----|
+|[Jan. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-30-2023.html)|[Jan. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-27-2023.html)
+|[Jan. 25, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-25-2023.html)|[Jan. 23, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-23-2023.html)|[Jan. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-20-2023.html)
 |[Jan. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-18-2023.html)|[Jan. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-13-2023.html)|[Jan. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-11-2023.html)
 |[Jan. 09, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-09-2023.html)|[Jan. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-06-2023.html)|[Jan. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-04-2023.html)
 |[Dec. 30, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-30-2022.html)|[Dec. 28, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-28-2022.html)|[Dec. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-23-2022.html)
-|[Dec. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-21-2022.html)|[Dec. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-19-2022.html)|[Dec. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-16-2022.html)
-|[Dec. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-14-2022.html)|[Dec. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-12-2022.html)|[Dec. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-09-2022.html)
-|[Dec. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-07-2022.html)|[Dec. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-05-2022.html)|[Dec. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-02-2022.html)
 |[Nov. 30, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-30-2022.html)|[Nov. 28, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-28-2022.html)|[Nov. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-23-2022.html)
-|[Nov. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-21-2022.html)|[Nov. 18, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-18-2022.html)|[Nov. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-16-2022.html)
-|[Nov. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-14-2022.html)|[Nov. 11, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-11-2022.html)|[Nov. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-09-2022.html)
-|[Nov. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-07-2022.html)|[Nov. 04, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-04-2022.html)|[Nov. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-11-nov/nov-02-2022.html)
 |[Oct. 31, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-31-2022.html)|[Oct. 28, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-28-2022.html)|[Oct. 26, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-26-2022.html)
-|[Oct. 24, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-24-2022.html)|[Oct. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-21-2022.html)|[Oct. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-19-2022.html)
-|[Oct. 17, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-17-2022.html)|[Oct. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-14-2022.html)|[Oct. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-12-2022.html)
-|[Oct. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-07-2022.html)|[Oct. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-05-2022.html)|[Oct. 03, 2022](https://technews.acm.org/archives.cfm?fo=2022-10-oct/oct-03-2022.html)
 - [ 历史归档  2000年~2022年 ](https://technews.acm.org/archives.cfm) 
 
 |= |= |= |= |= |= |

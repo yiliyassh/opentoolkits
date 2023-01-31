@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[6.1.7](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.7.tar.xz)
+|Latest Release|[6.1.8](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.8.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.2-rc4|2023-01-15|[tarball](https://git.kernel.org/torvalds/t/linux-6.2-rc4.tar.gz)
-|stable:|6.1.7|2023-01-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.7.tar.xz)
+|mainline:|6.2-rc6|2023-01-29|[tarball](https://git.kernel.org/torvalds/t/linux-6.2-rc6.tar.gz)
+|stable:|6.1.8|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.8.tar.xz)
 |stable:|6.0.19 |2023-01-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.19.tar.xz)
-|longterm:|5.15.89|2023-01-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.89.tar.xz)
-|longterm:|5.10.164|2023-01-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.164.tar.xz)
-|longterm:|5.4.229|2023-01-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.229.tar.xz)
-|longterm:|4.19.270|2023-01-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.270.tar.xz)
-|longterm:|4.14.303|2023-01-18|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.303.tar.xz)
+|longterm:|5.15.90|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.90.tar.xz)
+|longterm:|5.10.165|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.165.tar.xz)
+|longterm:|5.4.230|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.230.tar.xz)
+|longterm:|4.19.271|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.271.tar.xz)
+|longterm:|4.14.304|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.304.tar.xz)
 |longterm:|4.9.337 |2023-01-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.337.tar.xz)
-|linux-next:|next-20230120|2023-01-20|[browse](https://git.kernel.org/next/linux-next/h/next-20230120)
+|linux-next:|next-20230130|2023-01-30|[browse](https://git.kernel.org/next/linux-next/h/next-20230130)
 
 
 - 快速下载最新内核
@@ -115,7 +115,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |应用软件（详情）|版本（下载）|说明|
 |:----|:----|:----|
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.2.15](http://ftp.gnu.org/gnu/bash/bash-5.2.15.tar.gz)|Bash: an sh-compatible command language interpreter
-|[bind](http://www.isc.org/downloads/bind/)|[9.18.10](https://ftp.isc.org/isc/bind9/9.18.10/bind-9.18.10.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
+|[bind](http://www.isc.org/downloads/bind/)|[9.18.11](https://ftp.isc.org/isc/bind9/9.18.11/bind-9.18.11.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.25.2](https://github.com/Kitware/CMake/releases/download/v3.25.2/cmake-3.25.2.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.87.0](https://github.com/curl/curl/releases/download/curl-7_86_0/curl-7.87.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[20.10.23](https://github.com/moby/moby/archive/refs/tags/v20.10.23.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
@@ -147,7 +147,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[rsync](http://rsync.samba.org/)|[3.2.7](http://rsync.samba.org/ftp/rsync/rsync-3.2.7.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.2.0](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.2.0.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.9](https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.52.0](https://snort.org/downloads/snortplus/snort3-3.1.52.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[snort](https://www.snort.org/)|[3.1.53.0](https://snort.org/downloads/snortplus/snort3-3.1.53.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.40.1](https://www.sqlite.org/2022/sqlite-amalgamation-3400100.zip)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.7](http://www.squid-cache.org/Versions/v5/squid-5.7.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
@@ -277,12 +277,11 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
+|[Jan. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-30-2023.html)|[Jan. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-27-2023.html)
+|[Jan. 25, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-25-2023.html)|[Jan. 23, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-23-2023.html)|[Jan. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-20-2023.html)
 |[Jan. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-18-2023.html)|[Jan. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-13-2023.html)|[Jan. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-11-2023.html)
 |[Jan. 09, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-09-2023.html)|[Jan. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-06-2023.html)|[Jan. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-04-2023.html)
 |[Dec. 30, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-30-2022.html)|[Dec. 28, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-28-2022.html)|[Dec. 23, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-23-2022.html)
-|[Dec. 21, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-21-2022.html)|[Dec. 19, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-19-2022.html)|[Dec. 16, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-16-2022.html)
-|[Dec. 14, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-14-2022.html)|[Dec. 12, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-12-2022.html)|[Dec. 09, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-09-2022.html)
-|[Dec. 07, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-07-2022.html)|[Dec. 05, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-05-2022.html)|[Dec. 02, 2022](https://technews.acm.org/archives.cfm?fo=2022-12-dec/dec-02-2022.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
 

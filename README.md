@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[6.1.8](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.8.tar.xz)
+|Latest Release|[6.1.11](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.11.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.2-rc6|2023-01-29|[tarball](https://git.kernel.org/torvalds/t/linux-6.2-rc6.tar.gz)
-|stable:|6.1.8|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.8.tar.xz)
+|mainline:|6.2-rc7|2023-02-05|[tarball](https://git.kernel.org/torvalds/t/linux-6.2-rc7.tar.gz)
+|stable:|6.1.11|2023-02-09|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.11.tar.xz)
 |stable:|6.0.19 |2023-01-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.19.tar.xz)
-|longterm:|5.15.90|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.90.tar.xz)
-|longterm:|5.10.165|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.165.tar.xz)
-|longterm:|5.4.230|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.230.tar.xz)
-|longterm:|4.19.271|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.271.tar.xz)
-|longterm:|4.14.304|2023-01-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.304.tar.xz)
-|longterm:|4.9.337 |2023-01-07|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.337.tar.xz)
-|linux-next:|next-20230130|2023-01-30|[browse](https://git.kernel.org/next/linux-next/h/next-20230130)
+|longterm:|5.15.93|2023-02-09|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.93.tar.xz)
+|longterm:|5.10.167|2023-02-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.167.tar.xz)
+|longterm:|5.4.231|2023-02-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.231.tar.xz)
+|longterm:|4.19.272|2023-02-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.272.tar.xz)
+|longterm:|4.14.305|2023-02-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.305.tar.xz)
+|linux-next:|next-20230209|2023-02-09|[browse](https://git.kernel.org/next/linux-next/h/next-20230209)
 
 
 - 快速下载最新内核
@@ -105,7 +104,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Friday 20 January 2023 12:38 GMT ](https://distrowatch.com/packages.php) 
+- [ Last Update: Thursday 9 February 2023 13:53 GMT ](https://distrowatch.com/packages.php) 
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -118,12 +117,12 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[bind](http://www.isc.org/downloads/bind/)|[9.18.11](https://ftp.isc.org/isc/bind9/9.18.11/bind-9.18.11.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.25.2](https://github.com/Kitware/CMake/releases/download/v3.25.2/cmake-3.25.2.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[7.87.0](https://github.com/curl/curl/releases/download/curl-7_86_0/curl-7.87.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
-|[docker](https://www.docker.com/community-edition)|[20.10.23](https://github.com/moby/moby/archive/refs/tags/v20.10.23.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
+|[docker](https://www.docker.com/community-edition)|[23.0.0](https://github.com/moby/moby/archive/refs/tags/v23.0.0.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](http://eclipse.org/)|[4.26](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.2.1](https://ftp.gnu.org/gnu/gawk/gawk-5.2.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.2.0](http://ftp.gnu.org/gnu/gcc/gcc-12.2.0/gcc-12.2.0.tar.xz)|GNU GCC: the GNU compiler collection
 |[git](https://git-scm.com/)|[2.39.1](https://github.com/git/git/archive/v2.39.1.tar.gz)|Git: an open source version control system
-|[glibc](http://www.gnu.org/software/libc/libc.html)|[2.36](http://ftp.gnu.org/gnu/glibc/glibc-2.36.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
+|[glibc](http://www.gnu.org/software/libc/libc.html)|[2.37](http://ftp.gnu.org/gnu/glibc/glibc-2.37.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
 |[grep](http://www.gnu.org/software/grep/grep.html)|[3.8](http://ftp.gnu.org/gnu/grep/grep-3.8.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
 |[httpd](http://httpd.apache.org/)|[2.4.55](https://archive.apache.org/dist/httpd/httpd-2.4.55.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
@@ -132,20 +131,20 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[lighttpd](http://www.lighttpd.net/)|[1.4.68](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.68.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](http://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
 |[make](http://www.gnu.org/software/make/)|[4.4](https://ftp.gnu.org/gnu/make/make-4.4.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
-|[mariadb](https://mariadb.org/)|[10.10.2](https://ftp.osuosl.org/pub/mariadb/mariadb-10.10.2/source/mariadb-10.10.2.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
+|[mariadb](https://mariadb.org/)|[10.10.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.10.3/source/mariadb-10.10.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.32](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.32.tar.gz)|MySQL: an SQL database server
 |[nginx](http://nginx.org/)|[1.22.1](http://nginx.org/download/nginx-1.22.1.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](http://www.insecure.org/nmap/)|[7.93](http://download.insecure.org/nmap/dist/nmap-7.93.tgz)|Nmap: a utility for network exploration or security auditing
-|[NVIDIA](http://www.nvidia.com/object/unix.html)|[525.85.05](https://us.download.nvidia.com/XFree86/Linux-x86_64/525.85.05/NVIDIA-Linux-x86_64-525.85.05.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
-|[openssh](http://www.openssh.com/portable.html)|[9.1p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.1p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
+|[NVIDIA](http://www.nvidia.com/object/unix.html)|[525.89.02](https://us.download.nvidia.com/XFree86/Linux-x86_64/525.89.02/NVIDIA-Linux-x86_64-525.89.02.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+|[openssh](http://www.openssh.com/portable.html)|[9.2p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.2p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.36.0](http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
-|[php](https://www.php.net/)|[8.2.1](https://www.php.net/distributions/php-8.2.1.tar.xz)|PHP: a server-side HTML embedded scripting language
-|[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.0](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
+|[php](https://www.php.net/)|[8.2.2](https://www.php.net/distributions/php-8.2.2.tar.xz)|PHP: a server-side HTML embedded scripting language
+|[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.1](https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
 |[postgresql](https://www.postgresql.org/)|[15.1](https://ftp.postgresql.org/pub/source/v15.1/postgresql-15.1.tar.bz2)|PostgreSQL: a relational database management system
-|[Python](https://www.python.org/)|[3.11.1](https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz)|Python: an interpreted, interactive, object-oriented programming language
+|[Python](https://www.python.org/)|[3.11.2](https://www.python.org/ftp/python/3.11.2/Python-3.11.2.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qt](https://www.qt.io/)|[6.4.2](https://download.qt-project.org/official_releases/qt/6.4/6.4.2/single/qt-everywhere-src-6.4.2.tar.xz)|Qt: a C++ application framework for writing graphical applications
 |[rsync](http://rsync.samba.org/)|[3.2.7](http://rsync.samba.org/ftp/rsync/rsync-3.2.7.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
-|[ruby](http://www.ruby-lang.org/)|[3.2.0](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.2.0.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
+|[ruby](http://www.ruby-lang.org/)|[3.2.1](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.2.1.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.9](https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
 |[snort](https://www.snort.org/)|[3.1.53.0](https://snort.org/downloads/snortplus/snort3-3.1.53.0.tar.gz)|Snort: a light-weight network intrusion detection program
 |[sqlite](http://www.sqlite.org/)|[3.40.1](https://www.sqlite.org/2022/sqlite-amalgamation-3400100.zip)|SQLite: an embeddable SQL engine in a C library
@@ -273,10 +272,12 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2023年1月](https://technews.acm.org/archives.cfm?d=2023-01-jan) | [本地镜像](acmnews.md)
+- [2023年2月](https://technews.acm.org/archives.cfm?d=2023-02-feb) | [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
+|[Feb. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-02-feb/feb-08-2023.html)
+|[Feb. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-02-feb/feb-06-2023.html)|[Feb. 03, 2023](https://technews.acm.org/archives.cfm?fo=2023-02-feb/feb-03-2023.html)|[Feb. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-02-feb/feb-01-2023.html)
 |[Jan. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-30-2023.html)|[Jan. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-27-2023.html)
 |[Jan. 25, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-25-2023.html)|[Jan. 23, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-23-2023.html)|[Jan. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-20-2023.html)
 |[Jan. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-18-2023.html)|[Jan. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-13-2023.html)|[Jan. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-01-jan/jan-11-2023.html)

@@ -2,11 +2,11 @@
 >几百种linux发行版的详细介绍和官网链接，镜像下载等。    
 > 珍爱生命，拥抱开源~_~  
 > 
-D:\prg\Anaconda3\python.exe D:/yiliyas/mygit/sync-opentoolkits.py
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
 Releases... 
--  2021-06-23: Distribution Release: Android-x86 8.1-r6
+- 
+ 2021-06-23: Distribution Release: Android-x86 8.1-r6
 -  2020-02-27: Distribution Release: Android-x86 9.0-r1
 -  2017-04-25: Distribution Release: Android-x86 6.0-r3
 -  2016-09-17: Distribution Release: Android-x86 6.0-r1
@@ -85,6 +85,7 @@ Headlines...
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases... 
+-  2023-02-08: Development Release: deepin 23 Alpha 2
 -  2022-12-08: Distribution Release: deepin 20.8
 -  2022-11-10: Development Release: deepin 23 Alpha
 -  2022-08-16: Development Release: deepin 23 Preview
@@ -96,7 +97,6 @@ Releases...
 -  2020-12-30: Distribution Release: deepin 20.1
 -  2020-09-11: Distribution Release: deepin 20
 -  2020-04-15: Development Release: deepin 20 Beta
--  2019-07-19: Distribution Release: deepin 15.11
 -      
 Headlines... 
 -  2022-08-16 >deepin becomes independent
@@ -120,6 +120,7 @@ Releases...
 -  2020-03-17: Development Release: Fedora 32 Beta
 -      
 Headlines... 
+-  2023-02-06 >Fedora to offer unfiltered access to Flathub
 -  2023-01-17 >Fedora seeks feedback on system installer
 -  2022-12-22 >Fedora to speed up shutdown times
 -  2022-12-20 >Fedora proposes unified kernel images
@@ -129,7 +130,6 @@ Headlines...
 -  2022-11-08 >Fedora considering Phosh spin for mobile devices
 -  2022-10-28 >Fedora delayed due to OpenSSL bug
 -  2022-10-18 >Fedora to revamp live media
--  2022-09-28 >Fedora disabling patent-encumbered Mesa codecs
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -178,6 +178,7 @@ Releases...
 -  2008-04-01: Development Release: Gentoo Linux 2008.0 Beta 1
 -      
 Headlines... 
+-  2023-02-09 >Gentoo publishes overview of 2022
 -  2022-04-04 >Gentoo is making a beautiful live GUI image
 -  2022-01-04 >Gentoo takes a look back at 2021
 -  2021-07-20 >Gentoo expanding download options
@@ -187,7 +188,6 @@ Headlines...
 -  2020-05-08 >Gentoo revives Bugday
 -  2019-03-27 >Gentoo enables GNOME to run without systemd
 -  2018-07-04 >Gentoo mirror compromised
--  2017-08-19 >Gentoo phasing out hardened kernel
 -  
 
 [ghostbsd](https://distrowatch.com/table.php?distribution=ghostbsd)
@@ -340,6 +340,7 @@ Releases...
 -  2015-12-22: Distribution Release: SUSE Linux Enterprise 12 SP1
 -      
 Headlines... 
+-  2023-02-17 >SUSE beta tests Micro edition
 -  2022-01-19 >SUSE Liberty to support multiple distributions
 -  2021-03-08 >Sharing code between openSUSE and SLE
 -  2019-03-17 >SUSE becomes independent
@@ -393,6 +394,7 @@ Releases...
 -  2021-04-01: Development Release: Ubuntu 21.04 Beta
 -      
 Headlines... 
+-  2023-02-14 >Canonical publishes real-time edition of Ubuntu 22.04
 -  2023-01-20 >Ubuntu 18.04 nears its end of life
 -  2023-01-02 >Ubuntu is testing a new system installer
 -  2022-11-10 >Disabling automatic updates coming to Snap packages
@@ -402,6 +404,5 @@ Headlines...
 -  2022-08-16 >Ubuntu packages .NET
 -  2022-07-21 >Ubuntu now certified to run on Dell XPS 13
 -  2022-06-15 >Ubuntu Core 22 launches with optional real-time kernel
--  2022-05-31 >Ubuntu 21.10 nears its end of life
 -  
 

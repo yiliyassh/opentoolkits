@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[6.1.12](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.12.tar.xz)
+|Latest Release|[6.2.2](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.2.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,14 +84,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.2-rc8|2023-02-12|[tarball](https://git.kernel.org/torvalds/t/linux-6.2-rc8.tar.gz)
-|stable:|6.1.12|2023-02-14|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.12.tar.xz)
-|longterm:|5.15.94|2023-02-14|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.94.tar.xz)
-|longterm:|5.10.168|2023-02-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.168.tar.xz)
-|longterm:|5.4.231|2023-02-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.231.tar.xz)
-|longterm:|4.19.272|2023-02-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.272.tar.xz)
-|longterm:|4.14.305|2023-02-06|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.305.tar.xz)
-|linux-next:|next-20230217|2023-02-17|[browse](https://git.kernel.org/next/linux-next/h/next-20230217)
+|mainline:|6.3-rc1|2023-03-05|[tarball](https://git.kernel.org/torvalds/t/linux-6.3-rc1.tar.gz)
+|stable:|6.2.2|2023-03-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.2.tar.xz)
+|longterm:|6.1.15|2023-03-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.15.tar.xz)
+|longterm:|5.15.98|2023-03-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.98.tar.xz)
+|longterm:|5.10.172|2023-03-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.172.tar.xz)
+|longterm:|5.4.234|2023-03-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.234.tar.xz)
+|longterm:|4.19.275|2023-03-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.275.tar.xz)
+|longterm:|4.14.307|2023-02-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.307.tar.xz)
+|linux-next:|next-20230307|2023-03-07|[browse](https://git.kernel.org/next/linux-next/h/next-20230307)
 
 
 - 快速下载最新内核
@@ -103,7 +104,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Thursday 9 February 2023 13:53 GMT ](https://distrowatch.com/packages.php) 
+- [ Last Update: Tuesday 7 March 2023 05:23 GMT ](https://distrowatch.com/packages.php) 
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -115,21 +116,21 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[bash](http://www.gnu.org/software/bash/bash.html)|[5.2.15](http://ftp.gnu.org/gnu/bash/bash-5.2.15.tar.gz)|Bash: an sh-compatible command language interpreter
 |[bind](http://www.isc.org/downloads/bind/)|[9.18.12](https://ftp.isc.org/isc/bind9/9.18.12/bind-9.18.12.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.25.2](https://github.com/Kitware/CMake/releases/download/v3.25.2/cmake-3.25.2.tar.gz)|cmake: a cross-platform, open-source build system
-|[curl](https://curl.se/)|[7.88.0](https://github.com/curl/curl/releases/download/curl-7_86_0/curl-7.88.0.tar.xz)|cURL: a command line tool for transferring files with URL syntax
+|[curl](https://curl.se/)|[7.88.1](https://github.com/curl/curl/releases/download/curl-7_86_0/curl-7.88.1.tar.xz)|cURL: a command line tool for transferring files with URL syntax
 |[docker](https://www.docker.com/community-edition)|[23.0.1](https://github.com/moby/moby/archive/refs/tags/v23.0.1.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](http://eclipse.org/)|[4.26](http://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
 |[gawk](http://www.gnu.org/software/gawk/gawk.html)|[5.2.1](https://ftp.gnu.org/gnu/gawk/gawk-5.2.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](http://gcc.gnu.org/)|[12.2.0](http://ftp.gnu.org/gnu/gcc/gcc-12.2.0/gcc-12.2.0.tar.xz)|GNU GCC: the GNU compiler collection
 |[git](https://git-scm.com/)|[2.39.2](https://github.com/git/git/archive/v2.39.2.tar.gz)|Git: an open source version control system
 |[glibc](http://www.gnu.org/software/libc/libc.html)|[2.37](http://ftp.gnu.org/gnu/glibc/glibc-2.37.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
-|[grep](http://www.gnu.org/software/grep/grep.html)|[3.8](http://ftp.gnu.org/gnu/grep/grep-3.8.tar.xz)|GNU Grep: a program to search for strings inside a file
+|[grep](http://www.gnu.org/software/grep/grep.html)|[3.9](http://ftp.gnu.org/gnu/grep/grep-3.9.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](http://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
 |[httpd](http://httpd.apache.org/)|[2.4.55](https://archive.apache.org/dist/httpd/httpd-2.4.55.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
 |[iptables](http://www.netfilter.org/projects/iptables/)|[1.8.9](http://www.netfilter.org/projects/iptables/files/iptables-1.8.9.tar.bz2)|iptables: enables the creation of packet alteration and firewall rules
 |[lftp](http://lftp.yar.ru/)|[4.9.2](http://lftp.yar.ru/ftp/lftp-4.9.2.tar.xz)|LFTP: a sophisticated FTP/HTTP client, file transfer program
 |[lighttpd](http://www.lighttpd.net/)|[1.4.69](http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.69.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](http://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
-|[make](http://www.gnu.org/software/make/)|[4.4](https://ftp.gnu.org/gnu/make/make-4.4.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
+|[make](http://www.gnu.org/software/make/)|[4.4.1](https://ftp.gnu.org/gnu/make/make-4.4.1.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
 |[mariadb](https://mariadb.org/)|[10.11.2](https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.2/source/mariadb-10.11.2.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.32](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.32.tar.gz)|MySQL: an SQL database server
 |[nginx](http://nginx.org/)|[1.22.1](http://nginx.org/download/nginx-1.22.1.tar.gz)|nginx: an HTTP and reverse proxy server
@@ -145,15 +146,15 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[rsync](http://rsync.samba.org/)|[3.2.7](http://rsync.samba.org/ftp/rsync/rsync-3.2.7.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](http://www.ruby-lang.org/)|[3.2.1](https://ftp.ruby-lang.org/pub/ruby/3.1/ruby-3.2.1.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](http://www.gnu.org/software/sed/)|[4.9](https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.55.0](https://snort.org/downloads/snortplus/snort3-3.1.55.0.tar.gz)|Snort: a light-weight network intrusion detection program
-|[sqlite](http://www.sqlite.org/)|[3.40.1](https://www.sqlite.org/2022/sqlite-amalgamation-3400100.zip)|SQLite: an embeddable SQL engine in a C library
-|[squid](http://www.squid-cache.org/)|[5.7](http://www.squid-cache.org/Versions/v5/squid-5.7.tar.xz)|Squid: a full-featured web proxy cache
+|[snort](https://www.snort.org/)|[3.1.56.0](https://snort.org/downloads/snortplus/snort3-3.1.56.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[sqlite](https://www.sqlite.org/)|[3.41.0](https://github.com/sqlite/sqlite/archive/refs/tags/version-3.41.0.tar.gz)|SQLite: an embeddable SQL engine in a C library
+|[squid](http://www.squid-cache.org/)|[5.8](http://www.squid-cache.org/Versions/v5/squid-5.8.tar.xz)|Squid: a full-featured web proxy cache
 |[subversion](http://subversion.apache.org/)|[1.14.2](http://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](http://www.tcpdump.org/)|[4.99.3](http://www.tcpdump.org/release/tcpdump-4.99.3.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
 |[vim](https://www.vim.org/)|[9.0](http://ftp.vim.org/pub/vim/unix/vim-9.0.tar.bz2)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
 |[VirtualBox](https://www.virtualbox.org/)|[7.0.6](http://download.virtualbox.org/virtualbox/7.0.6/VirtualBox-7.0.6.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
-|[wireshark](https://www.wireshark.org/)|[4.0.3](https://www.wireshark.org/download/src/wireshark-4.0.3.tar.xz)|Wireshark: a network protocol analyzer
+|[wireshark](https://www.wireshark.org/)|[4.0.4](https://www.wireshark.org/download/src/wireshark-4.0.4.tar.xz)|Wireshark: a network protocol analyzer
 |[wordpress](https://wordpress.org/)|[6.1.1](https://wordpress.org/wordpress-6.1.1.tar.gz)|WordPress: publishing software for the world wide web
 
 
@@ -188,14 +189,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[Memcached](http://www.memcached.org/)|[Technical documentation](https://github.com/memcached/memcached/wiki)|2003|1.6.18, January 2023
 |[Redis](http://redis.com)|[Technical documentation](http://redis.io/documentation)|2009|7.0.0, April 2022
 |[IBM Db2 ](https://www.ibm.com/analytics/db2)|[Technical documentation](https://www.ibm.com/support/knowledgecenter/SSEPGG)|1983 |12.1, October 2016
-|[Elasticsearch](https://www.elastic.co/elasticsearch/)|[Technical documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)|2010|7.8.0, June 2020
+|[Elasticsearch](https://www.elastic.co/elasticsearch/)|[Technical documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)|2010|8.6, January 2023
 |[Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access)|[Technical documentation](https://developer.microsoft.com/en-us/access)|1992|1902 (16.0.11328.20222), March 2019
-|[SQLite](https://www.sqlite.org/)|[Technical documentation](https://www.sqlite.org/docs.html)|2000|3.40.0 (16 November 2022), November 2022
+|[SQLite](https://www.sqlite.org/)|[Technical documentation](https://www.sqlite.org/docs.html)|2000|3.41.0  (21 February 2023), February 2023
 |[Hive](https://hive.apache.org/)|[Technical documentation](https://cwiki.apache.org/confluence/display/Hive/Home)|2012|3.1.3, April 2022
 |[Hbase](http://hbase.apache.org/)|[Technical documentation](https://hbase.apache.org/book.html)|2008|2.3.4, January 2021
 |[Teradata](https://www.teradata.com/)|[Technical documentation](https://docs.teradata.com/)|1984|Teradata Vantage 1.0 MU2, January 2019
 |[Solr](https://lucene.apache.org/solr/)|[Technical documentation](https://lucene.apache.org/solr/resources.html)|2006|9.1.1, January 2023
-|[ClickHouse](https://clickhouse.tech/)|[Technical documentation](https://clickhouse.tech/docs/)|2016|v22.8.5.29-lts, September 2022
+|[ClickHouse](https://clickhouse.tech/)|[Technical documentation](https://clickhouse.tech/docs/)|2016|v23.1.3.5-stable, February 2023
 |[Greenplum](https://greenplum.org/)|[Technical documentation](http://docs.greenplum.org/)|2005|6.7.1, April 2020
 ***
 ## NoSQL数据库  |    [本地镜像](nosql.md)

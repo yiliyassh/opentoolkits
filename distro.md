@@ -5,8 +5,7 @@
 [androidx86](https://distrowatch.com/table.php?distribution=androidx86)
 ======
 Releases... 
-- 
- 2021-06-23: Distribution Release: Android-x86 8.1-r6
+-  2021-06-23: Distribution Release: Android-x86 8.1-r6
 -  2020-02-27: Distribution Release: Android-x86 9.0-r1
 -  2017-04-25: Distribution Release: Android-x86 6.0-r3
 -  2016-09-17: Distribution Release: Android-x86 6.0-r1
@@ -149,6 +148,7 @@ Releases...
 -  2021-03-20: Development Release: FreeBSD 13.0-RC3
 -      
 Headlines... 
+-  2023-03-02 >FreeBSD core utilities ported to Linux
 -  2023-01-26 >FreeBSD publishes quarterly status report
 -  2023-01-02 >History of HardenedBSD
 -  2022-10-21 >FreeBSD publishes status report
@@ -158,7 +158,6 @@ Headlines...
 -  2022-03-15 >Rebooting into a new snapshot without shutting down
 -  2022-03-11 >FreeBSD publishes status report
 -  2022-03-03 >FreeBSD 12.2 nears its end of life
--  2022-02-16 >Qubes-like isolation using FreeBSD tools
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -248,6 +247,7 @@ Headlines...
 [opensuse](https://distrowatch.com/table.php?distribution=opensuse)
 ======
 Releases... 
+-  2023-02-22: Development Release: openSUSE 15.5 Beta
 -  2022-06-08: Distribution Release: openSUSE 15.4
 -  2022-05-17: Development Release: openSUSE 15.4 RC
 -  2022-03-02: Development Release: openSUSE 15.4 Beta
@@ -259,9 +259,9 @@ Releases...
 -  2020-07-02: Distribution Release: openSUSE 15.2
 -  2020-05-30: Development Release: openSUSE 15.2 RC
 -  2019-05-22: Distribution Release: openSUSE 15.1
--  2019-02-21: Development Release: openSUSE 15.1 Beta
 -      
 Headlines... 
+-  2023-02-21 >openSUSE and SLE beta testing new updates
 -  2022-11-30 >openSUSE 15.3 Leap nears its end of life
 -  2022-11-28 >openSUSE phasing out old 64-bit x86 support
 -  2022-11-08 >openSUSE provides online manual pages
@@ -271,7 +271,6 @@ Headlines...
 -  2022-01-14 >openSUSE 15.2 releases its end of life
 -  2021-09-07 >Corruption caused by unzip on openSUSE
 -  2021-07-26 >openSUSE shutting down its community portal
--  2021-07-19 >openSUSE adjusts repositories and updates
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
@@ -355,6 +354,7 @@ Headlines...
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+-  2023-02-22: Distribution Release: TrueNAS 22.12.1 "SCALE"
 -  2022-12-15: Distribution Release: TrueNAS 22.12.0 "SCALE"
 -  2022-11-01: BSD Release: TrueNAS 13.0-U3 "CORE"
 -  2022-06-22: Distribution Release: TrueNAS 22.02.2 "SCALE"
@@ -366,7 +366,6 @@ Releases...
 -  2017-06-14: BSD Release: FreeNAS 11.0
 -  2017-05-05: Development Release: FreeNAS 11.0-RC
 -  2017-03-15: BSD Release: FreeNAS Corral
--  2016-11-24: Development Release: FreeNAS 10-BETA2
 -      
 Headlines... 
 -  2022-06-16 >TrueNAS has three editions, all tracked now on one page
@@ -380,6 +379,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2023-02-24: Distribution Release: Ubuntu 22.04.2
 -  2022-10-20: Distribution Release: Ubuntu 22.10
 -  2022-09-30: Development Release: Ubuntu 22.10 Beta
 -  2022-09-01: Distribution Release: Ubuntu 20.04.5
@@ -391,9 +391,10 @@ Releases...
 -  2021-09-17: Distribution Release: Ubuntu 18.04.6
 -  2021-08-26: Distribution Release: Ubuntu 20.04.3
 -  2021-04-22: Distribution Release: Ubuntu 21.04
--  2021-04-01: Development Release: Ubuntu 21.04 Beta
 -      
 Headlines... 
+-  2023-03-02 >Make custom ISO files with Cubic
+-  2023-02-22 >Canonical unifies community editions in shipping Snap support instead of Flatpak
 -  2023-02-14 >Canonical publishes real-time edition of Ubuntu 22.04
 -  2023-01-20 >Ubuntu 18.04 nears its end of life
 -  2023-01-02 >Ubuntu is testing a new system installer
@@ -402,7 +403,5 @@ Headlines...
 -  2022-09-13 >A new software centre for Ubuntu
 -  2022-08-24 >Mir available for Wayland implementations
 -  2022-08-16 >Ubuntu packages .NET
--  2022-07-21 >Ubuntu now certified to run on Dell XPS 13
--  2022-06-15 >Ubuntu Core 22 launches with optional real-time kernel
 -  
 

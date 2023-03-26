@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2023-03-15 >Debian has one candidate for Project Leader
 -  2023-01-23 >Debian adopting Opensnitch package
 -  2023-01-19 >Debian 12 entering freeze
 -  2022-12-17 >Debian updates Bullseye media
@@ -78,7 +79,6 @@ Headlines...
 -  2022-09-10 >Debian publishes new media for Buster and Bullseye
 -  2022-08-29 >Debian switches default Chromium search engine 
 -  2022-08-27 >Debian considers how to handle non-free firmware
--  2022-07-09 >Debian publishes 11.4 install media
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -105,6 +105,7 @@ Headlines...
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases... 
+-  2023-03-14: Development Release: Fedora 38 Beta
 -  2022-11-15: Distribution Release: Fedora 37
 -  2022-09-13: Development Release: Fedora 37 Beta
 -  2022-05-10: Distribution Release: Fedora 36
@@ -116,7 +117,6 @@ Releases...
 -  2020-10-27: Distribution Release: Fedora 33
 -  2020-09-29: Development Release: Fedora 33 Beta
 -  2020-04-28: Distribution Release: Fedora 32
--  2020-03-17: Development Release: Fedora 32 Beta
 -      
 Headlines... 
 -  2023-02-06 >Fedora to offer unfiltered access to Flathub
@@ -261,6 +261,7 @@ Releases...
 -  2019-05-22: Distribution Release: openSUSE 15.1
 -      
 Headlines... 
+-  2023-03-15 >openSUSE sees a surge in downloads
 -  2023-02-21 >openSUSE and SLE beta testing new updates
 -  2022-11-30 >openSUSE 15.3 Leap nears its end of life
 -  2022-11-28 >openSUSE phasing out old 64-bit x86 support
@@ -270,7 +271,6 @@ Headlines...
 -  2022-06-07 >openSUSE Leap may be phased out
 -  2022-01-14 >openSUSE 15.2 releases its end of life
 -  2021-09-07 >Corruption caused by unzip on openSUSE
--  2021-07-26 >openSUSE shutting down its community portal
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
@@ -379,6 +379,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2023-03-23: Distribution Release: Ubuntu 20.04.6
 -  2023-02-24: Distribution Release: Ubuntu 22.04.2
 -  2022-10-20: Distribution Release: Ubuntu 22.10
 -  2022-09-30: Development Release: Ubuntu 22.10 Beta
@@ -390,9 +391,9 @@ Releases...
 -  2021-09-24: Development Release: Ubuntu 21.10 Beta
 -  2021-09-17: Distribution Release: Ubuntu 18.04.6
 -  2021-08-26: Distribution Release: Ubuntu 20.04.3
--  2021-04-22: Distribution Release: Ubuntu 21.04
 -      
 Headlines... 
+-  2023-03-14 >Ubuntu 18.04 nears its end of life
 -  2023-03-02 >Make custom ISO files with Cubic
 -  2023-02-22 >Canonical unifies community editions in shipping Snap support instead of Flatpak
 -  2023-02-14 >Canonical publishes real-time edition of Ubuntu 22.04
@@ -402,6 +403,5 @@ Headlines...
 -  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
 -  2022-09-13 >A new software centre for Ubuntu
 -  2022-08-24 >Mir available for Wayland implementations
--  2022-08-16 >Ubuntu packages .NET
 -  
 

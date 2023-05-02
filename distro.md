@@ -17,7 +17,7 @@ Releases...
 -  2015-01-01: Distribution Release: Android-x86 4.4-r2
 -  2014-08-09: Distribution Release: Android-x86 4.4
 -  2014-05-21: Development Release: Android-x86 4.4 RC2
--  
+-      
 Headlines... 
 -  2021-09-23 >Android applications running on GNU/Linux
 -  2016-05-26 >Oracle vs Google case concludes
@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2023-04-24 >Jonathan Carter wins Debian Project Leader election
 -  2023-03-15 >Debian has one candidate for Project Leader
 -  2023-01-23 >Debian adopting Opensnitch package
 -  2023-01-19 >Debian 12 entering freeze
@@ -78,12 +79,12 @@ Headlines...
 -  2022-10-02 >Debian votes on non-free firmware on install media
 -  2022-09-10 >Debian publishes new media for Buster and Bullseye
 -  2022-08-29 >Debian switches default Chromium search engine 
--  2022-08-27 >Debian considers how to handle non-free firmware
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases... 
+-  2023-04-18: Distribution Release: deepin 20.9
 -  2023-02-08: Development Release: deepin 23 Alpha 2
 -  2022-12-08: Distribution Release: deepin 20.8
 -  2022-11-10: Development Release: deepin 23 Alpha
@@ -95,7 +96,6 @@ Releases...
 -  2021-03-31: Distribution Release: deepin 20.2
 -  2020-12-30: Distribution Release: deepin 20.1
 -  2020-09-11: Distribution Release: deepin 20
--  2020-04-15: Development Release: deepin 20 Beta
 -      
 Headlines... 
 -  2022-08-16 >deepin becomes independent
@@ -105,6 +105,7 @@ Headlines...
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases... 
+-  2023-04-18: Distribution Release: Fedora 38
 -  2023-03-14: Development Release: Fedora 38 Beta
 -  2022-11-15: Distribution Release: Fedora 37
 -  2022-09-13: Development Release: Fedora 37 Beta
@@ -116,9 +117,9 @@ Releases...
 -  2021-03-23: Development Release: Fedora 34 Beta
 -  2020-10-27: Distribution Release: Fedora 33
 -  2020-09-29: Development Release: Fedora 33 Beta
--  2020-04-28: Distribution Release: Fedora 32
 -      
 Headlines... 
+-  2023-05-01 >Introducing Fedora Onyx
 -  2023-04-04 >Fedora plans to provide more encryption by default
 -  2023-02-06 >Fedora to offer unfiltered access to Flathub
 -  2023-01-17 >Fedora seeks feedback on system installer
@@ -128,7 +129,6 @@ Headlines...
 -  2022-12-07 >Fedora 35 nearing its end of life
 -  2022-11-22 >Fedora testing web-based installer
 -  2022-11-08 >Fedora considering Phosh spin for mobile devices
--  2022-10-28 >Fedora delayed due to OpenSSL bug
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -148,6 +148,7 @@ Releases...
 -  2021-03-30: Development Release: FreeBSD 13.0-RC4
 -      
 Headlines... 
+-  2023-04-19 >FreeBSD publishes quarterly update
 -  2023-03-02 >FreeBSD core utilities ported to Linux
 -  2023-01-26 >FreeBSD publishes quarterly status report
 -  2023-01-02 >History of HardenedBSD
@@ -157,7 +158,6 @@ Headlines...
 -  2022-03-30 >Sandboxing software running on FreeBSD
 -  2022-03-15 >Rebooting into a new snapshot without shutting down
 -  2022-03-11 >FreeBSD publishes status report
--  2022-03-03 >FreeBSD 12.2 nears its end of life
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -290,7 +290,7 @@ Releases...
 -  2019-05-02: Development Release: Oracle Linux 8 Beta
 -      
 Headlines... 
--  2021-04-06 >Oracle loses API lawsuit against Google
+- 2021-04-06 >Oracle loses API lawsuit against Google
 -  
 
 [redhat](https://distrowatch.com/table.php?distribution=redhat)
@@ -379,6 +379,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2023-04-20: Distribution Release: Ubuntu 23.04
 -  2023-03-23: Distribution Release: Ubuntu 20.04.6
 -  2023-02-24: Distribution Release: Ubuntu 22.04.2
 -  2022-10-20: Distribution Release: Ubuntu 22.10
@@ -390,9 +391,9 @@ Releases...
 -  2021-10-14: Distribution Release: Ubuntu 21.10
 -  2021-09-24: Development Release: Ubuntu 21.10 Beta
 -  2021-09-17: Distribution Release: Ubuntu 18.04.6
--  2021-08-26: Distribution Release: Ubuntu 20.04.3
 -      
 Headlines... 
+-  2023-04-18 >Canonical improves Snap loading times via squashfs handling
 -  2023-04-14 >Ubuntu to offer live patching on HWE kernels
 -  2023-03-14 >Ubuntu 18.04 nears its end of life
 -  2023-03-02 >Make custom ISO files with Cubic
@@ -402,6 +403,5 @@ Headlines...
 -  2023-01-02 >Ubuntu is testing a new system installer
 -  2022-11-10 >Disabling automatic updates coming to Snap packages
 -  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
--  2022-09-13 >A new software centre for Ubuntu
 -  
 

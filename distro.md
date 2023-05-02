@@ -17,7 +17,7 @@ Releases...
 -  2015-01-01: Distribution Release: Android-x86 4.4-r2
 -  2014-08-09: Distribution Release: Android-x86 4.4
 -  2014-05-21: Development Release: Android-x86 4.4 RC2
--      
+-  
 Headlines... 
 -  2021-09-23 >Android applications running on GNU/Linux
 -  2016-05-26 >Oracle vs Google case concludes
@@ -119,6 +119,7 @@ Releases...
 -  2020-04-28: Distribution Release: Fedora 32
 -      
 Headlines... 
+-  2023-04-04 >Fedora plans to provide more encryption by default
 -  2023-02-06 >Fedora to offer unfiltered access to Flathub
 -  2023-01-17 >Fedora seeks feedback on system installer
 -  2022-12-22 >Fedora to speed up shutdown times
@@ -128,12 +129,12 @@ Headlines...
 -  2022-11-22 >Fedora testing web-based installer
 -  2022-11-08 >Fedora considering Phosh spin for mobile devices
 -  2022-10-28 >Fedora delayed due to OpenSSL bug
--  2022-10-18 >Fedora to revamp live media
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
 ======
 Releases... 
+-  2023-04-11: BSD Release: FreeBSD 13.2
 -  2022-12-06: BSD Release: FreeBSD 12.4
 -  2022-11-12: Development Release: FreeBSD 12.4-RC2
 -  2022-11-05: Development Release: FreeBSD 12.4-RC1
@@ -145,7 +146,6 @@ Releases...
 -  2021-12-08: BSD Release: FreeBSD 12.3
 -  2021-04-13: BSD Release: FreeBSD 13.0
 -  2021-03-30: Development Release: FreeBSD 13.0-RC4
--  2021-03-20: Development Release: FreeBSD 13.0-RC3
 -      
 Headlines... 
 -  2023-03-02 >FreeBSD core utilities ported to Linux
@@ -218,6 +218,7 @@ Headlines...
 [openbsd](https://distrowatch.com/table.php?distribution=openbsd)
 ======
 Releases... 
+-  2023-04-10: BSD Release: OpenBSD 7.3
 -  2022-10-20: BSD Release: OpenBSD 7.2
 -  2022-04-21: BSD Release: OpenBSD 7.1
 -  2021-10-14: BSD Release: OpenBSD 7.0
@@ -229,7 +230,6 @@ Releases...
 -  2018-10-18: BSD Release: OpenBSD 6.4
 -  2018-04-02: BSD Release: OpenBSD 6.3
 -  2017-10-09: BSD Release: OpenBSD 6.2
--  2017-04-11: BSD Release: OpenBSD 6.1
 -      
 Headlines... 
 -  2023-01-02 >Porting KDE Plasma components to OpenBSD
@@ -354,6 +354,7 @@ Headlines...
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+-  2023-04-12: Distribution Release: TrueNAS 22.12.2 "SCALE"
 -  2023-02-22: Distribution Release: TrueNAS 22.12.1 "SCALE"
 -  2022-12-15: Distribution Release: TrueNAS 22.12.0 "SCALE"
 -  2022-11-01: BSD Release: TrueNAS 13.0-U3 "CORE"
@@ -365,7 +366,6 @@ Releases...
 -  2017-12-14: BSD Release: FreeNAS 11.1
 -  2017-06-14: BSD Release: FreeNAS 11.0
 -  2017-05-05: Development Release: FreeNAS 11.0-RC
--  2017-03-15: BSD Release: FreeNAS Corral
 -      
 Headlines... 
 -  2022-06-16 >TrueNAS has three editions, all tracked now on one page
@@ -393,6 +393,7 @@ Releases...
 -  2021-08-26: Distribution Release: Ubuntu 20.04.3
 -      
 Headlines... 
+-  2023-04-14 >Ubuntu to offer live patching on HWE kernels
 -  2023-03-14 >Ubuntu 18.04 nears its end of life
 -  2023-03-02 >Make custom ISO files with Cubic
 -  2023-02-22 >Canonical unifies community editions in shipping Snap support instead of Flatpak
@@ -402,6 +403,5 @@ Headlines...
 -  2022-11-10 >Disabling automatic updates coming to Snap packages
 -  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
 -  2022-09-13 >A new software centre for Ubuntu
--  2022-08-24 >Mir available for Wayland implementations
 -  
 

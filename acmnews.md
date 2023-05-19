@@ -1,9 +1,12 @@
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周  **一、三、五**  发布   |  [返回](README.md)
-- [2023年3月](https://technews.acm.org/archives.cfm?d=2023-03-mar) | [本地镜像](acmnews.md)
+- [2023年5月](https://technews.acm.org/archives.cfm?d=2023-05-may) | [本地镜像](acmnews.md)
 
 |= |= |= 
 |:----|:----|:----|
+|[May. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-15-2023.html)
+|[May. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-12-2023.html)|[May. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-10-2023.html)|[May. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-08-2023.html)
+|[May. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-05-2023.html)|[May. 03, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-03-2023.html)|[May. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-01-2023.html)
 |[Apr. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-28-2023.html)|[Apr. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-26-2023.html)|[Apr. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-24-2023.html)
 |[Apr. 21, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-21-2023.html)|[Apr. 19, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-19-2023.html)|[Apr. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-17-2023.html)
 |[Apr. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-14-2023.html)|[Apr. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-12-2023.html)|[Apr. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-10-2023.html)

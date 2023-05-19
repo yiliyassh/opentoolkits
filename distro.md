@@ -69,6 +69,7 @@ Releases...
 -  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2023-05-16 >Debian team tests the system installer
 -  2023-04-24 >Jonathan Carter wins Debian Project Leader election
 -  2023-03-15 >Debian has one candidate for Project Leader
 -  2023-01-23 >Debian adopting Opensnitch package
@@ -78,12 +79,12 @@ Headlines...
 -  2022-10-13 >Debian prepares for Bookworm freeze
 -  2022-10-02 >Debian votes on non-free firmware on install media
 -  2022-09-10 >Debian publishes new media for Buster and Bullseye
--  2022-08-29 >Debian switches default Chromium search engine 
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases... 
+-  2023-05-17: Development Release: deepin 23 Beta
 -  2023-04-18: Distribution Release: deepin 20.9
 -  2023-02-08: Development Release: deepin 23 Alpha 2
 -  2022-12-08: Distribution Release: deepin 20.8
@@ -95,7 +96,6 @@ Releases...
 -  2021-11-25: Distribution Release: deepin 20.3
 -  2021-03-31: Distribution Release: deepin 20.2
 -  2020-12-30: Distribution Release: deepin 20.1
--  2020-09-11: Distribution Release: deepin 20
 -      
 Headlines... 
 -  2022-08-16 >deepin becomes independent
@@ -119,6 +119,7 @@ Releases...
 -  2020-09-29: Development Release: Fedora 33 Beta
 -      
 Headlines... 
+-  2023-05-12 >Fedora 36 nears its end of life
 -  2023-05-01 >Introducing Fedora Onyx
 -  2023-04-04 >Fedora plans to provide more encryption by default
 -  2023-02-06 >Fedora to offer unfiltered access to Flathub
@@ -128,7 +129,6 @@ Headlines...
 -  2022-12-12 >Fedora to get Budgie spin
 -  2022-12-07 >Fedora 35 nearing its end of life
 -  2022-11-22 >Fedora testing web-based installer
--  2022-11-08 >Fedora considering Phosh spin for mobile devices
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -290,12 +290,13 @@ Releases...
 -  2019-05-02: Development Release: Oracle Linux 8 Beta
 -      
 Headlines... 
-- 2021-04-06 >Oracle loses API lawsuit against Google
+-  2021-04-06 >Oracle loses API lawsuit against Google
 -  
 
 [redhat](https://distrowatch.com/table.php?distribution=redhat)
 ======
 Releases... 
+-  2023-05-11: Distribution Release: Red Hat Enterprise Linux 9.2
 -  2022-11-17: Distribution Release: Red Hat Enterprise Linux 9.1
 -  2022-11-13: Distribution Release: Red Hat Enterprise Linux 8.7
 -  2022-05-18: Distribution Release: Red Hat Enterprise Linux 9.0
@@ -307,7 +308,6 @@ Releases...
 -  2021-03-31: Development Release: Red Hat Enterprise Linux 8.4 Beta
 -  2020-07-28: Development Release: Red Hat Enterprise Linux 8.3 Beta
 -  2020-04-29: Distribution Release: Red Hat Enterprise Linux 8.2
--  2020-04-02: Distribution Release: Red Hat Enterprise Linux 7.8
 -      
 Headlines... 
 -  2022-01-19 >Red Hat provides live kernel patching through Web Console
@@ -403,5 +403,5 @@ Headlines...
 -  2023-01-02 >Ubuntu is testing a new system installer
 -  2022-11-10 >Disabling automatic updates coming to Snap packages
 -  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
--  
+-   
 

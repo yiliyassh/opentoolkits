@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location
 |:----|:----|
-|Latest Release|[6.3.1](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.1.tar.xz)
+|Latest Release|[6.3.2](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.2.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -84,16 +84,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接
 |:----|:----|:----|:----|
-|mainline:|6.3|2023-04-23|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.tar.xz)
-|stable:|6.3.1|2023-04-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.1.tar.xz)
-|stable:|6.2.14|2023-04-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.14.tar.xz)
-|longterm:|6.1.27|2023-04-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.27.tar.xz)
-|longterm:|5.15.110|2023-04-30|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.110.tar.xz)
+|mainline:|6.4-rc2|2023-05-14|[tarball](https://git.kernel.org/torvalds/t/linux-6.4-rc2.tar.gz)
+|stable:|6.3.2|2023-05-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.2.tar.xz)
+|stable:|6.2.15|2023-05-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.15.tar.xz)
+|longterm:|6.1.28|2023-05-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.28.tar.xz)
+|longterm:|5.15.111|2023-05-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.111.tar.xz)
 |longterm:|5.10.179|2023-04-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.179.tar.xz)
 |longterm:|5.4.242|2023-04-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.242.tar.xz)
 |longterm:|4.19.282|2023-04-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.282.tar.xz)
 |longterm:|4.14.314|2023-04-26|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.314.tar.xz)
-|linux-next:|next-20230428|2023-04-28|[browse](https://git.kernel.org/next/linux-next/h/next-20230428)
+|linux-next:|next-20230517|2023-05-17|[browse](https://git.kernel.org/next/linux-next/h/next-20230517)
 
 
 - 快速下载最新内核
@@ -105,7 +105,7 @@ cat index.html |grep tar.xz|awk -F '"' '{print $2}'|uniq|xargs wget -c
 
 ##  应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 - [本地镜像](./packages.md)
-- [ Last Update: Tuesday 2 May 2023 10:08 GMT ](https://distrowatch.com/packages.php) 
+- [ Last Update: Wednesday 17 May 2023 08:23 GMT ](https://distrowatch.com/packages.php) 
 - 快速下载
 >wget -c --no-check-certificate https://distrowatch.com/packages.php    
 cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget -c --no-check-certificate --tries=5 
@@ -118,37 +118,37 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[bind](https://www.isc.org/downloads/bind/)|[9.18.14](https://ftp.isc.org/isc/bind9/9.18.14/bind-9.18.14.tar.xz)|ISC BIND: an implementation of the Domain Name System (DNS) protocols
 |[cmake](https://cmake.org/)|[3.26.3](https://github.com/Kitware/CMake/releases/download/v3.26.3/cmake-3.26.3.tar.gz)|cmake: a cross-platform, open-source build system
 |[curl](https://curl.se/)|[8.0.1](https://github.com/curl/curl/releases/download/curl-8_0_1/curl-8.0.1.tar.xz)|cURL: a command line tool for transferring files with URL syntax
-|[docker](https://www.docker.com/community-edition)|[23.0.5](https://github.com/moby/moby/archive/refs/tags/v23.0.5.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
+|[docker](https://www.docker.com/community-edition)|[24.0.0](https://github.com/moby/moby/archive/refs/tags/v24.0.0.tar.gz)|Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"
 |[eclipse](https://eclipse.org/)|[4.27](https://download.eclipse.org/eclipse/downloads/)|Eclipse: a universal tool platform and IDE
-|[gawk](https://www.gnu.org/software/gawk/gawk.html)|[5.2.1](https://ftp.gnu.org/gnu/gawk/gawk-5.2.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
+|[gawk](https://www.gnu.org/software/gawk/gawk.html)|[5.2.2](https://ftp.gnu.org/gnu/gawk/gawk-5.2.2.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gcc](https://gcc.gnu.org/)|[13.1.0](https://ftp.gnu.org/gnu/gcc/gcc-13.1.0/gcc-13.1.0.tar.xz)|GNU GCC: the GNU compiler collection
 |[git](https://git-scm.com/)|[2.40.1](https://github.com/git/git/archive/v2.40.1.tar.gz)|Git: an open source version control system
 |[glibc](https://www.gnu.org/software/libc/libc.html)|[2.37](https://ftp.gnu.org/gnu/glibc/glibc-2.37.tar.xz)|glibc: a C library for use with GNU/Hurd and GNU/Linux
-|[grep](https://www.gnu.org/software/grep/grep.html)|[3.10](https://ftp.gnu.org/gnu/grep/grep-3.10.tar.xz)|GNU Grep: a program to search for strings inside a file
+|[grep](https://www.gnu.org/software/grep/grep.html)|[3.11](https://ftp.gnu.org/gnu/grep/grep-3.11.tar.xz)|GNU Grep: a program to search for strings inside a file
 |[gzip](https://www.gnu.org/software/gzip/gzip.html)|[1.12](https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz)|gzip: a compression utility designed to replace compress
 |[httpd](https://httpd.apache.org/)|[2.4.57](https://archive.apache.org/dist/httpd/httpd-2.4.57.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
 |[iptables](https://www.netfilter.org/projects/iptables/)|[1.8.9](https://www.netfilter.org/projects/iptables/files/iptables-1.8.9.tar.bz2)|iptables: enables the creation of packet alteration and firewall rules
 |[lftp](https://lftp.yar.ru/)|[4.9.2](https://lftp.yar.ru/ftp/lftp-4.9.2.tar.xz)|LFTP: a sophisticated FTP/HTTP client, file transfer program
-|[lighttpd](https://www.lighttpd.net/)|[1.4.69](https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.69.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
+|[lighttpd](https://www.lighttpd.net/)|[1.4.70](https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.70.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](https://lynx.browser.org/)|[2.8.9](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2)|Lynx: a text browser for the web
 |[make](https://www.gnu.org/software/make/)|[4.4.1](https://ftp.gnu.org/gnu/make/make-4.4.1.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
-|[mariadb](https://mariadb.org/)|[10.11.2](https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.2/source/mariadb-10.11.2.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
+|[mariadb](https://mariadb.org/)|[10.11.3](https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.3/source/mariadb-10.11.3.tar.gz)|MariaDB: a robust SQL server, a fork of MySQL
 |[mysql](https://dev.mysql.com/downloads/mysql/)|[8.0.33](https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.33.tar.gz)|MySQL: an SQL database server
 |[nginx](https://nginx.org/)|[1.24.0](https://nginx.org/download/nginx-1.24.0.tar.gz)|nginx: an HTTP and reverse proxy server
 |[nmap](https://www.insecure.org/nmap/)|[7.93](https://download.insecure.org/nmap/dist/nmap-7.93.tgz)|Nmap: a utility for network exploration or security auditing
 |[NVIDIA](https://www.nvidia.com/object/unix.html)|[530.41.03](https://us.download.nvidia.com/XFree86/Linux-x86_64/530.41.03/NVIDIA-Linux-x86_64-530.41.03.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
 |[openssh](https://www.openssh.com/portable.html)|[9.3p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.3p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
 |[perl](https://www.perl.org)|[5.36.1](https://www.cpan.org/src/5.0/perl-5.36.1.tar.gz)|Perl: Larry Wall's Practical Extraction and Reporting Language
-|[php](https://www.php.net/)|[8.2.5](https://www.php.net/distributions/php-8.2.5.tar.xz)|PHP: a server-side HTML embedded scripting language
+|[php](https://www.php.net/)|[8.2.6](https://www.php.net/distributions/php-8.2.6.tar.xz)|PHP: a server-side HTML embedded scripting language
 |[phpMyAdmin](https://www.phpmyadmin.net/)|[5.2.1](https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip)|phpMyAdmin: a tool written in PHP intended to handle the administration of MySQL over the web
-|[postgresql](https://www.postgresql.org/)|[15.2](https://ftp.postgresql.org/pub/source/v15.2/postgresql-15.2.tar.bz2)|PostgreSQL: a relational database management system
+|[postgresql](https://www.postgresql.org/)|[15.3](https://ftp.postgresql.org/pub/source/v15.3/postgresql-15.3.tar.bz2)|PostgreSQL: a relational database management system
 |[Python](https://www.python.org/)|[3.11.3](https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz)|Python: an interpreted, interactive, object-oriented programming language
 |[qt](https://www.qt.io/)|[6.5.0](https://download.qt-project.org/official_releases/qt/6.5/6.5.0/single/qt-everywhere-src-6.5.0.tar.xz)|Qt: a C++ application framework for writing graphical applications
 |[rsync](https://rsync.samba.org/)|[3.2.7](https://rsync.samba.org/ftp/rsync/rsync-3.2.7.tar.gz)|rsync: an open source utility that provides fast, incremental file transfer
 |[ruby](https://www.ruby-lang.org/)|[3.2.2](https://ftp.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
 |[sed](https://www.gnu.org/software/sed/)|[4.9](https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz)|GNU sed: a stream-oriented non-interactive text editor
-|[snort](https://www.snort.org/)|[3.1.60.0](https://snort.org/downloads/snortplus/snort3-3.1.60.0.tar.gz)|Snort: a light-weight network intrusion detection program
-|[sqlite](https://www.sqlite.org/)|[3.41.2](https://github.com/sqlite/sqlite/archive/refs/tags/version-3.41.2.tar.gz)|SQLite: an embeddable SQL engine in a C library
+|[snort](https://www.snort.org/)|[3.1.61.0](https://snort.org/downloads/snortplus/snort3-3.1.61.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[sqlite](https://www.sqlite.org/)|[3.42.0](https://github.com/sqlite/sqlite/archive/refs/tags/version-3.42.0.tar.gz)|SQLite: an embeddable SQL engine in a C library
 |[squid](http://www.squid-cache.org/)|[5.9](http://www.squid-cache.org/Versions/v5/squid-5.9.tar.gz)|Squid: a full-featured web proxy cache
 |[subversion](https://subversion.apache.org/)|[1.14.2](https://www.apache.org/dist/subversion/subversion-1.14.2.tar.bz2)|Subversion: a version control system
 |[tcpdump](https://www.tcpdump.org/)|[4.99.4](https://www.tcpdump.org/release/tcpdump-4.99.4.tar.gz)|TCPDUMP: a command-line packet sniffer and network debugging tool
@@ -156,7 +156,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |[VirtualBox](https://www.virtualbox.org/)|[7.0.8](https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8.tar.bz2)|VirtualBox: a family of x86 virtualisation products for enterprise and home use
 |[wget](https://www.gnu.org/software/wget/)|[2.0.1](https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz)|wget: retrieves files from web and FTP sites
 |[wireshark](https://www.wireshark.org/)|[4.0.5](https://www.wireshark.org/download/src/wireshark-4.0.5.tar.xz)|Wireshark: a network protocol analyzer
-|[wordpress](https://wordpress.org/)|[6.2](https://wordpress.org/wordpress-6.2.tar.gz)|WordPress: publishing software for the world wide web
+|[wordpress](https://wordpress.org/)|[6.2.1](https://wordpress.org/wordpress-6.2.1.tar.gz)|WordPress: publishing software for the world wide web
 
 
 ***
@@ -245,20 +245,20 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 ***
 ## PYPL 排行榜
-**Worldwide, Jan 2023 compared to a year ago:**   |  [本地镜像](pypl.md)
+**Worldwide, May 2023 compared to a year ago:**   |  [本地镜像](pypl.md)
 
-|Rank|[**Language**](https://pypl.github.io/PYPL.html)|占比%|[**Database**](https://pypl.github.io/DB.html)|占比%|[**IDE**](https://pypl.github.io/IDE.html)|占比%|[**ODE**](https://pypl.github.io/ODE.html)|占比%|
-|:----|:----|:----|:----|:----|:----|:----|:----|:----|
-|1|Python|28.34%|Oracle|27.13%|Visual Studio|28.01%|JSFiddle|26.15%
-|2|Java|16.93%|MySQL|19.17%|Visual Studio Code|13.62%|Koding|14.41%
-|3|JavaScript|9.28%|SQL Server|12.36%|Eclipse|12.39%|Codio|11.78%
-|4|C#|6.89%|PostgreSQL|6.31%|Android Studio|8.65%|DartPad|10.38%
-|5|C/C++|6.64%|Microsoft Access|6.09%|pyCharm|8.45%|PythonAnywhere|9.84%
-|6|PHP|5.19%|MongoDB|5.85%|IntelliJ|7.12%|Ideone|7.60%
-|7|R|3.98%|Firebase|4.70%|NetBeans|4.67%|Repl.it|7.21%
-|8|TypeScript|2.79%|Redis|3.03%|Sublime Text|3.76%|Cloud9 AWS|5.32%
-|9|Swift|2.23%|Splunk|2.48%|Xcode|3.01%|Goorm|2.24%
-|10|Objective-C|2.22%|Elasticsearch|2.34%|RStudio|2.84%|Codeanywhere|1.45%
+|Rank|[**Language**](https://pypl.github.io/PYPL.html)| 占比%    |[**Database**](https://pypl.github.io/DB.html)| 占比%     |[**IDE**](https://pypl.github.io/IDE.html)| 占比%     |[**ODE**](https://pypl.github.io/ODE.html)|占比%|
+|:----|:----|:-------|:----|:--------|:----|:--------|:----|:----|
+|1|Python| 27.27% |Oracle| 26.47%  |Visual Studio| 27.94%  |JSFiddle|26.08%
+|2|Java| 16.35% |MySQL| 19.10%  |Visual Studio Code| 13.59%  |PythonAnywhere|14.11%
+|3|JavaScript| 9.52%  |SQL Server| 12.25%  |Eclipse| 11.73%  |Koding|13.11%
+|4|C#| 6.92%  |PostgreSQL| 6.64%   |pyCharm| 8.92%   |Codio|11.50%
+|5|C/C++| 6.55%  |Microsoft Access| 6.62%   |Android Studio| 8.91%   |DartPad|11.24%
+|6|PHP| 5.1%   |MongoDB| 6.08%   |IntelliJ| 6.83%   |Ideone|6.30%
+|7|R| 4.34%  |Firebase| 4.73%   |NetBeans| 4.43%   |Repl.it|6.19%
+|8|TypeScript| 2.88%  |Redis| 3.06%   |RStudio| 3.53%   |Cloud9 AWS|4.68%
+|9|Swift| 2.3%   |Splunk| 2.43%   |Atom| 3.31%   |Codeanywhere|1.83%
+|10|Objective-C| 2.13% |Elasticsearch| 2.18% |Sublime Text| 3.23% |Goorm|1.58%
 ***
 ## Apache开源项目   |  [本地镜像](apache.md)
 ### [开源项目列表](https://projects.apache.org/)
@@ -273,10 +273,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2023年2月](https://technews.acm.org/archives.cfm?d=2023-02-feb) | [本地镜像](acmnews.md)
+- [2023年5月](https://technews.acm.org/archives.cfm?d=2023-05-may) | [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
+[May. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-15-2023.html)
+|[May. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-12-2023.html)|[May. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-10-2023.html)|[May. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-08-2023.html)
+|[May. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-05-2023.html)|[May. 03, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-03-2023.html)|[May. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-01-2023.html)
 |[Apr. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-28-2023.html)|[Apr. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-26-2023.html)|[Apr. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-24-2023.html)
 |[Apr. 21, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-21-2023.html)|[Apr. 19, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-19-2023.html)|[Apr. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-17-2023.html)
 |[Apr. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-14-2023.html)|[Apr. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-12-2023.html)|[Apr. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-10-2023.html)

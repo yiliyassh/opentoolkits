@@ -4,7 +4,8 @@
 
 |= |= |= 
 |:----|:----|:----|
-|[May. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-15-2023.html)
+|[May. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-26-2023.html)|[May. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-24-2023.html)|[May. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-22-2023.html)
+|[May. 19, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-19-2023.html)|[May. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-17-2023.html)|[May. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-15-2023.html)
 |[May. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-12-2023.html)|[May. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-10-2023.html)|[May. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-08-2023.html)
 |[May. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-05-2023.html)|[May. 03, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-03-2023.html)|[May. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-01-2023.html)
 |[Apr. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-28-2023.html)|[Apr. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-26-2023.html)|[Apr. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-24-2023.html)

@@ -55,6 +55,7 @@ Headlines...
 [debian](https://distrowatch.com/table.php?distribution=debian)
 ======
 Releases... 
+-  2023-06-10: Distribution Release: Debian 12
 -  2021-08-14: Distribution Release: Debian 11
 -  2019-07-07: Distribution Release: Debian 10
 -  2017-06-18: Distribution Release: Debian 9
@@ -66,9 +67,9 @@ Releases...
 -  2008-11-13: Development Release: Debian GNU/Linux 5.0 RC1
 -  2008-10-24: Distribution Release: Debian GNU/Linux 4.0r5
 -  2008-08-27: Development Release: Debian Live 5.0 Beta 1
--  2008-07-27: Distribution Release: Debian GNU/Linux 4.0r4
 -      
 Headlines... 
+-  2023-06-13 >Debian GNU/Hurd project publishes update
 -  2023-05-16 >Debian team tests the system installer
 -  2023-04-24 >Jonathan Carter wins Debian Project Leader election
 -  2023-03-15 >Debian has one candidate for Project Leader
@@ -78,7 +79,6 @@ Headlines...
 -  2022-11-22 >Testing and Unstable users may find Anacron disabled
 -  2022-10-13 >Debian prepares for Bookworm freeze
 -  2022-10-02 >Debian votes on non-free firmware on install media
--  2022-09-10 >Debian publishes new media for Buster and Bullseye
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -148,6 +148,7 @@ Releases...
 -  2021-03-30: Development Release: FreeBSD 13.0-RC4
 -      
 Headlines... 
+-  2023-06-17 >FreeBSD turns 30 years old
 -  2023-04-19 >FreeBSD publishes quarterly update
 -  2023-03-02 >FreeBSD core utilities ported to Linux
 -  2023-01-26 >FreeBSD publishes quarterly status report
@@ -157,7 +158,6 @@ Headlines...
 -  2022-06-13 >FreeBSD publishes status report
 -  2022-03-30 >Sandboxing software running on FreeBSD
 -  2022-03-15 >Rebooting into a new snapshot without shutting down
--  2022-03-11 >FreeBSD publishes status report
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -177,6 +177,7 @@ Releases...
 -  2008-04-01: Development Release: Gentoo Linux 2008.0 Beta 1
 -      
 Headlines... 
+-  2023-05-20 >20 years of running Gentoo
 -  2023-02-09 >Gentoo publishes overview of 2022
 -  2022-04-04 >Gentoo is making a beautiful live GUI image
 -  2022-01-04 >Gentoo takes a look back at 2021
@@ -186,7 +187,6 @@ Headlines...
 -  2020-09-07 >Portage upgraded with speed improvement
 -  2020-05-08 >Gentoo revives Bugday
 -  2019-03-27 >Gentoo enables GNOME to run without systemd
--  2018-07-04 >Gentoo mirror compromised
 -  
 
 [ghostbsd](https://distrowatch.com/table.php?distribution=ghostbsd)
@@ -247,6 +247,7 @@ Headlines...
 [opensuse](https://distrowatch.com/table.php?distribution=opensuse)
 ======
 Releases... 
+-  2023-06-07: Distribution Release: openSUSE 15.5
 -  2023-02-22: Development Release: openSUSE 15.5 Beta
 -  2022-06-08: Distribution Release: openSUSE 15.4
 -  2022-05-17: Development Release: openSUSE 15.4 RC
@@ -258,9 +259,9 @@ Releases...
 -  2020-12-16: Development Release: openSUSE 15.3 Alpha
 -  2020-07-02: Distribution Release: openSUSE 15.2
 -  2020-05-30: Development Release: openSUSE 15.2 RC
--  2019-05-22: Distribution Release: openSUSE 15.1
 -      
 Headlines... 
+-  2023-06-06 >openSUSE plans for version 15.6 Leap
 -  2023-03-15 >openSUSE sees a surge in downloads
 -  2023-02-21 >openSUSE and SLE beta testing new updates
 -  2022-11-30 >openSUSE 15.3 Leap nears its end of life
@@ -270,12 +271,12 @@ Headlines...
 -  2022-06-28 >openSUSE seeks feedback
 -  2022-06-07 >openSUSE Leap may be phased out
 -  2022-01-14 >openSUSE 15.2 releases its end of life
--  2021-09-07 >Corruption caused by unzip on openSUSE
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
 ======
 Releases... 
+-  2023-05-26: Distribution Release: Oracle Linux 9.2
 -  2022-11-30: Distribution Release: Oracle Linux 9.1
 -  2022-11-21: Distribution Release: Oracle Linux 8.7
 -  2022-07-06: Distribution Release: Oracle Linux 9.0
@@ -287,7 +288,6 @@ Releases...
 -  2020-06-21: Distribution Release: Oracle Linux 8.2
 -  2019-11-17: Distribution Release: Oracle Linux 8.1
 -  2019-07-19: Distribution Release: Oracle Linux 8.0
--  2019-05-02: Development Release: Oracle Linux 8 Beta
 -      
 Headlines... 
 -  2021-04-06 >Oracle loses API lawsuit against Google
@@ -310,6 +310,7 @@ Releases...
 -  2020-04-29: Distribution Release: Red Hat Enterprise Linux 8.2
 -      
 Headlines... 
+-  2023-06-02 >Red Hat phasing out LibreOffice packages
 -  2022-01-19 >Red Hat provides live kernel patching through Web Console
 -  2021-09-10 >Interview with Linux pioneer Pete Zaitcev
 -  2021-03-26 >Red Hat withdraws funding from FSF
@@ -319,7 +320,6 @@ Headlines...
 -  2020-03-23 >Converting CentOS to Red Hat Enterprise Linux
 -  2019-11-26 >How to detect bit rot on RHEL
 -  2019-07-23 >Chris Wright answers Reddit's questions
--  2019-07-09 >IBM completes Red Hat purchase
 -  
 
 [sle](https://distrowatch.com/table.php?distribution=sle)
@@ -354,10 +354,11 @@ Headlines...
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+-  2023-06-01: BSD Release: TrueNAS 13.0-U5 "CORE"
 -  2023-04-12: Distribution Release: TrueNAS 22.12.2 "SCALE"
 -  2023-02-22: Distribution Release: TrueNAS 22.12.1 "SCALE"
 -  2022-12-15: Distribution Release: TrueNAS 22.12.0 "SCALE"
--  2022-11-01: BSD Release: TrueNAS 13.0-U3 "CORE"
+-  2022-11-01: BSD Release: TrueNAS 13.0-U5 "CORE"
 -  2022-06-22: Distribution Release: TrueNAS 22.02.2 "SCALE"
 -  2020-01-29: BSD Release: FreeNAS 11.3
 -  2018-12-06: BSD Release: FreeNAS 11.2
@@ -365,7 +366,6 @@ Releases...
 -  2018-07-18: Development release: FreeNAS 11.2-BETA1
 -  2017-12-14: BSD Release: FreeNAS 11.1
 -  2017-06-14: BSD Release: FreeNAS 11.0
--  2017-05-05: Development Release: FreeNAS 11.0-RC
 -      
 Headlines... 
 -  2022-06-16 >TrueNAS has three editions, all tracked now on one page
@@ -393,6 +393,8 @@ Releases...
 -  2021-09-17: Distribution Release: Ubuntu 18.04.6
 -      
 Headlines... 
+-  2023-06-14 >Ubuntu 22.10 nears its end of life
+-  2023-05-30 >Immutable Ubuntu desktop edition planned
 -  2023-04-18 >Canonical improves Snap loading times via squashfs handling
 -  2023-04-14 >Ubuntu to offer live patching on HWE kernels
 -  2023-03-14 >Ubuntu 18.04 nears its end of life
@@ -401,7 +403,5 @@ Headlines...
 -  2023-02-14 >Canonical publishes real-time edition of Ubuntu 22.04
 -  2023-01-20 >Ubuntu 18.04 nears its end of life
 -  2023-01-02 >Ubuntu is testing a new system installer
--  2022-11-10 >Disabling automatic updates coming to Snap packages
--  2022-10-05 >Canonical offers free Ubuntu Pro subscriptions
--   
+-  
 

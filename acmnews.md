@@ -1,10 +1,15 @@
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周  **一、三、五**  发布   |  [返回](README.md)
-- [2023年5月](https://technews.acm.org/archives.cfm?d=2023-05-may) | [本地镜像](acmnews.md)
+- [2023年6月](https://technews.acm.org/archives.cfm?d=2023-06-jun) | [本地镜像](acmnews.md)
 
 |= |= |= 
 |:----|:----|:----|
-|[May. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-15-2023.html)
+|[Jun. 16, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-16-2023.html)
+|[Jun. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-14-2023.html)|[Jun. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-12-2023.html)|[Jun. 09, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-09-2023.html)
+|[Jun. 07, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-07-2023.html)|[Jun. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-05-2023.html)|[Jun. 02, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-02-2023.html)
+|[May. 31, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-31-2023.html)
+|[May. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-26-2023.html)|[May. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-24-2023.html)|[May. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-22-2023.html)
+|[May. 19, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-19-2023.html)|[May. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-17-2023.html)|[May. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-15-2023.html)
 |[May. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-12-2023.html)|[May. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-10-2023.html)|[May. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-08-2023.html)
 |[May. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-05-2023.html)|[May. 03, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-03-2023.html)|[May. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-05-may/may-01-2023.html)
 |[Apr. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-28-2023.html)|[Apr. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-26-2023.html)|[Apr. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-24-2023.html)
@@ -12,10 +17,6 @@
 |[Apr. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-14-2023.html)|[Apr. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-12-2023.html)|[Apr. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-10-2023.html)
 |[Apr. 07, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-07-2023.html)|[Apr. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-05-2023.html)|[Apr. 03, 2023](https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-03-2023.html)
 |[Mar. 31, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-31-2023.html)|[Mar. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-29-2023.html)
-|[Mar. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-27-2023.html)|[Mar. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-24-2023.html) |[Mar. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-22-2023.html)
-|[Mar. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-20-2023.html)|[Mar. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-17-2023.html)|[Mar. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-15-2023.html)
-|[Mar. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-13-2023.html)|[Mar. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-10-2023.html)|[Mar. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-08-2023.html)
-|[Mar. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-06-2023.html)|[Mar. 03, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-03-2023.html)|[Mar. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-03-mar/mar-01-2023.html)
 - [ 历史归档  2000年~2022年 ](https://technews.acm.org/archives.cfm) 
 
 |= |= |= |= |= |= |

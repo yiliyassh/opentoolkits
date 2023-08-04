@@ -69,6 +69,8 @@ Releases...
 -  2008-08-27: Development Release: Debian Live 5.0 Beta 1
 -      
 Headlines... 
+-  2023-07-24 >Debian supports RISC-V
+-  2023-07-22 >Debian publishes version 12.1
 -  2023-06-13 >Debian GNU/Hurd project publishes update
 -  2023-05-16 >Debian team tests the system installer
 -  2023-04-24 >Jonathan Carter wins Debian Project Leader election
@@ -77,8 +79,6 @@ Headlines...
 -  2023-01-19 >Debian 12 entering freeze
 -  2022-12-17 >Debian updates Bullseye media
 -  2022-11-22 >Testing and Unstable users may find Anacron disabled
--  2022-10-13 >Debian prepares for Bookworm freeze
--  2022-10-02 >Debian votes on non-free firmware on install media
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -119,6 +119,8 @@ Releases...
 -  2020-09-29: Development Release: Fedora 33 Beta
 -      
 Headlines... 
+-  2023-08-03 >Asahi Linux partners with Fedora
+-  2023-07-07 >Fedora debates adding desktop telementry
 -  2023-05-12 >Fedora 36 nears its end of life
 -  2023-05-01 >Introducing Fedora Onyx
 -  2023-04-04 >Fedora plans to provide more encryption by default
@@ -127,8 +129,6 @@ Headlines...
 -  2022-12-22 >Fedora to speed up shutdown times
 -  2022-12-20 >Fedora proposes unified kernel images
 -  2022-12-12 >Fedora to get Budgie spin
--  2022-12-07 >Fedora 35 nearing its end of life
--  2022-11-22 >Fedora testing web-based installer
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
@@ -148,6 +148,7 @@ Releases...
 -  2021-03-30: Development Release: FreeBSD 13.0-RC4
 -      
 Headlines... 
+-  2023-07-27 >FreeBSD imports OpenSSL 3 and adds support for BATMAN
 -  2023-06-17 >FreeBSD turns 30 years old
 -  2023-04-19 >FreeBSD publishes quarterly update
 -  2023-03-02 >FreeBSD core utilities ported to Linux
@@ -157,7 +158,6 @@ Headlines...
 -  2022-08-09 >FreeBSD publishes status report
 -  2022-06-13 >FreeBSD publishes status report
 -  2022-03-30 >Sandboxing software running on FreeBSD
--  2022-03-15 >Rebooting into a new snapshot without shutting down
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -232,6 +232,7 @@ Releases...
 -  2017-10-09: BSD Release: OpenBSD 6.2
 -      
 Headlines... 
+-  2023-07-24 >OpenBSD supports updating AMD microcode
 -  2023-01-02 >Porting KDE Plasma components to OpenBSD
 -  2022-03-07 >OpenBSD now running on Apple M1-powered computers
 -  2021-08-03 >InitWare running on OpenBSD
@@ -241,7 +242,6 @@ Headlines...
 -  2019-12-09 >OpenBSD publishes four new security errata
 -  2019-09-13 >OpenBSD disables DoH in Firefox
 -  2018-10-16 >OpenBSD 6.4 to offer auto-joining to wifi networks
--  2018-07-12 >OpenBSD to auto-join wi-fi networks
 -  
 
 [opensuse](https://distrowatch.com/table.php?distribution=opensuse)
@@ -290,6 +290,7 @@ Releases...
 -  2019-07-19: Distribution Release: Oracle Linux 8.0
 -      
 Headlines... 
+-  2023-07-10 >Oracle responds to Red Hat eliminating public access to RHEL source code
 -  2021-04-06 >Oracle loses API lawsuit against Google
 -  
 
@@ -310,6 +311,8 @@ Releases...
 -  2020-04-29: Distribution Release: Red Hat Enterprise Linux 8.2
 -      
 Headlines... 
+-  2023-07-03 >Red Hat extends life for RHEL 7
+-  2023-06-21 >Red Hat streamlines source code access
 -  2023-06-02 >Red Hat phasing out LibreOffice packages
 -  2022-01-19 >Red Hat provides live kernel patching through Web Console
 -  2021-09-10 >Interview with Linux pioneer Pete Zaitcev
@@ -318,13 +321,12 @@ Headlines...
 -  2021-01-20 >Red Hat to provide more free RHEL subscriptions
 -  2020-08-03 >GRUB security update renders Red Hat and CentOS systems unbootable
 -  2020-03-23 >Converting CentOS to Red Hat Enterprise Linux
--  2019-11-26 >How to detect bit rot on RHEL
--  2019-07-23 >Chris Wright answers Reddit's questions
 -  
 
 [sle](https://distrowatch.com/table.php?distribution=sle)
 ======
 Releases... 
+-  2023-06-20: Distribution Release: SUSE Linux Enterprise 15 SP5
 -  2022-06-24: Distribution Release: SUSE Linux Enterprise 15 SP4
 -  2021-06-23: Distribution Release: SUSE Linux Enterprise 15 SP3
 -  2020-07-21: Distribution Release: SUSE Linux Enterprise 15 SP2
@@ -336,9 +338,10 @@ Releases...
 -  2017-10-27: Development Release: SUSE Linux Enterprise 15 Beta 1
 -  2017-09-07: Distribution Release: SUSE Linux Enterprise 12 SP3
 -  2016-11-08: Distribution Release: SUSE Linux Enterprise 12 SP2
--  2015-12-22: Distribution Release: SUSE Linux Enterprise 12 SP1
 -      
 Headlines... 
+-  2023-07-11 >SUSE forking Red Hat Enterprise Linux codebase
+-  2023-06-21 >SUSE offers support for confidential computing
 -  2023-02-17 >SUSE beta tests Micro edition
 -  2022-01-19 >SUSE Liberty to support multiple distributions
 -  2021-03-08 >Sharing code between openSUSE and SLE
@@ -347,8 +350,6 @@ Headlines...
 -  2018-04-03 >SUSE to support Raspberry Pi images
 -  2017-08-29 >SUSE creates new community repo
 -  2017-08-24 >SLE continues to back Btrfs
--  2016-10-24 >SLE and ARM support
--  2016-04-15 >SUSE Linux Enterprise JeOS
 -  
 
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
@@ -368,6 +369,7 @@ Releases...
 -  2017-06-14: BSD Release: FreeNAS 11.0
 -      
 Headlines... 
+-  2023-06-29 >TrueNAS offers SMB Multichannel support
 -  2022-06-16 >TrueNAS has three editions, all tracked now on one page
 -  2021-10-26 >TrueNAS SCALE launched
 -  2021-01-02 >FreeNAS pages migrated to TrueNAS
@@ -393,6 +395,8 @@ Releases...
 -  2021-09-17: Distribution Release: Ubuntu 18.04.6
 -      
 Headlines... 
+-  2023-07-27 >Ubuntu patches custom kernel bug
+-  2023-07-05 >Canonical migrates LXD to its own infrastructure
 -  2023-06-14 >Ubuntu 22.10 nears its end of life
 -  2023-05-30 >Immutable Ubuntu desktop edition planned
 -  2023-04-18 >Canonical improves Snap loading times via squashfs handling
@@ -401,7 +405,5 @@ Headlines...
 -  2023-03-02 >Make custom ISO files with Cubic
 -  2023-02-22 >Canonical unifies community editions in shipping Snap support instead of Flatpak
 -  2023-02-14 >Canonical publishes real-time edition of Ubuntu 22.04
--  2023-01-20 >Ubuntu 18.04 nears its end of life
--  2023-01-02 >Ubuntu is testing a new system installer
 -  
 

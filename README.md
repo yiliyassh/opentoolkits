@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location|
 |:----|:----|
-|Latest Release|[6.4.8](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.8.tar.xz)
+|Latest Release|[6.4.11](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.11.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -85,16 +85,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接|
 |:----|:----|:----|:----|
-|mainline:|6.5-rc4|2023-07-30|[tarball](https://git.kernel.org/torvalds/t/linux-6.5-rc4.tar.gz)
-|stable:|6.4.8|2023-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.8.tar.xz)
-|stable:|6.3.13 |2023-07-11|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.13.tar.xz)
-|longterm:|6.1.43|2023-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.43.tar.xz)
-|longterm:|5.15.124|2023-08-03|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.124.tar.xz)
-|longterm:|5.10.188|2023-07-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.188.tar.xz)
-|longterm:|5.4.251|2023-07-27|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.251.tar.xz)
-|longterm:|4.19.289|2023-07-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.289.tar.xz)
-|longterm:|4.14.320|2023-06-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.320.tar.xz)
-|linux-next:|next-20230804|2023-08-04|[browse](https://git.kernel.org/next/linux-next/h/next-20230804)
+mainline:|6.5-rc6|2023-08-13|[tarball](https://git.kernel.org/torvalds/t/linux-6.5-rc6.tar.gz)
+|stable:|6.4.11|2023-08-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.11.tar.xz)
+|longterm:|6.1.46|2023-08-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.46.tar.xz)
+|longterm:|5.15.127|2023-08-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.127.tar.xz)
+|longterm:|5.10.191|2023-08-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.191.tar.xz)
+|longterm:|5.4.254|2023-08-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.254.tar.xz)
+|longterm:|4.19.292|2023-08-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.292.tar.xz)
+|longterm:|4.14.323|2023-08-16|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.323.tar.xz)
+|linux-next:|next-20230818|2023-08-18|[browse](https://git.kernel.org/next/linux-next/h/next-20230818)
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -277,15 +276,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 |=|=|=|
 |:----|:----|:----|
+|[Aug. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-18-2023.html)|[Aug. 16, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-16-2023.html)
+|[Aug. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-14-2023.html)|[Aug. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-11-2023.html)|[Aug. 09, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-09-2023.html)
+|[Aug. 07, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-07-2023.html)|[Aug. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-04-2023.html)|[Aug. 02, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-02-2023.html)
 |[Jul. 31, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-31-2023.html)
 |[Jul. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-28-2023.html)|[Jul. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-26-2023.html)|[Jul. 24, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-24-2023.html)
 |[Jul. 21, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-21-2023.html)|[Jul. 19, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-19-2023.html)|[Jul. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-17-2023.html)
 |[Jul. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-14-2023.html)|[Jul. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-12-2023.html)|[Jul. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-10-2023.html)
 |[Jul. 07, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-07-2023.html)|[Jul. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-05-2023.html)|[Jun. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-30-2023.html)
-|[Jun. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-28-2023.html)|[Jun. 26, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-26-2023.html)|[Jun. 23, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-23-2023.html)
-|[Jun. 21, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-21-2023.html)|[Jun. 19, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-19-2023.html)|[Jun. 16, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-16-2023.html)
-|[Jun. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-14-2023.html)|[Jun. 12, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-12-2023.html)|[Jun. 09, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-09-2023.html)
-|[Jun. 07, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-07-2023.html)|[Jun. 05, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-05-2023.html)|[Jun. 02, 2023](https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-02-2023.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
 

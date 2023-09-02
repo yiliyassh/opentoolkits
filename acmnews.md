@@ -4,7 +4,9 @@
 
 |= |= |= 
 |:----|:----|:----|
-|[Aug. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-18-2023.html)|[Aug. 16, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-16-2023.html)
+|[Aug. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-30-2023.html)
+|[Aug. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-28-2023.html)|[Aug. 25, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-25-2023.html)|[Aug. 23, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-23-2023.html)
+|[Aug. 21, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-21-2023.html)|[Aug. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-18-2023.html)|[Aug. 16, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-16-2023.html)
 |[Aug. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-14-2023.html)|[Aug. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-11-2023.html)|[Aug. 09, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-09-2023.html)
 |[Aug. 07, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-07-2023.html)|[Aug. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-04-2023.html)|[Aug. 02, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-02-2023.html)
 |[Jul. 31, 2023](https://technews.acm.org/archives.cfm?fo=2023-07-jul/jul-31-2023.html)

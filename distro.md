@@ -381,6 +381,7 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2023-09-22: Development Release: Ubuntu 23.10 Beta
 -  2023-08-10: Distribution Release: Ubuntu 22.04.3
 -  2023-04-20: Distribution Release: Ubuntu 23.04
 -  2023-03-23: Distribution Release: Ubuntu 20.04.6
@@ -392,9 +393,9 @@ Releases...
 -  2022-04-21: Distribution Release: Ubuntu 22.04
 -  2022-02-25: Distribution Release: Ubuntu 20.04.4
 -  2021-10-14: Distribution Release: Ubuntu 21.10
--  2021-09-24: Development Release: Ubuntu 21.10 Beta
 -      
 Headlines... 
+-  2023-09-30 >Canonical removes malicious Snap packages from its repository
 -  2023-09-07 >Ubuntu to offer more convenient disk encryption
 -  2023-08-25 >Canonical's plans for future versions of Ubuntu
 -  2023-07-27 >Ubuntu patches custom kernel bug
@@ -404,6 +405,4 @@ Headlines...
 -  2023-04-18 >Canonical improves Snap loading times via squashfs handling
 -  2023-04-14 >Ubuntu to offer live patching on HWE kernels
 -  2023-03-14 >Ubuntu 18.04 nears its end of life
--  2023-03-02 >Make custom ISO files with Cubic
-
 

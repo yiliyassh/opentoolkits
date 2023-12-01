@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location|
 |:----|:----|
-|Latest Release|[6.5.7](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.7.tar.xz)
+|Latest Release|[6.6.3](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.3.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -85,15 +85,17 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接|
 |:----|:----|:----|:----|
-|mainline:|6.6-rc6|2023-10-15|[tarball](https://git.kernel.org/torvalds/t/linux-6.6-rc6.tar.gz)
-|stable:|6.5.7|2023-10-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.7.tar.xz)
-|longterm:|6.1.58|2023-10-15|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.58.tar.xz)
-|longterm:|5.15.135|2023-10-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.135.tar.xz)
-|longterm:|5.10.198|2023-10-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.198.tar.xz)
-|longterm:|5.4.258|2023-10-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.258.tar.xz)
-|longterm:|4.19.296|2023-10-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.296.tar.xz)
-|longterm:|4.14.327|2023-10-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.327.tar.xz)
-|linux-next:|next-20231018|2023-10-18|[browse](https://git.kernel.org/next/linux-next/h/next-20231018)
+|mainline:|6.7-rc3|2023-11-27|[tarball](https://git.kernel.org/torvalds/t/linux-6.7-rc3.tar.gz)
+|stable:|6.6.3|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.3.tar.xz)
+|stable:|6.5.13 |2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.13.tar.xz)
+|longterm:|6.1.64|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.64.tar.xz)
+|longterm:|5.15.140|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.140.tar.xz)
+|longterm:|5.10.202|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.202.tar.xz)
+|longterm:|5.4.262|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.262.tar.xz)
+|longterm:|4.19.300|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.300.tar.xz)
+|longterm:|4.14.331|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.331.tar.xz)
+|linux-next:|next-20231130|2023-11-30|[browse](https://git.kernel.org/next/linux-next/h/next-20231130)
+
 
 - 快速下载最新内核
 >wget -c --no-check-certificate https://www.kernel.org/
@@ -182,22 +184,22 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 |数据库|技术文档|初始版本|最新版本|
 |:----|:----|:----|:----|
 |[Oracle](https://www.oracle.com/database/)|[Technical documentation](https://docs.oracle.com/en/database/)|1980|21c, January 2021 [19c,February 2019]
-|[MySQL](https://www.mysql.com/)|[Technical documentation](https://dev.mysql.com/doc/)|1995|8.1.0, July 2023
+|[MySQL](https://www.mysql.com/)|[Technical documentation](https://dev.mysql.com/doc/)|1995|8.2.0, October 2023
 |[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/)|[Technical documentation](https://docs.microsoft.com/en-US/sql/sql-server/)|1989|SQL Server 2022, November 2022
-|[PostgreSQL](https://www.postgresql.org/)|[Technical documentation](https://www.postgresql.org/docs/)|1989: Postgres, 1996: PostgreSQL|16.0, September 2023
+|[PostgreSQL](https://www.postgresql.org/)|[Technical documentation](https://www.postgresql.org/docs/)|1989: Postgres, 1996: PostgreSQL|16.1, November 2023
 |[MongoDB](http://www.mongodb.com/)|[Technical documentation](http://docs.mongodb.com/manual)|2009|5.0.8, April 2022
-|[Memcached](http://www.memcached.org/)|[Technical documentation](https://github.com/memcached/memcached/wiki)|2003|1.6.21, June 2023
+|[Memcached](http://www.memcached.org/)|[Technical documentation](https://github.com/memcached/memcached/wiki)|2003|1.6.22, 2023-10-15
 |[Redis](http://redis.com)|[Technical documentation](http://redis.io/documentation)|2009|7.0.0, April 2022
 |[IBM Db2 ](https://www.ibm.com/analytics/db2)|[Technical documentation](https://www.ibm.com/support/knowledgecenter/SSEPGG)|1983 |12.1, October 2016
 |[Elasticsearch](https://www.elastic.co/elasticsearch/)|[Technical documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)|2010|8.6, January 2023
 |[Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access)|[Technical documentation](https://developer.microsoft.com/en-us/access)|1992|1902 (16.0.11328.20222), March 2019
-|[SQLite](https://www.sqlite.org/)|[Technical documentation](https://www.sqlite.org/docs.html)|2000|3.43.1(11 September 2023), September 2023
+|[SQLite](https://www.sqlite.org/)|[Technical documentation](https://www.sqlite.org/docs.html)|2000|3.44.0  (1 November 2023), November 2023
 |[Hive](https://hive.apache.org/)|[Technical documentation](https://cwiki.apache.org/confluence/display/Hive/Home)|2012|3.1.3, April 2022
 |[Hbase](http://hbase.apache.org/)|[Technical documentation](https://hbase.apache.org/book.html)|2008|2.3.4, January 2021
 |[Teradata](https://www.teradata.com/)|[Technical documentation](https://docs.teradata.com/)|1984|Teradata Vantage 1.0 MU2, January 2019
-|[Solr](https://lucene.apache.org/solr/)|[Technical documentation](https://lucene.apache.org/solr/resources.html)|2006|9.2.1, May 2023
+|[Solr](https://lucene.apache.org/solr/)|[Technical documentation](https://lucene.apache.org/solr/resources.html)|2006|9.4.0, October 2023
 |[ClickHouse](https://clickhouse.tech/)|[Technical documentation](https://clickhouse.tech/docs/)|2016|v23.7.4.5-stable, August 2023
-|[Greenplum](https://greenplum.org/)|[Technical documentation](http://docs.greenplum.org/)|2005|6.7.1, April 2020
+|[Greenplum](https://greenplum.org/)|[Technical documentation](http://docs.greenplum.org/)|2005|7.0.0, September 2023
 ***
 === [中国数据库排行-墨天轮](https://www.modb.pro/dbRank) ===
 - 墨天轮中国数据库流行度排行 
@@ -290,34 +292,28 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2023年10月](https://technews.acm.org/archives.cfm?d=2023-10-oct) | [本地镜像](acmnews.md)
+- [2023年11月](https://technews.acm.org/archives.cfm?d=2023-11-nov) | [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
-|[Oct. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-18-2023.html)
+|[Nov. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-29-2023.html)|[Nov. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-27-2023.html)| [Nov. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-22-2023.html) |                                                                                        |                                                                                        |
+|[Nov. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-20-2023.html)|[Nov. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-17-2023.html)|[Nov. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-15-2023.html)
+|[Nov. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-13-2023.html)|[Nov. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-10-2023.html)|[Nov. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-08-2023.html)
+|[Oct. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-30-2023.html)|[Oct. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-27-2023.html)|[Oct. 25, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-25-2023.html)
+|[Oct. 23, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-23-2023.html)|[Oct. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-20-2023.html)|[Oct. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-18-2023.html)
 |[Oct. 16, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-16-2023.html)|[Oct. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-13-2023.html)|[Oct. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-11-2023.html)
 |[Oct. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-06-2023.html)|[Oct. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-04-2023.html)|[Oct. 02, 2023](https://technews.acm.org/archives.cfm?fo=2023-10-oct/oct-02-2023.html)
-|[Sep. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-29-2023.html)
-|[Sep. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-27-2023.html)|[Sep. 25, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-25-2023.html)|[Sep. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-22-2023.html)
-|[Sep. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-20-2023.html)|[Sep. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-18-2023.html)|[Sep. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-15-2023.html)
-|[Sep. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-13-2023.html)|[Sep. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-11-2023.html)|[Sep. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-08-2023.html)
-|[Sep. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-06-2023.html)|[Sep. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-09-sep/sep-01-2023.html)|[Aug. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-30-2023.html)
-|[Aug. 30, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-30-2023.html)
-|[Aug. 28, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-28-2023.html)|[Aug. 25, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-25-2023.html)|[Aug. 23, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-23-2023.html)
-|[Aug. 21, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-21-2023.html)|[Aug. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-18-2023.html)|[Aug. 16, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-16-2023.html)
-|[Aug. 14, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-14-2023.html)|[Aug. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-11-2023.html)|[Aug. 09, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-09-2023.html)
-|[Aug. 07, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-07-2023.html)|[Aug. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-04-2023.html)|[Aug. 02, 2023](https://technews.acm.org/archives.cfm?fo=2023-08-aug/aug-02-2023.html)
 
 - [历史归档 2000年~2022年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
 
-|= |= |= |= |= |= |
-|:----|:----|:----|:----|:----|:----|
-|[Sep 2023](https://technews.acm.org/archives.cfm?d=2023-09-sep) |[Aug 2023](https://technews.acm.org/archives.cfm?d=2023-08-aug) |[Jul 2023](https://technews.acm.org/archives.cfm?d=2023-07-jul) 
-|[Jun 2023](https://technews.acm.org/archives.cfm?d=2023-06-jun) |[May 2023](https://technews.acm.org/archives.cfm?d=2023-05-may) |[Apr 2023](https://technews.acm.org/archives.cfm?d=2023-04-apr) |[Mar 2023](https://technews.acm.org/archives.cfm?d=2023-03-mar) |[Feb 2023](https://technews.acm.org/archives.cfm?d=2023-02-feb)|[Jan 2023](https://technews.acm.org/archives.cfm?d=2023-01-jan)   
-|[Dec 2022](https://technews.acm.org/archives.cfm?d=2022-12-dec) |[Nov 2022](https://technews.acm.org/archives.cfm?d=2022-11-nov) |[Oct 2022](https://technews.acm.org/archives.cfm?d=2022-10-oct)|[Sep 2022](https://technews.acm.org/archives.cfm?d=2022-09-sep) |[Aug 2022](https://technews.acm.org/archives.cfm?d=2022-08-aug) |[Jul 2022](https://technews.acm.org/archives.cfm?d=2022-07-jul)
-|.|.|.|.|.|.|
-|[Dec 2000](https://technews.acm.org/archives.cfm?d=2000-12-dec)|[Nov 2000](https://technews.acm.org/archives.cfm?d=2000-11-nov)|[Oct 2000](https://technews.acm.org/archives.cfm?d=2000-10-oct)|[Sep 2000](https://technews.acm.org/archives.cfm?d=2000-09-sep)|[Aug 2000](https://technews.acm.org/archives.cfm?d=2000-08-aug)|[Jul 2000](https://technews.acm.org/archives.cfm?d=2000-07-jul)
-|[Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
+| =                                                              |= |= |= |= |= |
+|:---------------------------------------------------------------|:----|:----|:----|:----|:----|
+| [Nov 2023](https://technews.acm.org/archives.cfm?d=2023-11-nov)|[Oct 2023](https://technews.acm.org/archives.cfm?d=2023-10-oct) |[Sep 2023](https://technews.acm.org/archives.cfm?d=2023-09-sep) |[Aug 2023](https://technews.acm.org/archives.cfm?d=2023-08-aug) |[Jul 2023](https://technews.acm.org/archives.cfm?d=2023-07-jul) 
+| [Jun 2023](https://technews.acm.org/archives.cfm?d=2023-06-jun)|[May 2023](https://technews.acm.org/archives.cfm?d=2023-05-may) |[Apr 2023](https://technews.acm.org/archives.cfm?d=2023-04-apr) |[Mar 2023](https://technews.acm.org/archives.cfm?d=2023-03-mar) |[Feb 2023](https://technews.acm.org/archives.cfm?d=2023-02-feb)|[Jan 2023](https://technews.acm.org/archives.cfm?d=2023-01-jan)   
+| [Dec 2022](https://technews.acm.org/archives.cfm?d=2022-12-dec)|[Nov 2022](https://technews.acm.org/archives.cfm?d=2022-11-nov) |[Oct 2022](https://technews.acm.org/archives.cfm?d=2022-10-oct)|[Sep 2022](https://technews.acm.org/archives.cfm?d=2022-09-sep) |[Aug 2022](https://technews.acm.org/archives.cfm?d=2022-08-aug) |[Jul 2022](https://technews.acm.org/archives.cfm?d=2022-07-jul)
+| .                                                              |.|.|.|.|.|
+| [Dec 2000](https://technews.acm.org/archives.cfm?d=2000-12-dec)|[Nov 2000](https://technews.acm.org/archives.cfm?d=2000-11-nov)|[Oct 2000](https://technews.acm.org/archives.cfm?d=2000-10-oct)|[Sep 2000](https://technews.acm.org/archives.cfm?d=2000-09-sep)|[Aug 2000](https://technews.acm.org/archives.cfm?d=2000-08-aug)|[Jul 2000](https://technews.acm.org/archives.cfm?d=2000-07-jul)
+| [Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
 ***
 ## Stack Overflow Annual Developer Survey [年度开发者调查](https://insights.stackoverflow.com/survey/)
 - [本地镜像   (2011~2022年)  ](StackOverflow.md)    

@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location|
 |:----|:----|
-|Latest Release|[6.6.3](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.3.tar.xz)
+|Latest Release|[6.6.7](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.7.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -85,16 +85,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接|
 |:----|:----|:----|:----|
-|mainline:|6.7-rc3|2023-11-27|[tarball](https://git.kernel.org/torvalds/t/linux-6.7-rc3.tar.gz)
-|stable:|6.6.3|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.3.tar.xz)
+|mainline:|6.7-rc6|2023-12-17|[tarball](https://git.kernel.org/torvalds/t/linux-6.7-rc6.tar.gz)
+|stable:|6.6.7|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.7.tar.xz)
 |stable:|6.5.13 |2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.13.tar.xz)
-|longterm:|6.1.64|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.64.tar.xz)
-|longterm:|5.15.140|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.140.tar.xz)
-|longterm:|5.10.202|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.202.tar.xz)
-|longterm:|5.4.262|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.262.tar.xz)
-|longterm:|4.19.300|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.300.tar.xz)
-|longterm:|4.14.331|2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.331.tar.xz)
-|linux-next:|next-20231130|2023-11-30|[browse](https://git.kernel.org/next/linux-next/h/next-20231130)
+|longterm:|6.1.68|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.68.tar.xz)
+|longterm:|5.15.143|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.143.tar.xz)
+|longterm:|5.10.204|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.204.tar.xz)
+|longterm:|5.4.264|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.264.tar.xz)
+|longterm:|4.19.302|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.302.tar.xz)
+|longterm:|4.14.333|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.333.tar.xz)
+|linux-next:|next-20231219|2023-12-19|[browse](https://git.kernel.org/next/linux-next/h/next-20231219)
 
 
 - 快速下载最新内核
@@ -292,10 +292,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2023年11月](https://technews.acm.org/archives.cfm?d=2023-11-nov) | [本地镜像](acmnews.md)
+- [2023年12月](https://technews.acm.org/archives.cfm?d=2023-12-dec) | [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
+|[Dec. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-18-2023.html)|[Dec. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-15-2023.html)
+|[Dec. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-13-2023.html)|[Dec. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-11-2023.html)|[Dec. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-08-2023.html)
+|[Dec. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-06-2023.html)|[Dec. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-04-2023.html)|[Dec. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-01-2023.html)
 |[Nov. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-29-2023.html)|[Nov. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-27-2023.html)| [Nov. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-22-2023.html) |                                                                                        |                                                                                        |
 |[Nov. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-20-2023.html)|[Nov. 17, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-17-2023.html)|[Nov. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-15-2023.html)
 |[Nov. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-13-2023.html)|[Nov. 10, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-10-2023.html)|[Nov. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-08-2023.html)
@@ -308,7 +311,7 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 
 | =                                                              |= |= |= |= |= |
 |:---------------------------------------------------------------|:----|:----|:----|:----|:----|
-| [Nov 2023](https://technews.acm.org/archives.cfm?d=2023-11-nov)|[Oct 2023](https://technews.acm.org/archives.cfm?d=2023-10-oct) |[Sep 2023](https://technews.acm.org/archives.cfm?d=2023-09-sep) |[Aug 2023](https://technews.acm.org/archives.cfm?d=2023-08-aug) |[Jul 2023](https://technews.acm.org/archives.cfm?d=2023-07-jul) 
+| [Dec 2023](https://technews.acm.org/archives.cfm?d=2023-12-dec)  | [Nov 2023](https://technews.acm.org/archives.cfm?d=2023-11-nov)  | [Oct 2023](https://technews.acm.org/archives.cfm?d=2023-10-oct) | [Sep 2023](https://technews.acm.org/archives.cfm?d=2023-09-sep) | [Aug 2023](https://technews.acm.org/archives.cfm?d=2023-08-aug) | [Jul 2023](https://technews.acm.org/archives.cfm?d=2023-07-jul) |                                                                 |
 | [Jun 2023](https://technews.acm.org/archives.cfm?d=2023-06-jun)|[May 2023](https://technews.acm.org/archives.cfm?d=2023-05-may) |[Apr 2023](https://technews.acm.org/archives.cfm?d=2023-04-apr) |[Mar 2023](https://technews.acm.org/archives.cfm?d=2023-03-mar) |[Feb 2023](https://technews.acm.org/archives.cfm?d=2023-02-feb)|[Jan 2023](https://technews.acm.org/archives.cfm?d=2023-01-jan)   
 | [Dec 2022](https://technews.acm.org/archives.cfm?d=2022-12-dec)|[Nov 2022](https://technews.acm.org/archives.cfm?d=2022-11-nov) |[Oct 2022](https://technews.acm.org/archives.cfm?d=2022-10-oct)|[Sep 2022](https://technews.acm.org/archives.cfm?d=2022-09-sep) |[Aug 2022](https://technews.acm.org/archives.cfm?d=2022-08-aug) |[Jul 2022](https://technews.acm.org/archives.cfm?d=2022-07-jul)
 | .                                                              |.|.|.|.|.|
@@ -316,13 +319,14 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 | [Jun 2000](https://technews.acm.org/archives.cfm?d=2000-06-jun)|[May 2000](https://technews.acm.org/archives.cfm?d=2000-05-may)|[Apr 2000](https://technews.acm.org/archives.cfm?d=2000-04-apr)|[Mar 2000](https://technews.acm.org/archives.cfm?d=2000-03-mar)|[Feb 2000](https://technews.acm.org/archives.cfm?d=2000-02-feb)|[Jan 2000](https://technews.acm.org/archives.cfm?d=2000-01-jan)
 ***
 ## Stack Overflow Annual Developer Survey [年度开发者调查](https://insights.stackoverflow.com/survey/)
-- [本地镜像   (2011~2022年)  ](StackOverflow.md)    
+- [本地镜像   (2011~2023年)  ](StackOverflow.md)    
 
-|年度|查看|下载|
-|:----|:----|:----|
-|**2022**  |[View Survey Results](https://survey.stackoverflow.co/2022)| |
-|**2021**  |[View Results](https://insights.stackoverflow.com/survey/2021)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2021.zip)
-|2020  |[View Results](https://insights.stackoverflow.com/survey/2020)|[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip)
+|年度| 查看                                                             |下载|
+|:----|:---------------------------------------------------------------|:----|
+|**2023**  | [View Survey Results](https://survey.stackoverflow.co/2023)    |[Download Full Data Set (CSV)](https://cdn.stackoverflow.co/files/jo7n4k8s/production/49915bfd46d0902c3564fd9a06b509d08a20488c.zip/stack-overflow-developer-survey-2023.zip)
+|**2022**  | [View Results](https://survey.stackoverflow.co/2022)           | [Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip) |
+|**2021**  | [View Results](https://insights.stackoverflow.com/survey/2021) |[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2021.zip)
+|2020  | [View Results](https://insights.stackoverflow.com/survey/2020) |[Download Full Data Set (CSV)](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip)
 
 ***
 ## 网络服务器调查 [Web Server Survey](https://news.netcraft.com/archives/category/web-server-survey/)  

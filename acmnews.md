@@ -1,10 +1,11 @@
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周  **一、三、五**  发布   |  [返回](README.md)
-- [2023年12月](https://technews.acm.org/archives.cfm?d=2023-12-dec) | [本地镜像](acmnews.md)
+- [2024年1月](https://technews.acm.org/archives.cfm?d=2024-01-jan) | [本地镜像](acmnews.md)
 
 | =                                                                                      | =                                                                                      | =                                                                                      |
 |:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
-|[Dec. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-18-2023.html)|[Dec. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-15-2023.html)
+|[Dec. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-29-2023.html)|[Dec. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-27-2023.html)|[Dec. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-22-2023.html)
+|[Dec. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-20-2023.html)|[Dec. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-18-2023.html)|[Dec. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-15-2023.html)
 |[Dec. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-13-2023.html)|[Dec. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-11-2023.html)|[Dec. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-08-2023.html)
 |[Dec. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-06-2023.html)|[Dec. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-04-2023.html)|[Dec. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-01-2023.html)
 |[Nov. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-29-2023.html)|[Nov. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-27-2023.html)| [Nov. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-22-2023.html) |                                                                                        |                                                                                        |

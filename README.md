@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location|
 |:----|:----|
-|Latest Release|[6.6.7](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.7.tar.xz)
+|Latest Release|[6.6.9](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.9.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -85,16 +85,15 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接|
 |:----|:----|:----|:----|
-|mainline:|6.7-rc6|2023-12-17|[tarball](https://git.kernel.org/torvalds/t/linux-6.7-rc6.tar.gz)
-|stable:|6.6.7|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.7.tar.xz)
-|stable:|6.5.13 |2023-11-28|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.13.tar.xz)
-|longterm:|6.1.68|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.68.tar.xz)
-|longterm:|5.15.143|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.143.tar.xz)
-|longterm:|5.10.204|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.204.tar.xz)
-|longterm:|5.4.264|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.264.tar.xz)
-|longterm:|4.19.302|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.302.tar.xz)
-|longterm:|4.14.333|2023-12-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.333.tar.xz)
-|linux-next:|next-20231219|2023-12-19|[browse](https://git.kernel.org/next/linux-next/h/next-20231219)
+|mainline:|6.7-rc8|2023-12-31|[tarball](https://git.kernel.org/torvalds/t/linux-6.7-rc8.tar.gz)
+|stable:|6.6.9|2024-01-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.9.tar.xz)
+|longterm:|6.1.70|2024-01-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.70.tar.xz)
+|longterm:|5.15.145|2023-12-23|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.145.tar.xz)
+|longterm:|5.10.205|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.205.tar.xz)
+|longterm:|5.4.265|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.265.tar.xz)
+|longterm:|4.19.303|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.303.tar.xz)
+|longterm:|4.14.334|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.334.tar.xz)
+|linux-next:|next-20240104|2024-01-04|[browse](https://git.kernel.org/next/linux-next/h/next-20240104)
 
 
 - 快速下载最新内核
@@ -292,11 +291,13 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 - 每周**一、三、五**发布
-- [2023年12月](https://technews.acm.org/archives.cfm?d=2023-12-dec) | [本地镜像](acmnews.md)
+- [2024年1月](https://technews.acm.org/archives.cfm?d=2024-01-jan) | [本地镜像](acmnews.md)
 
 |=|=|=|
 |:----|:----|:----|
-|[Dec. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-18-2023.html)|[Dec. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-15-2023.html)
+|[Jan. 03, 2024](https://technews.acm.org/archives.cfm?fo=2024-01-jan/jan-03-2024.html)
+|[Dec. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-29-2023.html)|[Dec. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-27-2023.html)|[Dec. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-22-2023.html)
+|[Dec. 20, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-20-2023.html)|[Dec. 18, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-18-2023.html)|[Dec. 15, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-15-2023.html)
 |[Dec. 13, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-13-2023.html)|[Dec. 11, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-11-2023.html)|[Dec. 08, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-08-2023.html)
 |[Dec. 06, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-06-2023.html)|[Dec. 04, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-04-2023.html)|[Dec. 01, 2023](https://technews.acm.org/archives.cfm?fo=2023-12-dec/dec-01-2023.html)
 |[Nov. 29, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-29-2023.html)|[Nov. 27, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-27-2023.html)| [Nov. 22, 2023](https://technews.acm.org/archives.cfm?fo=2023-11-nov/nov-22-2023.html) |                                                                                        |                                                                                        |

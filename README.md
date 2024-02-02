@@ -32,7 +32,7 @@
 |[Ventoy](https://www.ventoy.net/cn/index.html)|制作可启动U盘的开源工具
 |[huorong](https://www.huorong.cn/)|火绒安全-专注终端安全
 |[wireshark](https://www.wireshark.org/)|网络安全神器：抓包、协议分析，无所不能
-|[PuTTY神器](https://www.chiark.greenend.org.uk/~sgtatham/putty/)|短小精悍，稳定实用，兼容各种linux发行版本，交换机，路由器等；支持raw,telnet,rlogin,ssh,serial等协议。软硬通吃，工程师必备神器，强烈推荐！！！  
+|[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)|短小精悍，稳定实用，兼容各种linux发行版本，交换机，路由器等；支持raw,telnet,rlogin,ssh,serial等协议。软硬通吃，工程师必备神器，强烈推荐！！！  
 
 ***
 # 我常去的开源网站——my open source websites
@@ -76,7 +76,7 @@ https://distrowatch.com/
 
 |Protocol|Location|
 |:----|:----|
-|Latest Release|[6.6.9](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.9.tar.xz)
+|Latest Release|[6.7.3](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.3.tar.xz)
 |HTTP| 	https://www.kernel.org/pub/  
 |GIT| 	https://git.kernel.org/  
 |RSYNC| 	rsync://rsync.kernel.org/pub/  
@@ -85,15 +85,16 @@ https://distrowatch.com/
 
 |版本|版本号|发布日期|下载链接|
 |:----|:----|:----|:----|
-|mainline:|6.7-rc8|2023-12-31|[tarball](https://git.kernel.org/torvalds/t/linux-6.7-rc8.tar.gz)
-|stable:|6.6.9|2024-01-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.9.tar.xz)
-|longterm:|6.1.70|2024-01-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.70.tar.xz)
-|longterm:|5.15.145|2023-12-23|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.145.tar.xz)
-|longterm:|5.10.205|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.205.tar.xz)
-|longterm:|5.4.265|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.265.tar.xz)
-|longterm:|4.19.303|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.303.tar.xz)
-|longterm:|4.14.334|2023-12-20|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.334.tar.xz)
-|linux-next:|next-20240104|2024-01-04|[browse](https://git.kernel.org/next/linux-next/h/next-20240104)
+|mainline:|6.8-rc2|2024-01-29|[tarball](https://git.kernel.org/torvalds/t/linux-6.8-rc2.tar.gz)
+|stable:|6.7.3|2024-02-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.3.tar.xz)
+|longterm:|6.6.15|2024-02-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.15.tar.xz)
+|longterm:|6.1.76|2024-02-01|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.76.tar.xz)
+|longterm:|5.15.148|2024-01-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.148.tar.xz)
+|longterm:|5.10.209|2024-01-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.209.tar.xz)
+|longterm:|5.4.268|2024-01-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.268.tar.xz)
+|longterm:|4.19.306|2024-01-25|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.306.tar.xz)
+|longterm:|4.14.336 |2024-01-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.336.tar.xz)
+|linux-next:|next-20240202|2024-02-02|[browse](https://git.kernel.org/next/linux-next/h/next-20240202)
 
 
 - 快速下载最新内核
@@ -202,21 +203,21 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 ***
 === [中国数据库排行-墨天轮](https://www.modb.pro/dbRank) ===
 - 墨天轮中国数据库流行度排行 
-- [2023年9月共175个数据库参与](https://www.modb.pro/dbRank)
+- [2024年2月共290个数据库参与](https://www.modb.pro/dbRank)
 - [全部](https://www.modb.pro/api/public/dbranks?type=0&model= )| [关系型](https://www.modb.pro/api/public/dbranks?type=0&model=0 )|[键值](https://www.modb.pro/api/public/dbranks?type=0&model=2 )|[列簇](https://www.modb.pro/api/public/dbranks?type=0&model=3 )|[图](https://www.modb.pro/api/public/dbranks?type=0&model=4 )|[空间](https://www.modb.pro/api/public/dbranks?type=0&model=5 )|[向量](https://www.modb.pro/api/public/dbranks?type=0&model=6 )|[时序](https://www.modb.pro/api/public/dbranks?type=0&model=7 )|[搜索](https://www.modb.pro/api/public/dbranks?type=0&model=8 )|[多模型](https://www.modb.pro/api/public/dbranks?type=0&model=9 )
 
 |排名|数据库
 |:----|:----
-|1|[OceanBase](https://www.modb.pro/wiki/34)
-|2|[PolarDB](https://www.modb.pro/wiki/37)
-|3|[openGauss](https://www.modb.pro/wiki/601)
-|4|[GaussDB](https://www.modb.pro/wiki/46)
-|5|[TiDB](https://www.modb.pro/wiki/20)
-|6|[人大金仓](https://www.modb.pro/wiki/13)
-|7|[达梦数据库](https://www.modb.pro/wiki/10)
-|8|[GBASE](https://www.modb.pro/wiki/26)
-|9|[TDSQL](https://www.modb.pro/wiki/50)
-|10|[AntDB](https://www.modb.pro/wiki/55)
+|1|[PolarDB](https://www.modb.pro/wiki/37)
+|2|[OceanBase](https://www.modb.pro/wiki/34)
+|3|[TiDB](https://www.modb.pro/wiki/20)
+|4|[openGauss](https://www.modb.pro/wiki/601)
+|5|[人大金仓](https://www.modb.pro/wiki/13)
+|6|[GaussDB](https://www.modb.pro/wiki/46)
+|7|[GBASE](https://www.modb.pro/wiki/26)
+|8|[达梦数据库](https://www.modb.pro/wiki/10)
+|9|[GoldenDB](https://www.modb.pro/wiki/51)
+|10|[TDSQL](https://www.modb.pro/wiki/50)
 
 ## NoSQL数据库  |    [本地镜像](nosql.md)
 - [LIST OF NOSQL DATABASE MANAGEMENT SYSTEMS](https://hostingdata.co.uk/nosql-database/) [currently >225]
@@ -246,37 +247,38 @@ cat packages.php|grep -E '<td><a href="'|awk -F '"' '{print $2}'|uniq|xargs wget
 - unresolved and uncategorized  
 ***
 ## TIOBE 语言排行榜
-- [TIOBE Index for January 2023](https://www.tiobe.com/tiobe-index/)  |  [本地镜像](tiobe.md)
+- [TIOBE Index for January 2024](https://www.tiobe.com/tiobe-index/)  |  [本地镜像](tiobe.md)
 
-|Year|Winner|Year|Winner|
-|:----|:----|:----|:----|
-|2022|	C++|2012|	Objective-C
-|2021|	Python|2011|	Objective-C
-|2020|	Python|2010|	Python
-|2019|	C|2009|	Go
-|2018|	Python|2008|	C
-|2017|	C|2007|	Python
-|2016|	Go|2006|	Ruby
-|2015|	Java|2005|	Java
-|2014|	JavaScript|2004|	PHP
-|2013|	Transact-SQL|2003|	C++
+| Year | Winner        | Year   |Winner|
+|:-----|:--------------|:-------|:----|
+| 2023 | 	C#         | 2024 |	
+| 2022 | 	C++          | 2012   |	Objective-C
+| 2021 | 	Python       | 2011   |	Objective-C
+| 2020 | 	Python       | 2010   |	Python
+| 2019 | 	C            | 2009   |	Go
+| 2018 | 	Python       | 2008   |	C
+| 2017 | 	C            | 2007   |	Python
+| 2016 | 	Go           | 2006   |	Ruby
+| 2015 | 	Java         | 2005   |	Java
+| 2014 | 	JavaScript   | 2004   |	PHP
+| 2013 | 	Transact-SQL | 2003   |	C++
 
 ***
 ## PYPL 排行榜
-**Worldwide, Sept 2023 compared to a year ago:**   |  [本地镜像](pypl.md)
+**Worldwide, Feb 2024 compared to a year ago:**   |  [本地镜像](pypl.md)
 
-|Rank|[**Language**](https://pypl.github.io/PYPL.html)| 占比%    |[**Database**](https://pypl.github.io/DB.html)| 占比%     |[**IDE**](https://pypl.github.io/IDE.html)| 占比%     |[**ODE**](https://pypl.github.io/ODE.html)|占比%|
-|:----|:----|:-------|:----|:--------|:----|:--------|:----|:----|
-|1|Python|27.99 %	|Oracle|27.88 %                    	|Visual Studio|28.0 %         	|JSFiddle|23.87 %             
-|2|Java|15.9 %	|MySQL|17.94 %                     	|Visual Studio Code|13.99 %   	|PythonAnywhere|15.76 %         
-|3|JavaScript|9.36 %	|SQL Server|12.29 %                	|Eclipse|11.29 %              	|Koding|13.35 %           
-|4|C#|6.67 %	|PostgreSQL|6.77 %                 	|pyCharm|9.33 %      	|Codio|12.66 %                              
-|5|C/C++|6.54 %	|MongoDB|6.22 %                    	|Android Studio|9.16 %        	|DartPad|11.29 %                
-|6|PHP|4.91 %	|Microsoft Access|5.78 %           	|IntelliJ|7.49 %              	|Repl.it|5.77 %                   
-|7|R|4.4 %	|Firebase|5.21 %                   	|NetBeans|4.17 %              	|Ideone|5.56 %                      
-|8|TypeScript|3.04 %	|Redis|3.12 %                      	|Xcode|3.13 %                 	|Cloud9 AWS|5.05 %        
-|9|Swift|2.64 %	|Splunk|2.44 %                     	|Sublime Text|3.03 %          	|Codeanywhere|1.69 %            
-|10|Objective-C|2.15 %	|Elasticsearch|2.07 %              	|Atom|3.0 %	|Goorm|1.6 %                                
+|Rank| [**Language**](https://pypl.github.io/PYPL.html) | 占比%      | [**Database**](https://pypl.github.io/DB.html) | 占比%                           |[**IDE**](https://pypl.github.io/IDE.html)| 占比%     |[**ODE**](https://pypl.github.io/ODE.html)|占比%|
+|:----|:-------------------------------------------------|:---------|:-----------------------------------------------|:------------------------------|:----|:--------|:----|:----|
+|1| Python                                           | 28.11 %	 | Oracle                                         | 29.54 %                    	  |Visual Studio|28.0 %         	|JSFiddle|23.87 %             
+|2| Java                                             | 15.52 %	 | MySQL                                          | 18.92 %                     	 |Visual Studio Code|13.99 %   	|PythonAnywhere|15.76 %         
+|3| JavaScript                                       | 8.57 %	  | SQL Server                                     | 12.38 %                	      |Eclipse|11.29 %              	|Koding|13.35 %           
+|4| C/C++                                            | 6.92 %	  | MongoDB                                        | 6.3 %                 	       |pyCharm|9.33 %      	|Codio|12.66 %                              
+|5| C#                                               | 6.54 %	  | PostgreSQL                                     | 4.68 %                    	   |Android Studio|9.16 %        	|DartPad|11.29 %                
+|6| R                                                | 4.75 %	  | Microsoft Access                               | 4.49 %           	          |IntelliJ|7.49 %              	|Repl.it|5.77 %                   
+|7| PHP                                              | 4.57 %	  | Firebase                                       | 5.21 %                   	    |NetBeans|4.17 %              	|Ideone|5.56 %                      
+|8| TypeScript                                       | 2.78 %	  | Redis                                          | 3.12 %                      	 |Xcode|3.13 %                 	|Cloud9 AWS|5.05 %        
+|9| Swift                                            | 2.75 %	  | Splunk                                         | 2.44 %                     	  |Sublime Text|3.03 %          	|Codeanywhere|1.69 %            
+|10| Objective-C                                      | 2.37 %	 | Elasticsearch                                  | 2.07 %              	         |Atom|3.0 %	|Goorm|1.6 %                                
 ***
 ## Apache开源项目   |  [本地镜像](apache.md)
 ### [开源项目列表](https://projects.apache.org/)

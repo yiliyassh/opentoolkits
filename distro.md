@@ -69,21 +69,22 @@ Releases...
 -  2008-08-27: Development Release: Debian Live 5.0 Beta 1
 -      
 Headlines... 
+-  2024-02-11 >Debian publishes 12.5 install media
+-  2024-02-05 >Debian patching 32-bit builds to handle dates beyond 2038
+-  2024-01-31 >Security issue in glibc patched
+-  2023-12-20 >Debian planning to phase out 32-bit x86 support
+-  2023-12-11 >Debian published 12.4 media
+-  2023-12-09 >Debian warns of kernel bug which may cause data corruption
+-  2023-10-19 >Debian moves forward again with merged /usr
+-  2023-10-09 >What makes Debian special
 -  2023-08-17 >Debian project turns 30 years old
 -  2023-07-24 >Debian supports RISC-V
--  2023-07-22 >Debian publishes version 12.1
--  2023-06-13 >Debian GNU/Hurd project publishes update
--  2023-05-16 >Debian team tests the system installer
--  2023-04-24 >Jonathan Carter wins Debian Project Leader election
--  2023-03-15 >Debian has one candidate for Project Leader
--  2023-01-23 >Debian adopting Opensnitch package
--  2023-01-19 >Debian 12 entering freeze
--  2022-12-17 >Debian updates Bullseye media
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
 ======
 Releases... 
+-  2024-02-02: Development Release: deepin 23 Beta 3
 -  2023-09-19: Development Release: deepin 23 Beta 2
 -  2023-05-17: Development Release: deepin 23 Beta
 -  2023-04-18: Distribution Release: deepin 20.9
@@ -95,7 +96,6 @@ Releases...
 -  2022-04-01: Distribution Release: deepin 20.5
 -  2022-01-19: Distribution Release: deepin 20.4
 -  2021-11-25: Distribution Release: deepin 20.3
--  2021-03-31: Distribution Release: deepin 20.2
 -      
 Headlines... 
 -  2022-08-16 >deepin becomes independent
@@ -105,6 +105,7 @@ Headlines...
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases... 
+-  2023-11-07: Distribution Release: Fedora 39
 -  2023-09-19: Development Release: Fedora 39 Beta
 -  2023-04-18: Distribution Release: Fedora 38
 -  2023-03-14: Development Release: Fedora 38 Beta
@@ -116,48 +117,47 @@ Releases...
 -  2021-09-28: Development Release: Fedora 35 Beta
 -  2021-04-27: Distribution Release: Fedora 34
 -  2021-03-23: Development Release: Fedora 34 Beta
--  2020-10-27: Distribution Release: Fedora 33
 -      
 Headlines... 
+-  2024-03-07 >Fedora planning to drop GNOME's X11 session
+-  2024-03-05 >Fedora preparing COSMIC desktop packages
+-  2024-02-09 >Fedora announces Atomic Desktops
+-  2024-01-13 >Fedora Asahi Linux remix improves energy savings
+-  2023-12-25 >Fedora 40 may merge /usr/sbin into /usr/bin
+-  2023-12-20 >Asahi Fedora Remix available for install
+-  2023-11-30 >Enabling remote desktop logins with Wayland on Fedora
+-  2023-10-12 >Fedora partners with Slimbook
 -  2023-09-14 >Fedora plans for Plasma 6, considers dropping X11 session
 -  2023-08-24 >Fedora plans improved Qt theme handling
--  2023-08-03 >Asahi Linux partners with Fedora
--  2023-07-07 >Fedora debates adding desktop telementry
--  2023-05-12 >Fedora 36 nears its end of life
--  2023-05-01 >Introducing Fedora Onyx
--  2023-04-04 >Fedora plans to provide more encryption by default
--  2023-02-06 >Fedora to offer unfiltered access to Flathub
--  2023-01-17 >Fedora seeks feedback on system installer
--  2022-12-22 >Fedora to speed up shutdown times
 -  
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
 ======
 Releases... 
+-  2024-03-05: BSD Release: FreeBSD 13.3
+-  2024-02-21: Development Release: FreeBSD 13.3-BETA3
+-  2023-11-20: BSD Release: FreeBSD 14.0
+-  2023-11-04: Development Release: FreeBSD 14.0-RC4
+-  2023-10-28: Development Release: FreeBSD 14.0-RC3
+-  2023-10-21: Development Release: FreeBSD 14.0-RC2
+-  2023-10-14: Development Release: FreeBSD 14.0-RC1
 -  2023-04-11: BSD Release: FreeBSD 13.2
 -  2022-12-06: BSD Release: FreeBSD 12.4
 -  2022-11-12: Development Release: FreeBSD 12.4-RC2
 -  2022-11-05: Development Release: FreeBSD 12.4-RC1
 -  2022-05-16: BSD Release: FreeBSD 13.1
--  2022-04-15: Development Release: FreeBSD 13.1-RC3
--  2022-04-08: Development Release: FreeBSD 13.1-RC2
--  2022-04-01: Development Release: FreeBSD 13.1-RC1
--  2022-03-18: Development Release: FreeBSD 13.1-BETA2
--  2021-12-08: BSD Release: FreeBSD 12.3
--  2021-04-13: BSD Release: FreeBSD 13.0
--  2021-03-30: Development Release: FreeBSD 13.0-RC4
 -      
 Headlines... 
+-  2024-03-05 >A port of Nix for FreeBSD
+-  2024-02-16 >FreeBSD working on service jails
+-  2024-02-14 >FreeBSD plans to slowly phase out support for 32-bit processors
+-  2023-12-09 >FreeBSD 12.x nears its end of life
+-  2023-11-22 >An overview of problems in FreeBSD 14.0
+-  2023-11-01 >FreeBSD publishes third quarter status report
 -  2023-08-22 >FreeBSD getting a port of Linux's NVIDIA driver
 -  2023-08-10 >FreeBSD 13.1 reaches the end of its supported life
 -  2023-07-27 >FreeBSD imports OpenSSL 3 and adds support for BATMAN
 -  2023-06-17 >FreeBSD turns 30 years old
--  2023-04-19 >FreeBSD publishes quarterly update
--  2023-03-02 >FreeBSD core utilities ported to Linux
--  2023-01-26 >FreeBSD publishes quarterly status report
--  2023-01-02 >History of HardenedBSD
--  2022-10-21 >FreeBSD publishes status report
--  2022-08-09 >FreeBSD publishes status report
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -177,6 +177,9 @@ Releases...
 -  2008-04-01: Development Release: Gentoo Linux 2008.0 Beta 1
 -      
 Headlines... 
+-  2024-02-04 >Gentoo expands binary package repositories to include optimized architectures
+-  2024-01-23 >Gentoo reviews work from 2023 and plans for 2024
+-  2023-12-29 >Gentoo offers a full range of binary packages
 -  2023-05-20 >20 years of running Gentoo
 -  2023-02-09 >Gentoo publishes overview of 2022
 -  2022-04-04 >Gentoo is making a beautiful live GUI image
@@ -184,14 +187,13 @@ Headlines...
 -  2021-07-20 >Gentoo expanding download options
 -  2021-01-05 >Gentoo debates keeping LibreSSL support
 -  2020-09-15 >Gentoo presents new kernel ports
--  2020-09-07 >Portage upgraded with speed improvement
--  2020-05-08 >Gentoo revives Bugday
--  2019-03-27 >Gentoo enables GNOME to run without systemd
 -  
 
 [ghostbsd](https://distrowatch.com/table.php?distribution=ghostbsd)
 ======
 Releases... 
+-  2024-02-14: BSD Release: GhostBSD 24.01.1
+-  2023-10-29: BSD Release: GhostBSD 23.10.1
 -  2022-06-18: BSD Release: GhostBSD 22.06.15
 -  2022-01-17: BSD Release: GhostBSD 22.01.12
 -  2021-11-26: BSD Release: GhostBSD 21.11.24
@@ -202,8 +204,6 @@ Releases...
 -  2020-08-10: BSD Release: GhostBSD 20.08.04
 -  2020-05-01: BSD Release: GhostBSD 20.04
 -  2020-01-22: BSD Release: GhostBSD 20.01
--  2019-10-27: BSD Release: GhostBSD 19.10
--  2019-09-16: BSD Release: GhostBSD 19.09
 -      
 Headlines... 
 -  2022-06-20 >GhostBSD publishes media hot fix
@@ -218,6 +218,7 @@ Headlines...
 [openbsd](https://distrowatch.com/table.php?distribution=openbsd)
 ======
 Releases... 
+-  2023-10-16: BSD Release: OpenBSD 7.4
 -  2023-04-10: BSD Release: OpenBSD 7.3
 -  2022-10-20: BSD Release: OpenBSD 7.2
 -  2022-04-21: BSD Release: OpenBSD 7.1
@@ -229,9 +230,9 @@ Releases...
 -  2019-04-24: BSD Release: OpenBSD 6.5
 -  2018-10-18: BSD Release: OpenBSD 6.4
 -  2018-04-02: BSD Release: OpenBSD 6.3
--  2017-10-09: BSD Release: OpenBSD 6.2
 -      
 Headlines... 
+-  2024-02-27 >Key OpenBSD features which do not get much attention
 -  2023-07-24 >OpenBSD supports updating AMD microcode
 -  2023-01-02 >Porting KDE Plasma components to OpenBSD
 -  2022-03-07 >OpenBSD now running on Apple M1-powered computers
@@ -241,12 +242,12 @@ Headlines...
 -  2020-06-22 >OpenBSD gets WireGuard implementation
 -  2019-12-09 >OpenBSD publishes four new security errata
 -  2019-09-13 >OpenBSD disables DoH in Firefox
--  2018-10-16 >OpenBSD 6.4 to offer auto-joining to wifi networks
 -  
 
 [opensuse](https://distrowatch.com/table.php?distribution=opensuse)
 ======
 Releases... 
+-  2024-03-07: Development Release: openSUSE 15.6 Beta
 -  2023-06-07: Distribution Release: openSUSE 15.5
 -  2023-02-22: Development Release: openSUSE 15.5 Beta
 -  2022-06-08: Distribution Release: openSUSE 15.4
@@ -258,24 +259,24 @@ Releases...
 -  2021-03-03: Development Release: openSUSE 15.3 Beta
 -  2020-12-16: Development Release: openSUSE 15.3 Alpha
 -  2020-07-02: Distribution Release: openSUSE 15.2
--  2020-05-30: Development Release: openSUSE 15.2 RC
 -      
 Headlines... 
+-  2024-01-15 >openSUSE plans for Leap 16
+-  2023-12-21 >openSUSE ships full disk encryption and systemd-boot
+-  2023-12-06 >openSUSE 15.4 nears its end of life
+-  2023-12-05 >openSUSE planning to rebrand
 -  2023-09-11 >openSUSE unveils Slowroll branch
 -  2023-09-05 >openSUSE shares survey results about the direction of the distribution
 -  2023-06-06 >openSUSE plans for version 15.6 Leap
 -  2023-03-15 >openSUSE sees a surge in downloads
 -  2023-02-21 >openSUSE and SLE beta testing new updates
 -  2022-11-30 >openSUSE 15.3 Leap nears its end of life
--  2022-11-28 >openSUSE phasing out old 64-bit x86 support
--  2022-11-08 >openSUSE provides online manual pages
--  2022-09-26 >openSUSE talks about ALP prototypes
--  2022-06-28 >openSUSE seeks feedback
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
 ======
 Releases... 
+-  2023-11-17: Distribution Release: Oracle Linux 9.3
 -  2023-05-26: Distribution Release: Oracle Linux 9.2
 -  2022-11-30: Distribution Release: Oracle Linux 9.1
 -  2022-11-21: Distribution Release: Oracle Linux 8.7
@@ -287,7 +288,6 @@ Releases...
 -  2020-10-08: Distribution Release: Oracle Linux 7.9
 -  2020-06-21: Distribution Release: Oracle Linux 8.2
 -  2019-11-17: Distribution Release: Oracle Linux 8.1
--  2019-07-19: Distribution Release: Oracle Linux 8.0
 -      
 Headlines... 
 -  2023-07-10 >Oracle responds to Red Hat eliminating public access to RHEL source code
@@ -297,6 +297,7 @@ Headlines...
 [redhat](https://distrowatch.com/table.php?distribution=redhat)
 ======
 Releases... 
+-  2023-11-14: Distribution Release: Red Hat Enterprise Linux 9.3
 -  2023-05-11: Distribution Release: Red Hat Enterprise Linux 9.2
 -  2022-11-17: Distribution Release: Red Hat Enterprise Linux 9.1
 -  2022-11-13: Distribution Release: Red Hat Enterprise Linux 8.7
@@ -308,9 +309,10 @@ Releases...
 -  2021-05-21: Distribution Release: Red Hat Enterprise Linux 8.4
 -  2021-03-31: Development Release: Red Hat Enterprise Linux 8.4 Beta
 -  2020-07-28: Development Release: Red Hat Enterprise Linux 8.3 Beta
--  2020-04-29: Distribution Release: Red Hat Enterprise Linux 8.2
 -      
 Headlines... 
+-  2024-02-22 >Red Hat testing x86-64-v3 for performance optimizations
+-  2023-11-28 >Red Hat plans to drop X.Org packages for RHEL 10
 -  2023-07-03 >Red Hat extends life for RHEL 7
 -  2023-06-21 >Red Hat streamlines source code access
 -  2023-06-02 >Red Hat phasing out LibreOffice packages
@@ -319,8 +321,6 @@ Headlines...
 -  2021-03-26 >Red Hat withdraws funding from FSF
 -  2021-02-25 >Red Hat to provide free licenses to open source projects
 -  2021-01-20 >Red Hat to provide more free RHEL subscriptions
--  2020-08-03 >GRUB security update renders Red Hat and CentOS systems unbootable
--  2020-03-23 >Converting CentOS to Red Hat Enterprise Linux
 -  
 
 [sle](https://distrowatch.com/table.php?distribution=sle)
@@ -340,6 +340,7 @@ Releases...
 -  2016-11-08: Distribution Release: SUSE Linux Enterprise 12 SP2
 -      
 Headlines... 
+-  2023-11-04 >OpenELA announces source code packages
 -  2023-08-11 >SUSE, Oracle and CIQ form Open Enterprise Linux Association
 -  2023-07-11 >SUSE forking Red Hat Enterprise Linux codebase
 -  2023-06-21 >SUSE offers support for confidential computing
@@ -349,12 +350,12 @@ Headlines...
 -  2019-03-17 >SUSE becomes independent
 -  2018-06-27 >SUSE's reproducible builds
 -  2018-04-03 >SUSE to support Raspberry Pi images
--  2017-08-29 >SUSE creates new community repo
 -  
 
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+-  2023-10-25: Distribution Release: TrueNAS 23.10.0 "SCALE"
 -  2023-08-17: Development Release: TrueNAS 23.10 Beta 1
 -  2023-06-01: BSD Release: TrueNAS 13.0-U5 "CORE"
 -  2023-04-12: Distribution Release: TrueNAS 22.12.2 "SCALE"
@@ -366,9 +367,10 @@ Releases...
 -  2018-12-06: BSD Release: FreeNAS 11.2
 -  2018-11-20: Development Release: FreeNAS 11.2-RC2
 -  2018-07-18: Development release: FreeNAS 11.2-BETA1
--  2017-12-14: BSD Release: FreeNAS 11.1
 -      
 Headlines... 
+-  2024-02-14 >TrueNAS to introduce Fast Dedup
+-  2023-12-14 >TrueNAS patches ZFS issue and shares background information on the bug
 -  2023-06-29 >TrueNAS offers SMB Multichannel support
 -  2022-06-16 >TrueNAS has three editions, all tracked now on one page
 -  2021-10-26 >TrueNAS SCALE launched
@@ -381,6 +383,8 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2024-02-22: Distribution Release: Ubuntu 22.04.4
+-  2023-10-12: Distribution Release: Ubuntu 23.10
 -  2023-09-22: Development Release: Ubuntu 23.10 Beta
 -  2023-08-10: Distribution Release: Ubuntu 22.04.3
 -  2023-04-20: Distribution Release: Ubuntu 23.04
@@ -391,18 +395,17 @@ Releases...
 -  2022-09-01: Distribution Release: Ubuntu 20.04.5
 -  2022-08-11: Distribution Release: Ubuntu 22.04.1
 -  2022-04-21: Distribution Release: Ubuntu 22.04
--  2022-02-25: Distribution Release: Ubuntu 20.04.4
--  2021-10-14: Distribution Release: Ubuntu 21.10
 -      
 Headlines... 
+-  2024-03-11 >Canonical turns 20
+-  2024-02-21 >Canonical serves up a malicious Snap package
+-  2024-01-05 >Canonical to make Snap packages more cross-platform
+-  2023-12-14 >Ubuntu 23.04 nears its end of life
+-  2023-11-15 >Canonical launches MicroCloud
+-  2023-11-08 >Mir gains ability to split work across multiple video cards
+-  2023-10-19 >Ubuntu and Ubuntu Budgie update install media
+-  2023-10-13 >Ubuntu removes 23.10 install media due to malicious translation
 -  2023-09-30 >Canonical removes malicious Snap packages from its repository
 -  2023-09-07 >Ubuntu to offer more convenient disk encryption
--  2023-08-25 >Canonical's plans for future versions of Ubuntu
--  2023-07-27 >Ubuntu patches custom kernel bug
--  2023-07-05 >Canonical migrates LXD to its own infrastructure
--  2023-06-14 >Ubuntu 22.10 nears its end of life
--  2023-05-30 >Immutable Ubuntu desktop edition planned
--  2023-04-18 >Canonical improves Snap loading times via squashfs handling
--  2023-04-14 >Ubuntu to offer live patching on HWE kernels
--  2023-03-14 >Ubuntu 18.04 nears its end of life
+-  
 

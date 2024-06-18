@@ -1,11 +1,15 @@
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 
 - 每周  **一、三、五**  发布 |  [返回](README.md)
-- [2024年5月](https://technews.acm.org/archives.cfm?d=2024-05-may) | [本地镜像](acmnews.md)
+- [2024年6月](https://technews.acm.org/archives.cfm?d=2024-06-jun) | [本地镜像](acmnews.md)
 
 | =                                                                                      | =                                                                                      | =                                                                                      |
 |:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
-|[May. 22, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-22-2024.html)
+|[Jun. 17, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-17-2024.html)
+|[Jun. 14, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-14-2024.html)|[Jun. 12, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-12-2024.html)|[Jun. 10, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-10-2024.html)
+|[Jun. 07, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-07-2024.html)|[Jun. 05, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-05-2024.html)|[Jun. 03, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-03-2024.html)
+|[May. 31, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-31-2024.html)
+|[May. 29, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-29-2024.html)|[May. 24, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-24-2024.html)|[May. 22, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-22-2024.html)
 |[May. 20, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-20-2024.html)|[May. 17, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-17-2024.html)|[May. 15, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-15-2024.html)
 |[May. 13, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-13-2024.html)|[May. 10, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-10-2024.html)|[May. 08, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-08-2024.html)
 |[May. 06, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-06-2024.html)|[May. 03, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-03-2024.html)|[May. 01, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-01-2024.html)

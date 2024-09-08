@@ -5,7 +5,14 @@
 
 | =                                                                                      | =                                                                                      | =                                                                                      |
 |:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
-|[Jun. 17, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-17-2024.html)
+|[Sep. 06, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-06-2024.html)|[Sep. 04, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-04-2024.html)
+|[Aug. 30, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-30-2024.html)
+|[Aug. 28, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-28-2024.html)|[Aug. 26, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-26-2024.html)|[Aug. 23, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-23-2024.html)
+|[Aug. 21, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-21-2024.html)|[Aug. 19, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-19-2024.html)|[Aug. 16, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-16-2024.html)
+|[Aug. 14, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-14-2024.html)|[Aug. 12, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-12-2024.html)|[Aug. 09, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-09-2024.html)
+|[Aug. 07, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-07-2024.html)|[Aug. 05, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-05-2024.html)|[Aug. 02, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-02-2024.html)
+|[Jun. 28, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-28-2024.html)|[Jun. 26, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-26-2024.html)
+|[Jun. 24, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-24-2024.html)|[Jun. 21, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-21-2024.html)|[Jun. 17, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-17-2024.html)
 |[Jun. 14, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-14-2024.html)|[Jun. 12, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-12-2024.html)|[Jun. 10, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-10-2024.html)
 |[Jun. 07, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-07-2024.html)|[Jun. 05, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-05-2024.html)|[Jun. 03, 2024](https://technews.acm.org/archives.cfm?fo=2024-06-jun/jun-03-2024.html)
 |[May. 31, 2024](https://technews.acm.org/archives.cfm?fo=2024-05-may/may-31-2024.html)

@@ -69,6 +69,7 @@ Releases...
 -  2008-08-27: Development Release: Debian Live 5.0 Beta 1
 -      
 Headlines... 
+-  2024-10-14 >Debian starts adoption of Perl 5.40
 -  2024-09-05 >Debian developers consider how best to cull old packages
 -  2024-08-31 >Debian updates version 11 and 12 media
 -  2024-08-30 >Debian orphans bcachefs-tools
@@ -78,7 +79,6 @@ Headlines...
 -  2024-06-03 >Debian's installer gains option for systemd-boot
 -  2024-04-22 >Andreas Tille wins the position of Debian Project Leader
 -  2024-04-15 >APT to get a new visual style
--  2024-03-29 >Compression library for xz compromised upstream
 -  
 
 [deepin](https://distrowatch.com/table.php?distribution=deepin)
@@ -105,6 +105,7 @@ Headlines...
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases... 
+-  2024-09-17: Development Release: Fedora 41 Beta
 -  2024-04-23: Distribution Release: Fedora 40
 -  2024-03-26: Development Release: Fedora 40 Beta
 -  2023-11-07: Distribution Release: Fedora 39
@@ -116,7 +117,6 @@ Releases...
 -  2022-05-10: Distribution Release: Fedora 36
 -  2022-03-29: Development Release: Fedora 36 Beta
 -  2021-11-02: Distribution Release: Fedora 35
--  2021-09-28: Development Release: Fedora 35 Beta
 -      
 Headlines... 
 -  2024-07-09 >Fedora to remove X11 packages from Workstation edition
@@ -134,6 +134,7 @@ Headlines...
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
 ======
 Releases... 
+-  2024-09-17: BSD Release: FreeBSD 13.4
 -  2024-06-04: BSD Release: FreeBSD 14.1
 -  2024-05-20: Development Release: FreeBSD 14.1-BETA3
 -  2024-03-05: BSD Release: FreeBSD 13.3
@@ -145,9 +146,9 @@ Releases...
 -  2023-10-14: Development Release: FreeBSD 14.0-RC1
 -  2023-04-11: BSD Release: FreeBSD 13.2
 -  2022-12-06: BSD Release: FreeBSD 12.4
--  2022-11-12: Development Release: FreeBSD 12.4-RC2
 -      
 Headlines... 
+-  2024-09-28 >FreeBSD Foundation partners with Quantum Leap Research to improve laptop support
 -  2024-08-28 >FreeBSD Foundation receives investment from Sovereign Tech Fund
 -  2024-08-19 >FreeBSD publishes quarterly newsletter
 -  2024-07-11 >FreeBSD to adopt quicker release schedule
@@ -157,7 +158,6 @@ Headlines...
 -  2024-03-05 >A port of Nix for FreeBSD
 -  2024-02-16 >FreeBSD working on service jails
 -  2024-02-14 >FreeBSD plans to slowly phase out support for 32-bit processors
--  2023-12-09 >FreeBSD 12.x nears its end of life
 -  
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
@@ -218,6 +218,7 @@ Headlines...
 [openbsd](https://distrowatch.com/table.php?distribution=openbsd)
 ======
 Releases... 
+-  2024-10-07: BSD Release: OpenBSD 7.6
 -  2024-04-05: BSD Release: OpenBSD 7.5
 -  2023-10-16: BSD Release: OpenBSD 7.4
 -  2023-04-10: BSD Release: OpenBSD 7.3
@@ -229,7 +230,6 @@ Releases...
 -  2020-05-19: BSD Release: OpenBSD 6.7
 -  2019-10-17: BSD Release: OpenBSD 6.6
 -  2019-04-24: BSD Release: OpenBSD 6.5
--  2018-10-18: BSD Release: OpenBSD 6.4
 -      
 Headlines... 
 -  2024-08-27 >OpenBSD replaces the last of its original files
@@ -261,6 +261,8 @@ Releases...
 -  2021-03-03: Development Release: openSUSE 15.3 Beta
 -      
 Headlines... 
+-  2024-10-08 >openSUSE adjusts GRUB package
+-  2024-10-07 >openSUSE Leap 16.0 planned for late in 2025
 -  2024-08-28 >openSUSE Tumbleweed hit by bug that breaks Internet connection
 -  2024-07-31 >openSUSE updates Tumbleweed and Aeon snapshots
 -  2024-07-16 >Aeon Desktop to gain full disk encryption
@@ -269,8 +271,6 @@ Headlines...
 -  2024-05-29 >openSUSE adds features to Aeon Desktop
 -  2024-04-18 >openSUSE nears completion of its work on reproducible packages
 -  2024-03-14 >openSUSE packages Plasma 6 for Tumbleweed
--  2024-01-15 >openSUSE plans for Leap 16
--  2023-12-21 >openSUSE ships full disk encryption and systemd-boot
 -  
 
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
@@ -355,6 +355,7 @@ Headlines...
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+-  2024-10-09: Development Release: TrueNAS 24.10 RC 2 "SCALE"
 -  2024-07-09: Distribution Release: TrueNAS 24.04.1.1 "SCALE"
 -  2024-04-24: Distribution Release: TrueNAS 24.04.0 "SCALE"
 -  2023-10-25: Distribution Release: TrueNAS 23.10.0 "SCALE"
@@ -366,7 +367,6 @@ Releases...
 -  2022-11-01: BSD Release: TrueNAS 13.0-U5 "CORE"
 -  2022-06-22: Distribution Release: TrueNAS 22.02.2 "SCALE"
 -  2020-01-29: BSD Release: FreeNAS 11.3
--  2018-12-06: BSD Release: FreeNAS 11.2
 -      
 Headlines... 
 -  2024-03-21 >TrueNAS CORE to continue, new release planned in June 2024
@@ -384,6 +384,9 @@ Headlines...
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+-  2024-10-10: Distribution Release: Ubuntu 24.10
+-  2024-09-20: Development Release: Ubuntu 24.10 Beta
+-  2024-09-12: Distribution Release: Ubuntu 22.04.5
 -  2024-08-29: Distribution Release: Ubuntu 24.04.1
 -  2024-04-25: Distribution Release: Ubuntu 24.04
 -  2024-04-12: Development Release: Ubuntu 24.04 Beta
@@ -393,11 +396,9 @@ Releases...
 -  2023-08-10: Distribution Release: Ubuntu 22.04.3
 -  2023-04-20: Distribution Release: Ubuntu 23.04
 -  2023-03-23: Distribution Release: Ubuntu 20.04.6
--  2023-02-24: Distribution Release: Ubuntu 22.04.2
--  2022-10-20: Distribution Release: Ubuntu 22.10
--  2022-09-30: Development Release: Ubuntu 22.10 Beta
 -      
 Headlines... 
+-  2024-10-21 >Ubuntu turns 20 years old
 -  2024-08-11 >Canonical updates its kernel version policy
 -  2024-06-25 >Ubuntu to use Wayland as its default desktop session, even for NVIDIA users
 -  2024-06-04 >Ubuntu 23.10 nears its end of life

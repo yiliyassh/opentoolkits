@@ -98,7 +98,7 @@ https://distrowatch.com/
 
 | Protocol       | Location                                                                 |
 |:---------------|:-------------------------------------------------------------------------|
-| Latest Release |  [6.11.5](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.5.tar.xz)
+| Latest Release |  [6.14](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.xz)
 | HTTP           | 	https://www.kernel.org/pub/                                             
 | GIT            | 	https://git.kernel.org/                                                 
 | RSYNC          | 	rsync://rsync.kernel.org/pub/                                           
@@ -107,16 +107,15 @@ https://distrowatch.com/
 
 | 版本          | 版本号           | 发布日期       | 下载链接                                                                          |
 |:------------|:--------------|:-----------|:------------------------------------------------------------------------------|
-|mainline:|6.12-rc4|2024-10-20|[tarball](https://git.kernel.org/torvalds/t/linux-6.12-rc4.tar.gz)
-|stable:|6.11.5|2024-10-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.5.tar.xz)
-|stable:|6.10.14 |2024-10-10|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.14.tar.xz)
-|longterm:|6.6.58|2024-10-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.58.tar.xz)
-|longterm:|6.1.114|2024-10-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.114.tar.xz)
-|longterm:|5.15.169|2024-10-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.169.tar.xz)
-|longterm:|5.10.228|2024-10-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.228.tar.xz)
-|longterm:|5.4.284|2024-09-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.284.tar.xz)
-|longterm:|4.19.322|2024-09-12|[tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.322.tar.xz)
-|linux-next:|next-20241023|2024-10-23|[browse](https://git.kernel.org/next/linux-next/h/next-20241023)
+|mainline:|6.14|2025-03-24|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.xz)
+|stable:|6.13.8|2025-03-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.8.tar.xz)
+|longterm:|6.12.20|2025-03-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.20.tar.xz)
+|longterm:|6.6.84|2025-03-22|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.84.tar.xz)
+|longterm:|6.1.131|2025-03-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.131.tar.xz)
+|longterm:|5.15.179|2025-03-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.179.tar.xz)
+|longterm:|5.10.235|2025-03-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.235.tar.xz)
+|longterm:|5.4.291|2025-03-13|[tarball](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.291.tar.xz)
+|linux-next:|next-20250325|2025-03-25|[browse](https://git.kernel.org/next/linux-next/h/next-20250325)
 
 - 快速下载最新内核
 
@@ -129,7 +128,7 @@ https://distrowatch.com/
 ## 应用软件最新稳定版追踪 Packages Tracked by DistroWatch
 
 - [本地镜像](./packages.md)
-- [ Last Update: TWednesday 23 October 2024 07:38 GMT ](https://distrowatch.com/packages.php)
+- [ Last Update: Wednesday 26 March 2025 01:08 GMT  ](https://distrowatch.com/packages.php)
 - 快速下载
 
 > wget -c --no-check-certificate https://distrowatch.com/packages.php    
@@ -142,30 +141,30 @@ https://distrowatch.com/
 |[bash](https://www.gnu.org/software/bash/bash.html)|[5.2.37](https://ftp.gnu.org/gnu/bash/bash-5.2.37.tar.gz)|Bash: an sh-compatible command language interpreter
 |[gawk](https://www.gnu.org/software/gawk/gawk.html)|[5.3.1](https://ftp.gnu.org/gnu/gawk/gawk-5.3.1.tar.xz)|GNU Gawk: a free version of awk, a string manipulation language
 |[gzip](https://www.gnu.org/software/gzip/gzip.html)|[1.13](https://ftp.gnu.org/gnu/gzip/gzip-1.13.tar.gz)|gzip: a compression utility designed to replace compress
-|[httpd](https://httpd.apache.org/)|[2.4.62](https://archive.apache.org/dist/httpd/httpd-2.4.62.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
-|[lftp](https://lftp.yar.ru/)|[4.9.2](https://lftp.yar.ru/ftp/lftp-4.9.2.tar.xz)|LFTP: a sophisticated FTP/HTTP client, file transfer program
-|[lighttpd](https://www.lighttpd.net/)|[1.4.76](https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.76.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
+|[httpd](https://httpd.apache.org/)|[2.4.63](https://archive.apache.org/dist/httpd/httpd-2.4.63.tar.bz2)|httpd: a high-performance HTTP server, Apache 2.x version series
+|[lftp](https://lftp.yar.ru/)|[4.9.3](https://lftp.yar.ru/ftp/lftp-4.9.3.tar.xz)|LFTP: a sophisticated FTP/HTTP client, file transfer program
+|[lighttpd](https://www.lighttpd.net/)|[1.4.78](https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.78.tar.xz)|lighttpd: a secure, fast, compliant and flexible web server optimized for high-performance environments
 |[lynx](https://lynx.browser.org/)|[2.9.2](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.9.2.tar.bz2)|Lynx: a text browser for the web
 |[make](https://www.gnu.org/software/make/)|[4.4.1](https://ftp.gnu.org/gnu/make/make-4.4.1.tar.lz)|GNU make: a tool which controls the generation of executables from the program's source files
-|[mysql](https://dev.mysql.com/downloads/mysql/)|[9.1.0](https://cdn.mysql.com/Downloads/MySQL-9.0/mysql-9.1.0.tar.gz)|MySQL: an SQL database server
-|[nginx](https://nginx.org/)|[1.26.2](https://nginx.org/download/nginx-1.26.2.tar.gz)|nginx: an HTTP and reverse proxy server
-|[NVIDIA](https://www.nvidia.com/object/unix.html)|[560.35.03](https://us.download.nvidia.com/XFree86/Linux-x86_64/560.35.03/NVIDIA-Linux-x86_64-560.35.03.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
-|[openssh](https://www.openssh.com/portable.html)|[9.9p1](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.9p1.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
-|[php](https://www.php.net/)|[8.3.13](https://www.php.net/distributions/php-8.3.13.tar.xz)|PHP: a server-side HTML embedded scripting language
-|[qt](https://www.qt.io/)|[6.8.0](https://download.qt-project.org/official_releases/qt/6.7/6.8.0/single/qt-everywhere-src-6.8.0.tar.xz)|Qt: a C++ application framework for writing graphical applications
-|[ruby](https://www.ruby-lang.org/)|[3.3.5](https://ftp.ruby-lang.org/pub/ruby/3.3/ruby-3.3.5.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
-|[snort](https://www.snort.org/)|[3.5.0.0](https://snort.org/downloads/snortplus/snort3-3.5.0.0.tar.gz)|Snort: a light-weight network intrusion detection program
-|[sqlite](https://www.sqlite.org/)|[3.47.0](https://github.com/sqlite/sqlite/archive/refs/tags/version-3.47.0.tar.gz)|SQLite: an embeddable SQL engine in a C library
-|[subversion](https://subversion.apache.org/)|[1.14.4](https://www.apache.org/dist/subversion/subversion-1.14.4.tar.bz2)|Subversion: a version control system
+|[mysql](https://dev.mysql.com/downloads/mysql/)|[9.2.0](https://cdn.mysql.com/Downloads/MySQL-9.0/mysql-9.2.0.tar.gz)|MySQL: an SQL database server
+|[nginx](https://nginx.org/)|[1.26.3](https://nginx.org/download/nginx-1.26.3.tar.gz)|nginx: an HTTP and reverse proxy server
+|[NVIDIA](https://www.nvidia.com/object/unix.html)|[570.133.07](https://us.download.nvidia.com/XFree86/Linux-x86_64/570.133.07/NVIDIA-Linux-x86_64-570.133.07.run)|NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+|[openssh](https://www.openssh.com/portable.html)|[9.9p2](https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.9p2.tar.gz)|OpenSSH: a client and server for encrypted remote logins and file transfers
+|[php](https://www.php.net/)|[8.4.5](https://www.php.net/distributions/php-8.4.5.tar.xz)|PHP: a server-side HTML embedded scripting language
+|[qt](https://www.qt.io/)|[6.8.2](https://download.qt-project.org/official_releases/qt/6.7/6.8.2/single/qt-everywhere-src-6.8.2.tar.xz)|Qt: a C++ application framework for writing graphical applications
+|[ruby](https://www.ruby-lang.org/)|[3.4.2](https://ftp.ruby-lang.org/pub/ruby/3.4/ruby-3.4.2.tar.xz)|Ruby: interpreted, dynamically typed, pure object-oriented scripting language
+|[snort](https://www.snort.org/)|[3.7.1.0](https://snort.org/downloads/snortplus/snort3-3.7.1.0.tar.gz)|Snort: a light-weight network intrusion detection program
+|[sqlite](https://www.sqlite.org/)|[3.49.1](https://github.com/sqlite/sqlite/archive/refs/tags/version-3.49.1.tar.gz)|SQLite: an embeddable SQL engine in a C library
+|[subversion](https://subversion.apache.org/)|[1.14.5](https://www.apache.org/dist/subversion/subversion-1.14.5.tar.bz2)|Subversion: a version control system
 |[vim](https://www.vim.org/)|[9.1](https://github.com/vim/vim/archive/refs/tags/v9.1.0113.tar.gz)|Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
-|[wget](https://www.gnu.org/software/wget/)|[2.1.0](https://ftp.gnu.org/gnu/wget/wget2-2.1.0.tar.gz)|wget: retrieves files from web and FTP sites
-|[wordpress](https://wordpress.org/)|[6.6.2](https://wordpress.org/wordpress-6.6.2.tar.gz)|WordPress: publishing software for the world wide web
+|[wget](https://www.gnu.org/software/wget/)|[2.2.0](https://ftp.gnu.org/gnu/wget/wget2-2.2.0.tar.gz)|wget: retrieves files from web and FTP sites
+|[wordpress](https://wordpress.org/)|[6.7.2](https://wordpress.org/wordpress-6.7.2.tar.gz)|WordPress: publishing software for the world wide web
 
 ***
 
 ## 数据库排名——DB-Engines Ranking | [本地镜像](db.md)
 
-- Complete ranking  [418 systems in ranking, March 2024](https://db-engines.com/en/ranking)
+- Complete ranking  [424 systems in ranking, March 2025](https://db-engines.com/en/ranking)
 - Relational DBMS [关系数据库](https://db-engines.com/en/ranking/relational+dbms)
 - Key-value stores [键值数据库](https://db-engines.com/en/ranking/key-value+store)
 - Document stores  [文档数据库](https://db-engines.com/en/ranking/document+store)
@@ -208,21 +207,21 @@ https://distrowatch.com/
 === [中国数据库排行-墨天轮](https://www.modb.pro/dbRank) ===
 
 - 墨天轮中国数据库流行度排行
-- [2024年9月共235个数据库参与](https://www.modb.pro/dbRank)
+- [2025年3月共227个数据库参与](https://www.modb.pro/dbRank)
 - [全部](https://www.modb.pro/api/public/dbranks?type=0&model= )| [关系型](https://www.modb.pro/api/public/dbranks?type=0&model=0 )|[键值](https://www.modb.pro/api/public/dbranks?type=0&model=2 )|[列簇](https://www.modb.pro/api/public/dbranks?type=0&model=3 )|[图](https://www.modb.pro/api/public/dbranks?type=0&model=4 )|[空间](https://www.modb.pro/api/public/dbranks?type=0&model=5 )|[向量](https://www.modb.pro/api/public/dbranks?type=0&model=6 )|[时序](https://www.modb.pro/api/public/dbranks?type=0&model=7 )|[搜索](https://www.modb.pro/api/public/dbranks?type=0&model=8 )|[多模型](https://www.modb.pro/api/public/dbranks?type=0&model=9 )
 
 | 排名 | 数据库                                        
 |:---|:-------------------------------------------
-|1|[OceanBase](https://www.modb.pro/wiki/34)
-|2|[PolarDB](https://www.modb.pro/wiki/37)
-|3|[TiDB](https://www.modb.pro/wiki/20)
+|1|[PolarDB](https://www.modb.pro/wiki/37)
+|2|[OceanBase](https://www.modb.pro/wiki/34)
+|3|[GoldenDB](https://www.modb.pro/wiki/51)
 |4|[GaussDB](https://www.modb.pro/wiki/46)
-|5|[GoldenDB](https://www.modb.pro/wiki/51)
+|5|[金仓数据库](https://www.modb.pro/wiki/13)
 |6|[GBASE](https://www.modb.pro/wiki/26)
-|7|[金仓数据库](https://www.modb.pro/wiki/13)
+|7|[TiDB](https://www.modb.pro/wiki/20)
 |8|[达梦数据库](https://www.modb.pro/wiki/10)
-|9|[openGauss](https://www.modb.pro/wiki/601)
-|10|[TDSQL](https://www.modb.pro/wiki/50)
+|9|[TDSQL](https://www.modb.pro/wiki/50)
+|10|[openGauss](https://www.modb.pro/wiki/601)
 
 ## NoSQL数据库 |    [本地镜像](nosql.md)
 
@@ -316,28 +315,28 @@ CouchDB
 ## ACM TechNews [技术新闻](https://technews.acm.org/)
 
 - 每周**一、三、五**发布
-- [2024年6月](https://technews.acm.org/archives.cfm?d=2024-06-jun) | [本地镜像](acmnews.md)
+- [2025年3月](https://technews.acm.org/archives.cfm?d=2025-03-mar) | [本地镜像](acmnews.md)
 
 | =                                                                                      | =                                                                                      | =                                                                                      |
 |:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
-|[Oct. 21, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-21-2024.html)|[Oct. 18, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-18-2024.html)
-|[Oct. 16, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-16-2024.html)|[Oct. 11, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-11-2024.html)|[Oct. 09, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-09-2024.html)
-|[Oct. 07, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-07-2024.html)|[Oct. 04, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-04-2024.html)|[Oct. 02, 2024](https://technews.acm.org/archives.cfm?fo=2024-10-oct/oct-02-2024.html)
-|[Sep. 30, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-30-2024.html)|[Sep. 27, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-27-2024.html)|[Sep. 25, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-25-2024.html)
-|[Sep. 23, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-23-2024.html)|[Sep. 20, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-20-2024.html)|[Sep. 18, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-18-2024.html)
-|[Sep. 16, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-16-2024.html)|[Sep. 13, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-13-2024.html)|[Sep. 11, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-11-2024.html)
-|[Sep. 09, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-09-2024.html)|[Sep. 06, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-06-2024.html)|[Sep. 04, 2024](https://technews.acm.org/archives.cfm?fo=2024-09-sep/sep-04-2024.html)
-|[Aug. 30, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-30-2024.html)
-|[Aug. 28, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-28-2024.html)|[Aug. 26, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-26-2024.html)|[Aug. 23, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-23-2024.html)
-|[Aug. 21, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-21-2024.html)|[Aug. 19, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-19-2024.html)|[Aug. 16, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-16-2024.html)
-|[Aug. 14, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-14-2024.html)|[Aug. 12, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-12-2024.html)|[Aug. 09, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-09-2024.html)
-|[Aug. 07, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-07-2024.html)|[Aug. 05, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-05-2024.html)|[Aug. 02, 2024](https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-02-2024.html)
+|[Mar. 24, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-24-2025.html)
+|[Mar. 21, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-21-2025.html)|[Mar. 19, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-19-2025.html)|[Mar. 17, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-17-2025.html)
+|[Mar. 14, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-14-2025.html)|[Mar. 12, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-12-2025.html)|[Mar. 10, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-10-2025.html)
+|[Mar. 07, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-07-2025.html)|[Mar. 05, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-05-2025.html)|[Mar. 03, 2025](https://technews.acm.org/archives.cfm?fo=2025-03-mar/mar-03-2025.html)
+|[Feb. 28, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-28-2025.html)|[Feb. 26, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-26-2025.html)
+|[Feb. 24, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-24-2025.html)|[Feb. 21, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-21-2025.html)|[Feb. 19, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-19-2025.html)
+|[Feb. 14, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-14-2025.html)|[Feb. 12, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-12-2025.html)|[Feb. 10, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-10-2025.html)
+|[Feb. 07, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-07-2025.html)|[Feb. 05, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-05-2025.html)|[Feb. 03, 2025](https://technews.acm.org/archives.cfm?fo=2025-02-feb/feb-03-2025.html)
+|[Jan. 31, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-31-2025.html)|[Jan. 29, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-29-2025.html)|[Jan. 27, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-27-2025.html)
+|[Jan. 24, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-24-2025.html)|[Jan. 22, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-22-2025.html)|[Jan. 17, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-17-2025.html)
+|[Jan. 15, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-15-2025.html)|[Jan. 13, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-13-2025.html)|[Jan. 10, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-10-2025.html)
+|[Jan. 08, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-08-2025.html)|[Jan. 06, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-06-2025.html)|[Jan. 03, 2025](https://technews.acm.org/archives.cfm?fo=2025-01-jan/jan-03-2025.html)
 
-- [历史归档 2000年~2023年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
+- [历史归档 2000年~2024年 ](https://technews.acm.org/archives.cfm)   |   [本地镜像](acmnews.md)
 
 | =                                                               | =                                                               | =                                                               | =                                                               | =                                                               | =                                                               |
 |:----------------------------------------------------------------|:----------------------------------------------------------------|:----------------------------------------------------------------|:----------------------------------------------------------------|:----------------------------------------------------------------|:----------------------------------------------------------------|
-| [Oct 2024](https://technews.acm.org/archives.cfm?d=2024-10-oct) |  [Sep 2024](https://technews.acm.org/archives.cfm?d=2024-09-sep)|    [Aug 2024](https://technews.acm.org/archives.cfm?d=2024-08-aug) |   [Jul 2024](https://technews.acm.org/archives.cfm?d=2024-07-jul)|    
+| [Dec 2024](https://technews.acm.org/archives.cfm?d=2024-12-dec) | [Nov 2024](https://technews.acm.org/archives.cfm?d=2024-11-nov) | [Oct 2024](https://technews.acm.org/archives.cfm?d=2024-10-oct)   |  [Sep 2024](https://technews.acm.org/archives.cfm?d=2024-09-sep)|    [Aug 2024](https://technews.acm.org/archives.cfm?d=2024-08-aug) |   [Jul 2024](https://technews.acm.org/archives.cfm?d=2024-07-jul)| 
 | [Jun 2024](https://technews.acm.org/archives.cfm?d=2024-06-jun)  | [May 2024 ](https://technews.acm.org/archives.cfm?d=2024-05-may) | [ Apr 2024 ](https://technews.acm.org/archives.cfm?d=2024-04-apr) | [Mar 2024](https://technews.acm.org/archives.cfm?d=2024-03-mar) | [Feb 2024](https://technews.acm.org/archives.cfm?d=2024-02-feb) | [Jan 2024](https://technews.acm.org/archives.cfm?d=2024-01-jan) | 
 | [Dec 2023](https://technews.acm.org/archives.cfm?d=2023-12-dec) | [Nov 2023](https://technews.acm.org/archives.cfm?d=2023-11-nov) | [Oct 2023](https://technews.acm.org/archives.cfm?d=2023-10-oct) | [Sep 2023](https://technews.acm.org/archives.cfm?d=2023-09-sep) | [Aug 2023](https://technews.acm.org/archives.cfm?d=2023-08-aug) | [Jul 2023](https://technews.acm.org/archives.cfm?d=2023-07-jul) |                                                                 |
 | [Jun 2023](https://technews.acm.org/archives.cfm?d=2023-06-jun) | [May 2023](https://technews.acm.org/archives.cfm?d=2023-05-may) | [Apr 2023](https://technews.acm.org/archives.cfm?d=2023-04-apr) | [Mar 2023](https://technews.acm.org/archives.cfm?d=2023-03-mar) | [Feb 2023](https://technews.acm.org/archives.cfm?d=2023-02-feb) | [Jan 2023](https://technews.acm.org/archives.cfm?d=2023-01-jan) 

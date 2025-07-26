@@ -20,20 +20,22 @@ Releases...
 
 ======
 Headlines... 
+- 2025-07-14  [Linux Mint plans upcoming releases](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20028)
+- 2025-06-08  [Mint tests new fingerprint reading software](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20005)
+- 2025-05-24  [Mint forks libAdwaita to provide theme support](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19998)
+- 2025-04-09  [Mint introduces searching for regular expressions in files, OEM builds for LMDE](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19975)
 - 2025-03-01  [Mint warns of upcoming Firefox issue](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19953)
 - 2024-11-03  [Mint partners with Framework](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18820)
 - 2024-09-30  [Mint updates its look and package management tools](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18678)
 - 2024-09-12  [Mint addresses unmaintained APT utilities](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18607)
 - 2024-06-03  [Mint's software centre to filter unverified Flatpaks](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18138)
 - 2024-04-30  [Mint plans Flatpak handling changes, promotes independent XApps](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17911)
-- 2024-04-09  [Linux Mint testing new package repository mirrors](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17737)
-- 2024-04-01  [Linux Mint 22 to ship HWE kernel and PipeWire](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17657)
-- 2024-03-05  [Mint plans to replace HexChat with a custom application](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17392)
-- 2024-01-31  [Mint publishes fixes and warning about Wayland sessions](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17079)
 
 [ubuntu](https://distrowatch.com/table.php?distribution=ubuntu)
 ======
 Releases... 
+- 2025-04-17  [Distribution Release: Ubuntu 25.04](https://distrowatch.com/?newsid=12415)
+- 2025-03-27  [Development Release: Ubuntu 25.04 Beta](https://distrowatch.com/?newsid=12391)
 - 2025-02-20  [Distribution Release: Ubuntu 24.04.2](https://distrowatch.com/?newsid=12363)
 - 2024-10-10  [Distribution Release: Ubuntu 24.10](https://distrowatch.com/?newsid=12254)
 - 2024-09-20  [Development Release: Ubuntu 24.10 Beta](https://distrowatch.com/?newsid=12242)
@@ -44,25 +46,24 @@ Releases...
 - 2024-02-22  [Distribution Release: Ubuntu 22.04.4](https://distrowatch.com/?newsid=12062)
 - 2023-10-12  [Distribution Release: Ubuntu 23.10](https://distrowatch.com/?newsid=11952)
 - 2023-09-22  [Development Release: Ubuntu 23.10 Beta](https://distrowatch.com/?newsid=11939)
-- 2023-08-10  [Distribution Release: Ubuntu 22.04.3](https://distrowatch.com/?newsid=11909)
-- 2023-04-20  [Distribution Release: Ubuntu 23.04](https://distrowatch.com/?newsid=11818)
 
 ======
 Headlines... 
+- 2025-07-10  [Ubuntu 24.10 reaches the end of its supported life](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20027)
+- 2025-07-05  [Ubuntu dropping existing RISC-V processors](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20020)
+- 2025-06-23  [Canonical to remove GPU exploit mitigation to gain 20% performance boost](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20013)
+- 2025-06-10  [Ubuntu dropping GNOME's X11 session](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20007)
+- 2025-06-01  [Ubuntu experimenting with monthly development snapshots](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20002)
+- 2025-05-06  [Ubuntu to test Rust-based sudo alternative](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19992)
 - 2025-03-13  [Ubuntu considers replacing GNU coreutils with uutils](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19961)
 - 2024-11-21  [Flaw in Ubuntu's needrestart opens the system to local attackers](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18922)
 - 2024-10-31  [Ubuntu 25.04 may offer level 3 (O3) compiler optimizations](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18809)
 - 2024-10-21  [Ubuntu turns 20 years old](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18770)
-- 2024-08-11  [Canonical updates its kernel version policy](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18493)
-- 2024-06-25  [Ubuntu to use Wayland as its default desktop session, even for NVIDIA users](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18268)
-- 2024-06-04  [Ubuntu 23.10 nears its end of life](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18149)
-- 2024-05-29  [Ubuntu ported to the Milk-V Mars single board computer](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18103)
-- 2024-05-17  [Canonical unveils plans for Ubuntu 24.10](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18028)
-- 2024-04-25  [Ubuntu security improvements over the past two years](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17870)
 
 [mx](https://distrowatch.com/table.php?distribution=mx)
 ======
 Releases... 
+- 2025-04-14  [Distribution Release: MX Linux 23.6](https://distrowatch.com/?newsid=12406)
 - 2025-01-13  [Distribution Release: MX Linux 23.5](https://distrowatch.com/?newsid=12337)
 - 2024-09-16  [Distribution Release: MX Linux 23.4](https://distrowatch.com/?newsid=12237)
 - 2024-05-20  [Distribution Release: MX Linux 23.3](https://distrowatch.com/?newsid=12151)
@@ -74,7 +75,6 @@ Releases...
 - 2023-05-29  [Development Release: MX Linux 23 Beta 1](https://distrowatch.com/?newsid=11849)
 - 2023-01-15  [Distribution Release: MX Linux 21.3](https://distrowatch.com/?newsid=11739)
 - 2022-08-29  [Distribution Release: MX Linux 21.2](https://distrowatch.com/?newsid=11620)
-- 2022-04-10  [Distribution Release: MX Linux 21.1](https://distrowatch.com/?newsid=11514)
 
 ======
 Headlines... 
@@ -107,6 +107,9 @@ Releases...
 
 ======
 Headlines... 
+- 2025-07-19  [Arch Linux discovers and removes malware from AUR](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20031)
+- 2025-06-20  [Arch splits Plasma session options into separate packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20012)
+- 2025-05-28  [Arch Linux installer gains support for Btrfs snapshots](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20000)
 - 2025-02-17  [Arch Linux is retiring old repositories](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19945)
 - 2024-11-18  [Arch system installer gets new text-based menu system](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18898)
 - 2024-05-22  [Arch community discusses mirror requirements](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18045)
@@ -114,9 +117,6 @@ Headlines...
 - 2023-02-13  [Arch Linux advises manual updating of base-devel](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15435)
 - 2022-11-14  [Unity desktop ported to Arch Linux](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15150)
 - 2022-10-05  [Arch users report Intel video driver bug in recent kernels](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15025)
-- 2022-09-23  [Arch drops Python 2 packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=14983)
-- 2021-01-05  [Arch making progress toward reproducible builds](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=12288)
-- 2020-11-01  [Arch offers install media accessibility options](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=11936)
 
 [gentoo](https://distrowatch.com/table.php?distribution=gentoo)
 ======
@@ -136,6 +136,7 @@ Releases...
 
 ======
 Headlines... 
+- 2025-04-30  [Gentoo and other open source projects seek support for the Open Source Lab](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19989)
 - 2025-02-24  [Gentoo offers QCOW2 disk images](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19950)
 - 2024-08-14  [Gentoo dropping IA-64 hardware support](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18506)
 - 2024-04-11  [Gentoo becomes a Software In the Public Interest project](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17756)
@@ -145,7 +146,6 @@ Headlines...
 - 2023-05-20  [20 years of running Gentoo](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15793)
 - 2023-02-09  [Gentoo publishes overview of 2022](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15423)
 - 2022-04-04  [Gentoo is making a beautiful live GUI image](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=14462)
-- 2022-01-04  [Gentoo takes a look back at 2021](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=14166)
 
 [slackware](https://distrowatch.com/table.php?distribution=slackware)
 ======
@@ -165,6 +165,7 @@ Releases...
 
 ======
 Headlines... 
+- 2025-06-20  [Some Slackware services moving to new servers](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20011)
 - 2024-09-19  [Slackware packages dracut](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18638)
 - 2024-09-11  [Slackware adjusts how GRUB scripts are updated](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18602)
 - 2024-07-25  [Slackware changing its approach to kernel naming](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18435)
@@ -174,7 +175,6 @@ Headlines...
 - 2022-12-26  [Slackware testing 6.x kernel versions](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15274)
 - 2022-09-07  [Slackware patches around GNU grep changes](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=14934)
 - 2021-06-08  [Slackware moves from LTS kernel to latest](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=13202)
-- 2021-02-16  [Slackware prepares for 15.0 release](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=12532)
 
 [debian](https://distrowatch.com/table.php?distribution=debian)
 ======
@@ -194,6 +194,9 @@ Releases...
 
 ======
 Headlines... 
+- 2025-04-21  [Debian enters soft freeze for Trixie](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19981)
+- 2025-04-15  [Debian flavours running on PINE64 devices](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19980)
+- 2025-04-07  [APT 3.0 introduces faster dependency resolution and new colours](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19974)
 - 2025-03-17  [Debian Project Leader election underway](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19964)
 - 2025-03-15  [Debian publishes refreshed media for Bookworm](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19963)
 - 2025-03-08  [Debian running on Android](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19956)
@@ -201,13 +204,11 @@ Headlines...
 - 2024-12-31  [Preview of features for the Debian 13 system installer](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19636)
 - 2024-11-09  [Debian publishes refresh media for Bookworm](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18844)
 - 2024-10-14  [Debian starts adoption of Perl 5.40](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18740)
-- 2024-09-05  [Debian developers consider how best to cull old packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18578)
-- 2024-08-31  [Debian updates version 11 and 12 media](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18562)
-- 2024-08-30  [Debian orphans bcachefs-tools](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18557)
 
 [fedora](https://distrowatch.com/table.php?distribution=fedora)
 ======
 Releases... 
+- 2025-04-15  [Distribution Release: Fedora 42](https://distrowatch.com/?newsid=12410)
 - 2025-03-18  [Development Release: Fedora 42 Beta](https://distrowatch.com/?newsid=12379)
 - 2024-10-29  [Distribution Release: Fedora 41](https://distrowatch.com/?newsid=12275)
 - 2024-09-17  [Development Release: Fedora 41 Beta](https://distrowatch.com/?newsid=12240)
@@ -219,24 +220,24 @@ Releases...
 - 2023-03-14  [Development Release: Fedora 38 Beta](https://distrowatch.com/?newsid=11786)
 - 2022-11-15  [Distribution Release: Fedora 37](https://distrowatch.com/?newsid=11673)
 - 2022-09-13  [Development Release: Fedora 37 Beta](https://distrowatch.com/?newsid=11627)
-- 2022-05-10  [Distribution Release: Fedora 36](https://distrowatch.com/?newsid=11542)
 
 ======
 Headlines... 
+- 2025-07-22  [A proposal to change how Fedora handles Flatpak packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20032)
+- 2025-06-30  [Fedora withdraws plans to drop i686 packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20017)
+- 2025-06-24  [Fedora plans to drop i686 packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20014)
+- 2025-05-20  [Fedora confirms dropping X11 support for GNOME desktop](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19995)
+- 2025-05-05  [Building custom atomic distributions](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19991)
+- 2025-04-24  [Fedora considers dropping GNOME X11 session from repositories](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19984)
+- 2025-04-15  [Fedora aims for almost complete reproducible builds](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19978)
+- 2025-04-02  [Jef Spaleta to become the new Fedora Project Leader](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19972)
 - 2025-02-19  [Fedora running on RISC-V processors](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19947)
 - 2025-02-14  [Fedora and OBS Studio dispute distribution of broken Flatpak](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19944)
-- 2025-02-13  [Lead developer of Asahi Linux steps down](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19943)
-- 2025-02-03  [Changes coming to Fedora and related projects](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19937)
-- 2024-12-17  [Fedora Asahi Remix version 41 released with gaming support](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19516)
-- 2024-12-17  [Fedora forms new Btrfs SIG](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19514)
-- 2024-12-04  [Fedora Asahi Linux makes progress with video drivers](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19381)
-- 2024-11-11  [Fedora is testing a new system installer](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18860)
-- 2024-11-11  [Fedora to make Plasma an official edition, upgrading it from a spin](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18852)
-- 2024-07-09  [Fedora to remove X11 packages from Workstation edition](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18364)
 
 [opensuse](https://distrowatch.com/table.php?distribution=opensuse)
 ======
 Releases... 
+- 2025-04-30  [Development Release: openSUSE 16.0 Beta](https://distrowatch.com/?newsid=12438)
 - 2024-06-12  [Distribution Release: openSUSE 15.6](https://distrowatch.com/?newsid=12173)
 - 2024-04-30  [Development Release: openSUSE 15.6 RC](https://distrowatch.com/?newsid=12131)
 - 2024-03-07  [Development Release: openSUSE 15.6 Beta](https://distrowatch.com/?newsid=12079)
@@ -248,24 +249,24 @@ Releases...
 - 2021-12-02  [Development Release: openSUSE 15.4 Alpha](https://distrowatch.com/?newsid=11414)
 - 2021-06-02  [Distribution Release: openSUSE 15.3](https://distrowatch.com/?newsid=11265)
 - 2021-04-28  [Development Release: openSUSE 15.3 RC](https://distrowatch.com/?newsid=11229)
-- 2021-03-03  [Development Release: openSUSE 15.3 Beta](https://distrowatch.com/?newsid=11174)
 
 ======
 Headlines... 
+- 2025-07-10  [openSUSE seeks input from people running 32-bit ARM processors](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20026)
+- 2025-05-07  [openSUSE removing Deepin desktop packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19993)
+- 2025-05-05  [openSUSE joins the End of 10 campaign](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19990)
+- 2025-04-01  [openSUSE Tumbleweed introduces desktop upgrades](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19971)
+- 2025-03-27  [Zypper gains parallel downloads to speed up package management](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19968)
 - 2025-02-18  [openSUSE reaches reproducible build milestone](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19946)
 - 2024-12-19  [openSUSE removes security features and donations for the Bottle package](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19534)
 - 2024-12-19  [openSUSE 15.5 Leap nears its end of life](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19533)
 - 2024-12-09  [openSUSE introduces switcherooctl GPU switcher](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19455)
 - 2024-12-06  [openSUSE upgrades Leap Micro](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19429)
-- 2024-10-30  [Tumbleweed gains major updates for LibreSSL, Qt, GTK4, and Network Manager](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18798)
-- 2024-10-08  [openSUSE adjusts GRUB package](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18716)
-- 2024-10-07  [openSUSE Leap 16.0 planned for late in 2025](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18706)
-- 2024-08-28  [openSUSE Tumbleweed hit by bug that breaks Internet connection](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18551)
-- 2024-07-31  [openSUSE updates Tumbleweed and Aeon snapshots](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18455)
 
 [redhat](https://distrowatch.com/table.php?distribution=redhat)
 ======
 Releases... 
+- 2025-05-20  [Distribution Release: Red Hat Enterprise Linux 10.0](https://distrowatch.com/?newsid=12451)
 - 2024-12-11  [Development Release: Red Hat Enterprise Linux 10.0 Beta](https://distrowatch.com/?newsid=12313)
 - 2024-11-13  [Distribution Release: Red Hat Enterprise Linux 9.5](https://distrowatch.com/?newsid=12289)
 - 2024-05-27  [Distribution Release: Red Hat Enterprise Linux 8.10](https://distrowatch.com/?newsid=12160)
@@ -277,10 +278,10 @@ Releases...
 - 2022-05-18  [Distribution Release: Red Hat Enterprise Linux 9.0](https://distrowatch.com/?newsid=11552)
 - 2022-05-11  [Distribution Release: Red Hat Enterprise Linux 8.6](https://distrowatch.com/?newsid=11543)
 - 2021-11-11  [Distribution Release: Red Hat Enterprise Linux 8.5](https://distrowatch.com/?newsid=11394)
-- 2021-11-03  [Development Release: Red Hat Enterprise Linux 9 Beta](https://distrowatch.com/?newsid=11390)
 
 ======
 Headlines... 
+- 2025-07-10  [Red Hat offers up to 25 licenses to developers for free](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20025)
 - 2024-07-09  [Red Hat seeks to replace GRUB with a Linux-based boot loader](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18365)
 - 2024-05-07  [Red Hat launches AI development platform based on RHEL](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17958)
 - 2024-04-26  [Red Hat extends RHEL support by up to four years](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17874)
@@ -290,11 +291,12 @@ Headlines...
 - 2023-07-03  [Red Hat extends life for RHEL 7](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15929)
 - 2023-06-21  [Red Hat streamlines source code access](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15888)
 - 2023-06-02  [Red Hat phasing out LibreOffice packages](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=15832)
-- 2022-01-19  [Red Hat provides live kernel patching through Web Console](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=14218)
 
 [freebsd](https://distrowatch.com/table.php?distribution=freebsd)
 ======
 Releases... 
+- 2025-06-10  [BSD Release: FreeBSD 14.3](https://distrowatch.com/?newsid=12470)
+- 2025-05-10  [Development Release: FreeBSD 14.3-BETA2](https://distrowatch.com/?newsid=12446)
 - 2025-03-11  [BSD Release: FreeBSD 13.5](https://distrowatch.com/?newsid=12375)
 - 2025-02-15  [Development Release: FreeBSD 13.5-BETA2](https://distrowatch.com/?newsid=12359)
 - 2024-12-03  [BSD Release: FreeBSD 14.2](https://distrowatch.com/?newsid=12302)
@@ -305,21 +307,19 @@ Releases...
 - 2024-03-05  [BSD Release: FreeBSD 13.3](https://distrowatch.com/?newsid=12078)
 - 2024-02-21  [Development Release: FreeBSD 13.3-BETA3](https://distrowatch.com/?newsid=12061)
 - 2023-11-20  [BSD Release: FreeBSD 14.0](https://distrowatch.com/?newsid=11995)
-- 2023-11-04  [Development Release: FreeBSD 14.0-RC4](https://distrowatch.com/?newsid=11979)
-- 2023-10-28  [Development Release: FreeBSD 14.0-RC3](https://distrowatch.com/?newsid=11975)
 
 ======
 Headlines... 
+- 2025-07-22  [FreeBSD to make it easier to enable a desktop environment at install time](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=20033)
+- 2025-05-21  [FreeBSD publishes first Quarterly Status Report for 2025](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19997)
+- 2025-05-19  [FreeBSD making progress in supporting laptop hardware](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19994)
+- 2025-03-31  [FreeBSD makes progress in improving laptop support ](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19970)
 - 2025-02-27  [FreeBSD begins porting efforts to the PinePhone Pro](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=19952)
 - 2024-11-13  [Isolating tasks on FreeBSD with quBSD](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18872)
 - 2024-11-07  [FreeBSD publishes quarterly newsletter](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18836)
 - 2024-09-28  [FreeBSD Foundation partners with Quantum Leap Research to improve laptop support](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18671)
 - 2024-08-28  [FreeBSD Foundation receives investment from Sovereign Tech Fund](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18547)
 - 2024-08-19  [FreeBSD publishes quarterly newsletter](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18514)
-- 2024-07-11  [FreeBSD to adopt quicker release schedule](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18377)
-- 2024-05-23  [An overview of ThinOS, a FreeBSD-based thin client from Dell](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=18054)
-- 2024-05-03  [FreeBSD publishes quarterly status report](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17936)
-- 2024-03-25  [FreeBSD Foundation hopes to improve FreeBSD's wireless networking](https://distrowatch.com/?newsid=dwres.php?resource=showheadline&story=17600)
 
 [centos](https://distrowatch.com/table.php?distribution=centos)
 ======
@@ -381,6 +381,7 @@ Headlines...
 [openbsd](https://distrowatch.com/table.php?distribution=openbsd)
 ======
 Releases... 
+- 2025-04-27  [BSD Release: OpenBSD 7.7](https://distrowatch.com/?newsid=12432)
 - 2024-10-07  [BSD Release: OpenBSD 7.6](https://distrowatch.com/?newsid=12249)
 - 2024-04-05  [BSD Release: OpenBSD 7.5](https://distrowatch.com/?newsid=12096)
 - 2023-10-16  [BSD Release: OpenBSD 7.4](https://distrowatch.com/?newsid=11968)
@@ -392,7 +393,6 @@ Releases...
 - 2020-10-18  [BSD Release: OpenBSD 6.8](https://distrowatch.com/?newsid=11044)
 - 2020-05-19  [BSD Release: OpenBSD 6.7](https://distrowatch.com/?newsid=10921)
 - 2019-10-17  [BSD Release: OpenBSD 6.6](https://distrowatch.com/?newsid=10701)
-- 2019-04-24  [BSD Release: OpenBSD 6.5](https://distrowatch.com/?newsid=10532)
 
 ======
 Headlines... 
@@ -410,6 +410,8 @@ Headlines...
 [oracle](https://distrowatch.com/table.php?distribution=oracle)
 ======
 Releases... 
+- 2025-06-26  [Distribution Release: Oracle Linux 10.0](https://distrowatch.com/?newsid=12487)
+- 2025-06-03  [Distribution Release: Oracle Linux 9.6](https://distrowatch.com/?newsid=12463)
 - 2024-11-20  [Distribution Release: Oracle Linux 9.5](https://distrowatch.com/?newsid=12294)
 - 2024-05-15  [Distribution Release: Oracle Linux 9.4](https://distrowatch.com/?newsid=12147)
 - 2023-11-17  [Distribution Release: Oracle Linux 9.3](https://distrowatch.com/?newsid=11992)
@@ -420,8 +422,6 @@ Releases...
 - 2022-06-14  [Development Release: Oracle Linux 9.0 Developer Preview](https://distrowatch.com/?newsid=11572)
 - 2022-05-20  [Distribution Release: Oracle Linux 8.6](https://distrowatch.com/?newsid=11553)
 - 2021-05-27  [Distribution Release: Oracle Linux 8.4](https://distrowatch.com/?newsid=11258)
-- 2020-11-13  [Distribution Release: Oracle Linux 8.3](https://distrowatch.com/?newsid=11080)
-- 2020-10-08  [Distribution Release: Oracle Linux 7.9](https://distrowatch.com/?newsid=11031)
 
 ======
 Headlines... 
@@ -432,6 +432,7 @@ Headlines...
 [sle](https://distrowatch.com/table.php?distribution=sle)
 ======
 Releases... 
+- 2025-06-25  [Distribution Release: SUSE Linux Enterprise 15 SP7](https://distrowatch.com/?newsid=12484)
 - 2024-06-17  [Distribution Release: SUSE Linux Enterprise 15 SP6](https://distrowatch.com/?newsid=12178)
 - 2023-06-20  [Distribution Release: SUSE Linux Enterprise 15 SP5](https://distrowatch.com/?newsid=11868)
 - 2022-06-24  [Distribution Release: SUSE Linux Enterprise 15 SP4](https://distrowatch.com/?newsid=11580)
@@ -443,7 +444,6 @@ Releases...
 - 2018-12-15  [Distribution Release: SUSE Linux Enterprise 12 SP4](https://distrowatch.com/?newsid=10402)
 - 2018-07-19  [Distribution Release: SUSE Linux Enterprise 15](https://distrowatch.com/?newsid=10261)
 - 2017-10-27  [Development Release: SUSE Linux Enterprise 15 Beta 1](https://distrowatch.com/?newsid=10006)
-- 2017-09-07  [Distribution Release: SUSE Linux Enterprise 12 SP3](https://distrowatch.com/?newsid=9953)
 
 ======
 Headlines... 
@@ -461,8 +461,9 @@ Headlines...
 [truenas](https://distrowatch.com/table.php?distribution=truenas)
 ======
 Releases... 
+- 2025-04-16  [Distribution Release: TrueNAS 25.04.0](https://distrowatch.com/?newsid=12411)
 - 2025-01-31  [Distribution Release: TrueNAS 24.10.2 "SCALE"](https://distrowatch.com/?newsid=12347)
-- 2024-10-30  [Distribution Release: TrueNAS 24.10.0](https://distrowatch.com/?newsid=12276)
+- 2024-10-30  [Distribution Release: TrueNAS 24.10.0 "SCALE"](https://distrowatch.com/?newsid=12276)
 - 2024-10-09  [Development Release: TrueNAS 24.10 RC 2 "SCALE"](https://distrowatch.com/?newsid=12251)
 - 2024-07-09  [Distribution Release: TrueNAS 24.04.1.1 "SCALE"](https://distrowatch.com/?newsid=12193)
 - 2024-04-24  [Distribution Release: TrueNAS 24.04.0 "SCALE"](https://distrowatch.com/?newsid=12111)
@@ -472,7 +473,6 @@ Releases...
 - 2023-04-12  [Distribution Release: TrueNAS 22.12.2 "SCALE"](https://distrowatch.com/?newsid=11810)
 - 2023-02-22  [Distribution Release: TrueNAS 22.12.1 "SCALE"](https://distrowatch.com/?newsid=11765)
 - 2022-12-15  [Distribution Release: TrueNAS 22.12.0 "SCALE"](https://distrowatch.com/?newsid=11710)
-- 2022-11-01  [BSD Release: TrueNAS 13.0-U5 "CORE"](https://distrowatch.com/?newsid=11662)
 
 ======
 Headlines... 
